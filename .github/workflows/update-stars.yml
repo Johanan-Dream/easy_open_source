@@ -1,9 +1,6 @@
 name: Update GitHub star snapshots
 
 on:
-  schedule:
-    # 00:00, 08:00, 16:00 KST (UTC 기준 전날 15:00, 당일 23:00, 07:00)
-    - cron: "0 7,15,23 * * *"
   workflow_dispatch:
 
 permissions:
