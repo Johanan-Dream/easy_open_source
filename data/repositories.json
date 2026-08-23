@@ -34,8 +34,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 66,
-    "trendScore": 125,
+    "dailyStarGrowth": 33,
+    "trendScore": 112,
     "guide": {
       "prerequisites": [
         "인터넷 연결",
@@ -103,15 +103,15 @@
     "githubUrl": "https://github.com/ollama/ollama",
     "homepageUrl": "https://ollama.com",
     "license": "MIT",
-    "stars": 179239,
-    "forks": 17524,
+    "stars": 179254,
+    "forks": 17529,
     "lastPushedAt": "2026-08-22T18:42:04Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/ollama/ollama",
       "https://github.com/ollama/ollama#readme"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "localsend/localsend",
@@ -148,8 +148,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 75,
-    "trendScore": 126,
+    "dailyStarGrowth": 85,
+    "trendScore": 129,
     "guide": {
       "prerequisites": [
         "파일을 주고받을 두 기기",
@@ -205,15 +205,15 @@
     "githubUrl": "https://github.com/localsend/localsend",
     "homepageUrl": "https://localsend.org",
     "license": "Apache-2.0",
-    "stars": 89044,
-    "forks": 4950,
+    "stars": 89100,
+    "forks": 4953,
     "lastPushedAt": "2026-08-21T14:02:00Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/localsend/localsend",
       "https://github.com/localsend/localsend#readme"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "excalidraw/excalidraw",
@@ -248,8 +248,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 75,
-    "trendScore": 127,
+    "dailyStarGrowth": 62,
+    "trendScore": 123,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저"
@@ -288,15 +288,15 @@
     "githubUrl": "https://github.com/excalidraw/excalidraw",
     "homepageUrl": "https://excalidraw.com",
     "license": "MIT",
-    "stars": 130274,
-    "forks": 14963,
+    "stars": 130305,
+    "forks": 14969,
     "lastPushedAt": "2026-08-22T21:27:32Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/excalidraw/excalidraw",
       "https://github.com/excalidraw/excalidraw#readme"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "obsproject/obs-studio",
@@ -332,8 +332,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 25,
-    "trendScore": 105,
+    "dailyStarGrowth": 24,
+    "trendScore": 104,
     "guide": {
       "prerequisites": [
         "녹화할 컴퓨터 화면",
@@ -400,15 +400,15 @@
     "githubUrl": "https://github.com/obsproject/obs-studio",
     "homepageUrl": "https://obsproject.com",
     "license": "GPL-2.0",
-    "stars": 75339,
-    "forks": 9837,
+    "stars": 75351,
+    "forks": 9843,
     "lastPushedAt": "2026-08-23T00:34:13Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/obsproject/obs-studio",
       "https://obsproject.com/kb/quick-start-guide"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "sharkdp/bat",
@@ -445,8 +445,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 8,
-    "trendScore": 76,
+    "dailyStarGrowth": 4,
+    "trendScore": 64,
     "guide": {
       "prerequisites": [
         "터미널 또는 PowerShell",
@@ -527,7 +527,7 @@
     "name": "bat",
     "githubUrl": "https://github.com/sharkdp/bat",
     "license": "Apache-2.0",
-    "stars": 60237,
+    "stars": 60239,
     "forks": 1631,
     "lastPushedAt": "2026-08-11T14:39:20Z",
     "maintenanceStatus": "active",
@@ -535,7 +535,7 @@
       "https://github.com/sharkdp/bat",
       "https://github.com/sharkdp/bat/blob/master/README.md#installation"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "bitwarden/clients",
@@ -645,15 +645,15 @@
     "githubUrl": "https://github.com/bitwarden/clients",
     "homepageUrl": "https://bitwarden.com",
     "license": "NOASSERTION",
-    "stars": 13649,
-    "forks": 1991,
-    "lastPushedAt": "2026-08-23T01:40:12Z",
+    "stars": 13651,
+    "forks": 1992,
+    "lastPushedAt": "2026-08-23T12:46:16Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/bitwarden/clients",
       "https://bitwarden.com/help/getting-started-webvault/"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "hoppscotch/hoppscotch",
@@ -688,8 +688,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 3,
-    "trendScore": 67,
+    "dailyStarGrowth": 2,
+    "trendScore": 61,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저",
@@ -734,15 +734,15 @@
     "githubUrl": "https://github.com/hoppscotch/hoppscotch",
     "homepageUrl": "https://hoppscotch.io",
     "license": "MIT",
-    "stars": 80080,
-    "forks": 6047,
+    "stars": 80081,
+    "forks": 6048,
     "lastPushedAt": "2026-08-22T05:37:14Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/hoppscotch/hoppscotch",
       "https://github.com/hoppscotch/hoppscotch#usage"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "drawdb-io/drawdb",
@@ -777,8 +777,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 8,
-    "trendScore": 82,
+    "dailyStarGrowth": 5,
+    "trendScore": 74,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저"
@@ -822,15 +822,15 @@
     "githubUrl": "https://github.com/drawdb-io/drawdb",
     "homepageUrl": "https://drawdb.app",
     "license": "AGPL-3.0",
-    "stars": 39207,
-    "forks": 3196,
+    "stars": 39209,
+    "forks": 3195,
     "lastPushedAt": "2026-08-22T18:45:19Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/drawdb-io/drawdb",
       "https://github.com/drawdb-io/drawdb#readme"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "mifi/lossless-cut",
@@ -867,8 +867,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 20,
-    "trendScore": 99,
+    "dailyStarGrowth": 10,
+    "trendScore": 86,
     "guide": {
       "prerequisites": [
         "편집할 영상 파일",
@@ -935,7 +935,7 @@
     "githubUrl": "https://github.com/mifi/lossless-cut",
     "homepageUrl": "https://losslesscut.app/",
     "license": "GPL-2.0",
-    "stars": 43128,
+    "stars": 43136,
     "forks": 2128,
     "lastPushedAt": "2026-08-21T09:03:12Z",
     "maintenanceStatus": "active",
@@ -943,7 +943,7 @@
       "https://github.com/mifi/lossless-cut",
       "https://github.com/mifi/lossless-cut/blob/master/docs/installation.md"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "Stirling-Tools/Stirling-PDF",
@@ -1062,15 +1062,15 @@
     "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
     "homepageUrl": "https://stirling.com",
     "license": "NOASSERTION",
-    "stars": 90140,
-    "forks": 8160,
-    "lastPushedAt": "2026-08-23T11:36:10Z",
+    "stars": 90182,
+    "forks": 8162,
+    "lastPushedAt": "2026-08-23T16:38:32Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/Stirling-Tools/Stirling-PDF",
       "https://github.com/Stirling-Tools/Stirling-PDF#quick-start"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "louislam/uptime-kuma",
@@ -1107,8 +1107,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 37,
-    "trendScore": 113,
+    "dailyStarGrowth": 27,
+    "trendScore": 106,
     "guide": {
       "prerequisites": [
         "Docker Desktop"
@@ -1187,15 +1187,15 @@
     "githubUrl": "https://github.com/louislam/uptime-kuma",
     "homepageUrl": "https://uptime.kuma.pet",
     "license": "MIT",
-    "stars": 90498,
-    "forks": 8276,
-    "lastPushedAt": "2026-08-23T11:23:45Z",
+    "stars": 90509,
+    "forks": 8281,
+    "lastPushedAt": "2026-08-23T14:28:09Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/louislam/uptime-kuma",
       "https://github.com/louislam/uptime-kuma#how-to-install"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   },
   {
     "id": "freeCodeCamp/freeCodeCamp",
@@ -1230,8 +1230,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 23,
-    "trendScore": 107,
+    "dailyStarGrowth": 18,
+    "trendScore": 102,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저",
@@ -1276,14 +1276,14 @@
     "githubUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
     "homepageUrl": "https://contribute.freecodecamp.org",
     "license": "BSD-3-Clause",
-    "stars": 454466,
-    "forks": 46032,
+    "stars": 454473,
+    "forks": 46033,
     "lastPushedAt": "2026-08-22T08:58:17Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/freeCodeCamp/freeCodeCamp",
       "https://github.com/freeCodeCamp/freeCodeCamp#readme"
     ],
-    "collectedAt": "2026-08-23T11:36:13.992Z"
+    "collectedAt": "2026-08-23T16:39:32.048Z"
   }
 ]

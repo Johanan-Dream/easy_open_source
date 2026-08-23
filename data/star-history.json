@@ -49,5 +49,22 @@
       "louislam/uptime-kuma": 90498,
       "freeCodeCamp/freeCodeCamp": 454466
     }
+  },
+  {
+    "capturedAt": "2026-08-23T16:39:32.048Z",
+    "stars": {
+      "ollama/ollama": 179254,
+      "localsend/localsend": 89100,
+      "excalidraw/excalidraw": 130305,
+      "obsproject/obs-studio": 75351,
+      "sharkdp/bat": 60239,
+      "bitwarden/clients": 13651,
+      "hoppscotch/hoppscotch": 80081,
+      "drawdb-io/drawdb": 39209,
+      "mifi/lossless-cut": 43136,
+      "Stirling-Tools/Stirling-PDF": 90182,
+      "louislam/uptime-kuma": 90509,
+      "freeCodeCamp/freeCodeCamp": 454473
+    }
   }
 ]
