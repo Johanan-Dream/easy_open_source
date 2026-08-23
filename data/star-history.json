@@ -1,0 +1,53 @@
+[
+  {
+    "capturedAt": "2026-08-22T15:25:33.363Z",
+    "stars": {
+      "ollama/ollama": 179173,
+      "localsend/localsend": 88969,
+      "excalidraw/excalidraw": 130199,
+      "obsproject/obs-studio": 75314,
+      "sharkdp/bat": 60229,
+      "bitwarden/clients": 13646,
+      "hoppscotch/hoppscotch": 80077,
+      "drawdb-io/drawdb": 39199,
+      "mifi/lossless-cut": 43108,
+      "Stirling-Tools/Stirling-PDF": 90028,
+      "louislam/uptime-kuma": 90461,
+      "freeCodeCamp/freeCodeCamp": 454443
+    }
+  },
+  {
+    "capturedAt": "2026-08-23T04:40:36.610Z",
+    "stars": {
+      "ollama/ollama": 179221,
+      "localsend/localsend": 89015,
+      "excalidraw/excalidraw": 130243,
+      "obsproject/obs-studio": 75327,
+      "sharkdp/bat": 60235,
+      "bitwarden/clients": 13648,
+      "hoppscotch/hoppscotch": 80079,
+      "drawdb-io/drawdb": 39204,
+      "mifi/lossless-cut": 43126,
+      "Stirling-Tools/Stirling-PDF": 90070,
+      "louislam/uptime-kuma": 90482,
+      "freeCodeCamp/freeCodeCamp": 454455
+    }
+  },
+  {
+    "capturedAt": "2026-08-23T11:36:13.992Z",
+    "stars": {
+      "ollama/ollama": 179239,
+      "localsend/localsend": 89044,
+      "excalidraw/excalidraw": 130274,
+      "obsproject/obs-studio": 75339,
+      "sharkdp/bat": 60237,
+      "bitwarden/clients": 13649,
+      "hoppscotch/hoppscotch": 80080,
+      "drawdb-io/drawdb": 39207,
+      "mifi/lossless-cut": 43128,
+      "Stirling-Tools/Stirling-PDF": 90140,
+      "louislam/uptime-kuma": 90498,
+      "freeCodeCamp/freeCodeCamp": 454466
+    }
+  }
+]

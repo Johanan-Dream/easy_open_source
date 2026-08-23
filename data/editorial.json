@@ -1,0 +1,203 @@
+[
+  {
+    "id": "ollama/ollama",
+    "category": "ai-automation",
+    "summary": "내 컴퓨터에서 여러 공개 AI 모델을 간단한 명령으로 실행하게 해주는 도구예요.",
+    "whatItIs": "Ollama는 공개된 대규모 언어 모델을 macOS, Windows, Linux에서 내려받아 로컬로 실행하는 도구입니다.",
+    "problemSolved": "AI 모델마다 다른 설치와 실행 과정을 비교적 일관된 명령으로 다룰 수 있게 해줍니다.",
+    "recommendedFor": ["내 컴퓨터에서 AI 모델을 시험해 보고 싶은 사람", "외부 서비스로 데이터를 보내지 않고 실험하고 싶은 개발자"],
+    "keyFeatures": ["로컬 AI 모델 다운로드와 실행", "명령줄 및 로컬 API 제공", "여러 공개 모델 지원"],
+    "useCases": ["로컬 챗봇 실험", "개발 중인 앱에 로컬 AI 연결"],
+    "tags": ["local", "cli", "ai", "beginner"],
+    "difficulty": "beginner",
+    "usageType": "cli",
+    "guideType": "installer-cli",
+    "costSummary": "프로그램은 무료입니다. 로컬 실행에 적절한 저장 공간과 메모리가 필요합니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Windows", "macOS", "Linux"],
+    "dailyStarGrowth": 420,
+    "trendScore": 94,
+    "guide": {
+      "prerequisites": ["인터넷 연결", "모델을 저장할 디스크 공간"],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "macOS",
+          "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 Return 키를 누릅니다."],
+          "steps": [
+            { "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 macOS용 앱을 내려받아 Applications 폴더에 넣습니다." },
+            { "order": 2, "title": "모델 실행", "description": "터미널에 아래 명령을 붙여넣고 Return 키를 누릅니다.", "command": "ollama run gemma4", "expectedResult": "모델 다운로드가 끝난 뒤 메시지를 입력할 수 있는 창이 나타납니다." }
+          ]
+        },
+        {
+          "name": "Windows",
+          "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."],
+          "steps": [
+            { "order": 1, "title": "공식 설치 파일 실행", "description": "공식 다운로드 페이지에서 Windows용 설치 파일을 받아 실행합니다." },
+            { "order": 2, "title": "모델 실행", "description": "PowerShell에 아래 명령을 붙여넣고 Enter 키를 누릅니다.", "command": "ollama run gemma4", "expectedResult": "모델 다운로드가 끝난 뒤 메시지를 입력할 수 있는 창이 나타납니다." }
+          ]
+        }
+      ],
+      "firstRunResult": "터미널에서 질문을 입력하면 로컬 AI 모델이 답변합니다.",
+      "stopInstructions": "대화를 끝내려면 /bye를 입력하거나 Ctrl + D를 누릅니다.",
+      "uninstallInstructions": "운영체제의 일반적인 앱 삭제 절차를 따르고, 내려받은 모델 데이터는 공식 FAQ를 확인해 제거합니다.",
+      "commonIssues": [{ "problem": "모델 다운로드가 너무 느리거나 실패함", "solution": "인터넷 연결과 남은 디스크 공간을 확인한 뒤 다시 실행합니다." }],
+      "officialDocsUrl": "https://github.com/ollama/ollama#readme",
+      "verifiedAt": "2026-08-22"
+    }
+  },
+  {
+    "id": "localsend/localsend",
+    "category": "productivity",
+    "summary": "같은 네트워크에 있는 기기끼리 파일을 인터넷 업로드 없이 보내는 앱이에요.",
+    "whatItIs": "LocalSend는 Windows, macOS, Linux, Android, iOS 사이에서 파일과 메시지를 전송하는 오픈소스 앱입니다.",
+    "problemSolved": "서로 다른 운영체제 사이에서 계정이나 클라우드 저장소 없이 파일을 옮길 수 있게 합니다.",
+    "recommendedFor": ["휴대폰과 컴퓨터 사이에서 파일을 자주 옮기는 사람", "클라우드 업로드 없이 로컬 전송을 원하는 사람"],
+    "keyFeatures": ["같은 네트워크에서 기기 검색", "여러 운영체제 지원", "인터넷 업로드 없는 로컬 전송"],
+    "useCases": ["휴대폰 사진을 PC로 전송", "Windows와 Mac 사이 파일 공유"],
+    "tags": ["desktop", "mobile", "beginner", "local"],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "무료 오픈소스 앱입니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Windows", "macOS", "Linux"],
+    "dailyStarGrowth": 160,
+    "trendScore": 88,
+    "guide": {
+      "prerequisites": ["파일을 주고받을 두 기기", "두 기기가 연결된 같은 Wi-Fi 또는 로컬 네트워크"],
+      "estimatedMinutes": 5,
+      "platforms": [
+        { "name": "Windows", "steps": [{ "order": 1, "title": "앱 설치", "description": "공식 다운로드 링크에서 Windows 설치 파일을 받아 실행합니다." }, { "order": 2, "title": "파일 보내기", "description": "두 기기에서 LocalSend를 열고 보내기에서 파일과 받을 기기를 선택합니다.", "expectedResult": "받는 기기에 수락 알림이 나타납니다." }] },
+        { "name": "macOS", "steps": [{ "order": 1, "title": "앱 설치", "description": "공식 다운로드 링크 또는 App Store에서 LocalSend를 설치합니다." }, { "order": 2, "title": "파일 보내기", "description": "두 기기에서 LocalSend를 열고 보내기에서 파일과 받을 기기를 선택합니다.", "expectedResult": "받는 기기에 수락 알림이 나타납니다." }] }
+      ],
+      "firstRunResult": "같은 네트워크의 다른 기기가 화면에 표시되고 파일을 보낼 수 있습니다.",
+      "commonIssues": [{ "problem": "다른 기기가 보이지 않음", "solution": "두 기기가 같은 네트워크인지 확인하고 방화벽의 LocalSend 접근을 허용합니다." }],
+      "officialDocsUrl": "https://github.com/localsend/localsend#readme",
+      "verifiedAt": "2026-08-22"
+    }
+  },
+  {
+    "id": "excalidraw/excalidraw",
+    "category": "design",
+    "summary": "손으로 그린 듯한 다이어그램과 아이디어 스케치를 브라우저에서 만드는 도구예요.",
+    "whatItIs": "Excalidraw는 협업 가능한 화이트보드 스타일의 오픈소스 드로잉 도구입니다.",
+    "problemSolved": "별도 디자인 프로그램을 배우지 않고도 흐름도와 화면 아이디어를 빠르게 표현할 수 있습니다.",
+    "recommendedFor": ["아이디어를 빠르게 시각화할 기획자", "시스템 구조도를 그릴 개발자"],
+    "keyFeatures": ["브라우저에서 바로 사용", "손그림 스타일 도형", "그림 파일 및 공유 기능"],
+    "useCases": ["서비스 흐름도", "회의 중 아이디어 스케치"],
+    "tags": ["web", "design", "beginner", "collaboration"],
+    "difficulty": "beginner",
+    "usageType": "web",
+    "guideType": "web",
+    "costSummary": "기본 웹 편집기는 무료로 사용할 수 있습니다. 별도 서비스 기능에는 다른 조건이 있을 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Web"],
+    "dailyStarGrowth": 210,
+    "trendScore": 91,
+    "guide": {
+      "prerequisites": ["최신 웹 브라우저"],
+      "estimatedMinutes": 1,
+      "platforms": [{ "name": "Web", "steps": [{ "order": 1, "title": "웹 편집기 열기", "description": "공식 Excalidraw 웹사이트를 엽니다." }, { "order": 2, "title": "첫 도형 그리기", "description": "왼쪽 도구에서 사각형을 선택하고 빈 화면을 드래그합니다.", "expectedResult": "손그림 형태의 사각형이 생성됩니다." }] }],
+      "firstRunResult": "회원가입이나 터미널 없이 바로 그림을 그릴 수 있습니다.",
+      "commonIssues": [{ "problem": "작성한 그림을 잃어버릴까 걱정됨", "solution": "메뉴에서 파일로 내보내거나 이미지로 저장해 백업합니다." }],
+      "officialDocsUrl": "https://github.com/excalidraw/excalidraw#readme",
+      "verifiedAt": "2026-08-22"
+    }
+  },
+  {
+    "id": "obsproject/obs-studio",
+    "category": "productivity",
+    "summary": "화면 녹화와 라이브 방송을 무료로 할 수 있는 데스크톱 프로그램이에요.",
+    "whatItIs": "OBS Studio는 화면, 카메라, 마이크 등의 소스를 조합해 녹화하거나 스트리밍하는 오픈소스 프로그램입니다.",
+    "problemSolved": "유료 녹화 프로그램 없이 강의, 시연, 방송 영상을 제작할 수 있게 합니다.",
+    "recommendedFor": ["화면 녹화가 필요한 강사와 학생", "라이브 방송을 시작하려는 크리에이터"],
+    "keyFeatures": ["화면 및 창 녹화", "여러 장면과 입력 소스 구성", "라이브 스트리밍"],
+    "useCases": ["공모전 시연 영상 녹화", "온라인 강의 제작"],
+    "tags": ["desktop", "video", "beginner"],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "무료 오픈소스 프로그램입니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Windows", "macOS", "Linux"],
+    "dailyStarGrowth": 90,
+    "trendScore": 74,
+    "guide": {
+      "prerequisites": ["녹화할 컴퓨터 화면", "선택 사항: 마이크 또는 웹캠"],
+      "estimatedMinutes": 10,
+      "platforms": [
+        { "name": "Windows", "steps": [{ "order": 1, "title": "공식 설치 파일 받기", "description": "OBS 공식 다운로드 페이지에서 Windows를 선택하고 설치합니다." }, { "order": 2, "title": "화면 소스 추가", "description": "소스 영역의 +를 눌러 디스플레이 캡처를 추가합니다." }, { "order": 3, "title": "녹화 시작", "description": "오른쪽의 녹화 시작 버튼을 누릅니다.", "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다." }] },
+        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "OBS 공식 다운로드 페이지에서 macOS 버전을 설치합니다." }, { "order": 2, "title": "화면 녹화 권한 허용", "description": "시스템 설정의 개인정보 보호 및 보안에서 OBS의 화면 기록 권한을 허용합니다." }, { "order": 3, "title": "macOS 화면 캡처 추가", "description": "소스 영역의 +를 누르고 macOS 화면 캡처를 선택한 다음 녹화 시작을 누릅니다.", "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다." }] }
+      ],
+      "firstRunResult": "지정한 폴더에 화면 녹화 영상 파일이 저장됩니다.",
+      "stopInstructions": "OBS의 녹화 중지 버튼을 누른 뒤 프로그램을 종료합니다.",
+      "commonIssues": [{ "problem": "Mac에서 화면이 검게 나옴", "solution": "시스템 설정에서 OBS 화면 기록 권한을 허용한 후 OBS를 다시 시작합니다." }],
+      "officialDocsUrl": "https://obsproject.com/kb/quick-start-guide",
+      "verifiedAt": "2026-08-22"
+    }
+  },
+  {
+    "id": "sharkdp/bat",
+    "category": "developer-tools",
+    "summary": "터미널에서 텍스트 파일을 색상과 줄 번호가 있는 읽기 좋은 형태로 보여주는 도구예요.",
+    "whatItIs": "bat은 기본 cat 명령을 문법 강조, 줄 번호, Git 변경 표시 등으로 확장한 명령줄 도구입니다.",
+    "problemSolved": "터미널에서 코드와 설정 파일을 읽을 때 내용을 더 쉽게 파악하도록 돕습니다.",
+    "recommendedFor": ["터미널 사용을 배우는 개발 입문자", "코드 파일을 빠르게 확인하는 개발자"],
+    "keyFeatures": ["코드 문법 강조", "줄 번호 표시", "Git 변경 내용 표시"],
+    "useCases": ["설정 파일 확인", "터미널에서 소스 코드 미리보기"],
+    "tags": ["cli", "terminal", "developer", "beginner"],
+    "difficulty": "beginner",
+    "usageType": "cli",
+    "guideType": "package-manager",
+    "costSummary": "무료 오픈소스 명령줄 도구입니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Windows", "macOS", "Linux"],
+    "dailyStarGrowth": 55,
+    "trendScore": 66,
+    "guide": {
+      "prerequisites": ["터미널 또는 PowerShell", "Windows: Microsoft Visual C++ Redistributable"],
+      "estimatedMinutes": 5,
+      "platforms": [
+        { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Homebrew 확인", "description": "Homebrew가 설치되어 있는지 확인합니다.", "command": "brew --version", "expectedResult": "Homebrew 버전이 표시됩니다." }, { "order": 2, "title": "bat 설치", "description": "아래 명령을 실행합니다.", "command": "brew install bat", "expectedResult": "설치 완료 메시지가 표시됩니다." }, { "order": 3, "title": "파일 보기", "description": "README 파일을 열어봅니다.", "command": "bat README.md" }] },
+        { "name": "Windows", "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."], "steps": [{ "order": 1, "title": "winget 확인", "description": "Windows 패키지 도구를 확인합니다.", "command": "winget --version", "expectedResult": "winget 버전이 표시됩니다." }, { "order": 2, "title": "bat 설치", "description": "공식 README에 안내된 winget 명령을 실행합니다.", "command": "winget install sharkdp.bat", "expectedResult": "설치 완료 메시지가 표시됩니다." }, { "order": 3, "title": "파일 보기", "description": "현재 폴더의 README 파일을 열어봅니다.", "command": "bat README.md" }] }
+      ],
+      "firstRunResult": "파일 내용이 색상과 줄 번호가 적용된 형태로 표시됩니다.",
+      "commonIssues": [{ "problem": "bat 명령을 찾을 수 없음", "solution": "터미널을 완전히 닫았다가 다시 열고 명령을 실행합니다." }],
+      "officialDocsUrl": "https://github.com/sharkdp/bat/blob/master/README.md#installation",
+      "verifiedAt": "2026-08-22"
+    }
+  },
+  {
+    "id": "bitwarden/clients",
+    "category": "security",
+    "summary": "여러 기기에서 비밀번호를 안전하게 저장하고 관리하는 오픈소스 앱의 클라이언트예요.",
+    "whatItIs": "Bitwarden은 비밀번호와 로그인 정보를 암호화해 관리하는 서비스이며, 이 저장소에는 공식 클라이언트 앱 코드가 포함됩니다.",
+    "problemSolved": "사이트마다 다른 강한 비밀번호를 기억하거나 반복해서 입력해야 하는 불편을 줄입니다.",
+    "recommendedFor": ["같은 비밀번호를 여러 사이트에서 사용 중인 사람", "휴대폰과 컴퓨터에서 로그인 정보를 함께 관리하려는 사람"],
+    "keyFeatures": ["암호화된 비밀번호 보관", "여러 기기 동기화", "브라우저 확장과 데스크톱 앱"],
+    "useCases": ["사이트별 고유 비밀번호 생성", "로그인 정보 자동 입력"],
+    "tags": ["security", "desktop", "web", "beginner"],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "web",
+    "costSummary": "기본 개인 기능은 무료이며 일부 고급 기능은 유료일 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": ["Windows", "macOS", "Linux", "Web"],
+    "dailyStarGrowth": 35,
+    "trendScore": 61,
+    "guide": {
+      "prerequisites": ["이메일 주소", "기억할 수 있는 강력한 마스터 비밀번호"],
+      "estimatedMinutes": 10,
+      "platforms": [
+        { "name": "Web", "steps": [{ "order": 1, "title": "공식 웹사이트에서 계정 만들기", "description": "Bitwarden 공식 사이트에서 개인 계정을 생성합니다.", "warning": "마스터 비밀번호를 잊으면 복구가 어려울 수 있으므로 안전한 장소에 보관합니다." }, { "order": 2, "title": "첫 로그인 정보 저장", "description": "새 항목을 만들고 사이트 주소, 사용자 이름, 비밀번호를 입력합니다.", "expectedResult": "보관함에 새 로그인 항목이 표시됩니다." }] },
+        { "name": "Windows", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 Windows 데스크톱 앱 또는 브라우저 확장을 설치합니다." }, { "order": 2, "title": "로그인", "description": "계정 이메일과 마스터 비밀번호로 로그인합니다." }] },
+        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 macOS 데스크톱 앱 또는 브라우저 확장을 설치합니다." }, { "order": 2, "title": "로그인", "description": "계정 이메일과 마스터 비밀번호로 로그인합니다." }] }
+      ],
+      "firstRunResult": "암호화된 보관함에서 로그인 정보를 추가하고 확인할 수 있습니다.",
+      "commonIssues": [{ "problem": "브라우저에서 자동 입력이 되지 않음", "solution": "공식 브라우저 확장이 설치되고 로그인되어 있는지 확인합니다." }],
+      "officialDocsUrl": "https://bitwarden.com/help/getting-started-webvault/",
+      "verifiedAt": "2026-08-22"
+    }
+  }
+]
