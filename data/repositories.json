@@ -111,7 +111,7 @@
       "https://github.com/ollama/ollama",
       "https://github.com/ollama/ollama#readme"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "localsend/localsend",
@@ -213,7 +213,7 @@
       "https://github.com/localsend/localsend",
       "https://github.com/localsend/localsend#readme"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "excalidraw/excalidraw",
@@ -296,7 +296,7 @@
       "https://github.com/excalidraw/excalidraw",
       "https://github.com/excalidraw/excalidraw#readme"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "obsproject/obs-studio",
@@ -408,7 +408,7 @@
       "https://github.com/obsproject/obs-studio",
       "https://obsproject.com/kb/quick-start-guide"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "sharkdp/bat",
@@ -535,7 +535,7 @@
       "https://github.com/sharkdp/bat",
       "https://github.com/sharkdp/bat/blob/master/README.md#installation"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "bitwarden/clients",
@@ -653,7 +653,7 @@
       "https://github.com/bitwarden/clients",
       "https://bitwarden.com/help/getting-started-webvault/"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "hoppscotch/hoppscotch",
@@ -742,7 +742,7 @@
       "https://github.com/hoppscotch/hoppscotch",
       "https://github.com/hoppscotch/hoppscotch#usage"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "drawdb-io/drawdb",
@@ -830,7 +830,7 @@
       "https://github.com/drawdb-io/drawdb",
       "https://github.com/drawdb-io/drawdb#readme"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "mifi/lossless-cut",
@@ -943,7 +943,7 @@
       "https://github.com/mifi/lossless-cut",
       "https://github.com/mifi/lossless-cut/blob/master/docs/installation.md"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "Stirling-Tools/Stirling-PDF",
@@ -980,7 +980,7 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 112,
+    "dailyStarGrowth": 111,
     "trendScore": 134,
     "guide": {
       "prerequisites": [
@@ -1062,7 +1062,7 @@
     "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
     "homepageUrl": "https://stirling.com",
     "license": "NOASSERTION",
-    "stars": 90182,
+    "stars": 90181,
     "forks": 8162,
     "lastPushedAt": "2026-08-23T16:38:32Z",
     "maintenanceStatus": "active",
@@ -1070,7 +1070,7 @@
       "https://github.com/Stirling-Tools/Stirling-PDF",
       "https://github.com/Stirling-Tools/Stirling-PDF#quick-start"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "louislam/uptime-kuma",
@@ -1195,7 +1195,7 @@
       "https://github.com/louislam/uptime-kuma",
       "https://github.com/louislam/uptime-kuma#how-to-install"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   },
   {
     "id": "freeCodeCamp/freeCodeCamp",
@@ -1284,6 +1284,6 @@
       "https://github.com/freeCodeCamp/freeCodeCamp",
       "https://github.com/freeCodeCamp/freeCodeCamp#readme"
     ],
-    "collectedAt": "2026-08-23T16:39:32.048Z"
+    "collectedAt": "2026-08-23T16:40:58.693Z"
   }
 ]
