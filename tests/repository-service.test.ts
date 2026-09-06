@@ -4,7 +4,7 @@ import { loadRepositories } from "../src/data-store.ts";
 import { findRepository, getTrending, queryRepositories } from "../src/repository-service.ts";
 import { validateRepositories, validateRepository } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
-import { buildGuidePrompt, hashReadme } from "../src/guide-analysis.ts";
+import { buildGuidePrompt, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
 import { GitHubClient } from "../src/github-client.ts";
 
 const repositories = await loadRepositories();
@@ -107,4 +107,17 @@ test("GitHub README responses are read as raw text", async () => {
   } finally {
     globalThis.fetch = originalFetch;
   }
+});
+
+test("AI guide URLs must match README or an existing official domain", () => {
+  assert.equal(isTrustedDraftUrl("https://docs.example.com/install", "See docs.example.com", []), true);
+  assert.equal(isTrustedDraftUrl("https://evil.example/install", "", ["https://project.org"]), false);
+  assert.equal(isTrustedDraftUrl("http://project.org/install", "project.org", ["https://project.org"]), false);
+});
+
+test("terminal help is added when a generated guide contains commands", () => {
+  const draft = structuredClone(repositories[0]);
+  draft.guide.platforms[0].terminalHelp = [];
+  draft.guide.platforms[0].steps[0].command = "ollama --version";
+  assert.ok(normalizeTerminalHelp(draft).guide.platforms[0].terminalHelp?.length);
 });
