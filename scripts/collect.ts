@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { GitHubClient } from "../src/github-client.ts";
+import { GitHubApiError, GitHubClient } from "../src/github-client.ts";
 import type { BeginnerGuide, CategoryId, Difficulty, GuideType, Platform, Repository, UsageType } from "../src/domain.ts";
 import { validateRepositories } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend, type StarSnapshot } from "../src/trending.ts";
@@ -27,14 +27,18 @@ interface EditorialEntry {
 
 const editorialUrl = new URL("../data/editorial.json", import.meta.url);
 const additionsUrl = new URL("../data/editorial-additions.json", import.meta.url);
+const expandedUrl = new URL("../data/editorial-expanded.json", import.meta.url);
 const outputUrl = new URL("../data/repositories.json", import.meta.url);
 const historyUrl = new URL("../data/star-history.json", import.meta.url);
 const editorial = [
   ...(JSON.parse(await readFile(editorialUrl, "utf8")) as EditorialEntry[]),
   ...(JSON.parse(await readFile(additionsUrl, "utf8")) as EditorialEntry[]),
+  ...(JSON.parse(await readFile(expandedUrl, "utf8")) as EditorialEntry[]),
 ];
 const client = new GitHubClient();
 const collected: Repository[] = [];
+const previous = JSON.parse(await readFile(outputUrl, "utf8")) as Repository[];
+const previousById = new Map(previous.map((repository) => [repository.id.toLowerCase(), repository]));
 const snapshots = JSON.parse(await readFile(historyUrl, "utf8")) as StarSnapshot[];
 const collectedAt = new Date();
 
@@ -42,7 +46,36 @@ for (const entry of editorial) {
   const [owner, name] = entry.id.split("/");
   if (!owner || !name) throw new Error(`Invalid repository id: ${entry.id}`);
   console.log(`Collecting ${entry.id}...`);
-  const metadata = await client.getRepository(owner, name);
+  let metadata;
+  try {
+    metadata = await client.getRepository(owner, name);
+  } catch (error) {
+    if (!(error instanceof GitHubApiError) || error.status !== 403) throw error;
+    const cached = previousById.get(entry.id.toLowerCase());
+    if (cached) {
+      console.warn(`GitHub API limit reached; reusing cached metadata for ${entry.id}.`);
+      metadata = {
+        full_name: cached.id,
+        name: cached.name,
+        owner: { login: cached.owner },
+        html_url: cached.githubUrl,
+        homepage: cached.homepageUrl ?? null,
+        description: cached.summary,
+        stargazers_count: cached.stars,
+        forks_count: cached.forks,
+        license: cached.license ? { spdx_id: cached.license } : null,
+        topics: cached.tags,
+        archived: false,
+        pushed_at: cached.lastPushedAt ?? cached.collectedAt,
+        created_at: cached.collectedAt,
+        updated_at: cached.collectedAt,
+        language: null,
+      };
+    } else {
+      console.warn(`GitHub API limit reached; reading public repository page for ${entry.id}.`);
+      metadata = await client.getRepositoryFromPublicPage(owner, name);
+    }
+  }
   if (metadata.archived) {
     console.warn(`Skipping archived repository ${entry.id}`);
     continue;

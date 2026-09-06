@@ -48,6 +48,39 @@ export class GitHubClient {
     return this.request<GitHubRepositoryResponse>(`/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`);
   }
 
+  async getRepositoryFromPublicPage(owner: string, repo: string): Promise<GitHubRepositoryResponse> {
+    const htmlUrl = `https://github.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
+    const response = await fetch(htmlUrl, { headers: { "User-Agent": "Easy-Open-Source-MVP" } });
+    if (!response.ok) throw new GitHubApiError(`GitHub page ${response.status}: ${htmlUrl}`, response.status);
+    const html = await response.text();
+    const value = (pattern: RegExp) => html.match(pattern)?.[1];
+    const defaultBranch = value(/"defaultBranch":"([^"]+)"/) ?? "main";
+    const feed = await fetch(`${htmlUrl}/commits/${encodeURIComponent(defaultBranch)}.atom`, {
+      headers: { "User-Agent": "Easy-Open-Source-MVP" },
+    });
+    const feedText = feed.ok ? await feed.text() : "";
+    const pushedAt = feedText.match(/<updated>([^<]+)<\/updated>/)?.[1] ?? new Date().toISOString();
+    const description = value(/<meta\s+name="description"\s+content="([^"]*)"/i)?.replace(/&amp;/g, "&") ?? null;
+
+    return {
+      full_name: `${owner}/${repo}`,
+      name: repo,
+      owner: { login: owner },
+      html_url: htmlUrl,
+      homepage: null,
+      description,
+      stargazers_count: Number(value(/"stargazerCount":(\d+)/) ?? 0),
+      forks_count: Number(value(/"forksCount":(\d+)/) ?? 0),
+      license: value(/"spdxId":"([^"]+)"/) ? { spdx_id: value(/"spdxId":"([^"]+)"/)! } : null,
+      topics: [],
+      archived: /This repository was archived by the owner/i.test(html),
+      pushed_at: pushedAt,
+      created_at: value(/"createdAt":"([^"]+)"/) ?? pushedAt,
+      updated_at: pushedAt,
+      language: null,
+    };
+  }
+
   getReadme(owner: string, repo: string) {
     return this.request<string>(
       `/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/readme`,
