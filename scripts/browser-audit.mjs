@@ -121,7 +121,7 @@ try {
     columns: getComputedStyle(document.querySelector('.repository-grid')).gridTemplateColumns,
   })`);
   check('데스크톱 가로 넘침 없음', desktop.scrollWidth === desktop.clientWidth, desktop);
-  check('전체 프로젝트 12개', desktop.cards === 12, desktop.cards);
+  check('전체 프로젝트 60개', desktop.cards === 60, desktop.cards);
   check('데스크톱 프로젝트 2열', desktop.columns.split(' ').length === 2, desktop.columns);
 
   for (const item of checks) console.log(`${item.pass ? 'PASS' : 'FAIL'}  ${item.name}`, item.detail);
@@ -129,7 +129,9 @@ try {
   if (failures.length) process.exitCode = 1;
 } finally {
   socket?.close();
+  const exited = chrome.exitCode === null ? once(chrome, 'exit') : Promise.resolve();
   chrome.kill('SIGTERM');
-  if (chrome.exitCode === null) await once(chrome, 'exit');
+  await Promise.race([exited, pause(2_000)]);
+  if (chrome.exitCode === null) chrome.kill('SIGKILL');
   await rm(profile, { recursive: true, force: true });
 }

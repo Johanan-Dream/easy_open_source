@@ -7,6 +7,7 @@
     "dev": "node --watch src/server.ts",
     "start": "node src/server.ts",
     "collect": "node scripts/collect.ts",
+    "build:editorial": "node scripts/build-expanded-editorial.ts",
     "check:links": "node scripts/check-links.ts",
     "test": "node --test tests/*.test.ts",
     "test:browser": "node scripts/browser-audit.mjs",
