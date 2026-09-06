@@ -637,6 +637,7 @@
   },
   {
     "id": "microsoft/vscode",
+    "homepageUrl": "https://code.visualstudio.com/Download",
     "category": "developer-tools",
     "summary": "코드와 설정 파일을 편집하고 확장 기능을 추가하는 무료 편집기예요.",
     "whatItIs": "Visual Studio Code 소개: 코드와 설정 파일을 편집하고 확장 기능을 추가하는 무료 편집기예요.",
@@ -683,18 +684,18 @@
             {
               "order": 1,
               "title": "Windows 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Windows 설치 파일을 받습니다."
+              "description": "공식 다운로드 페이지에서 Windows용 User Installer(.exe)를 받습니다."
             },
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": "받은 설치 파일을 실행하고 안내에 따라 설치합니다. 설치가 끝나면 시작 메뉴에서 Visual Studio Code를 엽니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "Visual Studio Code을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "Visual Studio Code의 기본 작업 화면이 열립니다."
+              "description": "파일 메뉴에서 폴더 열기를 선택하거나 새 텍스트 파일을 만듭니다.",
+              "expectedResult": "선택한 폴더 또는 빈 편집기가 열립니다."
             }
           ]
         },
@@ -704,18 +705,18 @@
             {
               "order": 1,
               "title": "macOS 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 macOS 설치 파일을 받습니다."
+              "description": "공식 다운로드 페이지에서 내 Mac에 맞는 macOS용 .dmg 파일을 받습니다."
             },
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": ".dmg 파일을 열고 Visual Studio Code.app을 Applications 폴더로 끌어 놓습니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "Visual Studio Code을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "Visual Studio Code의 기본 작업 화면이 열립니다."
+              "description": "Applications 폴더 또는 Spotlight에서 Visual Studio Code를 실행합니다.",
+              "expectedResult": "Visual Studio Code 시작 화면이 열립니다."
             }
           ]
         },
@@ -749,8 +750,8 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/microsoft/vscode#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://code.visualstudio.com/docs/setup/setup-overview",
+      "verifiedAt": "2026-09-06"
     }
   },
   {
@@ -1301,6 +1302,8 @@
   },
   {
     "id": "audacity/audacity",
+    "homepageUrl": "https://www.audacityteam.org/download/",
+    "license": "GPL-3.0",
     "category": "content-media",
     "summary": "음성을 녹음하고 잘라내며 소리를 보정하는 오디오 편집기예요.",
     "whatItIs": "Audacity 소개: 음성을 녹음하고 잘라내며 소리를 보정하는 오디오 편집기예요.",
@@ -1413,8 +1416,8 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/audacity/audacity#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://support.audacityteam.org/basics/downloading-and-installing-audacity",
+      "verifiedAt": "2026-09-06"
     }
   },
   {
@@ -2201,6 +2204,7 @@
   },
   {
     "id": "rustdesk/rustdesk",
+    "homepageUrl": "https://rustdesk.com/docs/en/client/",
     "category": "productivity",
     "summary": "다른 컴퓨터 화면에 원격으로 접속하고 조작하는 도구예요.",
     "whatItIs": "RustDesk 소개: 다른 컴퓨터 화면에 원격으로 접속하고 조작하는 도구예요.",
@@ -2257,8 +2261,8 @@
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "RustDesk을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "RustDesk의 기본 작업 화면이 열립니다."
+              "description": "RustDesk를 실행하고 화면에 표시된 내 ID와 일회용 비밀번호를 확인합니다.",
+              "expectedResult": "원격 연결에 사용할 ID와 비밀번호가 표시됩니다."
             }
           ]
         },
@@ -2273,13 +2277,13 @@
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": ".dmg 파일을 열고 RustDesk를 Applications 폴더로 끌어 놓습니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "RustDesk을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "RustDesk의 기본 작업 화면이 열립니다."
+              "description": "RustDesk를 실행한 뒤 시스템 설정에서 화면 기록과 손쉬운 사용 권한을 허용합니다.",
+              "expectedResult": "RustDesk 화면에 원격 연결용 ID가 표시되고 권한 경고가 사라집니다."
             }
           ]
         },
@@ -2305,7 +2309,7 @@
           ]
         }
       ],
-      "firstRunResult": "RustDesk의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.",
+      "firstRunResult": "내 기기의 ID와 일회용 비밀번호가 표시되며, 상대 기기의 ID를 입력해 연결을 요청할 수 있습니다.",
       "uninstallInstructions": "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
       "commonIssues": [
         {
@@ -2313,8 +2317,8 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/rustdesk/rustdesk#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://rustdesk.com/docs/en/client/",
+      "verifiedAt": "2026-09-06"
     }
   },
   {
@@ -3241,6 +3245,7 @@
   },
   {
     "id": "jesseduffield/lazygit",
+    "homepageUrl": "https://github.com/jesseduffield/lazygit#installation",
     "category": "developer-tools",
     "summary": "터미널 안에서 Git 변경과 브랜치를 조작하는 화면형 도구예요.",
     "whatItIs": "lazygit 소개: 터미널 안에서 Git 변경과 브랜치를 조작하는 화면형 도구예요.",
@@ -3283,43 +3288,55 @@
       "platforms": [
         {
           "name": "Windows",
+          "terminalHelp": [
+            "시작 버튼을 누릅니다.",
+            "Windows Terminal 또는 PowerShell을 검색해 실행합니다."
+          ],
           "steps": [
             {
               "order": 1,
-              "title": "Windows 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Windows 설치 파일을 받습니다."
+              "title": "Windows 터미널 열기",
+              "description": "시작 메뉴에서 Windows Terminal 또는 PowerShell을 엽니다."
             },
             {
               "order": 2,
-              "title": "설치 진행",
-              "description": "받은 압축 파일을 새 폴더에 풀고 실행 파일을 엽니다."
+              "title": "winget으로 설치",
+              "description": "아래 명령을 실행해 lazygit을 설치합니다.",
+              "command": "winget install -e --id=JesseDuffield.lazygit"
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "lazygit을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "lazygit의 기본 작업 화면이 열립니다."
+              "description": "Git 저장소 폴더로 이동한 뒤 lazygit 명령을 실행합니다.",
+              "command": "lazygit",
+              "expectedResult": "터미널에 파일 상태와 커밋 목록을 보여주는 화면이 열립니다."
             }
           ]
         },
         {
           "name": "macOS",
+          "terminalHelp": [
+            "Command + Space를 누릅니다.",
+            "터미널을 검색해 실행합니다."
+          ],
           "steps": [
             {
               "order": 1,
-              "title": "macOS 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 macOS 설치 파일을 받습니다."
+              "title": "터미널 열기",
+              "description": "Command + Space를 누르고 터미널을 검색해 실행합니다."
             },
             {
               "order": 2,
-              "title": "설치 진행",
-              "description": "받은 압축 파일을 새 폴더에 풀고 실행 파일을 엽니다."
+              "title": "Homebrew로 설치",
+              "description": "Homebrew가 준비되어 있다면 아래 명령으로 lazygit을 설치합니다.",
+              "command": "brew install lazygit"
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "lazygit을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "lazygit의 기본 작업 화면이 열립니다."
+              "description": "Git 저장소 폴더로 이동한 뒤 lazygit 명령을 실행합니다.",
+              "command": "lazygit",
+              "expectedResult": "터미널에 파일 상태와 커밋 목록을 보여주는 화면이 열립니다."
             }
           ]
         },
@@ -3345,16 +3362,16 @@
           ]
         }
       ],
-      "firstRunResult": "lazygit의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.",
-      "uninstallInstructions": "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
+      "firstRunResult": "현재 Git 저장소의 변경 파일, 브랜치, 커밋 기록이 터미널 화면에 표시됩니다.",
+      "uninstallInstructions": "Windows는 winget uninstall -e --id=JesseDuffield.lazygit, macOS는 brew uninstall lazygit을 실행합니다.",
       "commonIssues": [
         {
           "problem": "설치 파일이 실행되지 않음",
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/jesseduffield/lazygit#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://github.com/jesseduffield/lazygit#installation",
+      "verifiedAt": "2026-09-06"
     }
   },
   {

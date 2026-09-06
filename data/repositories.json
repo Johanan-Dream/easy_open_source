@@ -111,7 +111,7 @@
       "https://github.com/ollama/ollama",
       "https://github.com/ollama/ollama#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "localsend/localsend",
@@ -213,7 +213,7 @@
       "https://github.com/localsend/localsend",
       "https://github.com/localsend/localsend#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "excalidraw/excalidraw",
@@ -296,7 +296,7 @@
       "https://github.com/excalidraw/excalidraw",
       "https://github.com/excalidraw/excalidraw#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "obsproject/obs-studio",
@@ -408,7 +408,7 @@
       "https://github.com/obsproject/obs-studio",
       "https://obsproject.com/kb/quick-start-guide"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "sharkdp/bat",
@@ -535,7 +535,7 @@
       "https://github.com/sharkdp/bat",
       "https://github.com/sharkdp/bat/blob/master/README.md#installation"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "bitwarden/clients",
@@ -653,7 +653,7 @@
       "https://github.com/bitwarden/clients",
       "https://bitwarden.com/help/getting-started-webvault/"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "hoppscotch/hoppscotch",
@@ -742,7 +742,7 @@
       "https://github.com/hoppscotch/hoppscotch",
       "https://github.com/hoppscotch/hoppscotch#usage"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "drawdb-io/drawdb",
@@ -830,7 +830,7 @@
       "https://github.com/drawdb-io/drawdb",
       "https://github.com/drawdb-io/drawdb#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "mifi/lossless-cut",
@@ -943,7 +943,7 @@
       "https://github.com/mifi/lossless-cut",
       "https://github.com/mifi/lossless-cut/blob/master/docs/installation.md"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "Stirling-Tools/Stirling-PDF",
@@ -1070,7 +1070,7 @@
       "https://github.com/Stirling-Tools/Stirling-PDF",
       "https://github.com/Stirling-Tools/Stirling-PDF#quick-start"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "louislam/uptime-kuma",
@@ -1195,10 +1195,11 @@
       "https://github.com/louislam/uptime-kuma",
       "https://github.com/louislam/uptime-kuma#how-to-install"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "freeCodeCamp/freeCodeCamp",
+    "homepageUrl": "https://www.freecodecamp.org/learn",
     "category": "education",
     "summary": "브라우저에서 직접 코드를 작성하며 웹 개발과 Python 등을 무료로 배우는 학습 플랫폼이에요.",
     "whatItIs": "freeCodeCamp는 무료 자기주도형 커리큘럼과 수천 개의 대화형 코딩 과제를 제공하는 오픈소스 교육 커뮤니티입니다.",
@@ -1268,13 +1269,12 @@
           "solution": "로그인 상태인지 확인하고 브라우저의 사이트 데이터 차단 설정을 확인합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/freeCodeCamp/freeCodeCamp#readme",
-      "verifiedAt": "2026-08-23"
+      "officialDocsUrl": "https://www.freecodecamp.org/learn",
+      "verifiedAt": "2026-09-06"
     },
     "owner": "freeCodeCamp",
     "name": "freeCodeCamp",
     "githubUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "homepageUrl": "https://contribute.freecodecamp.org",
     "license": "BSD-3-Clause",
     "stars": 455090,
     "forks": 46137,
@@ -1282,9 +1282,9 @@
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/freeCodeCamp/freeCodeCamp",
-      "https://github.com/freeCodeCamp/freeCodeCamp#readme"
+      "https://www.freecodecamp.org/learn"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "AppFlowy-IO/AppFlowy",
@@ -1396,7 +1396,7 @@
       "https://github.com/AppFlowy-IO/AppFlowy",
       "https://github.com/AppFlowy-IO/AppFlowy#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "penpot/penpot",
@@ -1480,7 +1480,7 @@
       "https://github.com/penpot/penpot",
       "https://github.com/penpot/penpot#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "laurent22/joplin",
@@ -1614,7 +1614,7 @@
       "https://github.com/laurent22/joplin",
       "https://github.com/laurent22/joplin#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "dbeaver/dbeaver",
@@ -1748,7 +1748,7 @@
       "https://github.com/dbeaver/dbeaver",
       "https://github.com/dbeaver/dbeaver#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "beekeeper-studio/beekeeper-studio",
@@ -1882,7 +1882,7 @@
       "https://github.com/beekeeper-studio/beekeeper-studio",
       "https://github.com/beekeeper-studio/beekeeper-studio#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "usebruno/bruno",
@@ -2016,10 +2016,11 @@
       "https://github.com/usebruno/bruno",
       "https://github.com/usebruno/bruno#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "microsoft/vscode",
+    "homepageUrl": "https://code.visualstudio.com/Download",
     "category": "developer-tools",
     "summary": "코드와 설정 파일을 편집하고 확장 기능을 추가하는 무료 편집기예요.",
     "whatItIs": "Visual Studio Code 소개: 코드와 설정 파일을 편집하고 확장 기능을 추가하는 무료 편집기예요.",
@@ -2066,18 +2067,18 @@
             {
               "order": 1,
               "title": "Windows 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Windows 설치 파일을 받습니다."
+              "description": "공식 다운로드 페이지에서 Windows용 User Installer(.exe)를 받습니다."
             },
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": "받은 설치 파일을 실행하고 안내에 따라 설치합니다. 설치가 끝나면 시작 메뉴에서 Visual Studio Code를 엽니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "Visual Studio Code을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "Visual Studio Code의 기본 작업 화면이 열립니다."
+              "description": "파일 메뉴에서 폴더 열기를 선택하거나 새 텍스트 파일을 만듭니다.",
+              "expectedResult": "선택한 폴더 또는 빈 편집기가 열립니다."
             }
           ]
         },
@@ -2087,18 +2088,18 @@
             {
               "order": 1,
               "title": "macOS 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 macOS 설치 파일을 받습니다."
+              "description": "공식 다운로드 페이지에서 내 Mac에 맞는 macOS용 .dmg 파일을 받습니다."
             },
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": ".dmg 파일을 열고 Visual Studio Code.app을 Applications 폴더로 끌어 놓습니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "Visual Studio Code을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "Visual Studio Code의 기본 작업 화면이 열립니다."
+              "description": "Applications 폴더 또는 Spotlight에서 Visual Studio Code를 실행합니다.",
+              "expectedResult": "Visual Studio Code 시작 화면이 열립니다."
             }
           ]
         },
@@ -2132,13 +2133,12 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/microsoft/vscode#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://code.visualstudio.com/docs/setup/setup-overview",
+      "verifiedAt": "2026-09-06"
     },
     "owner": "microsoft",
     "name": "vscode",
     "githubUrl": "https://github.com/microsoft/vscode",
-    "homepageUrl": "https://code.visualstudio.com",
     "license": "MIT",
     "stars": 190952,
     "forks": 42005,
@@ -2148,9 +2148,9 @@
     "trendScore": 63,
     "sourceUrls": [
       "https://github.com/microsoft/vscode",
-      "https://github.com/microsoft/vscode#readme"
+      "https://code.visualstudio.com/docs/setup/setup-overview"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "notepad-plus-plus/notepad-plus-plus",
@@ -2240,7 +2240,7 @@
       "https://github.com/notepad-plus-plus/notepad-plus-plus",
       "https://github.com/notepad-plus-plus/notepad-plus-plus#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "keepassxreboot/keepassxc",
@@ -2374,7 +2374,7 @@
       "https://github.com/keepassxreboot/keepassxc",
       "https://github.com/keepassxreboot/keepassxc#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "syncthing/syncthing",
@@ -2508,7 +2508,7 @@
       "https://github.com/syncthing/syncthing",
       "https://github.com/syncthing/syncthing#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "nextcloud/desktop",
@@ -2642,7 +2642,7 @@
       "https://github.com/nextcloud/desktop",
       "https://github.com/nextcloud/desktop#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "KDE/krita",
@@ -2776,10 +2776,12 @@
       "https://github.com/KDE/krita",
       "https://github.com/KDE/krita#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "audacity/audacity",
+    "homepageUrl": "https://www.audacityteam.org/download/",
+    "license": "GPL-3.0",
     "category": "content-media",
     "summary": "음성을 녹음하고 잘라내며 소리를 보정하는 오디오 편집기예요.",
     "whatItIs": "Audacity 소개: 음성을 녹음하고 잘라내며 소리를 보정하는 오디오 편집기예요.",
@@ -2892,14 +2894,12 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/audacity/audacity#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://support.audacityteam.org/basics/downloading-and-installing-audacity",
+      "verifiedAt": "2026-09-06"
     },
     "owner": "audacity",
     "name": "audacity",
     "githubUrl": "https://github.com/audacity/audacity",
-    "homepageUrl": "https://wiki.audacityteam.org/wiki/For_Developers",
-    "license": "NOASSERTION",
     "stars": 18294,
     "forks": 2649,
     "lastPushedAt": "2026-09-04T12:14:08Z",
@@ -2908,9 +2908,9 @@
     "trendScore": 58,
     "sourceUrls": [
       "https://github.com/audacity/audacity",
-      "https://github.com/audacity/audacity#readme"
+      "https://support.audacityteam.org/basics/downloading-and-installing-audacity"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "HandBrake/HandBrake",
@@ -3044,7 +3044,7 @@
       "https://github.com/HandBrake/HandBrake",
       "https://github.com/HandBrake/HandBrake#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "ShareX/ShareX",
@@ -3134,7 +3134,7 @@
       "https://github.com/ShareX/ShareX",
       "https://github.com/ShareX/ShareX#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "flameshot-org/flameshot",
@@ -3268,7 +3268,7 @@
       "https://github.com/flameshot-org/flameshot",
       "https://github.com/flameshot-org/flameshot#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "inkscape/inkscape",
@@ -3401,7 +3401,7 @@
       "https://github.com/inkscape/inkscape",
       "https://github.com/inkscape/inkscape#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "KDE/kdenlive",
@@ -3535,7 +3535,7 @@
       "https://github.com/KDE/kdenlive",
       "https://github.com/KDE/kdenlive#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "standardnotes/app",
@@ -3669,7 +3669,7 @@
       "https://github.com/standardnotes/app",
       "https://github.com/standardnotes/app#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "cryptomator/cryptomator",
@@ -3803,10 +3803,11 @@
       "https://github.com/cryptomator/cryptomator",
       "https://github.com/cryptomator/cryptomator#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "rustdesk/rustdesk",
+    "homepageUrl": "https://rustdesk.com/docs/en/client/",
     "category": "productivity",
     "summary": "다른 컴퓨터 화면에 원격으로 접속하고 조작하는 도구예요.",
     "whatItIs": "RustDesk 소개: 다른 컴퓨터 화면에 원격으로 접속하고 조작하는 도구예요.",
@@ -3863,8 +3864,8 @@
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "RustDesk을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "RustDesk의 기본 작업 화면이 열립니다."
+              "description": "RustDesk를 실행하고 화면에 표시된 내 ID와 일회용 비밀번호를 확인합니다.",
+              "expectedResult": "원격 연결에 사용할 ID와 비밀번호가 표시됩니다."
             }
           ]
         },
@@ -3879,13 +3880,13 @@
             {
               "order": 2,
               "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "description": ".dmg 파일을 열고 RustDesk를 Applications 폴더로 끌어 놓습니다."
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "RustDesk을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "RustDesk의 기본 작업 화면이 열립니다."
+              "description": "RustDesk를 실행한 뒤 시스템 설정에서 화면 기록과 손쉬운 사용 권한을 허용합니다.",
+              "expectedResult": "RustDesk 화면에 원격 연결용 ID가 표시되고 권한 경고가 사라집니다."
             }
           ]
         },
@@ -3911,7 +3912,7 @@
           ]
         }
       ],
-      "firstRunResult": "RustDesk의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.",
+      "firstRunResult": "내 기기의 ID와 일회용 비밀번호가 표시되며, 상대 기기의 ID를 입력해 연결을 요청할 수 있습니다.",
       "uninstallInstructions": "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
       "commonIssues": [
         {
@@ -3919,13 +3920,12 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/rustdesk/rustdesk#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://rustdesk.com/docs/en/client/",
+      "verifiedAt": "2026-09-06"
     },
     "owner": "rustdesk",
     "name": "rustdesk",
     "githubUrl": "https://github.com/rustdesk/rustdesk",
-    "homepageUrl": "https://rustdesk.com",
     "license": "AGPL-3.0",
     "stars": 122728,
     "forks": 18860,
@@ -3935,9 +3935,9 @@
     "trendScore": 68,
     "sourceUrls": [
       "https://github.com/rustdesk/rustdesk",
-      "https://github.com/rustdesk/rustdesk#readme"
+      "https://rustdesk.com/docs/en/client/"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "mullvad/mullvadvpn-app",
@@ -4071,7 +4071,7 @@
       "https://github.com/mullvad/mullvadvpn-app",
       "https://github.com/mullvad/mullvadvpn-app#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "qbittorrent/qBittorrent",
@@ -4205,7 +4205,7 @@
       "https://github.com/qbittorrent/qBittorrent",
       "https://github.com/qbittorrent/qBittorrent#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "transmission/transmission",
@@ -4339,7 +4339,7 @@
       "https://github.com/transmission/transmission",
       "https://github.com/transmission/transmission#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "agalwood/Motrix",
@@ -4473,7 +4473,7 @@
       "https://github.com/agalwood/Motrix",
       "https://github.com/agalwood/Motrix#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "Eugeny/tabby",
@@ -4607,10 +4607,10 @@
       "https://github.com/Eugeny/tabby",
       "https://github.com/Eugeny/tabby#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
-    "id": "wezterm/wezterm",
+    "id": "wez/wezterm",
     "category": "developer-tools",
     "summary": "빠른 렌더링과 다양한 설정을 지원하는 터미널 앱이에요.",
     "whatItIs": "WezTerm 소개: 빠른 렌더링과 다양한 설정을 지원하는 터미널 앱이에요.",
@@ -4726,22 +4726,21 @@
       "officialDocsUrl": "https://github.com/wez/wezterm#readme",
       "verifiedAt": "2026-08-25"
     },
-    "owner": "wezterm",
+    "owner": "wez",
     "name": "wezterm",
-    "githubUrl": "https://github.com/wezterm/wezterm",
-    "homepageUrl": "https://wezterm.org/",
+    "githubUrl": "https://github.com/wez/wezterm",
     "license": "NOASSERTION",
-    "stars": 28773,
+    "stars": 28774,
     "forks": 1713,
-    "lastPushedAt": "2026-09-06T08:19:28Z",
+    "lastPushedAt": "2026-09-06T08:19:27Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 1,
-    "trendScore": 51,
+    "dailyStarGrowth": 237,
+    "trendScore": 147,
     "sourceUrls": [
-      "https://github.com/wezterm/wezterm",
+      "https://github.com/wez/wezterm",
       "https://github.com/wez/wezterm#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "alacritty/alacritty",
@@ -4875,7 +4874,7 @@
       "https://github.com/alacritty/alacritty",
       "https://github.com/alacritty/alacritty#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "desktop/desktop",
@@ -4987,10 +4986,11 @@
       "https://github.com/desktop/desktop",
       "https://github.com/desktop/desktop#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "jesseduffield/lazygit",
+    "homepageUrl": "https://github.com/jesseduffield/lazygit#installation",
     "category": "developer-tools",
     "summary": "터미널 안에서 Git 변경과 브랜치를 조작하는 화면형 도구예요.",
     "whatItIs": "lazygit 소개: 터미널 안에서 Git 변경과 브랜치를 조작하는 화면형 도구예요.",
@@ -5033,43 +5033,55 @@
       "platforms": [
         {
           "name": "Windows",
+          "terminalHelp": [
+            "시작 버튼을 누릅니다.",
+            "Windows Terminal 또는 PowerShell을 검색해 실행합니다."
+          ],
           "steps": [
             {
               "order": 1,
-              "title": "Windows 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Windows 설치 파일을 받습니다."
+              "title": "Windows 터미널 열기",
+              "description": "시작 메뉴에서 Windows Terminal 또는 PowerShell을 엽니다."
             },
             {
               "order": 2,
-              "title": "설치 진행",
-              "description": "받은 압축 파일을 새 폴더에 풀고 실행 파일을 엽니다."
+              "title": "winget으로 설치",
+              "description": "아래 명령을 실행해 lazygit을 설치합니다.",
+              "command": "winget install -e --id=JesseDuffield.lazygit"
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "lazygit을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "lazygit의 기본 작업 화면이 열립니다."
+              "description": "Git 저장소 폴더로 이동한 뒤 lazygit 명령을 실행합니다.",
+              "command": "lazygit",
+              "expectedResult": "터미널에 파일 상태와 커밋 목록을 보여주는 화면이 열립니다."
             }
           ]
         },
         {
           "name": "macOS",
+          "terminalHelp": [
+            "Command + Space를 누릅니다.",
+            "터미널을 검색해 실행합니다."
+          ],
           "steps": [
             {
               "order": 1,
-              "title": "macOS 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 macOS 설치 파일을 받습니다."
+              "title": "터미널 열기",
+              "description": "Command + Space를 누르고 터미널을 검색해 실행합니다."
             },
             {
               "order": 2,
-              "title": "설치 진행",
-              "description": "받은 압축 파일을 새 폴더에 풀고 실행 파일을 엽니다."
+              "title": "Homebrew로 설치",
+              "description": "Homebrew가 준비되어 있다면 아래 명령으로 lazygit을 설치합니다.",
+              "command": "brew install lazygit"
             },
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "lazygit을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "lazygit의 기본 작업 화면이 열립니다."
+              "description": "Git 저장소 폴더로 이동한 뒤 lazygit 명령을 실행합니다.",
+              "command": "lazygit",
+              "expectedResult": "터미널에 파일 상태와 커밋 목록을 보여주는 화면이 열립니다."
             }
           ]
         },
@@ -5095,16 +5107,16 @@
           ]
         }
       ],
-      "firstRunResult": "lazygit의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.",
-      "uninstallInstructions": "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
+      "firstRunResult": "현재 Git 저장소의 변경 파일, 브랜치, 커밋 기록이 터미널 화면에 표시됩니다.",
+      "uninstallInstructions": "Windows는 winget uninstall -e --id=JesseDuffield.lazygit, macOS는 brew uninstall lazygit을 실행합니다.",
       "commonIssues": [
         {
           "problem": "설치 파일이 실행되지 않음",
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/jesseduffield/lazygit#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://github.com/jesseduffield/lazygit#installation",
+      "verifiedAt": "2026-09-06"
     },
     "owner": "jesseduffield",
     "name": "lazygit",
@@ -5118,9 +5130,9 @@
     "trendScore": 62,
     "sourceUrls": [
       "https://github.com/jesseduffield/lazygit",
-      "https://github.com/jesseduffield/lazygit#readme"
+      "https://github.com/jesseduffield/lazygit#installation"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "ventoy/Ventoy",
@@ -5232,7 +5244,7 @@
       "https://github.com/ventoy/Ventoy",
       "https://github.com/ventoy/Ventoy#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "balena-io/etcher",
@@ -5366,7 +5378,7 @@
       "https://github.com/balena-io/etcher",
       "https://github.com/balena-io/etcher#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "pbatard/rufus",
@@ -5456,7 +5468,7 @@
       "https://github.com/pbatard/rufus",
       "https://github.com/pbatard/rufus#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "ip7z/7zip",
@@ -5566,7 +5578,7 @@
       "https://github.com/ip7z/7zip",
       "https://github.com/ip7z/7zip#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "peazip/PeaZip",
@@ -5678,7 +5690,7 @@
       "https://github.com/peazip/PeaZip",
       "https://github.com/peazip/PeaZip#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "ONLYOFFICE/DesktopEditors",
@@ -5812,7 +5824,7 @@
       "https://github.com/ONLYOFFICE/DesktopEditors",
       "https://github.com/ONLYOFFICE/DesktopEditors#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "jgraph/drawio-desktop",
@@ -5946,7 +5958,7 @@
       "https://github.com/jgraph/drawio-desktop",
       "https://github.com/jgraph/drawio-desktop#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "godotengine/godot",
@@ -6080,7 +6092,7 @@
       "https://github.com/godotengine/godot",
       "https://github.com/godotengine/godot#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "LMMS/lmms",
@@ -6214,7 +6226,7 @@
       "https://github.com/LMMS/lmms",
       "https://github.com/LMMS/lmms#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "musescore/MuseScore",
@@ -6348,7 +6360,7 @@
       "https://github.com/musescore/MuseScore",
       "https://github.com/musescore/MuseScore#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "xbmc/xbmc",
@@ -6482,7 +6494,7 @@
       "https://github.com/xbmc/xbmc",
       "https://github.com/xbmc/xbmc#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "videolan/vlc",
@@ -6616,7 +6628,7 @@
       "https://github.com/videolan/vlc",
       "https://github.com/videolan/vlc#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "OpenShot/openshot-qt",
@@ -6750,7 +6762,7 @@
       "https://github.com/OpenShot/openshot-qt",
       "https://github.com/OpenShot/openshot-qt#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "darktable-org/darktable",
@@ -6884,7 +6896,7 @@
       "https://github.com/darktable-org/darktable",
       "https://github.com/darktable-org/darktable#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "iterate-ch/cyberduck",
@@ -6996,7 +7008,7 @@
       "https://github.com/iterate-ch/cyberduck",
       "https://github.com/iterate-ch/cyberduck#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "neovim/neovim",
@@ -7130,7 +7142,7 @@
       "https://github.com/neovim/neovim",
       "https://github.com/neovim/neovim#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "gitextensions/gitextensions",
@@ -7220,7 +7232,7 @@
       "https://github.com/gitextensions/gitextensions",
       "https://github.com/gitextensions/gitextensions#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   },
   {
     "id": "WinMerge/winmerge",
@@ -7310,6 +7322,6 @@
       "https://github.com/WinMerge/winmerge",
       "https://github.com/WinMerge/winmerge#readme"
     ],
-    "collectedAt": "2026-09-06T11:58:46.498Z"
+    "collectedAt": "2026-09-06T13:33:39.148Z"
   }
 ]
