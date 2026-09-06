@@ -14,6 +14,9 @@ const dangerousCommandPatterns = [
   { pattern: /(?:^|\s)(?:del|format)\s+/i, message: "삭제 또는 포맷 명령은 가이드에 포함할 수 없습니다." },
 ];
 const guideTypes = new Set(["web", "desktop-installer", "release-download", "package-manager", "docker", "installer-cli"]);
+const generatedCommandExecutables = new Set(["winget", "brew", "docker", "npm", "npx", "pnpm", "yarn", "pip", "pip3", "pipx", "python", "python3", "uv", "cargo", "go"]);
+const shellControlPattern = /(?:\|\||&&|[|;`<>]|\$\(|\r|\n)/;
+const forbiddenExecutablePattern = /^(?:sh|bash|zsh|fish|cmd|powershell|pwsh|curl|wget|irm|iwr|rm|del|format|chmod|chown|sudo|doas|eval|source)$/i;
 
 export function validateRepository(repository: Repository): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -93,6 +96,28 @@ export function validateRepositories(repositories: Repository[]): ValidationIssu
   for (const id of new Set(ids)) {
     if (ids.filter((candidate) => candidate === id).length > 1) {
       issues.push({ repositoryId: id, path: "id", message: "중복된 저장소 ID입니다." });
+    }
+  }
+  return issues;
+}
+
+export function validateGeneratedCommands(repository: Repository): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const projectExecutable = repository.name.toLowerCase().replace(/[^a-z0-9._-]/g, "");
+  for (const [platformIndex, platform] of repository.guide.platforms.entries()) {
+    for (const [stepIndex, step] of platform.steps.entries()) {
+      const command = step.command?.trim();
+      if (!command) continue;
+      const path = `guide.platforms.${platformIndex}.steps.${stepIndex}.command`;
+      if (shellControlPattern.test(command) || /https?:\/\//i.test(command)) {
+        issues.push({ repositoryId: repository.id, path, message: "AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다." });
+        continue;
+      }
+      const executable = command.split(/\s+/)[0].replace(/^\.\//, "").toLowerCase();
+      const allowed = generatedCommandExecutables.has(executable) || executable === projectExecutable || executable.replace(/\.exe$/, "") === projectExecutable.replace(/\.exe$/, "");
+      if (!allowed || forbiddenExecutablePattern.test(executable)) {
+        issues.push({ repositoryId: repository.id, path, message: `허용되지 않은 AI 생성 실행 파일입니다: ${executable}` });
+      }
     }
   }
   return issues;

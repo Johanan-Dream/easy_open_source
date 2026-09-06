@@ -3,7 +3,7 @@ import { GitHubClient } from "../src/github-client.ts";
 import { GeminiClient } from "../src/gemini-client.ts";
 import { buildGuidePrompt, guideDraftSchema, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp, type GuideDraft, type ReviewProposal } from "../src/guide-analysis.ts";
 import type { Repository } from "../src/domain.ts";
-import { validateRepository } from "../src/validation.ts";
+import { validateGeneratedCommands, validateRepository } from "../src/validation.ts";
 
 const root = new URL("../", import.meta.url);
 const repositories = JSON.parse(await readFile(new URL("data/repositories.json", root), "utf8")) as Repository[];
@@ -40,7 +40,7 @@ for (const repository of repositories) {
     const trustedUrls = [...repository.sourceUrls, repository.githubUrl, repository.homepageUrl].filter((url): url is string => Boolean(url));
     if (!isTrustedDraftUrl(draft.guide.officialDocsUrl, readme, trustedUrls)) throw new Error("AI가 제안한 공식 문서 URL을 README 또는 기존 공식 도메인에서 확인할 수 없습니다.");
     const candidate: Repository = { ...repository, ...draft, sourceUrls: repository.sourceUrls };
-    const issues = validateRepository(candidate);
+    const issues = [...validateRepository(candidate), ...validateGeneratedCommands(candidate)];
     if (issues.length) throw new Error(issues.map((issue) => `${issue.path}: ${issue.message}`).join("; "));
     pendingById.set(repository.id.toLowerCase(), {
       repositoryId: repository.id, readmeHash, generatedAt: new Date().toISOString(), model,

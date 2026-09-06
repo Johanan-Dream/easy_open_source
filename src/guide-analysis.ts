@@ -115,8 +115,10 @@ export function isTrustedDraftUrl(url: string, readme: string, trustedUrls: stri
   if (candidate.protocol !== "https:") return false;
   if (candidate.hostname === "github.com" || candidate.hostname.endsWith(".github.com")) return true;
   if (readme.includes(candidate.hostname)) return true;
-  const root = (hostname: string) => hostname.split(".").slice(-2).join(".");
   return trustedUrls.some((trusted) => {
-    try { return root(new URL(trusted).hostname) === root(candidate.hostname); } catch { return false; }
+    try {
+      const trustedHost = new URL(trusted).hostname;
+      return candidate.hostname === trustedHost || candidate.hostname.endsWith(`.${trustedHost}`) || trustedHost.endsWith(`.${candidate.hostname}`);
+    } catch { return false; }
   });
 }

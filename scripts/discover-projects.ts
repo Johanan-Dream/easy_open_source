@@ -3,7 +3,7 @@ import { GeminiClient } from "../src/gemini-client.ts";
 import { GitHubClient } from "../src/github-client.ts";
 import { buildDiscoveryPrompt, discoveryAssessmentSchema, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp, type DiscoveryAssessment, type GuideDraft } from "../src/guide-analysis.ts";
 import type { CategoryId, Repository } from "../src/domain.ts";
-import { validateRepository } from "../src/validation.ts";
+import { validateGeneratedCommands, validateRepository } from "../src/validation.ts";
 
 interface DiscoveryState { readmeHash: string; status: "added" | "rejected"; checkedAt: string; reason: string }
 const root = new URL("../", import.meta.url);
@@ -58,7 +58,7 @@ for (const metadata of candidates) {
       lastPushedAt: metadata.pushed_at, maintenanceStatus: "active", dailyStarGrowth: 0, trendScore: 0,
       sourceUrls: [...new Set([metadata.html_url, assessment.guide.officialDocsUrl])], collectedAt: new Date().toISOString(),
     };
-    const issues = validateRepository(candidate);
+    const issues = [...validateRepository(candidate), ...validateGeneratedCommands(candidate)];
     if (issues.length) throw new Error(issues.map((issue) => `${issue.path}: ${issue.message}`).join("; "));
     const { suitable, reason, ...draft } = assessment;
     editorial.push({ id: metadata.full_name, ...draft });
