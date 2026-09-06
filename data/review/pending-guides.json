@@ -1,1 +1,481 @@
-[]
+[
+  {
+    "repositoryId": "ollama/ollama",
+    "readmeHash": "09c456b8f3e2fca486f6961e07494f424ec6f998cfd0b23ebde099bc028a47de",
+    "generatedAt": "2026-09-06T11:43:34.381Z",
+    "model": "gemini-2.5-flash",
+    "status": "pending",
+    "sourceUrls": [
+      "https://github.com/ollama/ollama",
+      "https://github.com/ollama/ollama#readme",
+      "https://docs.ollama.com"
+    ],
+    "draft": {
+      "summary": "Ollama는 로컬에서 대규모 언어 모델(LLM)을 실행할 수 있게 해주는 도구입니다.",
+      "whatItIs": "Ollama는 사용자가 자신의 컴퓨터에서 직접 오픈 소스 대규모 언어 모델을 다운로드하고 실행할 수 있도록 설계된 플랫폼입니다. 이를 통해 개발자와 비개발자 모두 AI 모델을 쉽게 실험하고 애플리케이션에 통합할 수 있습니다.",
+      "problemSolved": "Ollama는 대규모 언어 모델을 로컬 환경에서 쉽게 설정하고 실행하기 어렵다는 문제를 해결합니다. 복잡한 설정 과정 없이 다양한 오픈 소스 모델을 다운로드하고 사용할 수 있는 간소화된 방법을 제공합니다.",
+      "recommendedFor": [
+        "AI 모델을 로컬에서 실행하려는 개발자",
+        "AI 애플리케이션을 구축하려는 사용자",
+        "오픈 소스 LLM을 실험하려는 연구자"
+      ],
+      "keyFeatures": [
+        "다양한 오픈 소스 모델 라이브러리 제공",
+        "간편한 로컬 모델 실행 및 관리",
+        "REST API 및 프로그래밍 언어(Python, JavaScript) 지원"
+      ],
+      "useCases": [
+        "로컬 AI 어시스턴트 구축",
+        "코딩 지원 및 코드 생성",
+        "오프라인 환경에서 LLM 기반 애플리케이션 개발",
+        "RAG(검색 증강 생성) 시스템 구현"
+      ],
+      "tags": [
+        "AI",
+        "LLM",
+        "오픈소스",
+        "로컬실행",
+        "개발도구",
+        "인공지능",
+        "모델",
+        "CLI"
+      ],
+      "difficulty": "beginner",
+      "usageType": "cli",
+      "guideType": "desktop-installer",
+      "costSummary": "무료 (오픈 소스)",
+      "apiKeyRequired": false,
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "guide": {
+        "prerequisites": [
+          "인터넷 연결 (모델 다운로드 및 설치 파일 접근용)",
+          "충분한 디스크 공간 (모델 크기에 따라 다름)",
+          "최신 운영 체제"
+        ],
+        "estimatedMinutes": 10,
+        "platforms": [
+          {
+            "name": "macOS",
+            "terminalHelp": [
+              "응용 프로그램 > 유틸리티 > 터미널을 열거나, Spotlight 검색(Command + Space)에서 '터미널'을 검색하여 엽니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Ollama 설치 파일 다운로드",
+                "description": "Ollama 공식 웹사이트에서 macOS용 설치 파일(.dmg)을 다운로드합니다.",
+                "command": "https://ollama.com/download/Ollama.dmg"
+              },
+              {
+                "order": 2,
+                "title": "설치 실행",
+                "description": "다운로드한 .dmg 파일을 열고 지시에 따라 Ollama를 설치합니다."
+              },
+              {
+                "order": 3,
+                "title": "Ollama 실행 확인",
+                "description": "터미널을 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
+                "command": "ollama"
+              },
+              {
+                "order": 4,
+                "title": "모델 실행",
+                "description": "원하는 모델을 실행합니다. 예를 들어, 'gemma4' 모델을 실행하려면 다음 명령어를 입력합니다.",
+                "command": "ollama run gemma4"
+              }
+            ]
+          },
+          {
+            "name": "Windows",
+            "terminalHelp": [
+              "시작 메뉴에서 'PowerShell' 또는 '명령 프롬프트'를 검색하여 엽니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Ollama 설치 파일 다운로드",
+                "description": "Ollama 공식 웹사이트에서 Windows용 설치 파일(.exe)을 다운로드합니다.",
+                "command": "https://ollama.com/download/OllamaSetup.exe"
+              },
+              {
+                "order": 2,
+                "title": "설치 실행",
+                "description": "다운로드한 .exe 파일을 실행하고 지시에 따라 Ollama를 설치합니다."
+              },
+              {
+                "order": 3,
+                "title": "Ollama 실행 확인",
+                "description": "PowerShell 또는 명령 프롬프트를 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
+                "command": "ollama"
+              },
+              {
+                "order": 4,
+                "title": "모델 실행",
+                "description": "원하는 모델을 실행합니다. 예를 들어, 'gemma4' 모델을 실행하려면 다음 명령어를 입력합니다.",
+                "command": "ollama run gemma4"
+              }
+            ]
+          },
+          {
+            "name": "Linux",
+            "terminalHelp": [
+              "Ctrl + Alt + T를 누르거나, 애플리케이션 메뉴에서 '터미널'을 검색하여 엽니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "수동 설치 지침 확인",
+                "description": "Ollama 공식 문서의 Linux 수동 설치 지침을 따릅니다.",
+                "command": "https://docs.ollama.com/linux#manual-install"
+              },
+              {
+                "order": 2,
+                "title": "Ollama 실행 확인",
+                "description": "터미널을 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
+                "command": "ollama"
+              },
+              {
+                "order": 3,
+                "title": "모델 실행",
+                "description": "원하는 모델을 실행합니다. 예를 들어, 'gemma4' 모델을 실행하려면 다음 명령어를 입력합니다.",
+                "command": "ollama run gemma4"
+              }
+            ]
+          }
+        ],
+        "firstRunResult": "Ollama를 처음 실행하면 모델을 실행하거나 기존 에이전트 또는 애플리케이션에 연결하라는 메시지가 표시됩니다. 예를 들어, 'ollama run gemma4' 명령을 실행하면 'gemma4' 모델이 다운로드되고 채팅 인터페이스가 시작됩니다.",
+        "stopInstructions": "Ollama는 백그라운드 서비스로 실행될 수 있습니다. 실행 중인 Ollama 프로세스를 중지하려면 운영 체제별로 서비스 관리 도구를 사용하거나, 터미널에서 실행 중인 경우 Ctrl+C를 누르세요. 정확한 중지 방법은 공식 문서를 참조하는 것이 좋습니다.",
+        "uninstallInstructions": "Ollama의 제거 방법은 설치 방식(예: macOS/Windows 설치 관리자, Linux 수동 설치, Docker)에 따라 다릅니다. 일반적으로 설치 관리자를 사용한 경우 운영 체제의 '프로그램 추가/제거' 기능을 사용하거나, 수동 설치의 경우 설치된 파일을 직접 제거해야 합니다. Docker의 경우 컨테이너와 이미지를 제거하면 됩니다. 자세한 내용은 공식 문서를 참조하세요.",
+        "commonIssues": [
+          {
+            "problem": "모델 다운로드 실패 또는 속도 저하",
+            "solution": "인터넷 연결 상태를 확인하고, 네트워크 방화벽이나 프록시 설정이 모델 다운로드를 방해하지 않는지 확인하세요. 또는 다른 시간대에 다시 시도해 보세요. 공식 문서에서 네트워크 관련 문제 해결 방법을 찾아볼 수 있습니다."
+          },
+          {
+            "problem": "Ollama 명령어를 찾을 수 없음",
+            "solution": "Ollama가 시스템 PATH에 올바르게 추가되었는지 확인하세요. 설치 후 터미널을 다시 시작하거나, 설치 경로를 직접 지정하여 실행해 보세요. 공식 문서의 설치 섹션을 다시 확인하는 것이 좋습니다."
+          }
+        ],
+        "officialDocsUrl": "https://docs.ollama.com",
+        "verifiedAt": "2026-09-06"
+      }
+    }
+  },
+  {
+    "repositoryId": "localsend/localsend",
+    "readmeHash": "5625cab3d26d35ae61566c4fc86e70b68bf9025424e6569c14896063212bd6db",
+    "generatedAt": "2026-09-06T11:44:36.143Z",
+    "model": "gemini-2.5-flash",
+    "status": "pending",
+    "sourceUrls": [
+      "https://github.com/localsend/localsend",
+      "https://github.com/localsend/localsend#readme",
+      "https://localsend.org"
+    ],
+    "draft": {
+      "summary": "LocalSend는 인터넷 연결 없이 로컬 네트워크를 통해 근처 기기와 파일 및 메시지를 안전하게 공유할 수 있는 무료 오픈소스 앱입니다.",
+      "whatItIs": "LocalSend는 REST API와 HTTPS 암호화를 사용하여 기기 간의 안전한 통신을 가능하게 하는 크로스 플랫폼 앱입니다. 외부 서버에 의존하는 다른 메시징 앱과 달리, 인터넷 연결이나 타사 서버가 필요 없어 로컬 통신을 위한 빠르고 신뢰할 수 있는 솔루션입니다.",
+      "problemSolved": "인터넷 연결이나 타사 서버 없이 로컬 네트워크를 통해 근처 기기 간에 파일과 메시지를 안전하고 빠르게 공유하는 문제를 해결합니다.",
+      "recommendedFor": [
+        "근처 기기와 파일을 안전하게 공유하려는 사용자",
+        "인터넷 연결 없이 파일 공유가 필요한 사용자",
+        "빠르고 신뢰할 수 있는 로컬 통신 솔루션을 찾는 사용자",
+        "다양한 운영 체제에서 파일 공유가 필요한 사용자"
+      ],
+      "keyFeatures": [
+        "인터넷 연결 없이 로컬 네트워크를 통한 파일 및 메시지 공유",
+        "크로스 플랫폼 지원 (Windows, macOS, Linux, Android, iOS 등)",
+        "HTTPS 암호화를 통한 보안 통신"
+      ],
+      "useCases": [
+        "근처 기기 간 파일 및 메시지 공유",
+        "로컬 네트워크 내에서의 빠른 통신",
+        "휴대폰과 PC 간 파일 전송",
+        "동일한 사무실 네트워크 내 동료와 문서 공유"
+      ],
+      "tags": [
+        "파일 공유",
+        "로컬 네트워크",
+        "오프라인",
+        "크로스 플랫폼",
+        "오픈소스",
+        "생산성",
+        "보안",
+        "메시징"
+      ],
+      "difficulty": "beginner",
+      "usageType": "desktop",
+      "guideType": "package-manager",
+      "costSummary": "무료입니다.",
+      "apiKeyRequired": false,
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "guide": {
+        "prerequisites": [
+          "Windows 10 이상 (Windows 7의 경우 v1.15.4 버전 사용)",
+          "macOS 11 Big Sur 이상",
+          "Linux (Gnome 환경: xdg-desktop-portal 및 xdg-desktop-portal-gtk, KDE 환경: xdg-desktop-portal 및 xdg-desktop-portal-kde)",
+          "방화벽 설정: TCP 및 UDP 53317 포트의 인바운드 트래픽 허용",
+          "라우터 설정: AP 격리(AP Isolation) 기능 비활성화"
+        ],
+        "estimatedMinutes": 10,
+        "platforms": [
+          {
+            "name": "Windows",
+            "terminalHelp": [
+              "Windows PowerShell 또는 명령 프롬프트를 여는 방법:",
+              "1. 시작 메뉴를 마우스 오른쪽 버튼으로 클릭하고 'Windows PowerShell' 또는 '명령 프롬프트'를 선택합니다.",
+              "2. 또는 시작 메뉴에서 'powershell' 또는 'cmd'를 검색하여 실행합니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Winget을 사용하여 설치",
+                "description": "Winget은 Windows 10 이상에서 사용할 수 있는 패키지 관리자입니다. 먼저 Winget이 설치되어 있는지 확인하세요.",
+                "command": "winget install LocalSend.LocalSend",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 2,
+                "title": "Scoop을 사용하여 설치",
+                "description": "Scoop은 Windows용 명령줄 설치 관리자입니다. 먼저 Scoop이 설치되어 있는지 확인하세요.",
+                "command": "scoop install localsend",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 3,
+                "title": "Chocolatey를 사용하여 설치",
+                "description": "Chocolatey는 Windows용 패키지 관리자입니다. 먼저 Chocolatey가 설치되어 있는지 확인하세요.",
+                "command": "choco install localsend",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 4,
+                "title": "EXE 설치 파일 다운로드 및 실행",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 EXE 설치 파일을 다운로드하여 실행합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "설치 마법사가 시작되고 LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 5,
+                "title": "포터블 ZIP 파일 다운로드 및 실행",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 포터블 ZIP 파일을 다운로드하고 압축을 해제한 후, 압축 해제된 폴더 내의 실행 파일을 직접 실행합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "압축 해제된 폴더에서 LocalSend 앱을 실행할 수 있습니다."
+              }
+            ]
+          },
+          {
+            "name": "macOS",
+            "terminalHelp": [
+              "터미널을 여는 방법:",
+              "1. Finder에서 '응용 프로그램' 폴더로 이동한 다음 '유틸리티' 폴더로 이동하여 '터미널' 앱을 실행합니다.",
+              "2. 또는 Spotlight 검색(Command + Space)에서 '터미널'을 검색하여 실행합니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Homebrew를 사용하여 설치",
+                "description": "Homebrew는 macOS용 패키지 관리자입니다. 먼저 Homebrew가 설치되어 있는지 확인하세요.",
+                "command": "brew install --cask localsend",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 2,
+                "title": "DMG 설치 파일 다운로드 및 실행",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 DMG 설치 파일을 다운로드하여 실행합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "설치 마법사가 시작되고 LocalSend 앱이 설치됩니다."
+              }
+            ]
+          },
+          {
+            "name": "Linux",
+            "terminalHelp": [
+              "터미널을 여는 방법:",
+              "1. 일반적으로 Ctrl + Alt + T 키를 동시에 누르거나, 애플리케이션 메뉴에서 '터미널' 또는 '콘솔'을 검색하여 실행합니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Flathub를 사용하여 설치",
+                "description": "Flatpak은 다양한 Linux 배포판에서 사용할 수 있는 범용 패키징 시스템입니다. Flathub는 Flatpak 앱의 주요 저장소입니다. 먼저 Flatpak이 설치되어 있는지 확인하세요.",
+                "command": "flatpak install flathub org.localsend.localsend_app",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 2,
+                "title": "Snap을 사용하여 설치",
+                "description": "Snap은 다양한 Linux 배포판에서 사용할 수 있는 범용 패키징 시스템입니다. 먼저 Snap이 설치되어 있는지 확인하세요.",
+                "command": "snap install localsend",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 3,
+                "title": "DEB 패키지 다운로드 및 설치",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 '.deb' 파일을 다운로드합니다. 다운로드한 파일을 더블 클릭하여 설치하거나 터미널에서 'dpkg -i <다운로드한_파일명>.deb' 명령어를 사용합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "LocalSend 앱이 설치됩니다."
+              },
+              {
+                "order": 4,
+                "title": "AppImage 다운로드 및 실행",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 '.AppImage' 파일을 다운로드합니다. 다운로드한 파일에 실행 권한을 부여한 후 실행합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "LocalSend 앱이 실행됩니다."
+              },
+              {
+                "order": 5,
+                "title": "TAR 아카이브 다운로드 및 실행",
+                "description": "GitHub 릴리스 페이지(https://github.com/localsend/localsend/releases/latest)에서 최신 '.tar.gz' 파일을 다운로드하고 압축을 해제한 후, 압축 해제된 폴더 내의 실행 파일을 직접 실행합니다. 파일명은 버전에 따라 다를 수 있습니다.",
+                "expectedResult": "압축 해제된 폴더에서 LocalSend 앱을 실행할 수 있습니다."
+              }
+            ]
+          }
+        ],
+        "firstRunResult": "앱이 실행되고 로컬 네트워크에서 다른 기기를 자동으로 검색합니다. 기기가 검색되지 않으면 방화벽 설정이나 라우터의 AP 격리 설정을 확인하세요.",
+        "stopInstructions": "앱 창을 닫거나 시스템 트레이/메뉴 바에서 LocalSend 앱 아이콘을 마우스 오른쪽 버튼으로 클릭하여 '종료' 또는 'Quit'를 선택합니다.",
+        "uninstallInstructions": "설치 방식에 따라 다음과 같이 제거할 수 있습니다:\n\nWindows:\n- Winget: 'winget uninstall LocalSend.LocalSend'\n- Scoop: 'scoop uninstall localsend'\n- Chocolatey: 'choco uninstall localsend'\n- EXE 설치 파일: 제어판의 '프로그램 추가/제거'에서 LocalSend를 찾아 제거합니다.\n- 포터블 ZIP: 앱 폴더를 삭제합니다.\n\nmacOS:\n- Homebrew: 'brew uninstall --cask localsend'\n- DMG 설치 파일: '응용 프로그램' 폴더에서 LocalSend 앱을 휴지통으로 드래그합니다.\n\nLinux:\n- Flathub: 'flatpak uninstall org.localsend.localsend_app'\n- Snap: 'snap remove localsend'\n- DEB 패키지: 'sudo apt remove localsend' 또는 'sudo dpkg -r localsend' (패키지 이름이 'localsend'인 경우)\n- AppImage/TAR 아카이브: 다운로드 및 압축 해제된 파일과 폴더를 삭제합니다.",
+        "commonIssues": [
+          {
+            "problem": "기기 검색 불가",
+            "solution": "라우터에서 AP 격리(AP Isolation) 기능이 비활성화되어 있는지 확인하세요. Windows의 경우 네트워크를 '개인 네트워크'로 설정했는지 확인하고, macOS/iOS의 경우 '개인 정보 보호' 설정에서 '로컬 네트워크' 권한을 토글해 보세요. VPN이 활성화된 경우 로컬/LAN 트래픽을 허용하거나 일시적으로 VPN을 비활성화해야 할 수 있습니다. 수동 전송 기능을 사용하여 수신 기기의 IP 주소를 직접 입력해 볼 수도 있습니다."
+          },
+          {
+            "problem": "파일 전송 속도가 너무 느림",
+            "solution": "5Ghz Wi-Fi 네트워크를 사용해 보세요. 양쪽 기기에서 암호화 설정을 비활성화하면 속도가 향상될 수 있습니다."
+          }
+        ],
+        "officialDocsUrl": "https://localsend.org",
+        "verifiedAt": "2026-09-06"
+      }
+    }
+  },
+  {
+    "repositoryId": "excalidraw/excalidraw",
+    "readmeHash": "011eea74cbbf38fd263ec93a221f379466c557dc7587acfe93797201193a7e7a",
+    "generatedAt": "2026-09-06T11:44:57.189Z",
+    "model": "gemini-2.5-flash",
+    "status": "pending",
+    "sourceUrls": [
+      "https://github.com/excalidraw/excalidraw",
+      "https://github.com/excalidraw/excalidraw#readme",
+      "https://docs.excalidraw.com"
+    ],
+    "draft": {
+      "summary": "Excalidraw는 가상 손그림 스타일의 화이트보드입니다. 협업 기능을 제공하며, 종단 간 암호화가 적용됩니다.",
+      "whatItIs": "Excalidraw는 가상 손그림 스타일의 무한 캔버스 기반 화이트보드입니다. 사용자가 다이어그램, 와이어프레임 등을 쉽게 만들고 공유하며 실시간으로 협업할 수 있도록 돕는 오픈소스 도구입니다. 웹 애플리케이션으로 제공되며, npm 패키지로 다른 애플리케이션에 통합할 수도 있습니다.",
+      "problemSolved": "사용자들이 손그림 스타일의 다이어그램, 와이어프레임 등을 쉽게 만들고 공유하며 실시간으로 협업할 수 있도록 돕습니다. 특히, 종단 간 암호화를 통해 보안을 강화한 협업 환경을 제공하며, 웹 애플리케이션에 드로잉 기능을 통합하려는 개발자에게도 유연한 솔루션을 제공합니다.",
+      "recommendedFor": [
+        "디자이너",
+        "개발자",
+        "팀 협업",
+        "아이디어 스케치 및 브레인스토밍"
+      ],
+      "keyFeatures": [
+        "손그림 스타일의 무한 캔버스 화이트보드",
+        "실시간 협업 및 종단 간 암호화",
+        "PNG, SVG, 클립보드로 내보내기 및 `.excalidraw` JSON 파일 형식 지원"
+      ],
+      "useCases": [
+        "다이어그램 및 와이어프레임 제작",
+        "실시간 온라인 협업 화이트보드",
+        "아이디어 스케치 및 브레인스토밍",
+        "웹 애플리케이션에 드로잉 기능 통합"
+      ],
+      "tags": [
+        "화이트보드",
+        "드로잉",
+        "협업",
+        "오픈소스",
+        "다이어그램",
+        "와이어프레임",
+        "웹앱",
+        "디자인"
+      ],
+      "difficulty": "intermediate",
+      "usageType": "web",
+      "guideType": "package-manager",
+      "costSummary": "Excalidraw는 무료 오픈소스 프로젝트입니다. Excalidraw+라는 유료 서비스와 Open Collective를 통한 후원 옵션이 있습니다.",
+      "apiKeyRequired": false,
+      "platforms": [
+        "Web",
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "guide": {
+        "prerequisites": [
+          "Node.js 및 npm 또는 Yarn 설치",
+          "React 및 React DOM 설치 (Excalidraw를 React 애플리케이션에 통합할 경우)"
+        ],
+        "estimatedMinutes": 10,
+        "platforms": [
+          {
+            "name": "Web",
+            "terminalHelp": [
+              "터미널(명령 프롬프트 또는 PowerShell)을 여는 방법:",
+              "Windows: 시작 메뉴에서 'cmd' 또는 'PowerShell'을 검색하여 실행합니다.",
+              "macOS: 'Finder' > '응용 프로그램' > '유틸리티' > '터미널'을 통해 실행합니다.",
+              "Linux: Ctrl+Alt+T를 누르거나 애플리케이션 메뉴에서 '터미널'을 검색하여 실행합니다."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Node.js 및 패키지 관리자 설치 확인",
+                "description": "Excalidraw npm 패키지를 설치하려면 Node.js와 함께 제공되는 npm 또는 Yarn 패키지 관리자가 필요합니다. 설치되어 있지 않다면 먼저 설치해야 합니다. Node.js 공식 웹사이트(https://nodejs.org/)에서 설치할 수 있습니다."
+              },
+              {
+                "order": 2,
+                "title": "새 React 프로젝트 생성 (선택 사항)",
+                "description": "Excalidraw를 기존 React 애플리케이션에 통합하거나 새 React 프로젝트를 시작해야 합니다. 이 가이드에서는 새 프로젝트를 생성하는 것을 가정합니다. 예를 들어, `create-react-app`을 사용할 수 있습니다.",
+                "command": "npx create-react-app my-excalidraw-app",
+                "expectedResult": "새 React 프로젝트 'my-excalidraw-app'이 생성됩니다.",
+                "warning": "이 단계는 Excalidraw를 기존 React 프로젝트에 추가하는 경우 건너뛸 수 있습니다."
+              },
+              {
+                "order": 3,
+                "title": "프로젝트 디렉토리로 이동",
+                "description": "새로 생성된 React 프로젝트 디렉토리로 이동합니다.",
+                "command": "cd my-excalidraw-app",
+                "expectedResult": "터미널의 현재 경로가 'my-excalidraw-app' 디렉토리로 변경됩니다."
+              },
+              {
+                "order": 4,
+                "title": "Excalidraw 패키지 설치",
+                "description": "Excalidraw npm 패키지와 필요한 React 종속성을 설치합니다.",
+                "command": "npm install react react-dom @excalidraw/excalidraw",
+                "expectedResult": "Excalidraw 및 관련 패키지가 프로젝트에 설치됩니다. `node_modules` 폴더와 `package.json` 파일이 업데이트됩니다.",
+                "warning": "Yarn을 사용하는 경우 `yarn add react react-dom @excalidraw/excalidraw` 명령을 사용하세요."
+              },
+              {
+                "order": 5,
+                "title": "Excalidraw 컴포넌트 사용 (코드 통합)",
+                "description": "설치된 Excalidraw 패키지를 React 애플리케이션 내에서 사용하려면, React 컴포넌트에 Excalidraw를 임포트하고 렌더링해야 합니다. 자세한 사용법은 Excalidraw 공식 문서(https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation)를 참조하세요.",
+                "command": "확인 필요 (코드 예시는 문서 참조)",
+                "expectedResult": "React 애플리케이션 내에서 Excalidraw 화이트보드가 렌더링됩니다."
+              }
+            ]
+          }
+        ],
+        "firstRunResult": "웹 애플리케이션 내에 Excalidraw 화이트보드 에디터가 표시됩니다.",
+        "stopInstructions": "Excalidraw는 웹 애플리케이션의 컴포넌트로 실행되므로, 애플리케이션을 중지하면 Excalidraw도 함께 중지됩니다. 일반적으로 웹 애플리케이션 개발 서버를 중지하는 명령(예: 터미널에서 Ctrl+C)을 사용합니다.",
+        "uninstallInstructions": "프로젝트 디렉토리에서 다음 명령을 실행하여 Excalidraw 패키지를 제거할 수 있습니다: `npm uninstall @excalidraw/excalidraw` 또는 `yarn remove @excalidraw/excalidraw`. React 및 React DOM을 제거하려면 해당 명령도 사용해야 합니다.",
+        "commonIssues": [
+          {
+            "problem": "패키지 설치 오류",
+            "solution": "Node.js 및 npm/Yarn이 올바르게 설치되어 있고 최신 버전인지 확인하세요. 네트워크 연결을 확인하고, `npm cache clean --force` 또는 `yarn cache clean` 후 다시 시도해 보세요."
+          },
+          {
+            "problem": "Excalidraw 컴포넌트가 렌더링되지 않음",
+            "solution": "React 애플리케이션 코드에서 Excalidraw 컴포넌트를 올바르게 임포트하고 사용했는지 확인하세요. 브라우저 개발자 도구의 콘솔에서 오류 메시지를 확인하고, Excalidraw 공식 문서(https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation)의 사용법 섹션을 참조하세요."
+          }
+        ],
+        "officialDocsUrl": "https://docs.excalidraw.com",
+        "verifiedAt": "2026-09-06"
+      }
+    }
+  }
+]

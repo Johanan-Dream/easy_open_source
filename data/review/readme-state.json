@@ -1,1 +1,5 @@
-{}
+{
+  "ollama/ollama": "09c456b8f3e2fca486f6961e07494f424ec6f998cfd0b23ebde099bc028a47de",
+  "localsend/localsend": "5625cab3d26d35ae61566c4fc86e70b68bf9025424e6569c14896063212bd6db",
+  "excalidraw/excalidraw": "011eea74cbbf38fd263ec93a221f379466c557dc7587acfe93797201193a7e7a"
+}
