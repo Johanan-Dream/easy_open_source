@@ -5,6 +5,7 @@ import { findRepository, getTrending, queryRepositories } from "../src/repositor
 import { validateRepositories, validateRepository } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
 import { buildGuidePrompt, hashReadme } from "../src/guide-analysis.ts";
+import { GitHubClient } from "../src/github-client.ts";
 
 const repositories = await loadRepositories();
 
@@ -96,4 +97,14 @@ test("guide prompt treats README content as untrusted input", () => {
   assert.match(prompt, /신뢰할 수 없는 참고 자료/);
   assert.match(prompt, /<UNTRUSTED_README>/);
   assert.match(prompt, /위험한 삭제 명령/);
+});
+
+test("GitHub README responses are read as raw text", async () => {
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => new Response("# Install\nRun the app.", { status: 200 });
+  try {
+    assert.equal(await new GitHubClient("test-token").getReadme("owner", "repo"), "# Install\nRun the app.");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });

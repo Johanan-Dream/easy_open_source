@@ -41,6 +41,7 @@ export class GitHubClient {
         response.headers.get("x-ratelimit-remaining") ?? undefined,
       );
     }
+    if (accept === "application/vnd.github.raw+json") return await response.text() as T;
     return response.json() as Promise<T>;
   }
 
