@@ -121,3 +121,19 @@ test("terminal help is added when a generated guide contains commands", () => {
   draft.guide.platforms[0].steps[0].command = "ollama --version";
   assert.ok(normalizeTerminalHelp(draft).guide.platforms[0].terminalHelp?.length);
 });
+
+test("GitHub repository search supports updated sorting", async () => {
+  const originalFetch = globalThis.fetch;
+  let requested = "";
+  globalThis.fetch = async (input) => {
+    requested = String(input);
+    return Response.json({ total_count: 0, items: [] });
+  };
+  try {
+    await new GitHubClient("test-token").searchRepositories("stars:>50", 20, "updated");
+    assert.match(requested, /sort=updated/);
+    assert.match(requested, /per_page=20/);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});

@@ -28,12 +28,14 @@ interface EditorialEntry {
 const editorialUrl = new URL("../data/editorial.json", import.meta.url);
 const additionsUrl = new URL("../data/editorial-additions.json", import.meta.url);
 const expandedUrl = new URL("../data/editorial-expanded.json", import.meta.url);
+const discoveredUrl = new URL("../data/editorial-discovered.json", import.meta.url);
 const outputUrl = new URL("../data/repositories.json", import.meta.url);
 const historyUrl = new URL("../data/star-history.json", import.meta.url);
 const editorial = [
   ...(JSON.parse(await readFile(editorialUrl, "utf8")) as EditorialEntry[]),
   ...(JSON.parse(await readFile(additionsUrl, "utf8")) as EditorialEntry[]),
   ...(JSON.parse(await readFile(expandedUrl, "utf8")) as EditorialEntry[]),
+  ...(JSON.parse(await readFile(discoveredUrl, "utf8")) as EditorialEntry[]),
 ];
 const client = new GitHubClient();
 const collected: Repository[] = [];

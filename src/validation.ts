@@ -25,11 +25,15 @@ export function validateRepository(repository: Repository): ValidationIssue[] {
   if (repository.keyFeatures.length !== 3) add("keyFeatures", "핵심 기능은 정확히 3개여야 합니다.");
   if (!repository.sourceUrls.length) add("sourceUrls", "최소 하나의 근거 URL이 필요합니다.");
 
+  const rootDomain = (hostname: string) => hostname.split(".").slice(-2).join(".");
+  let homepageRoot: string | undefined;
+  try { if (repository.homepageUrl) homepageRoot = rootDomain(new URL(repository.homepageUrl).hostname); } catch {}
   for (const [index, sourceUrl] of repository.sourceUrls.entries()) {
     try {
       const url = new URL(sourceUrl);
       if (url.protocol !== "https:") add(`sourceUrls.${index}`, "근거 URL은 HTTPS여야 합니다.");
-      if (!['github.com', 'docs.github.com', 'bitwarden.com', 'obsproject.com'].some((host) => url.hostname === host || url.hostname.endsWith(`.${host}`))) {
+      const trusted = url.hostname === "github.com" || url.hostname.endsWith(".github.com") || (homepageRoot && rootDomain(url.hostname) === homepageRoot);
+      if (!trusted) {
         add(`sourceUrls.${index}`, `검수되지 않은 근거 도메인입니다: ${url.hostname}`);
       }
     } catch {

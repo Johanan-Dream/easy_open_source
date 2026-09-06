@@ -36,7 +36,7 @@ GitHub 저장소에 올린 뒤에는 [`.github/workflows/update-stars.yml`](./.g
 
 편집자가 작성하고 검수하는 한국어 설명과 가이드는 `data/editorial*.json`, API에서 갱신되는 Star·Fork·라이선스·최근 Push 정보는 `data/repositories.json`에 저장됩니다.
 
-`GEMINI_API_KEY`가 GitHub Actions Secret에 등록되어 있으면 변경된 README를 하루 최대 3개까지 분석합니다. AI 초안은 공개 데이터에 바로 반영되지 않고 `data/review/pending-guides.json`에 저장되며 사람의 검수를 기다립니다. 키를 코드, JSON 또는 `.env` 파일에 커밋하지 마세요.
+`GEMINI_API_KEY`가 GitHub Actions Secret에 등록되어 있으면 매일 GitHub 후보 수십 개를 기존 누적 목록과 비교합니다. 신규 후보 중 최대 2개를 Gemini로 평가하고 자동 검증을 통과한 프로젝트를 `data/editorial-discovered.json`에 누적합니다. 기존 프로젝트의 변경된 README는 하루 최대 1개를 분석해 `data/review/pending-guides.json`에 보관하므로 Gemini 호출은 하루 최대 3회입니다. 키를 코드, JSON 또는 `.env` 파일에 커밋하지 마세요.
 
 ## 테스트
 
@@ -70,5 +70,6 @@ npm run check:links
 - 반응형 로컬 UI
 - 60개 오픈소스 카탈로그
 - 변경된 README의 Gemini 분석 및 검토 대기 초안
+- 신규 오픈소스 탐색·중복 제거·검증 후 누적 추가
 
 공개 화면은 재밋으로 발행되어 있으며, 로컬 JSON 변경 사항은 별도의 동기화 과정을 거쳐 반영합니다.

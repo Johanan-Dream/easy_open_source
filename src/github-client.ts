@@ -89,10 +89,10 @@ export class GitHubClient {
     );
   }
 
-  async searchRepositories(query: string, perPage = 30) {
+  async searchRepositories(query: string, perPage = 30, sort: "stars" | "updated" = "stars") {
     const params = new URLSearchParams({
       q: query,
-      sort: "stars",
+      sort,
       order: "desc",
       per_page: String(Math.min(Math.max(perPage, 1), 100)),
     });

@@ -30,6 +30,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run collect
 
+      - name: Discover and add new open source projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_DISCOVERY_LIMIT: 2
+        run: npm run discover
+
+      - name: Collect metadata for newly added projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run collect
+
       - name: Validate collected guides and rankings
         run: npm test
 
@@ -37,14 +49,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_DAILY_LIMIT: 3
+          GEMINI_DAILY_LIMIT: 1
         run: npm run analyze:guides
 
       - name: Commit updated snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/repositories.json data/star-history.json data/review/readme-state.json data/review/pending-guides.json
+          git add data/repositories.json data/star-history.json data/editorial-discovered.json data/review/readme-state.json data/review/pending-guides.json data/review/discovery-state.json
           if git diff --cached --quiet; then
             echo "No snapshot changes to commit."
           else

@@ -8,6 +8,7 @@
     "start": "node src/server.ts",
     "collect": "node scripts/collect.ts",
     "analyze:guides": "node scripts/analyze-guides.ts",
+    "discover": "node scripts/discover-projects.ts",
     "build:editorial": "node scripts/build-expanded-editorial.ts",
     "check:links": "node scripts/check-links.ts",
     "test": "node --test tests/*.test.ts",
