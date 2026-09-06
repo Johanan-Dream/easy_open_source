@@ -23,6 +23,8 @@ interface EditorialEntry {
   dailyStarGrowth?: number;
   trendScore?: number;
   guide: BeginnerGuide;
+  homepageUrl?: string;
+  license?: string;
 }
 
 const editorialUrl = new URL("../data/editorial.json", import.meta.url);
@@ -52,10 +54,13 @@ for (const entry of editorial) {
   try {
     metadata = await client.getRepository(owner, name);
   } catch (error) {
-    if (!(error instanceof GitHubApiError) || error.status !== 403) throw error;
+    const canReuseCache =
+      error instanceof GitHubApiError &&
+      (error.status === 403 || error.status === 429 || error.status >= 500);
+    if (!canReuseCache) throw error;
     const cached = previousById.get(entry.id.toLowerCase());
     if (cached) {
-      console.warn(`GitHub API limit reached; reusing cached metadata for ${entry.id}.`);
+      console.warn(`GitHub API ${error.status}; reusing cached metadata for ${entry.id}.`);
       metadata = {
         full_name: cached.id,
         name: cached.name,
@@ -89,8 +94,8 @@ for (const entry of editorial) {
     owner: metadata.owner.login,
     name: metadata.name,
     githubUrl: metadata.html_url,
-    homepageUrl: metadata.homepage || undefined,
-    license: metadata.license?.spdx_id,
+    homepageUrl: entry.homepageUrl || metadata.homepage || undefined,
+    license: entry.license || metadata.license?.spdx_id,
     stars: metadata.stargazers_count,
     forks: metadata.forks_count,
     lastPushedAt: metadata.pushed_at,
