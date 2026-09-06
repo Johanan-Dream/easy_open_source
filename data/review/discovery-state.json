@@ -10,5 +10,17 @@
     "status": "rejected",
     "checkedAt": "2026-09-06",
     "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크이며, 터미널과 명령줄 인터페이스에 대한 이해가 필요한 개발자 도구입니다. 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+  },
+  "farion1231/cc-switch": {
+    "readmeHash": "ecca1e139407d8de2daaf20b01eb6e47259c1418c7d6dbfd3c99bc0499cd4614",
+    "status": "added",
+    "checkedAt": "2026-09-06",
+    "reason": "CC Switch is a cross-platform desktop application with a graphical user interface that simplifies the management and configuration of multiple AI-powered coding tools. It provides installers and package manager options, making it accessible for direct installation by non-developers, Vibe coding users, and those collaborating with developers, without requiring manual configuration file editing."
+  },
+  "tauri-apps/tauri": {
+    "readmeHash": "db8ff4de3e034289f335c1ae5527d41f3142b2ea9c2002967be5cf5f0e7d39d7",
+    "status": "rejected",
+    "checkedAt": "2026-09-06",
+    "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   }
 }

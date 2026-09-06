@@ -1,1 +1,145 @@
-[]
+[
+  {
+    "id": "farion1231/cc-switch",
+    "category": "developer-tools",
+    "summary": "CC Switch is an all-in-one cross-platform desktop assistant that unifies the management of various AI coding tools like Claude Code, Codex, Gemini CLI, Grok Build, OpenCode, OpenClaw, and Hermes. It simplifies API provider switching, MCP, prompts, and skills management through a visual interface, eliminating the need for manual configuration file editing.",
+    "whatItIs": "CC Switch is a desktop application built with Tauri that acts as a central manager for multiple AI-powered coding assistants. It provides a unified graphical interface to configure and switch between different AI API providers, manage prompts, skills, and track usage across supported tools, enhancing productivity for AI-assisted coding workflows.",
+    "problemSolved": "Modern AI coding tools often require manual configuration of API providers, prompts, and skills across various formats (JSON, TOML, .env files), leading to complexity and potential errors. CC Switch solves this by offering a single, intuitive desktop application that centralizes these configurations, provides one-click switching, and ensures data integrity, making AI tool management significantly easier and more efficient.",
+    "recommendedFor": [
+      "Developers using multiple AI coding assistants",
+      "AI/ML engineers who need to switch between different API providers",
+      "Vibe coding users seeking simplified AI tool management",
+      "Teams collaborating on AI-powered coding projects"
+    ],
+    "keyFeatures": [
+      "Unified management for 8 AI coding tools (e.g., Claude Code, Codex, Gemini CLI)",
+      "Graphical interface for one-click API provider switching with 50+ presets",
+      "Centralized management of MCP servers, prompts, and skills with cloud sync"
+    ],
+    "useCases": [
+      "Streamlining configuration for AI coding environments",
+      "Quickly switching between different AI API providers for testing or cost optimization",
+      "Managing and synchronizing custom prompts and skills across multiple AI coding tools",
+      "Tracking AI API usage and costs across various integrated services"
+    ],
+    "tags": [
+      "AI",
+      "coding",
+      "developer tools",
+      "productivity",
+      "desktop app",
+      "Claude",
+      "Codex",
+      "Gemini"
+    ],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "The application itself is open-source and free. However, it integrates with various AI models and API relay services, many of which are commercial and require API keys or subscriptions, incurring costs for AI model usage.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "A supported operating system (Windows 10+, macOS 12+, or a modern Linux distribution).",
+        "Internet connection for downloading the installer and accessing AI services.",
+        "API keys for the AI coding tools you wish to manage (e.g., Claude, Codex, Gemini)."
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Download Installer",
+              "description": "Go to the CC Switch GitHub Releases page and download the latest `CC-Switch-v{version}-Windows.msi` installer file."
+            },
+            {
+              "order": 2,
+              "title": "Run Installer",
+              "description": "Double-click the downloaded `.msi` file and follow the on-screen instructions to complete the installation."
+            },
+            {
+              "order": 3,
+              "title": "Launch CC Switch",
+              "description": "Once installed, launch CC Switch from your Start Menu or desktop shortcut."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "`brew install --cask cc-switch`"
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Install via Homebrew (Recommended)",
+              "description": "Open your terminal and run the command to install CC Switch using Homebrew. If you don't have Homebrew, install it first from `brew.sh`."
+            },
+            {
+              "order": 2,
+              "title": "Launch CC Switch",
+              "description": "After installation, find 'CC Switch' in your Applications folder and launch it."
+            },
+            {
+              "order": 3,
+              "title": "Manual Download (Alternative)",
+              "description": "Alternatively, download the `CC-Switch-v{version}-macOS.dmg` from the GitHub Releases page, open the DMG, and drag 'CC Switch' to your Applications folder."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "`sudo dpkg -i CC-Switch-v{version}-Linux.deb`",
+            "`sudo rpm -i CC-Switch-v{version}-Linux.rpm`",
+            "`chmod +x CC-Switch-v{version}-Linux.AppImage`",
+            "`./CC-Switch-v{version}-Linux.AppImage`",
+            "`paru -S cc-switch-bin`"
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Download Package",
+              "description": "Go to the CC Switch GitHub Releases page and download the appropriate package for your distribution (e.g., `.deb` for Debian/Ubuntu, `.rpm` for Fedora/RHEL, or `.AppImage` for universal use)."
+            },
+            {
+              "order": 2,
+              "title": "Install Package",
+              "description": "For `.deb` or `.rpm` files, use your system's package manager (e.g., `sudo dpkg -i <file.deb>` or `sudo rpm -i <file.rpm>`). For `.AppImage`, make it executable (`chmod +x <file.AppImage>`) and then run it (`./<file.AppImage>`). Arch Linux users can use `paru -S cc-switch-bin`."
+            },
+            {
+              "order": 3,
+              "title": "Launch CC Switch",
+              "description": "Launch CC Switch from your applications menu or by executing the AppImage file."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Upon first launch, CC Switch will present a graphical user interface where you can add and manage your AI API providers, MCP servers, prompts, and skills for various integrated AI coding tools.",
+      "stopInstructions": "To stop CC Switch, simply close the application window. It may continue running in the system tray; right-click the tray icon and select 'Quit' or 'Exit' to fully close it.",
+      "uninstallInstructions": "**Windows**: Go to 'Settings' > 'Apps' > 'Apps & features', find 'CC Switch', and click 'Uninstall'. **macOS**: Drag the 'CC Switch' application from your 'Applications' folder to the Trash. If installed via Homebrew, run `brew uninstall --cask cc-switch`. **Linux**: If installed via `.deb` or `.rpm`, use your package manager (e.g., `sudo apt remove cc-switch` or `sudo dnf remove cc-switch`). If using AppImage, simply delete the `.AppImage` file. Configuration data is stored in `~/.cc-switch/` and can be manually deleted if desired.",
+      "commonIssues": [
+        {
+          "problem": "Clicks don't register or window black-screens on resize on Linux (Wayland + NVIDIA).",
+          "solution": "Launch CC Switch with `CC_SWITCH_GDK_BACKEND=wayland ./CC-Switch-*.AppImage` or add `env CC_SWITCH_GDK_BACKEND=wayland` to the `.desktop` `Exec=` line. For tiling Wayland compositors, try `CC_SWITCH_GDK_BACKEND=x11` instead."
+        },
+        {
+          "problem": "Plugin configuration disappeared after switching providers.",
+          "solution": "Use the 'Shared Config Snippet' feature. Go to 'Edit Provider' -> 'Shared Config Panel' -> 'Extract from Current Provider' to save common data. When creating a new provider, ensure 'Write Shared Config' is enabled."
+        },
+        {
+          "problem": "Cannot delete the currently active provider.",
+          "solution": "CC Switch requires one active configuration. To delete a provider, first switch to a different one. If you want to revert to official login, add an 'Official Login' preset and switch to it."
+        }
+      ],
+      "officialDocsUrl": "https://ccswitch.io",
+      "verifiedAt": "2026-09-06"
+    }
+  }
+]
