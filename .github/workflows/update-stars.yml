@@ -1,6 +1,8 @@
 name: Update GitHub star snapshots
 
 on:
+  schedule:
+    - cron: "15 18 * * *" # 매일 03:15 KST
   workflow_dispatch:
 
 permissions:
@@ -31,11 +33,18 @@ jobs:
       - name: Validate collected guides and rankings
         run: npm test
 
+      - name: Analyze changed READMEs with Gemini
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_DAILY_LIMIT: 3
+        run: npm run analyze:guides
+
       - name: Commit updated snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/repositories.json data/star-history.json
+          git add data/repositories.json data/star-history.json data/review/readme-state.json data/review/pending-guides.json
           if git diff --cached --quiet; then
             echo "No snapshot changes to commit."
           else

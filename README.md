@@ -32,9 +32,11 @@ npm run collect
 
 토큰 없이도 공개 저장소를 수집할 수 있지만 시간당 요청 한도가 낮습니다. 더 자주 수집할 때만 `.env.example`을 참고해 서버 환경에 `GITHUB_TOKEN`을 설정합니다. 토큰은 브라우저 코드나 저장소에 넣지 않습니다.
 
-GitHub 저장소에 올린 뒤에는 [`.github/workflows/update-stars.yml`](./.github/workflows/update-stars.yml)이 매일 한국 시간 00시, 08시, 16시에 수집과 테스트를 실행하고 변경된 `repositories.json`과 `star-history.json`을 커밋합니다. 개인 토큰 대신 GitHub Actions가 제공하는 저장소용 `GITHUB_TOKEN`을 사용합니다. 저장소의 Actions 권한에서 워크플로의 쓰기 권한이 허용되어 있어야 합니다.
+GitHub 저장소에 올린 뒤에는 [`.github/workflows/update-stars.yml`](./.github/workflows/update-stars.yml)이 매일 한국 시간 03시 15분에 수집과 테스트를 실행하고 변경된 `repositories.json`과 `star-history.json`을 커밋합니다. 개인 토큰 대신 GitHub Actions가 제공하는 저장소용 `GITHUB_TOKEN`을 사용합니다. 저장소의 Actions 권한에서 워크플로의 쓰기 권한이 허용되어 있어야 합니다.
 
-편집자가 작성하고 검수하는 한국어 설명과 가이드는 `data/editorial.json`과 `data/editorial-additions.json`, API에서 갱신되는 Star·Fork·라이선스·최근 Push 정보는 `data/repositories.json`에 저장됩니다.
+편집자가 작성하고 검수하는 한국어 설명과 가이드는 `data/editorial*.json`, API에서 갱신되는 Star·Fork·라이선스·최근 Push 정보는 `data/repositories.json`에 저장됩니다.
+
+`GEMINI_API_KEY`가 GitHub Actions Secret에 등록되어 있으면 변경된 README를 하루 최대 3개까지 분석합니다. AI 초안은 공개 데이터에 바로 반영되지 않고 `data/review/pending-guides.json`에 저장되며 사람의 검수를 기다립니다. 키를 코드, JSON 또는 `.env` 파일에 커밋하지 마세요.
 
 ## 테스트
 
@@ -66,6 +68,7 @@ npm run check:links
 - Windows/macOS/Web별 초보자 가이드
 - 터미널 실행 방법과 명령어 복사
 - 반응형 로컬 UI
-- 12개 검수 대상 오픈소스
+- 60개 오픈소스 카탈로그
+- 변경된 README의 Gemini 분석 및 검토 대기 초안
 
-재밋 MCP는 아직 사용하지 않았습니다. 로컬 시안과 데이터 검수가 끝난 뒤 최종 사이트 제작과 발행에만 사용할 예정입니다.
+공개 화면은 재밋으로 발행되어 있으며, 로컬 JSON 변경 사항은 별도의 동기화 과정을 거쳐 반영합니다.
