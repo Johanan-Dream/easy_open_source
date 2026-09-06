@@ -477,5 +477,135 @@
         "verifiedAt": "2026-09-06"
       }
     }
+  },
+  {
+    "repositoryId": "obsproject/obs-studio",
+    "readmeHash": "be2dff0124620dcd9d8d83ef9084b12d1e61e896d3295232501cb3ebd3f6a318",
+    "generatedAt": "2026-09-06T11:59:32.843Z",
+    "model": "gemini-2.5-flash",
+    "status": "pending",
+    "sourceUrls": [
+      "https://github.com/obsproject/obs-studio",
+      "https://obsproject.com/kb/quick-start-guide",
+      "https://obsproject.com"
+    ],
+    "draft": {
+      "summary": "OBS Studio는 비디오 콘텐츠 캡처, 합성, 인코딩, 녹화 및 스트리밍을 위한 강력한 오픈소스 소프트웨어입니다.",
+      "whatItIs": "OBS Studio는 비디오 콘텐츠를 효율적으로 캡처, 합성, 인코딩, 녹화 및 스트리밍하도록 설계된 소프트웨어입니다. GNU General Public License v2(또는 이후 버전)에 따라 배포되는 오픈소스 프로젝트입니다.",
+      "problemSolved": "사용자가 라이브 스트리밍을 하거나 고품질 비디오를 녹화하는 데 필요한 복잡한 기술적 장벽을 제거하여, 누구나 쉽게 전문적인 비디오 콘텐츠를 제작하고 공유할 수 있도록 돕습니다.",
+      "recommendedFor": [
+        "콘텐츠 크리에이터",
+        "라이브 스트리머",
+        "온라인 강사",
+        "게이머"
+      ],
+      "keyFeatures": [
+        "실시간 비디오/오디오 캡처 및 믹싱",
+        "다양한 소스(웹캠, 화면, 이미지, 텍스트 등)를 활용한 장면 구성",
+        "고성능 실시간 비디오/오디오 스트리밍 및 녹화"
+      ],
+      "useCases": [
+        "게임 플레이 라이브 스트리밍",
+        "온라인 강의 및 웨비나 녹화 및 송출",
+        "화면 녹화를 통한 튜토리얼 및 데모 제작",
+        "가상 카메라를 이용한 화상 회의 개선"
+      ],
+      "tags": [
+        "비디오",
+        "스트리밍",
+        "녹화",
+        "오픈소스",
+        "생산성",
+        "방송",
+        "캡처",
+        "편집"
+      ],
+      "difficulty": "beginner",
+      "usageType": "desktop",
+      "guideType": "desktop-installer",
+      "costSummary": "무료 (오픈소스)",
+      "apiKeyRequired": false,
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "guide": {
+        "prerequisites": [
+          "안정적인 인터넷 연결",
+          "충분한 저장 공간",
+          "최신 그래픽 드라이버"
+        ],
+        "estimatedMinutes": 15,
+        "platforms": [
+          {
+            "name": "Windows",
+            "steps": [
+              {
+                "order": 1,
+                "title": "공식 설치 지침 확인",
+                "description": "OBS Studio의 공식 GitHub 위키(https://github.com/obsproject/obs-studio/wiki/Install-Instructions)에서 Windows 운영 체제에 맞는 최신 설치 지침을 확인합니다. 이 페이지에서 다운로드 링크와 구체적인 설치 방법을 찾을 수 있습니다.",
+                "expectedResult": "OBS Studio 설치 지침 페이지가 웹 브라우저에 열립니다."
+              },
+              {
+                "order": 2,
+                "title": "OBS Studio 다운로드 및 설치",
+                "description": "위키의 지침에 따라 OBS Studio 설치 파일을 다운로드하고 실행합니다. 화면의 지시에 따라 설치를 완료합니다.",
+                "expectedResult": "OBS Studio가 Windows 시스템에 설치됩니다."
+              }
+            ]
+          },
+          {
+            "name": "macOS",
+            "steps": [
+              {
+                "order": 1,
+                "title": "공식 설치 지침 확인",
+                "description": "OBS Studio의 공식 GitHub 위키(https://github.com/obsproject/obs-studio/wiki/Install-Instructions)에서 macOS 운영 체제에 맞는 최신 설치 지침을 확인합니다. 이 페이지에서 다운로드 링크와 구체적인 설치 방법을 찾을 수 있습니다.",
+                "expectedResult": "OBS Studio 설치 지침 페이지가 웹 브라우저에 열립니다."
+              },
+              {
+                "order": 2,
+                "title": "OBS Studio 다운로드 및 설치",
+                "description": "위키의 지침에 따라 OBS Studio 설치 파일을 다운로드하고 엽니다. 일반적으로 애플리케이션을 '응용 프로그램' 폴더로 드래그하여 설치를 완료합니다.",
+                "expectedResult": "OBS Studio가 macOS 시스템에 설치됩니다."
+              }
+            ]
+          },
+          {
+            "name": "Linux",
+            "steps": [
+              {
+                "order": 1,
+                "title": "공식 설치 지침 확인",
+                "description": "OBS Studio의 공식 GitHub 위키(https://github.com/obsproject/obs-studio/wiki/Install-Instructions)에서 Linux 운영 체제에 맞는 최신 설치 지침을 확인합니다. 이 페이지에서 다운로드 링크와 구체적인 설치 방법을 찾을 수 있습니다.",
+                "expectedResult": "OBS Studio 설치 지침 페이지가 웹 브라우저에 열립니다."
+              },
+              {
+                "order": 2,
+                "title": "OBS Studio 다운로드 및 설치",
+                "description": "위키의 지침에 따라 OBS Studio를 설치합니다. 배포판에 따라 패키지 관리자를 사용하거나 소프트웨어 센터를 통해 설치할 수 있습니다.",
+                "expectedResult": "OBS Studio가 Linux 시스템에 설치됩니다."
+              }
+            ]
+          }
+        ],
+        "firstRunResult": "OBS Studio 애플리케이션이 실행되고, 초기 설정 마법사가 나타나 스트리밍 및 녹화 설정을 최적화하도록 안내합니다.",
+        "stopInstructions": "OBS Studio 애플리케이션 창의 우측 상단 'X' 버튼을 클릭하거나, 메뉴 바에서 '파일' > '종료'를 선택하여 프로그램을 종료합니다.",
+        "uninstallInstructions": "운영 체제의 표준 프로그램 제거 절차를 따릅니다. Windows의 경우 '설정' > '앱'에서 OBS Studio를 찾아 제거합니다. macOS의 경우 '응용 프로그램' 폴더에서 OBS Studio를 휴지통으로 드래그합니다. Linux의 경우 사용 중인 배포판의 소프트웨어 센터나 패키지 관리 도구를 통해 제거합니다. 자세한 내용은 OBS Studio 공식 문서를 참조하세요.",
+        "commonIssues": [
+          {
+            "problem": "설치 후 OBS Studio가 실행되지 않거나 오류가 발생합니다.",
+            "solution": "공식 GitHub 위키의 설치 지침(https://github.com/obsproject/obs-studio/wiki/Install-Instructions)을 다시 확인하고, 시스템 요구 사항을 충족하는지 확인합니다. 그래픽 드라이버를 최신 버전으로 업데이트하고, OBS Studio 포럼(https://obsproject.com/forum/)에서 유사한 문제에 대한 해결책을 찾아봅니다."
+          },
+          {
+            "problem": "스트리밍 또는 녹화 시 프레임 드롭이나 성능 저하가 발생합니다.",
+            "solution": "OBS Studio 설정에서 비디오 해상도, 프레임 속도, 비트레이트 등을 낮춰봅니다. 하드웨어 가속 인코더(예: NVENC, AMF, QuickSync)를 사용하는지 확인하고, 그래픽 드라이버를 최신 버전으로 업데이트합니다. 공식 문서(https://github.com/obsproject/obs-studio/wiki)에서 성능 최적화 가이드를 참조하세요."
+          }
+        ],
+        "officialDocsUrl": "https://obsproject.com",
+        "verifiedAt": "2026-09-06"
+      }
+    }
   }
 ]

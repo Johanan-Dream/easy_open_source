@@ -1,1 +1,14 @@
-{}
+{
+  "deepseek-ai/deepseek-harness": {
+    "readmeHash": "a51ca4bff273518c3f292b2e6800f5f2de76170ae6f5919fc48e4a0d82b0da1e",
+    "status": "rejected",
+    "checkedAt": "2026-09-06",
+    "reason": "DeepSeek Harness는 'developer preview' 상태이며 호환성을 깨는 변경사항이 있을 수 있다고 명시되어 있어, 비개발자나 협업 직군이 직접 설치하거나 웹에서 사용할 수 있는 '완성된 도구'로 보기 어렵습니다. 이는 개발자를 위한 프레임워크 또는 미완성 프로젝트에 가깝습니다."
+  },
+  "ohmyzsh/ohmyzsh": {
+    "readmeHash": "9bc1e888997b4db53efc8a8d1b0968d61650607e00f2b7fa21a207bcd9cc4322",
+    "status": "rejected",
+    "checkedAt": "2026-09-06",
+    "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크이며, 터미널과 명령줄 인터페이스에 대한 이해가 필요한 개발자 도구입니다. 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+  }
+}
