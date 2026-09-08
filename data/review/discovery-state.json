@@ -6,10 +6,10 @@
     "reason": "DeepSeek Harness는 'developer preview' 상태이며 호환성을 깨는 변경사항이 있을 수 있다고 명시되어 있어, 비개발자나 협업 직군이 직접 설치하거나 웹에서 사용할 수 있는 '완성된 도구'로 보기 어렵습니다. 이는 개발자를 위한 프레임워크 또는 미완성 프로젝트에 가깝습니다."
   },
   "ohmyzsh/ohmyzsh": {
-    "readmeHash": "9bc1e888997b4db53efc8a8d1b0968d61650607e00f2b7fa21a207bcd9cc4322",
+    "readmeHash": "cadb51a2e5dc9c351ad053f7f676ffd7a87f8e2040abb31a6ac3cf5d2daf1305",
     "status": "rejected",
-    "checkedAt": "2026-09-06",
-    "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크이며, 터미널과 명령줄 인터페이스에 대한 이해가 필요한 개발자 도구입니다. 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+    "checkedAt": "2026-09-08",
+    "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크로, 터미널 및 명령줄 환경에 대한 이해가 필요합니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구로 보기 어렵습니다."
   },
   "farion1231/cc-switch": {
     "readmeHash": "ecca1e139407d8de2daaf20b01eb6e47259c1418c7d6dbfd3c99bc0499cd4614",
@@ -24,10 +24,10 @@
     "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   },
   "affaan-m/ECC": {
-    "readmeHash": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+    "readmeHash": "56a45e47eef049918382751151d00ca27012b48398ffe137e705e14a28bf29a1",
     "status": "rejected",
-    "checkedAt": "2026-09-07",
-    "reason": "Error: guide.platforms.0.steps.0.command: 관리자 권한 명령은 별도 검수 없이 포함할 수 없습니다.; guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: /plugin; guide.platforms.1.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: /plugin; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: /plugin"
+    "checkedAt": "2026-09-08",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: /plugin"
   },
   "nexu-io/open-design": {
     "readmeHash": "e25d7ff0294b077f34a32146140c8c32cc2c4310434bf6769cdf330b82c6a7aa",
