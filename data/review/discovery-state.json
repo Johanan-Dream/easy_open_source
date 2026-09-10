@@ -1,9 +1,9 @@
 {
   "deepseek-ai/deepseek-harness": {
-    "readmeHash": "a51ca4bff273518c3f292b2e6800f5f2de76170ae6f5919fc48e4a0d82b0da1e",
+    "readmeHash": "b43a2af65d10028e5de61e4603f946bfce9b777df079e92745491c7700a6d58e",
     "status": "rejected",
-    "checkedAt": "2026-09-06",
-    "reason": "DeepSeek Harness는 'developer preview' 상태이며 호환성을 깨는 변경사항이 있을 수 있다고 명시되어 있어, 비개발자나 협업 직군이 직접 설치하거나 웹에서 사용할 수 있는 '완성된 도구'로 보기 어렵습니다. 이는 개발자를 위한 프레임워크 또는 미완성 프로젝트에 가깝습니다."
+    "checkedAt": "2026-09-10",
+    "reason": "DeepSeek Harness는 '개발자 프리뷰' 상태이며, 호환성을 깨는 변경사항이 있을 수 있다고 명시되어 있어 '완성된 도구'라는 기준에 부합하지 않습니다. 비개발자나 협업 직군이 안정적으로 사용하기에는 적합하지 않습니다."
   },
   "ohmyzsh/ohmyzsh": {
     "readmeHash": "cadb51a2e5dc9c351ad053f7f676ffd7a87f8e2040abb31a6ac3cf5d2daf1305",
@@ -24,10 +24,10 @@
     "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   },
   "affaan-m/ECC": {
-    "readmeHash": "7ff351d405e2fa340cb619398f6814a61bd900d03478b25bc69546e93a870435",
+    "readmeHash": "6eace6f0257d035bce34129283a3e27bdd8612535294c48359651ac24d04b799",
     "status": "rejected",
-    "checkedAt": "2026-09-09",
-    "reason": "ECC는 AI 코딩 에이전트(Claude Code, Codex 등)를 위한 시스템 및 도구 상자이며, 비개발자나 바이브 코딩 사용자가 직접 설치하거나 웹에서 사용할 수 있는 완성된 독립형 도구가 아닙니다. 이는 기존 개발자 도구에 통합되어 에이전트의 기능을 향상시키는 프레임워크 또는 라이브러리에 가깝습니다."
+    "checkedAt": "2026-09-10",
+    "reason": "This project is an agent harness performance optimization system designed to enhance AI coding assistants like Claude Code and Codex. Its installation and usage primarily involve command-line interfaces, package managers, and shell scripts, targeting developers and advanced users of AI coding environments rather than non-developers or collaborators seeking a ready-to-use web or desktop application."
   },
   "nexu-io/open-design": {
     "readmeHash": "e25d7ff0294b077f34a32146140c8c32cc2c4310434bf6769cdf330b82c6a7aa",
