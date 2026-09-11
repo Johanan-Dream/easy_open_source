@@ -6,10 +6,10 @@
     "reason": "DeepSeek Harness는 '개발자 프리뷰' 상태이며, 호환성을 깨는 변경사항이 있을 수 있다고 명시되어 있어 '완성된 도구'라는 기준에 부합하지 않습니다. 비개발자나 협업 직군이 안정적으로 사용하기에는 적합하지 않습니다."
   },
   "ohmyzsh/ohmyzsh": {
-    "readmeHash": "cadb51a2e5dc9c351ad053f7f676ffd7a87f8e2040abb31a6ac3cf5d2daf1305",
+    "readmeHash": "bc47f91df82c3a205a16193839e996a7edec4fec71aa3337984a0b331888d95b",
     "status": "rejected",
-    "checkedAt": "2026-09-08",
-    "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크로, 터미널 및 명령줄 환경에 대한 이해가 필요합니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구로 보기 어렵습니다."
+    "checkedAt": "2026-09-11",
+    "reason": "Oh My Zsh는 Zsh 셸 구성을 관리하기 위한 프레임워크로, 주로 개발자나 터미널 사용에 익숙한 고급 사용자에게 적합한 명령줄 도구입니다. 비개발자나 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구의 범주에 속하지 않습니다."
   },
   "farion1231/cc-switch": {
     "readmeHash": "ecca1e139407d8de2daaf20b01eb6e47259c1418c7d6dbfd3c99bc0499cd4614",
@@ -30,10 +30,10 @@
     "reason": "This project is an agent harness performance optimization system designed to enhance AI coding assistants like Claude Code and Codex. Its installation and usage primarily involve command-line interfaces, package managers, and shell scripts, targeting developers and advanced users of AI coding environments rather than non-developers or collaborators seeking a ready-to-use web or desktop application."
   },
   "nexu-io/open-design": {
-    "readmeHash": "e25d7ff0294b077f34a32146140c8c32cc2c4310434bf6769cdf330b82c6a7aa",
+    "readmeHash": "0ba5c5493720b6904ebed05a4aa818897560f2201a976282125202af12d11612",
     "status": "rejected",
-    "checkedAt": "2026-09-07",
-    "reason": "Error: guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.4.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
+    "checkedAt": "2026-09-11",
+    "reason": "Error: guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.1.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.3.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "immich-app/immich": {
     "readmeHash": "27b511ae6ee3be2295c4c1e0674dd0ac5b0c6023d9fdd9187869b1605ff56fad",
