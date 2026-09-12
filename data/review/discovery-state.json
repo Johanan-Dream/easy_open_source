@@ -24,10 +24,10 @@
     "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   },
   "affaan-m/ECC": {
-    "readmeHash": "6eace6f0257d035bce34129283a3e27bdd8612535294c48359651ac24d04b799",
+    "readmeHash": "0af25aa87d75486d5e60d4f6389f6a0366b06da32a16ca47b17dbb48376463b2",
     "status": "rejected",
-    "checkedAt": "2026-09-10",
-    "reason": "This project is an agent harness performance optimization system designed to enhance AI coding assistants like Claude Code and Codex. Its installation and usage primarily involve command-line interfaces, package managers, and shell scripts, targeting developers and advanced users of AI coding environments rather than non-developers or collaborators seeking a ready-to-use web or desktop application."
+    "checkedAt": "2026-09-12",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.0.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: pwsh; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: bash; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: bash; guide.platforms.3.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.1.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "nexu-io/open-design": {
     "readmeHash": "0ba5c5493720b6904ebed05a4aa818897560f2201a976282125202af12d11612",
@@ -40,5 +40,11 @@
     "status": "rejected",
     "checkedAt": "2026-09-09",
     "reason": "Error: guide.platforms.0: Linux이 저장소 지원 환경에 없습니다."
+  },
+  "jaywcjlove/awesome-mac": {
+    "readmeHash": "abe5e397afe5c18a4a1ce71815af192c7465982445309f41da4e2521671ba9c0",
+    "status": "rejected",
+    "checkedAt": "2026-09-12",
+    "reason": "This project is a curated list of macOS software, not a standalone tool or application that users can directly install and use for a specific function. It serves as a resource for discovering other software."
   }
 }
