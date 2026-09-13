@@ -42,9 +42,15 @@
     "reason": "Error: guide.platforms.0: Linux이 저장소 지원 환경에 없습니다."
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "abe5e397afe5c18a4a1ce71815af192c7465982445309f41da4e2521671ba9c0",
+    "readmeHash": "aec2a3bf9e513502f7f38a58c7f8e224dba0b863576086b358d5e137e7b4cbb2",
     "status": "rejected",
-    "checkedAt": "2026-09-12",
-    "reason": "This project is a curated list of macOS software, not a standalone tool or application that users can directly install and use for a specific function. It serves as a resource for discovering other software."
+    "checkedAt": "2026-09-13",
+    "reason": "This project is an 'Awesome List' which is a collection of high-quality macOS software, not a standalone, finished tool for direct installation or use by non-developers, Vibe Coding users, or developer-collaborators."
+  },
+  "rtk-ai/rtk": {
+    "readmeHash": "1cbc5f84bd7f30b7a36b972821dcc696f8edc3387fb10aad682ae7a629e2ad45",
+    "status": "rejected",
+    "checkedAt": "2026-09-13",
+    "reason": "RTK는 AI 코딩 도구의 출력을 최적화하는 CLI 프록시로, 명령줄 인터페이스를 통해 설치 및 사용됩니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 주로 AI 에이전트를 활용하는 개발자를 대상으로 합니다."
   }
 }
