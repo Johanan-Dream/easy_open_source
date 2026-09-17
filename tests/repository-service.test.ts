@@ -4,7 +4,7 @@ import { loadRepositories } from "../src/data-store.ts";
 import { findRepository, getTrending, queryRepositories } from "../src/repository-service.ts";
 import { validateGeneratedCommands, validateRepositories, validateRepository } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
-import { buildGuidePrompt, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
+import { buildDiscoveryPrompt, buildGuidePrompt, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
 import { GitHubClient } from "../src/github-client.ts";
 
 const repositories = await loadRepositories();
@@ -97,6 +97,21 @@ test("guide prompt treats README content as untrusted input", () => {
   assert.match(prompt, /신뢰할 수 없는 참고 자료/);
   assert.match(prompt, /<UNTRUSTED_README>/);
   assert.match(prompt, /위험한 삭제 명령/);
+});
+
+test("discovery prompt requires Korean user-facing copy", () => {
+  const prompt = buildDiscoveryPrompt("owner/repo", "English description", "# README", "2026-09-17");
+  assert.match(prompt, /모든 설명을 쉽고 자연스러운 한국어/);
+  assert.match(prompt, /영어 문장을 그대로 복사하지 마세요/);
+});
+
+test("English-only generated editorial copy is rejected", () => {
+  const english = structuredClone(repositories[0]);
+  english.summary = "An English-only description that should not be published.";
+  english.costSummary = "The application is free but connected services may charge fees.";
+  const issues = validateRepository(english);
+  assert.ok(issues.some((issue) => issue.path === "summary" && issue.message.includes("한국어")));
+  assert.ok(issues.some((issue) => issue.path === "costSummary" && issue.message.includes("한국어")));
 });
 
 test("GitHub README responses are read as raw text", async () => {

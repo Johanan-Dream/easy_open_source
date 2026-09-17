@@ -17,6 +17,7 @@ const guideTypes = new Set(["web", "desktop-installer", "release-download", "pac
 const generatedCommandExecutables = new Set(["winget", "brew", "docker", "npm", "npx", "pnpm", "yarn", "pip", "pip3", "pipx", "python", "python3", "uv", "cargo", "go"]);
 const shellControlPattern = /(?:\|\||&&|[|;`<>]|\$\(|\r|\n)/;
 const forbiddenExecutablePattern = /^(?:sh|bash|zsh|fish|cmd|powershell|pwsh|curl|wget|irm|iwr|rm|del|format|chmod|chown|sudo|doas|eval|source)$/i;
+const koreanPattern = /[가-힣]/;
 
 export function validateRepository(repository: Repository): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
@@ -27,6 +28,20 @@ export function validateRepository(repository: Repository): ValidationIssue[] {
   if (!guideTypes.has(repository.guideType)) add("guideType", "지원하는 가이드 유형이 필요합니다.");
   if (repository.keyFeatures.length !== 3) add("keyFeatures", "핵심 기능은 정확히 3개여야 합니다.");
   if (!repository.sourceUrls.length) add("sourceUrls", "최소 하나의 근거 URL이 필요합니다.");
+
+  const requireKorean = (path: string, value?: string) => {
+    if (value?.trim() && !koreanPattern.test(value)) add(path, "사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.");
+  };
+  requireKorean("summary", repository.summary);
+  requireKorean("whatItIs", repository.whatItIs);
+  requireKorean("problemSolved", repository.problemSolved);
+  requireKorean("costSummary", repository.costSummary);
+  repository.recommendedFor.forEach((value, index) => requireKorean(`recommendedFor.${index}`, value));
+  repository.keyFeatures.forEach((value, index) => requireKorean(`keyFeatures.${index}`, value));
+  repository.useCases.forEach((value, index) => requireKorean(`useCases.${index}`, value));
+  requireKorean("guide.firstRunResult", repository.guide.firstRunResult);
+  requireKorean("guide.stopInstructions", repository.guide.stopInstructions);
+  requireKorean("guide.uninstallInstructions", repository.guide.uninstallInstructions);
 
   const rootDomain = (hostname: string) => hostname.split(".").slice(-2).join(".");
   let homepageRoot: string | undefined;
@@ -61,9 +76,12 @@ export function validateRepository(repository: Repository): ValidationIssue[] {
   for (const [issueIndex, issue] of repository.guide.commonIssues.entries()) {
     if (!issue.problem.trim()) add(`guide.commonIssues.${issueIndex}.problem`, "문제 설명이 필요합니다.");
     if (!issue.solution.trim()) add(`guide.commonIssues.${issueIndex}.solution`, "안전한 해결 방법이 필요합니다.");
+    requireKorean(`guide.commonIssues.${issueIndex}.problem`, issue.problem);
+    requireKorean(`guide.commonIssues.${issueIndex}.solution`, issue.solution);
   }
 
   for (const [platformIndex, platform] of repository.guide.platforms.entries()) {
+    platform.terminalHelp?.forEach((value, index) => requireKorean(`guide.platforms.${platformIndex}.terminalHelp.${index}`, value));
     if (!repository.platforms.includes(platform.name)) {
       add(`guide.platforms.${platformIndex}`, `${platform.name}이 저장소 지원 환경에 없습니다.`);
     }
@@ -78,6 +96,10 @@ export function validateRepository(repository: Repository): ValidationIssue[] {
     for (const [stepIndex, step] of platform.steps.entries()) {
       if (!step.title.trim()) add(`guide.platforms.${platformIndex}.steps.${stepIndex}.title`, "단계 제목이 필요합니다.");
       if (!step.description.trim()) add(`guide.platforms.${platformIndex}.steps.${stepIndex}.description`, "단계 설명이 필요합니다.");
+      requireKorean(`guide.platforms.${platformIndex}.steps.${stepIndex}.title`, step.title);
+      requireKorean(`guide.platforms.${platformIndex}.steps.${stepIndex}.description`, step.description);
+      requireKorean(`guide.platforms.${platformIndex}.steps.${stepIndex}.expectedResult`, step.expectedResult);
+      requireKorean(`guide.platforms.${platformIndex}.steps.${stepIndex}.warning`, step.warning);
       if (!step.command) continue;
       for (const dangerous of dangerousCommandPatterns) {
         if (dangerous.pattern.test(step.command)) {

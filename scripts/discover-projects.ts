@@ -42,7 +42,28 @@ for (const metadata of candidates) {
   if (state[metadata.full_name]?.readmeHash === readmeHash) continue;
   attempted += 1;
   try {
-    const assessment = await gemini.generateStructured<DiscoveryAssessment>(buildDiscoveryPrompt(metadata.full_name, metadata.description, readme, today), discoveryAssessmentSchema);
+    const basePrompt = buildDiscoveryPrompt(metadata.full_name, metadata.description, readme, today);
+    let assessment: DiscoveryAssessment | undefined;
+    let candidate: Repository | undefined;
+    let issues: ReturnType<typeof validateRepository> = [];
+    for (let generationAttempt = 0; generationAttempt < 2; generationAttempt += 1) {
+      const retryInstruction = generationAttempt
+        ? "\n\n이전 결과에 영어 설명이 남아 검증에 실패했습니다. 고유명사·명령어·URL을 제외한 모든 사용자 노출 문장을 자연스러운 한국어로 다시 작성하세요."
+        : "";
+      assessment = await gemini.generateStructured<DiscoveryAssessment>(`${basePrompt}${retryInstruction}`, discoveryAssessmentSchema);
+      if (!assessment.suitable) break;
+      normalizeTerminalHelp(assessment);
+      candidate = {
+        ...assessment, id: metadata.full_name, owner: metadata.owner.login, name: metadata.name,
+        githubUrl: metadata.html_url, homepageUrl: metadata.homepage || undefined,
+        license: metadata.license?.spdx_id, stars: metadata.stargazers_count, forks: metadata.forks_count,
+        lastPushedAt: metadata.pushed_at, maintenanceStatus: "active", dailyStarGrowth: 0, trendScore: 0,
+        sourceUrls: [...new Set([metadata.html_url, assessment.guide.officialDocsUrl])], collectedAt: new Date().toISOString(),
+      };
+      issues = [...validateRepository(candidate), ...validateGeneratedCommands(candidate)];
+      if (!issues.some((issue) => issue.message.includes("한국어 문장"))) break;
+    }
+    if (!assessment) throw new Error("Gemini가 신규 프로젝트 분석 결과를 반환하지 않았습니다.");
     if (!assessment.suitable) {
       state[metadata.full_name] = { readmeHash, status: "rejected", checkedAt: today, reason: assessment.reason };
       console.log(`Rejected ${metadata.full_name}: ${assessment.reason}`);
@@ -51,14 +72,7 @@ for (const metadata of candidates) {
     normalizeTerminalHelp(assessment);
     const trustedUrls = [metadata.html_url, metadata.homepage].filter((url): url is string => Boolean(url));
     if (!isTrustedDraftUrl(assessment.guide.officialDocsUrl, "", trustedUrls)) throw new Error("공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다.");
-    const candidate: Repository = {
-      ...assessment, id: metadata.full_name, owner: metadata.owner.login, name: metadata.name,
-      githubUrl: metadata.html_url, homepageUrl: metadata.homepage || undefined,
-      license: metadata.license?.spdx_id, stars: metadata.stargazers_count, forks: metadata.forks_count,
-      lastPushedAt: metadata.pushed_at, maintenanceStatus: "active", dailyStarGrowth: 0, trendScore: 0,
-      sourceUrls: [...new Set([metadata.html_url, assessment.guide.officialDocsUrl])], collectedAt: new Date().toISOString(),
-    };
-    const issues = [...validateRepository(candidate), ...validateGeneratedCommands(candidate)];
+    if (!candidate) throw new Error("신규 프로젝트 데이터를 구성하지 못했습니다.");
     if (issues.length) throw new Error(issues.map((issue) => `${issue.path}: ${issue.message}`).join("; "));
     const { suitable, reason, ...draft } = assessment;
     editorial.push({ id: metadata.full_name, ...draft });
