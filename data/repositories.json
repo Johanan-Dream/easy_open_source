@@ -24,7 +24,7 @@
       "ai",
       "beginner"
     ],
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "usageType": "cli",
     "guideType": "installer-cli",
     "costSummary": "프로그램은 무료입니다. 로컬 실행에 적절한 저장 공간과 메모리가 필요합니다.",
@@ -34,8 +34,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 98,
-    "trendScore": 133,
+    "dailyStarGrowth": 73,
+    "trendScore": 7320,
     "guide": {
       "prerequisites": [
         "인터넷 연결",
@@ -103,15 +103,15 @@
     "githubUrl": "https://github.com/ollama/ollama",
     "homepageUrl": "https://ollama.com",
     "license": "MIT",
-    "stars": 181164,
-    "forks": 17905,
-    "lastPushedAt": "2026-09-16T21:10:17Z",
+    "stars": 181237,
+    "forks": 17915,
+    "lastPushedAt": "2026-09-17T01:33:20Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/ollama/ollama",
       "https://github.com/ollama/ollama#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "localsend/localsend",
@@ -148,8 +148,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 140,
-    "trendScore": 139,
+    "dailyStarGrowth": 58,
+    "trendScore": 5820,
     "guide": {
       "prerequisites": [
         "파일을 주고받을 두 기기",
@@ -205,7 +205,7 @@
     "githubUrl": "https://github.com/localsend/localsend",
     "homepageUrl": "https://localsend.org",
     "license": "Apache-2.0",
-    "stars": 91809,
+    "stars": 91867,
     "forks": 5127,
     "lastPushedAt": "2026-09-14T13:10:57Z",
     "maintenanceStatus": "active",
@@ -213,7 +213,7 @@
       "https://github.com/localsend/localsend",
       "https://github.com/localsend/localsend#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "excalidraw/excalidraw",
@@ -248,8 +248,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 103,
-    "trendScore": 133,
+    "dailyStarGrowth": 44,
+    "trendScore": 4420,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저"
@@ -288,15 +288,15 @@
     "githubUrl": "https://github.com/excalidraw/excalidraw",
     "homepageUrl": "https://excalidraw.com",
     "license": "MIT",
-    "stars": 132139,
-    "forks": 15312,
+    "stars": 132183,
+    "forks": 15327,
     "lastPushedAt": "2026-09-16T20:00:09Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/excalidraw/excalidraw",
       "https://github.com/excalidraw/excalidraw#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "obsproject/obs-studio",
@@ -332,8 +332,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 36,
-    "trendScore": 112,
+    "dailyStarGrowth": 24,
+    "trendScore": 2420,
     "guide": {
       "prerequisites": [
         "녹화할 컴퓨터 화면",
@@ -400,15 +400,15 @@
     "githubUrl": "https://github.com/obsproject/obs-studio",
     "homepageUrl": "https://obsproject.com",
     "license": "GPL-2.0",
-    "stars": 76285,
-    "forks": 10202,
+    "stars": 76309,
+    "forks": 10209,
     "lastPushedAt": "2026-09-15T01:05:48Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/obsproject/obs-studio",
       "https://obsproject.com/kb/quick-start-guide"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "sharkdp/bat",
@@ -435,7 +435,7 @@
       "developer",
       "beginner"
     ],
-    "difficulty": "beginner",
+    "difficulty": "advanced",
     "usageType": "cli",
     "guideType": "package-manager",
     "costSummary": "무료 오픈소스 명령줄 도구입니다.",
@@ -445,8 +445,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 8,
-    "trendScore": 76,
+    "dailyStarGrowth": 5,
+    "trendScore": 508,
     "guide": {
       "prerequisites": [
         "터미널 또는 PowerShell",
@@ -527,15 +527,15 @@
     "name": "bat",
     "githubUrl": "https://github.com/sharkdp/bat",
     "license": "Apache-2.0",
-    "stars": 60471,
-    "forks": 1650,
+    "stars": 60475,
+    "forks": 1707,
     "lastPushedAt": "2026-09-04T19:10:30Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/sharkdp/bat",
       "https://github.com/sharkdp/bat/blob/master/README.md#installation"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "bitwarden/clients",
@@ -573,8 +573,8 @@
       "Linux",
       "Web"
     ],
-    "dailyStarGrowth": 2,
-    "trendScore": 58,
+    "dailyStarGrowth": 3,
+    "trendScore": 320,
     "guide": {
       "prerequisites": [
         "이메일 주소",
@@ -645,15 +645,15 @@
     "githubUrl": "https://github.com/bitwarden/clients",
     "homepageUrl": "https://bitwarden.com",
     "license": "NOASSERTION",
-    "stars": 13792,
-    "forks": 2021,
-    "lastPushedAt": "2026-09-16T21:15:20Z",
+    "stars": 13795,
+    "forks": 2023,
+    "lastPushedAt": "2026-09-17T10:20:12Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/bitwarden/clients",
       "https://bitwarden.com/help/getting-started-webvault/"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "hoppscotch/hoppscotch",
@@ -688,8 +688,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 13,
-    "trendScore": 92,
+    "dailyStarGrowth": 8,
+    "trendScore": 820,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저",
@@ -734,15 +734,15 @@
     "githubUrl": "https://github.com/hoppscotch/hoppscotch",
     "homepageUrl": "https://hoppscotch.io",
     "license": "MIT",
-    "stars": 80321,
-    "forks": 6108,
+    "stars": 80329,
+    "forks": 6111,
     "lastPushedAt": "2026-09-16T15:34:42Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/hoppscotch/hoppscotch",
       "https://github.com/hoppscotch/hoppscotch#usage"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "drawdb-io/drawdb",
@@ -777,8 +777,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 14,
-    "trendScore": 92,
+    "dailyStarGrowth": 12,
+    "trendScore": 1220,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저"
@@ -822,15 +822,15 @@
     "githubUrl": "https://github.com/drawdb-io/drawdb",
     "homepageUrl": "https://drawdb.app",
     "license": "AGPL-3.0",
-    "stars": 39568,
-    "forks": 3246,
+    "stars": 39580,
+    "forks": 3247,
     "lastPushedAt": "2026-09-13T18:45:53Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/drawdb-io/drawdb",
       "https://github.com/drawdb-io/drawdb#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "mifi/lossless-cut",
@@ -867,8 +867,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 23,
-    "trendScore": 102,
+    "dailyStarGrowth": 17,
+    "trendScore": 1720,
     "guide": {
       "prerequisites": [
         "편집할 영상 파일",
@@ -935,7 +935,7 @@
     "githubUrl": "https://github.com/mifi/lossless-cut",
     "homepageUrl": "https://losslesscut.app/",
     "license": "GPL-2.0",
-    "stars": 43812,
+    "stars": 43829,
     "forks": 2172,
     "lastPushedAt": "2026-09-14T09:55:23Z",
     "maintenanceStatus": "active",
@@ -943,7 +943,7 @@
       "https://github.com/mifi/lossless-cut",
       "https://github.com/mifi/lossless-cut/blob/master/docs/installation.md"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "Stirling-Tools/Stirling-PDF",
@@ -970,7 +970,7 @@
       "local",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "usageType": "docker",
     "guideType": "docker",
     "costSummary": "커뮤니티 오픈소스 기능은 무료로 직접 실행할 수 있습니다. 기업 기능에는 별도 조건이 있을 수 있습니다.",
@@ -980,8 +980,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 142,
-    "trendScore": 139,
+    "dailyStarGrowth": 53,
+    "trendScore": 5320,
     "guide": {
       "prerequisites": [
         "Docker Desktop",
@@ -1062,15 +1062,15 @@
     "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
     "homepageUrl": "https://stirling.com",
     "license": "NOASSERTION",
-    "stars": 92353,
-    "forks": 8608,
-    "lastPushedAt": "2026-09-16T21:11:22Z",
+    "stars": 92406,
+    "forks": 8650,
+    "lastPushedAt": "2026-09-17T10:47:43Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/Stirling-Tools/Stirling-PDF",
       "https://github.com/Stirling-Tools/Stirling-PDF#quick-start"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "louislam/uptime-kuma",
@@ -1097,7 +1097,7 @@
       "self-hosted",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "usageType": "docker",
     "guideType": "docker",
     "costSummary": "직접 실행하는 오픈소스 소프트웨어는 무료이며 서버 운영 비용은 별도입니다.",
@@ -1107,8 +1107,8 @@
       "macOS",
       "Linux"
     ],
-    "dailyStarGrowth": 36,
-    "trendScore": 112,
+    "dailyStarGrowth": 24,
+    "trendScore": 2420,
     "guide": {
       "prerequisites": [
         "Docker Desktop"
@@ -1187,15 +1187,15 @@
     "githubUrl": "https://github.com/louislam/uptime-kuma",
     "homepageUrl": "https://uptime.kuma.pet",
     "license": "MIT",
-    "stars": 91437,
-    "forks": 8418,
-    "lastPushedAt": "2026-09-16T15:56:43Z",
+    "stars": 91461,
+    "forks": 8424,
+    "lastPushedAt": "2026-09-17T08:17:03Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/louislam/uptime-kuma",
       "https://github.com/louislam/uptime-kuma#how-to-install"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "freeCodeCamp/freeCodeCamp",
@@ -1231,8 +1231,8 @@
     "platforms": [
       "Web"
     ],
-    "dailyStarGrowth": 107,
-    "trendScore": 137,
+    "dailyStarGrowth": 43,
+    "trendScore": 4320,
     "guide": {
       "prerequisites": [
         "최신 웹 브라우저",
@@ -1276,15 +1276,15 @@
     "name": "freeCodeCamp",
     "githubUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
     "license": "BSD-3-Clause",
-    "stars": 455606,
-    "forks": 46441,
-    "lastPushedAt": "2026-09-16T15:21:58Z",
+    "stars": 455648,
+    "forks": 46472,
+    "lastPushedAt": "2026-09-17T10:37:26Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/freeCodeCamp/freeCodeCamp",
       "https://www.freecodecamp.org/learn"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "AppFlowy-IO/AppFlowy",
@@ -1386,17 +1386,17 @@
     "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
     "homepageUrl": "https://appflowy.com",
     "license": "AGPL-3.0",
-    "stars": 76768,
-    "forks": 6019,
+    "stars": 76785,
+    "forks": 6022,
     "lastPushedAt": "2026-09-15T12:19:07Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 39,
-    "trendScore": 113,
+    "dailyStarGrowth": 17,
+    "trendScore": 1720,
     "sourceUrls": [
       "https://github.com/AppFlowy-IO/AppFlowy",
       "https://github.com/AppFlowy-IO/AppFlowy#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "penpot/penpot",
@@ -1470,17 +1470,17 @@
     "githubUrl": "https://github.com/penpot/penpot",
     "homepageUrl": "https://penpot.app",
     "license": "MPL-2.0",
-    "stars": 60057,
-    "forks": 4104,
-    "lastPushedAt": "2026-09-16T20:42:25Z",
+    "stars": 60073,
+    "forks": 4106,
+    "lastPushedAt": "2026-09-17T10:41:37Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 34,
-    "trendScore": 110,
+    "dailyStarGrowth": 16,
+    "trendScore": 1620,
     "sourceUrls": [
       "https://github.com/penpot/penpot",
       "https://github.com/penpot/penpot#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "laurent22/joplin",
@@ -1604,17 +1604,17 @@
     "githubUrl": "https://github.com/laurent22/joplin",
     "homepageUrl": "https://joplinapp.org",
     "license": "NOASSERTION",
-    "stars": 56395,
+    "stars": 56409,
     "forks": 6294,
-    "lastPushedAt": "2026-09-16T20:56:25Z",
+    "lastPushedAt": "2026-09-17T04:52:53Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 6,
-    "trendScore": 78,
+    "dailyStarGrowth": 14,
+    "trendScore": 1420,
     "sourceUrls": [
       "https://github.com/laurent22/joplin",
       "https://github.com/laurent22/joplin#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "dbeaver/dbeaver",
@@ -1641,7 +1641,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -1738,17 +1738,17 @@
     "githubUrl": "https://github.com/dbeaver/dbeaver",
     "homepageUrl": "https://dbeaver.io",
     "license": "Apache-2.0",
-    "stars": 51783,
+    "stars": 51789,
     "forks": 4371,
-    "lastPushedAt": "2026-09-16T20:46:51Z",
+    "lastPushedAt": "2026-09-17T10:04:09Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 15,
-    "trendScore": 94,
+    "dailyStarGrowth": 6,
+    "trendScore": 620,
     "sourceUrls": [
       "https://github.com/dbeaver/dbeaver",
       "https://github.com/dbeaver/dbeaver#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "beekeeper-studio/beekeeper-studio",
@@ -1775,7 +1775,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -1872,17 +1872,17 @@
     "githubUrl": "https://github.com/beekeeper-studio/beekeeper-studio",
     "homepageUrl": "https://www.beekeeperstudio.io",
     "license": "NOASSERTION",
-    "stars": 23617,
-    "forks": 1630,
+    "stars": 23622,
+    "forks": 1629,
     "lastPushedAt": "2026-09-16T18:22:45Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 4,
-    "trendScore": 69,
+    "dailyStarGrowth": 5,
+    "trendScore": 520,
     "sourceUrls": [
       "https://github.com/beekeeper-studio/beekeeper-studio",
       "https://github.com/beekeeper-studio/beekeeper-studio#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "usebruno/bruno",
@@ -1909,7 +1909,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -2006,17 +2006,17 @@
     "githubUrl": "https://github.com/usebruno/bruno",
     "homepageUrl": "https://www.usebruno.com/",
     "license": "MIT",
-    "stars": 46995,
-    "forks": 2885,
-    "lastPushedAt": "2026-09-16T14:58:52Z",
+    "stars": 47014,
+    "forks": 2887,
+    "lastPushedAt": "2026-09-17T09:25:56Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 22,
-    "trendScore": 101,
+    "dailyStarGrowth": 19,
+    "trendScore": 1920,
     "sourceUrls": [
       "https://github.com/usebruno/bruno",
       "https://github.com/usebruno/bruno#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "microsoft/vscode",
@@ -2140,17 +2140,17 @@
     "name": "vscode",
     "githubUrl": "https://github.com/microsoft/vscode",
     "license": "MIT",
-    "stars": 192618,
-    "forks": 42412,
-    "lastPushedAt": "2026-09-16T21:15:16Z",
+    "stars": 192620,
+    "forks": 42440,
+    "lastPushedAt": "2026-09-17T10:46:05Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 51,
-    "trendScore": 120,
+    "dailyStarGrowth": 2,
+    "trendScore": 220,
     "sourceUrls": [
       "https://github.com/microsoft/vscode",
       "https://code.visualstudio.com/docs/setup/setup-overview"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "notepad-plus-plus/notepad-plus-plus",
@@ -2230,17 +2230,17 @@
     "githubUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus",
     "homepageUrl": "https://notepad-plus-plus.org/",
     "license": "NOASSERTION",
-    "stars": 29330,
-    "forks": 5368,
-    "lastPushedAt": "2026-09-16T12:42:21Z",
+    "stars": 29338,
+    "forks": 5367,
+    "lastPushedAt": "2026-09-16T22:53:21Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 14,
-    "trendScore": 91,
+    "dailyStarGrowth": 8,
+    "trendScore": 820,
     "sourceUrls": [
       "https://github.com/notepad-plus-plus/notepad-plus-plus",
       "https://github.com/notepad-plus-plus/notepad-plus-plus#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "keepassxreboot/keepassxc",
@@ -2364,17 +2364,17 @@
     "githubUrl": "https://github.com/keepassxreboot/keepassxc",
     "homepageUrl": "https://keepassxc.org/",
     "license": "NOASSERTION",
-    "stars": 28832,
+    "stars": 28839,
     "forks": 1910,
-    "lastPushedAt": "2026-09-16T20:50:08Z",
+    "lastPushedAt": "2026-09-16T22:04:57Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 20,
-    "trendScore": 98,
+    "dailyStarGrowth": 7,
+    "trendScore": 720,
     "sourceUrls": [
       "https://github.com/keepassxreboot/keepassxc",
       "https://github.com/keepassxreboot/keepassxc#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "syncthing/syncthing",
@@ -2401,7 +2401,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -2498,17 +2498,17 @@
     "githubUrl": "https://github.com/syncthing/syncthing",
     "homepageUrl": "https://syncthing.net/",
     "license": "MPL-2.0",
-    "stars": 88659,
-    "forks": 5477,
+    "stars": 88672,
+    "forks": 5479,
     "lastPushedAt": "2026-09-15T12:01:36Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 40,
-    "trendScore": 114,
+    "dailyStarGrowth": 13,
+    "trendScore": 1320,
     "sourceUrls": [
       "https://github.com/syncthing/syncthing",
       "https://github.com/syncthing/syncthing#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "nextcloud/desktop",
@@ -2535,7 +2535,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -2633,16 +2633,16 @@
     "homepageUrl": "https://nextcloud.com/install/#install-clients",
     "license": "GPL-2.0",
     "stars": 3871,
-    "forks": 1009,
-    "lastPushedAt": "2026-09-16T16:03:59Z",
+    "forks": 1012,
+    "lastPushedAt": "2026-09-17T08:47:15Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 2,
-    "trendScore": 55,
+    "dailyStarGrowth": 0,
+    "trendScore": 20,
     "sourceUrls": [
       "https://github.com/nextcloud/desktop",
       "https://github.com/nextcloud/desktop#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "KDE/krita",
@@ -2766,17 +2766,17 @@
     "githubUrl": "https://github.com/KDE/krita",
     "homepageUrl": "https://invent.kde.org/graphics/krita",
     "license": "GPL-3.0",
-    "stars": 10379,
+    "stars": 10383,
     "forks": 855,
-    "lastPushedAt": "2026-09-16T15:44:24Z",
+    "lastPushedAt": "2026-09-17T10:13:05Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 5,
-    "trendScore": 71,
+    "dailyStarGrowth": 4,
+    "trendScore": 420,
     "sourceUrls": [
       "https://github.com/KDE/krita",
       "https://github.com/KDE/krita#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "audacity/audacity",
@@ -2900,17 +2900,17 @@
     "owner": "audacity",
     "name": "audacity",
     "githubUrl": "https://github.com/audacity/audacity",
-    "stars": 18451,
-    "forks": 2670,
-    "lastPushedAt": "2026-09-16T15:08:24Z",
+    "stars": 18461,
+    "forks": 2672,
+    "lastPushedAt": "2026-09-17T09:19:04Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 10,
-    "trendScore": 84,
+    "trendScore": 1020,
     "sourceUrls": [
       "https://github.com/audacity/audacity",
       "https://support.audacityteam.org/basics/downloading-and-installing-audacity"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "HandBrake/HandBrake",
@@ -3034,17 +3034,17 @@
     "githubUrl": "https://github.com/HandBrake/HandBrake",
     "homepageUrl": "https://handbrake.fr",
     "license": "NOASSERTION",
-    "stars": 24399,
-    "forks": 1698,
+    "stars": 24408,
+    "forks": 1700,
     "lastPushedAt": "2026-09-16T18:55:28Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 5,
-    "trendScore": 73,
+    "dailyStarGrowth": 9,
+    "trendScore": 920,
     "sourceUrls": [
       "https://github.com/HandBrake/HandBrake",
       "https://github.com/HandBrake/HandBrake#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "ShareX/ShareX",
@@ -3124,17 +3124,17 @@
     "githubUrl": "https://github.com/ShareX/ShareX",
     "homepageUrl": "https://getsharex.com",
     "license": "GPL-3.0",
-    "stars": 39601,
+    "stars": 39610,
     "forks": 3916,
-    "lastPushedAt": "2026-09-16T18:33:27Z",
+    "lastPushedAt": "2026-09-16T21:59:38Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 17,
-    "trendScore": 96,
+    "dailyStarGrowth": 9,
+    "trendScore": 920,
     "sourceUrls": [
       "https://github.com/ShareX/ShareX",
       "https://github.com/ShareX/ShareX#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "flameshot-org/flameshot",
@@ -3258,17 +3258,17 @@
     "githubUrl": "https://github.com/flameshot-org/flameshot",
     "homepageUrl": "https://flameshot.org",
     "license": "GPL-3.0",
-    "stars": 30868,
-    "forks": 2018,
-    "lastPushedAt": "2026-09-12T19:37:40Z",
+    "stars": 30872,
+    "forks": 2019,
+    "lastPushedAt": "2026-09-17T05:30:51Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 10,
-    "trendScore": 85,
+    "dailyStarGrowth": 4,
+    "trendScore": 420,
     "sourceUrls": [
       "https://github.com/flameshot-org/flameshot",
       "https://github.com/flameshot-org/flameshot#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "inkscape/inkscape",
@@ -3295,7 +3295,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -3391,17 +3391,17 @@
     "name": "inkscape",
     "githubUrl": "https://github.com/inkscape/inkscape",
     "homepageUrl": "http://www.inkscape.org/",
-    "stars": 3920,
+    "stars": 3922,
     "forks": 291,
     "lastPushedAt": "2022-03-03T20:52:00Z",
     "maintenanceStatus": "caution",
-    "dailyStarGrowth": 7,
-    "trendScore": 60,
+    "dailyStarGrowth": 2,
+    "trendScore": 200,
     "sourceUrls": [
       "https://github.com/inkscape/inkscape",
       "https://github.com/inkscape/inkscape#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "KDE/kdenlive",
@@ -3428,7 +3428,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -3525,17 +3525,17 @@
     "githubUrl": "https://github.com/KDE/kdenlive",
     "homepageUrl": "https://invent.kde.org/multimedia/kdenlive",
     "license": "GPL-3.0",
-    "stars": 5693,
-    "forks": 511,
-    "lastPushedAt": "2026-09-16T17:11:29Z",
+    "stars": 5699,
+    "forks": 512,
+    "lastPushedAt": "2026-09-17T10:44:04Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 2,
-    "trendScore": 56,
+    "dailyStarGrowth": 6,
+    "trendScore": 620,
     "sourceUrls": [
       "https://github.com/KDE/kdenlive",
       "https://github.com/KDE/kdenlive#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "standardnotes/app",
@@ -3659,17 +3659,17 @@
     "githubUrl": "https://github.com/standardnotes/app",
     "homepageUrl": "https://standardnotes.com",
     "license": "AGPL-3.0",
-    "stars": 6632,
-    "forks": 550,
-    "lastPushedAt": "2026-09-16T20:43:02Z",
+    "stars": 6631,
+    "forks": 551,
+    "lastPushedAt": "2026-09-17T03:46:19Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
-    "trendScore": 34,
+    "trendScore": 20,
     "sourceUrls": [
       "https://github.com/standardnotes/app",
       "https://github.com/standardnotes/app#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "cryptomator/cryptomator",
@@ -3696,7 +3696,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -3793,17 +3793,17 @@
     "githubUrl": "https://github.com/cryptomator/cryptomator",
     "homepageUrl": "https://cryptomator.org",
     "license": "GPL-3.0",
-    "stars": 16146,
+    "stars": 16153,
     "forks": 1542,
     "lastPushedAt": "2026-09-16T15:57:47Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 6,
-    "trendScore": 75,
+    "dailyStarGrowth": 7,
+    "trendScore": 720,
     "sourceUrls": [
       "https://github.com/cryptomator/cryptomator",
       "https://github.com/cryptomator/cryptomator#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "rustdesk/rustdesk",
@@ -3831,7 +3831,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -3927,17 +3927,17 @@
     "name": "rustdesk",
     "githubUrl": "https://github.com/rustdesk/rustdesk",
     "license": "AGPL-3.0",
-    "stars": 123846,
-    "forks": 19077,
-    "lastPushedAt": "2026-09-16T14:53:26Z",
+    "stars": 123991,
+    "forks": 19112,
+    "lastPushedAt": "2026-09-17T10:24:24Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 195,
-    "trendScore": 146,
+    "dailyStarGrowth": 145,
+    "trendScore": 14520,
     "sourceUrls": [
       "https://github.com/rustdesk/rustdesk",
       "https://rustdesk.com/docs/en/client/"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "mullvad/mullvadvpn-app",
@@ -4061,17 +4061,17 @@
     "githubUrl": "https://github.com/mullvad/mullvadvpn-app",
     "homepageUrl": "https://mullvad.net/",
     "license": "GPL-3.0",
-    "stars": 7571,
-    "forks": 521,
-    "lastPushedAt": "2026-09-16T19:47:37Z",
+    "stars": 7572,
+    "forks": 522,
+    "lastPushedAt": "2026-09-17T10:48:04Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 4,
-    "trendScore": 67,
+    "dailyStarGrowth": 1,
+    "trendScore": 120,
     "sourceUrls": [
       "https://github.com/mullvad/mullvadvpn-app",
       "https://github.com/mullvad/mullvadvpn-app#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "qbittorrent/qBittorrent",
@@ -4098,7 +4098,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -4195,17 +4195,17 @@
     "githubUrl": "https://github.com/qbittorrent/qBittorrent",
     "homepageUrl": "https://www.qbittorrent.org",
     "license": "NOASSERTION",
-    "stars": 40149,
+    "stars": 40156,
     "forks": 4872,
     "lastPushedAt": "2026-09-16T06:07:57Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 20,
-    "trendScore": 99,
+    "dailyStarGrowth": 7,
+    "trendScore": 720,
     "sourceUrls": [
       "https://github.com/qbittorrent/qBittorrent",
       "https://github.com/qbittorrent/qBittorrent#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "transmission/transmission",
@@ -4232,7 +4232,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -4329,17 +4329,17 @@
     "githubUrl": "https://github.com/transmission/transmission",
     "homepageUrl": "https://transmissionbt.com",
     "license": "NOASSERTION",
-    "stars": 15208,
+    "stars": 15211,
     "forks": 1447,
     "lastPushedAt": "2026-09-04T16:40:20Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 2,
-    "trendScore": 51,
+    "dailyStarGrowth": 3,
+    "trendScore": 308,
     "sourceUrls": [
       "https://github.com/transmission/transmission",
       "https://github.com/transmission/transmission#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "agalwood/Motrix",
@@ -4463,17 +4463,17 @@
     "githubUrl": "https://github.com/agalwood/Motrix",
     "homepageUrl": "https://motrix.app",
     "license": "NOASSERTION",
-    "stars": 55551,
-    "forks": 5030,
+    "stars": 55576,
+    "forks": 5031,
     "lastPushedAt": "2026-09-16T02:48:32Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 42,
-    "trendScore": 114,
+    "dailyStarGrowth": 25,
+    "trendScore": 2520,
     "sourceUrls": [
       "https://github.com/agalwood/Motrix",
       "https://github.com/agalwood/Motrix#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "Eugeny/tabby",
@@ -4500,7 +4500,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -4597,17 +4597,17 @@
     "githubUrl": "https://github.com/Eugeny/tabby",
     "homepageUrl": "https://tabby.sh",
     "license": "MIT",
-    "stars": 74516,
-    "forks": 4255,
+    "stars": 74533,
+    "forks": 4254,
     "lastPushedAt": "2026-09-16T04:03:20Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 9,
-    "trendScore": 85,
+    "dailyStarGrowth": 17,
+    "trendScore": 1720,
     "sourceUrls": [
       "https://github.com/Eugeny/tabby",
       "https://github.com/Eugeny/tabby#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "wezterm/wezterm",
@@ -4634,7 +4634,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -4731,17 +4731,17 @@
     "githubUrl": "https://github.com/wezterm/wezterm",
     "homepageUrl": "https://wezterm.org/",
     "license": "NOASSERTION",
-    "stars": 28920,
-    "forks": 1741,
-    "lastPushedAt": "2026-09-15T11:51:23Z",
+    "stars": 28927,
+    "forks": 1743,
+    "lastPushedAt": "2026-09-17T09:44:57Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 10,
-    "trendScore": 85,
+    "dailyStarGrowth": 7,
+    "trendScore": 720,
     "sourceUrls": [
       "https://github.com/wezterm/wezterm",
       "https://github.com/wez/wezterm#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "alacritty/alacritty",
@@ -4768,7 +4768,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -4865,17 +4865,17 @@
     "githubUrl": "https://github.com/alacritty/alacritty",
     "homepageUrl": "https://alacritty.org",
     "license": "Apache-2.0",
-    "stars": 65738,
-    "forks": 3611,
+    "stars": 65746,
+    "forks": 3612,
     "lastPushedAt": "2026-08-31T21:11:12Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 12,
-    "trendScore": 83,
+    "dailyStarGrowth": 8,
+    "trendScore": 808,
     "sourceUrls": [
       "https://github.com/alacritty/alacritty",
       "https://github.com/alacritty/alacritty#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "desktop/desktop",
@@ -4977,17 +4977,17 @@
     "githubUrl": "https://github.com/desktop/desktop",
     "homepageUrl": "https://github.com/apps/desktop",
     "license": "MIT",
-    "stars": 21892,
-    "forks": 10547,
-    "lastPushedAt": "2026-09-16T16:19:20Z",
+    "stars": 21956,
+    "forks": 10550,
+    "lastPushedAt": "2026-09-17T10:00:52Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 39,
-    "trendScore": 110,
+    "dailyStarGrowth": 65,
+    "trendScore": 6520,
     "sourceUrls": [
       "https://github.com/desktop/desktop",
       "https://github.com/desktop/desktop#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "jesseduffield/lazygit",
@@ -5015,7 +5015,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "advanced",
     "usageType": "cli",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -5123,17 +5123,17 @@
     "name": "lazygit",
     "githubUrl": "https://github.com/jesseduffield/lazygit",
     "license": "MIT",
-    "stars": 82396,
-    "forks": 3038,
+    "stars": 82416,
+    "forks": 3037,
     "lastPushedAt": "2026-09-16T08:11:35Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 30,
-    "trendScore": 108,
+    "dailyStarGrowth": 20,
+    "trendScore": 2020,
     "sourceUrls": [
       "https://github.com/jesseduffield/lazygit",
       "https://github.com/jesseduffield/lazygit#installation"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "ventoy/Ventoy",
@@ -5160,7 +5160,7 @@
       "open-source",
       "advanced"
     ],
-    "difficulty": "advanced",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -5235,17 +5235,17 @@
     "githubUrl": "https://github.com/ventoy/Ventoy",
     "homepageUrl": "https://www.ventoy.net",
     "license": "GPL-3.0",
-    "stars": 79322,
+    "stars": 79332,
     "forks": 4935,
     "lastPushedAt": "2026-08-06T04:51:23Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 5,
-    "trendScore": 62,
+    "dailyStarGrowth": 10,
+    "trendScore": 1002,
     "sourceUrls": [
       "https://github.com/ventoy/Ventoy",
       "https://github.com/ventoy/Ventoy#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "balena-io/etcher",
@@ -5272,7 +5272,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -5369,17 +5369,17 @@
     "githubUrl": "https://github.com/balena-io/etcher",
     "homepageUrl": "https://etcher.io/",
     "license": "Apache-2.0",
-    "stars": 34356,
-    "forks": 2415,
+    "stars": 34362,
+    "forks": 2416,
     "lastPushedAt": "2026-06-02T09:25:23Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 8,
-    "trendScore": 69,
+    "dailyStarGrowth": 6,
+    "trendScore": 602,
     "sourceUrls": [
       "https://github.com/balena-io/etcher",
       "https://github.com/balena-io/etcher#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "pbatard/rufus",
@@ -5406,7 +5406,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -5459,17 +5459,17 @@
     "githubUrl": "https://github.com/pbatard/rufus",
     "homepageUrl": "https://rufus.ie",
     "license": "GPL-3.0",
-    "stars": 37661,
+    "stars": 37667,
     "forks": 3167,
     "lastPushedAt": "2026-09-16T15:53:03Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 8,
-    "trendScore": 82,
+    "dailyStarGrowth": 6,
+    "trendScore": 620,
     "sourceUrls": [
       "https://github.com/pbatard/rufus",
       "https://github.com/pbatard/rufus#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "ip7z/7zip",
@@ -5569,17 +5569,17 @@
     "owner": "ip7z",
     "name": "7zip",
     "githubUrl": "https://github.com/ip7z/7zip",
-    "stars": 3931,
+    "stars": 3935,
     "forks": 414,
     "lastPushedAt": "2026-09-04T07:25:46Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 6,
-    "trendScore": 65,
+    "dailyStarGrowth": 4,
+    "trendScore": 408,
     "sourceUrls": [
       "https://github.com/ip7z/7zip",
       "https://github.com/ip7z/7zip#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "peazip/PeaZip",
@@ -5681,17 +5681,17 @@
     "githubUrl": "https://github.com/peazip/PeaZip",
     "homepageUrl": "https://peazip.github.io",
     "license": "LGPL-3.0",
-    "stars": 7855,
+    "stars": 7859,
     "forks": 404,
     "lastPushedAt": "2026-09-16T11:31:08Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 3,
-    "trendScore": 62,
+    "dailyStarGrowth": 4,
+    "trendScore": 420,
     "sourceUrls": [
       "https://github.com/peazip/PeaZip",
       "https://github.com/peazip/PeaZip#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "ONLYOFFICE/DesktopEditors",
@@ -5815,17 +5815,17 @@
     "githubUrl": "https://github.com/ONLYOFFICE/DesktopEditors",
     "homepageUrl": "https://www.onlyoffice.com",
     "license": "AGPL-3.0",
-    "stars": 5391,
-    "forks": 540,
+    "stars": 5398,
+    "forks": 541,
     "lastPushedAt": "2026-05-21T12:51:44Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 5,
-    "trendScore": 56,
+    "dailyStarGrowth": 7,
+    "trendScore": 702,
     "sourceUrls": [
       "https://github.com/ONLYOFFICE/DesktopEditors",
       "https://github.com/ONLYOFFICE/DesktopEditors#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "jgraph/drawio-desktop",
@@ -5949,17 +5949,17 @@
     "githubUrl": "https://github.com/jgraph/drawio-desktop",
     "homepageUrl": "https://www.diagrams.net",
     "license": "Apache-2.0",
-    "stars": 63138,
-    "forks": 5767,
-    "lastPushedAt": "2026-09-14T10:50:34Z",
+    "stars": 63148,
+    "forks": 5768,
+    "lastPushedAt": "2026-09-16T21:57:57Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 9,
-    "trendScore": 85,
+    "dailyStarGrowth": 10,
+    "trendScore": 1020,
     "sourceUrls": [
       "https://github.com/jgraph/drawio-desktop",
       "https://github.com/jgraph/drawio-desktop#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "godotengine/godot",
@@ -5986,7 +5986,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -6083,17 +6083,17 @@
     "githubUrl": "https://github.com/godotengine/godot",
     "homepageUrl": "https://godotengine.org",
     "license": "MIT",
-    "stars": 117305,
-    "forks": 26770,
+    "stars": 117355,
+    "forks": 26778,
     "lastPushedAt": "2026-09-16T19:06:49Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 76,
-    "trendScore": 127,
+    "dailyStarGrowth": 50,
+    "trendScore": 5020,
     "sourceUrls": [
       "https://github.com/godotengine/godot",
       "https://github.com/godotengine/godot#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "LMMS/lmms",
@@ -6120,7 +6120,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -6217,17 +6217,17 @@
     "githubUrl": "https://github.com/LMMS/lmms",
     "homepageUrl": "https://lmms.io",
     "license": "GPL-2.0",
-    "stars": 10367,
-    "forks": 1253,
+    "stars": 10371,
+    "forks": 1256,
     "lastPushedAt": "2026-09-15T23:17:45Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 1,
-    "trendScore": 49,
+    "dailyStarGrowth": 4,
+    "trendScore": 420,
     "sourceUrls": [
       "https://github.com/LMMS/lmms",
       "https://github.com/LMMS/lmms#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "musescore/MuseScore",
@@ -6351,17 +6351,17 @@
     "githubUrl": "https://github.com/musescore/MuseScore",
     "homepageUrl": "https://musescore.org",
     "license": "NOASSERTION",
-    "stars": 15113,
-    "forks": 3289,
-    "lastPushedAt": "2026-09-16T19:19:24Z",
+    "stars": 15115,
+    "forks": 3290,
+    "lastPushedAt": "2026-09-17T10:20:29Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 4,
-    "trendScore": 68,
+    "dailyStarGrowth": 2,
+    "trendScore": 220,
     "sourceUrls": [
       "https://github.com/musescore/MuseScore",
       "https://github.com/musescore/MuseScore#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "xbmc/xbmc",
@@ -6487,15 +6487,15 @@
     "license": "NOASSERTION",
     "stars": 21226,
     "forks": 6597,
-    "lastPushedAt": "2026-09-16T10:20:05Z",
+    "lastPushedAt": "2026-09-17T04:14:41Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 3,
-    "trendScore": 64,
+    "dailyStarGrowth": 0,
+    "trendScore": 20,
     "sourceUrls": [
       "https://github.com/xbmc/xbmc",
       "https://github.com/xbmc/xbmc#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "videolan/vlc",
@@ -6619,17 +6619,17 @@
     "githubUrl": "https://github.com/videolan/vlc",
     "homepageUrl": "http://www.videolan.org/vlc",
     "license": "GPL-2.0",
-    "stars": 19661,
-    "forks": 6203,
-    "lastPushedAt": "2026-09-16T15:47:16Z",
+    "stars": 19668,
+    "forks": 6204,
+    "lastPushedAt": "2026-09-17T09:27:20Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 9,
-    "trendScore": 83,
+    "dailyStarGrowth": 7,
+    "trendScore": 720,
     "sourceUrls": [
       "https://github.com/videolan/vlc",
       "https://github.com/videolan/vlc#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "OpenShot/openshot-qt",
@@ -6753,17 +6753,17 @@
     "githubUrl": "https://github.com/OpenShot/openshot-qt",
     "homepageUrl": "http://www.openshot.org",
     "license": "NOASSERTION",
-    "stars": 6508,
-    "forks": 805,
+    "stars": 6509,
+    "forks": 807,
     "lastPushedAt": "2026-09-15T21:15:28Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 9,
-    "trendScore": 80,
+    "dailyStarGrowth": 1,
+    "trendScore": 120,
     "sourceUrls": [
       "https://github.com/OpenShot/openshot-qt",
       "https://github.com/OpenShot/openshot-qt#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "darktable-org/darktable",
@@ -6790,7 +6790,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -6887,17 +6887,17 @@
     "githubUrl": "https://github.com/darktable-org/darktable",
     "homepageUrl": "https://www.darktable.org",
     "license": "GPL-3.0",
-    "stars": 13083,
-    "forks": 1432,
-    "lastPushedAt": "2026-09-16T20:44:54Z",
+    "stars": 13086,
+    "forks": 1433,
+    "lastPushedAt": "2026-09-17T06:26:06Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 3,
-    "trendScore": 63,
+    "trendScore": 320,
     "sourceUrls": [
       "https://github.com/darktable-org/darktable",
       "https://github.com/darktable-org/darktable#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "iterate-ch/cyberduck",
@@ -6924,7 +6924,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -6999,17 +6999,17 @@
     "githubUrl": "https://github.com/iterate-ch/cyberduck",
     "homepageUrl": "https://cyberduck.io",
     "license": "GPL-3.0",
-    "stars": 4783,
+    "stars": 4786,
     "forks": 369,
-    "lastPushedAt": "2026-09-16T12:41:47Z",
+    "lastPushedAt": "2026-09-17T09:16:27Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 0,
-    "trendScore": 33,
+    "dailyStarGrowth": 3,
+    "trendScore": 320,
     "sourceUrls": [
       "https://github.com/iterate-ch/cyberduck",
       "https://github.com/iterate-ch/cyberduck#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "neovim/neovim",
@@ -7036,7 +7036,7 @@
       "open-source",
       "advanced"
     ],
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "usageType": "cli",
     "guideType": "release-download",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -7133,17 +7133,17 @@
     "githubUrl": "https://github.com/neovim/neovim",
     "homepageUrl": "https://neovim.io",
     "license": "NOASSERTION",
-    "stars": 102371,
-    "forks": 7111,
-    "lastPushedAt": "2026-09-16T14:27:22Z",
+    "stars": 102385,
+    "forks": 7113,
+    "lastPushedAt": "2026-09-17T10:46:03Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 13,
-    "trendScore": 93,
+    "dailyStarGrowth": 14,
+    "trendScore": 1420,
     "sourceUrls": [
       "https://github.com/neovim/neovim",
       "https://github.com/neovim/neovim#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "gitextensions/gitextensions",
@@ -7170,7 +7170,7 @@
       "open-source",
       "intermediate"
     ],
-    "difficulty": "intermediate",
+    "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "공식 오픈소스 배포판은 무료입니다. 연동 서비스나 기업용 기능에는 별도 비용이 있을 수 있습니다.",
@@ -7223,17 +7223,17 @@
     "githubUrl": "https://github.com/gitextensions/gitextensions",
     "homepageUrl": "https://gitextensions.github.io/",
     "license": "NOASSERTION",
-    "stars": 8560,
+    "stars": 8564,
     "forks": 2215,
     "lastPushedAt": "2026-09-14T10:46:04Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 1,
-    "trendScore": 49,
+    "dailyStarGrowth": 4,
+    "trendScore": 420,
     "sourceUrls": [
       "https://github.com/gitextensions/gitextensions",
       "https://github.com/gitextensions/gitextensions#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "WinMerge/winmerge",
@@ -7318,12 +7318,12 @@
     "lastPushedAt": "2026-09-16T14:13:25Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
-    "trendScore": 35,
+    "trendScore": 20,
     "sourceUrls": [
       "https://github.com/WinMerge/winmerge",
       "https://github.com/WinMerge/winmerge#readme"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   },
   {
     "id": "farion1231/cc-switch",
@@ -7358,7 +7358,7 @@
       "Codex",
       "Gemini"
     ],
-    "difficulty": "beginner",
+    "difficulty": "intermediate",
     "usageType": "desktop",
     "guideType": "desktop-installer",
     "costSummary": "프로그램 자체는 무료 오픈소스입니다. 연결하는 AI 모델이나 API 중에는 별도의 API 키, 구독 또는 사용 요금이 필요한 서비스가 있습니다.",
@@ -7469,16 +7469,362 @@
     "githubUrl": "https://github.com/farion1231/cc-switch",
     "homepageUrl": "https://ccswitch.io",
     "license": "MIT",
-    "stars": 133202,
-    "forks": 9182,
+    "stars": 133323,
+    "forks": 9200,
     "lastPushedAt": "2026-09-15T04:33:49Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 176,
-    "trendScore": 144,
+    "dailyStarGrowth": 121,
+    "trendScore": 12120,
     "sourceUrls": [
       "https://github.com/farion1231/cc-switch",
       "https://ccswitch.io"
     ],
-    "collectedAt": "2026-09-16T21:17:48.637Z"
+    "collectedAt": "2026-09-17T10:48:22.114Z"
+  },
+  {
+    "id": "usememos/memos",
+    "category": "productivity",
+    "summary": "Memos는 빠르고 개인적인 메모 작성을 위한 오픈소스, 자체 호스팅 노트 필기 도구입니다. 마크다운을 지원하며, 간편한 캡처와 정리를 돕고 사용자가 데이터에 대한 완전한 통제권을 가질 수 있도록 설계되었습니다.",
+    "whatItIs": "Memos는 사용자가 직접 호스팅할 수 있는 오픈소스 단문 노트 필기 도구입니다. 일일 메모, 링크, 작업 로그, 코드 스니펫 등을 시간순 마크다운 타임라인에 기록할 수 있으며, 모든 데이터는 사용자가 직접 관리합니다. 복잡한 올인원 워크스페이스의 오버헤드 없이 개인적인 생각을 빠르게 기록하고 정리하는 데 중점을 둡니다.",
+    "problemSolved": "클라우드 기반 노트 서비스의 개인 정보 보호 문제나 복잡한 올인원 워크스페이스의 오버헤드 없이, 빠르고 효율적으로 생각을 기록하고 정리하며 필요에 따라 공유할 수 있는 개인화된 공간을 제공합니다. 사용자는 자신의 데이터를 완전히 통제하면서도 편리하게 메모를 관리할 수 있습니다.",
+    "recommendedFor": [
+      "개인 정보 보호를 중요하게 생각하는 사용자",
+      "자체 호스팅 솔루션을 선호하는 사용자",
+      "빠른 메모와 아이디어 캡처가 필요한 사용자",
+      "마크다운 기반 노트 필기를 선호하는 사용자"
+    ],
+    "keyFeatures": [
+      "빠른 캡처: 제목, 폴더, 템플릿 없이 마크다운으로 작성하고 미디어를 첨부하여 빠르게 저장할 수 있습니다.",
+      "간편한 정리: 타임라인, 검색, 태그, 고정 기능을 통해 메모를 쉽게 찾아보고 정리할 수 있습니다.",
+      "선택적 공유 및 데이터 제어: 메모를 비공개로 유지하거나 원하는 것만 게시할 수 있으며, 자체 호스팅을 통해 데이터에 대한 완전한 통제권을 가집니다."
+    ],
+    "useCases": [
+      "일일 생각, 아이디어, 링크를 빠르게 기록하고 정리",
+      "작업 로그 또는 프로젝트 진행 상황을 마크다운으로 기록",
+      "코드 스니펫이나 유용한 정보를 저장하고 검색",
+      "개인적인 일기나 저널을 안전하게 보관"
+    ],
+    "tags": [
+      "노트필기",
+      "메모",
+      "자체호스팅",
+      "마크다운",
+      "생산성",
+      "오픈소스",
+      "개인정보보호",
+      "Docker"
+    ],
+    "difficulty": "advanced",
+    "usageType": "docker",
+    "guideType": "docker",
+    "costSummary": "Memos는 오픈소스 프로젝트이므로 소프트웨어 자체는 무료입니다. 자체 호스팅을 위해 필요한 서버, 도메인 등의 인프라 비용은 사용자가 부담해야 합니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Docker 설치 (Windows/macOS의 경우 Docker Desktop, Linux의 경우 Docker Engine)",
+        "인터넷 연결"
+      ],
+      "estimatedMinutes": 15,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Docker Desktop을 설치하고 실행해야 합니다.",
+            "PowerShell 또는 명령 프롬프트(CMD)를 관리자 권한으로 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Desktop이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "Docker Desktop을 설치하고 실행해야 합니다.",
+            "터미널 앱을 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Desktop이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "Docker Engine을 설치하고 실행해야 합니다.",
+            "터미널을 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Engine이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납s니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "웹 브라우저에서 'http://localhost:5230' 주소로 접속하면 Memos의 초기 설정 화면 또는 로그인 화면이 나타납니다.",
+      "stopInstructions": "Memos Docker 컨테이너를 중지하려면 터미널에서 다음 명령어를 실행합니다: docker stop memos",
+      "uninstallInstructions": "Memos를 완전히 제거하려면 다음 단계를 따릅니다: 1. Memos 컨테이너 중지: docker stop memos 2. Memos 컨테이너 삭제: docker rm memos 3. Memos 데이터 볼륨 삭제: rm -rf ~/.memos (이 명령은 모든 Memos 데이터를 영구적으로 삭제하므로 주의하십시오.)",
+      "commonIssues": [
+        {
+          "problem": "Memos 웹 인터페이스에 접속할 수 없습니다 (예: '사이트에 연결할 수 없음' 오류).",
+          "solution": "Docker 컨테이너가 제대로 실행 중인지 확인하십시오. 터미널에서 'docker ps' 명령어를 실행하여 'memos' 컨테이너가 'Up' 상태인지 확인합니다. 만약 실행 중이 아니라면 'docker logs memos' 명령어로 로그를 확인하여 문제의 원인을 파악할 수 있습니다. 또한, 5230 포트가 다른 애플리케이션에 의해 사용 중일 수 있으므로, 'docker run' 명령어의 '-p' 옵션을 변경하여 다른 포트(예: '-p 8080:5230')를 사용해 보세요."
+        },
+        {
+          "problem": "Memos 컨테이너가 시작되지 않습니다.",
+          "solution": "Docker 서비스가 실행 중인지 확인하십시오. Windows/macOS에서는 Docker Desktop 앱이 실행 중이어야 하며, Linux에서는 Docker Engine 서비스가 활성화되어 있어야 합니다. 또한, 'docker logs memos' 명령어를 사용하여 컨테이너의 시작 로그를 확인하면 문제 해결에 도움이 될 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://usememos.com/docs",
+      "verifiedAt": "2026-09-17"
+    },
+    "owner": "usememos",
+    "name": "memos",
+    "githubUrl": "https://github.com/usememos/memos",
+    "homepageUrl": "https://usememos.com",
+    "license": "MIT",
+    "stars": 63124,
+    "forks": 4767,
+    "lastPushedAt": "2026-09-17T01:31:47Z",
+    "maintenanceStatus": "active",
+    "dailyStarGrowth": 0,
+    "trendScore": 20,
+    "sourceUrls": [
+      "https://github.com/usememos/memos",
+      "https://usememos.com/docs"
+    ],
+    "collectedAt": "2026-09-17T10:48:22.114Z"
+  },
+  {
+    "id": "HKUDS/nanobot",
+    "category": "ai-automation",
+    "summary": "nanobot은 웹 UI, 터미널, 채팅 앱에서 실행되는 초경량 오픈 소스 개인 AI 에이전트 프레임워크입니다. 도구, 장기 기억, 다중 에이전트 워크플로우, 자동화 및 채팅 앱 통합 기능을 제공하여 개인화된 AI 작업을 수행할 수 있습니다.",
+    "whatItIs": "nanobot은 Python으로 작성된 자체 호스팅 가능한 개인 AI 에이전트 프레임워크입니다. 웹 UI를 통해 쉽게 접근하고 관리할 수 있으며, 파일, 셸, 웹 검색 등 다양한 도구를 활용하여 작업을 자동화하고, 장기 기억을 통해 지속적인 대화와 목표 달성을 지원합니다. 또한, Telegram, Discord와 같은 채팅 앱과 연동하여 AI 에이전트를 사용할 수 있습니다.",
+    "problemSolved": "nanobot은 사용자가 개인화된 AI 에이전트를 쉽게 구축하고 관리할 수 있도록 돕습니다. 복잡한 AI 워크플로우를 단순화하고, 다양한 도구와 연동하여 작업을 자동화하며, 지속적인 대화와 기억을 통해 장기적인 목표를 달성할 수 있게 합니다. 또한, 여러 채팅 플랫폼에서 AI 에이전트를 활용할 수 있도록 하여 접근성을 높입니다.",
+    "recommendedFor": [
+      "개인 AI 에이전트 구축에 관심 있는 사용자",
+      "반복적인 작업을 자동화하고 싶은 사용자",
+      "다양한 플랫폼에서 AI 에이전트를 활용하고 싶은 사용자",
+      "자체 호스팅 가능한 AI 솔루션을 찾는 사용자"
+    ],
+    "keyFeatures": [
+      "웹 UI, 터미널, 채팅 앱을 통한 유연한 접근성",
+      "도구 통합(파일, 셸, 웹 검색 등) 및 장기 기억 기능",
+      "다중 에이전트 워크플로우 및 스케줄링된 자동화"
+    ],
+    "useCases": [
+      "개인 비서 및 작업 자동화",
+      "채팅 앱을 통한 AI 에이전트 상호작용",
+      "정보 검색 및 요약",
+      "반복적인 개발 및 운영 작업 지원"
+    ],
+    "tags": [
+      "AI 에이전트",
+      "자동화",
+      "웹 UI",
+      "오픈 소스",
+      "Python",
+      "자체 호스팅",
+      "생산성",
+      "개발자 도구"
+    ],
+    "difficulty": "advanced",
+    "usageType": "web",
+    "guideType": "package-manager",
+    "costSummary": "nanobot은 무료 오픈 소스이며 자체 호스팅이 가능합니다. 하지만 AI 모델(LLM) 사용에 따라 API 비용이 발생할 수 있습니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Python 3.11 이상"
+      ],
+      "estimatedMinutes": 15,
+      "platforms": [
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 터미널에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 터미널에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 명령 프롬프트/PowerShell에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "nanobot 웹 UI가 기본 웹 브라우저에 열리고, 초기 설정 화면 또는 대화 인터페이스가 나타납니다. 'Settings → Models'에서 모델을 설정한 후, 새 토픽에서 'Hello!'를 보내면 AI 에이전트의 응답을 확인할 수 있습니다.",
+      "stopInstructions": "nanobot 웹 UI 또는 터미널 클라이언트를 포그라운드에서 실행 중인 경우, 터미널 창에서 Ctrl+C를 눌러 프로세스를 종료할 수 있습니다. nanobot gateway를 백그라운드 모드로 실행 중인 경우, 'nanobot gateway stop' 명령어를 사용하여 종료할 수 있습니다.",
+      "uninstallInstructions": "nanobot을 제거하려면 다음 명령어를 사용하세요: python -m pip uninstall nanobot-ai",
+      "commonIssues": [
+        {
+          "problem": "AI 모델이 응답하지 않습니다.",
+          "solution": "웹 UI의 'Settings → Models'에서 올바른 AI 모델 제공업체, 자격 증명 및 모델이 설정되었는지 확인하세요. API 키가 필요한 경우 올바르게 입력되었는지 확인해야 합니다."
+        },
+        {
+          "problem": "웹 UI가 열리지 않습니다.",
+          "solution": "'nanobot webui' 명령어를 실행한 후 터미널에 오류 메시지가 있는지 확인하세요. 방화벽 설정이나 포트 충돌 문제일 수 있습니다. 공식 문서의 'Troubleshooting' 섹션을 참조하세요."
+        }
+      ],
+      "officialDocsUrl": "https://nanobot.wiki/docs/latest/getting-started/nanobot-overview",
+      "verifiedAt": "2026-09-17"
+    },
+    "owner": "HKUDS",
+    "name": "nanobot",
+    "githubUrl": "https://github.com/HKUDS/nanobot",
+    "homepageUrl": "https://nanobot.wiki",
+    "license": "MIT",
+    "stars": 48252,
+    "forks": 8529,
+    "lastPushedAt": "2026-09-17T10:30:12Z",
+    "maintenanceStatus": "active",
+    "dailyStarGrowth": 0,
+    "trendScore": 20,
+    "sourceUrls": [
+      "https://github.com/HKUDS/nanobot",
+      "https://nanobot.wiki/docs/latest/getting-started/nanobot-overview"
+    ],
+    "collectedAt": "2026-09-17T10:48:22.114Z"
   }
 ]

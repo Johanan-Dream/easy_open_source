@@ -138,5 +138,319 @@
       "officialDocsUrl": "https://ccswitch.io",
       "verifiedAt": "2026-09-06"
     }
+  },
+  {
+    "id": "usememos/memos",
+    "category": "productivity",
+    "summary": "Memos는 빠르고 개인적인 메모 작성을 위한 오픈소스, 자체 호스팅 노트 필기 도구입니다. 마크다운을 지원하며, 간편한 캡처와 정리를 돕고 사용자가 데이터에 대한 완전한 통제권을 가질 수 있도록 설계되었습니다.",
+    "whatItIs": "Memos는 사용자가 직접 호스팅할 수 있는 오픈소스 단문 노트 필기 도구입니다. 일일 메모, 링크, 작업 로그, 코드 스니펫 등을 시간순 마크다운 타임라인에 기록할 수 있으며, 모든 데이터는 사용자가 직접 관리합니다. 복잡한 올인원 워크스페이스의 오버헤드 없이 개인적인 생각을 빠르게 기록하고 정리하는 데 중점을 둡니다.",
+    "problemSolved": "클라우드 기반 노트 서비스의 개인 정보 보호 문제나 복잡한 올인원 워크스페이스의 오버헤드 없이, 빠르고 효율적으로 생각을 기록하고 정리하며 필요에 따라 공유할 수 있는 개인화된 공간을 제공합니다. 사용자는 자신의 데이터를 완전히 통제하면서도 편리하게 메모를 관리할 수 있습니다.",
+    "recommendedFor": [
+      "개인 정보 보호를 중요하게 생각하는 사용자",
+      "자체 호스팅 솔루션을 선호하는 사용자",
+      "빠른 메모와 아이디어 캡처가 필요한 사용자",
+      "마크다운 기반 노트 필기를 선호하는 사용자"
+    ],
+    "keyFeatures": [
+      "빠른 캡처: 제목, 폴더, 템플릿 없이 마크다운으로 작성하고 미디어를 첨부하여 빠르게 저장할 수 있습니다.",
+      "간편한 정리: 타임라인, 검색, 태그, 고정 기능을 통해 메모를 쉽게 찾아보고 정리할 수 있습니다.",
+      "선택적 공유 및 데이터 제어: 메모를 비공개로 유지하거나 원하는 것만 게시할 수 있으며, 자체 호스팅을 통해 데이터에 대한 완전한 통제권을 가집니다."
+    ],
+    "useCases": [
+      "일일 생각, 아이디어, 링크를 빠르게 기록하고 정리",
+      "작업 로그 또는 프로젝트 진행 상황을 마크다운으로 기록",
+      "코드 스니펫이나 유용한 정보를 저장하고 검색",
+      "개인적인 일기나 저널을 안전하게 보관"
+    ],
+    "tags": [
+      "노트필기",
+      "메모",
+      "자체호스팅",
+      "마크다운",
+      "생산성",
+      "오픈소스",
+      "개인정보보호",
+      "Docker"
+    ],
+    "difficulty": "advanced",
+    "usageType": "docker",
+    "guideType": "docker",
+    "costSummary": "Memos는 오픈소스 프로젝트이므로 소프트웨어 자체는 무료입니다. 자체 호스팅을 위해 필요한 서버, 도메인 등의 인프라 비용은 사용자가 부담해야 합니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Docker 설치 (Windows/macOS의 경우 Docker Desktop, Linux의 경우 Docker Engine)",
+        "인터넷 연결"
+      ],
+      "estimatedMinutes": 15,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Docker Desktop을 설치하고 실행해야 합니다.",
+            "PowerShell 또는 명령 프롬프트(CMD)를 관리자 권한으로 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Desktop이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "Docker Desktop을 설치하고 실행해야 합니다.",
+            "터미널 앱을 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Desktop이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "Docker Engine을 설치하고 실행해야 합니다.",
+            "터미널을 엽니다.",
+            "Docker 명령어를 실행할 준비가 되었습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Memos를 실행하기 전에 Docker가 시스템에서 올바르게 실행 중인지 확인합니다. Docker Engine이 시작되어야 합니다.",
+              "command": "docker info",
+              "expectedResult": "Docker 클라이언트 및 서버 정보가 표시됩니다. 오류 메시지가 없어야 합니다."
+            },
+            {
+              "order": 2,
+              "title": "Memos Docker 컨테이너 실행",
+              "description": "다음 명령어를 사용하여 Memos Docker 컨테이너를 백그라운드에서 실행합니다. 이 명령어는 Memos를 'memos'라는 이름으로 시작하고, 호스트의 5230 포트를 컨테이너의 5230 포트에 연결하며, 사용자 홈 디렉터리의 '.memos' 폴더를 컨테이너의 데이터 저장소로 사용합니다.",
+              "command": "docker run -d --name memos -p 5230:5230 -v ~/.memos:/var/opt/memos neosmemo/memos:stable",
+              "expectedResult": "컨테이너 ID가 출력되고, Memos 컨테이너가 백그라운드에서 실행되기 시작합니다."
+            },
+            {
+              "order": 3,
+              "title": "Memos 웹 인터페이스 접속",
+              "description": "웹 브라우저를 열고 'http://localhost:5230' 주소로 이동하여 Memos에 접속합니다.",
+              "expectedResult": "Memos의 초기 설정 또는 로그인 화면이 나타납s니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "웹 브라우저에서 'http://localhost:5230' 주소로 접속하면 Memos의 초기 설정 화면 또는 로그인 화면이 나타납니다.",
+      "stopInstructions": "Memos Docker 컨테이너를 중지하려면 터미널에서 다음 명령어를 실행합니다: docker stop memos",
+      "uninstallInstructions": "Memos를 완전히 제거하려면 다음 단계를 따릅니다: 1. Memos 컨테이너 중지: docker stop memos 2. Memos 컨테이너 삭제: docker rm memos 3. Memos 데이터 볼륨 삭제: rm -rf ~/.memos (이 명령은 모든 Memos 데이터를 영구적으로 삭제하므로 주의하십시오.)",
+      "commonIssues": [
+        {
+          "problem": "Memos 웹 인터페이스에 접속할 수 없습니다 (예: '사이트에 연결할 수 없음' 오류).",
+          "solution": "Docker 컨테이너가 제대로 실행 중인지 확인하십시오. 터미널에서 'docker ps' 명령어를 실행하여 'memos' 컨테이너가 'Up' 상태인지 확인합니다. 만약 실행 중이 아니라면 'docker logs memos' 명령어로 로그를 확인하여 문제의 원인을 파악할 수 있습니다. 또한, 5230 포트가 다른 애플리케이션에 의해 사용 중일 수 있으므로, 'docker run' 명령어의 '-p' 옵션을 변경하여 다른 포트(예: '-p 8080:5230')를 사용해 보세요."
+        },
+        {
+          "problem": "Memos 컨테이너가 시작되지 않습니다.",
+          "solution": "Docker 서비스가 실행 중인지 확인하십시오. Windows/macOS에서는 Docker Desktop 앱이 실행 중이어야 하며, Linux에서는 Docker Engine 서비스가 활성화되어 있어야 합니다. 또한, 'docker logs memos' 명령어를 사용하여 컨테이너의 시작 로그를 확인하면 문제 해결에 도움이 될 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://usememos.com/docs",
+      "verifiedAt": "2026-09-17"
+    }
+  },
+  {
+    "id": "HKUDS/nanobot",
+    "category": "ai-automation",
+    "summary": "nanobot은 웹 UI, 터미널, 채팅 앱에서 실행되는 초경량 오픈 소스 개인 AI 에이전트 프레임워크입니다. 도구, 장기 기억, 다중 에이전트 워크플로우, 자동화 및 채팅 앱 통합 기능을 제공하여 개인화된 AI 작업을 수행할 수 있습니다.",
+    "whatItIs": "nanobot은 Python으로 작성된 자체 호스팅 가능한 개인 AI 에이전트 프레임워크입니다. 웹 UI를 통해 쉽게 접근하고 관리할 수 있으며, 파일, 셸, 웹 검색 등 다양한 도구를 활용하여 작업을 자동화하고, 장기 기억을 통해 지속적인 대화와 목표 달성을 지원합니다. 또한, Telegram, Discord와 같은 채팅 앱과 연동하여 AI 에이전트를 사용할 수 있습니다.",
+    "problemSolved": "nanobot은 사용자가 개인화된 AI 에이전트를 쉽게 구축하고 관리할 수 있도록 돕습니다. 복잡한 AI 워크플로우를 단순화하고, 다양한 도구와 연동하여 작업을 자동화하며, 지속적인 대화와 기억을 통해 장기적인 목표를 달성할 수 있게 합니다. 또한, 여러 채팅 플랫폼에서 AI 에이전트를 활용할 수 있도록 하여 접근성을 높입니다.",
+    "recommendedFor": [
+      "개인 AI 에이전트 구축에 관심 있는 사용자",
+      "반복적인 작업을 자동화하고 싶은 사용자",
+      "다양한 플랫폼에서 AI 에이전트를 활용하고 싶은 사용자",
+      "자체 호스팅 가능한 AI 솔루션을 찾는 사용자"
+    ],
+    "keyFeatures": [
+      "웹 UI, 터미널, 채팅 앱을 통한 유연한 접근성",
+      "도구 통합(파일, 셸, 웹 검색 등) 및 장기 기억 기능",
+      "다중 에이전트 워크플로우 및 스케줄링된 자동화"
+    ],
+    "useCases": [
+      "개인 비서 및 작업 자동화",
+      "채팅 앱을 통한 AI 에이전트 상호작용",
+      "정보 검색 및 요약",
+      "반복적인 개발 및 운영 작업 지원"
+    ],
+    "tags": [
+      "AI 에이전트",
+      "자동화",
+      "웹 UI",
+      "오픈 소스",
+      "Python",
+      "자체 호스팅",
+      "생산성",
+      "개발자 도구"
+    ],
+    "difficulty": "advanced",
+    "usageType": "web",
+    "guideType": "package-manager",
+    "costSummary": "nanobot은 무료 오픈 소스이며 자체 호스팅이 가능합니다. 하지만 AI 모델(LLM) 사용에 따라 API 비용이 발생할 수 있습니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Python 3.11 이상"
+      ],
+      "estimatedMinutes": 15,
+      "platforms": [
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 터미널에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 터미널에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "이 명령어는 Python 패키지 관리자인 pip를 사용하여 nanobot-ai 패키지를 설치합니다. -m 플래그는 Python 모듈을 스크립트처럼 실행하도록 지시합니다.",
+            "이 명령어는 nanobot 웹 UI를 시작하고 기본 웹 브라우저에서 엽니다. 웹 UI를 통해 nanobot을 설정하고 상호작용할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "nanobot 설치",
+              "description": "Python의 pip를 사용하여 nanobot-ai 패키지를 설치합니다.",
+              "command": "python -m pip install nanobot-ai",
+              "expectedResult": "nanobot-ai 패키지가 성공적으로 설치됩니다. 설치 과정에서 여러 종속성이 다운로드될 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "웹 UI 실행",
+              "description": "설치가 완료되면 nanobot 웹 UI를 시작합니다.",
+              "command": "nanobot webui",
+              "expectedResult": "기본 웹 브라우저가 열리고 nanobot 웹 UI(http://127.0.0.1:8765)가 표시됩니다. 명령 프롬프트/PowerShell에는 nanobot 서버의 로그가 출력됩니다."
+            },
+            {
+              "order": 3,
+              "title": "모델 설정 및 첫 대화",
+              "description": "웹 UI에서 'Settings → Models'로 이동하여 AI 모델 제공업체와 모델을 설정합니다. 그 후 새 토픽을 시작하고 'Hello!'를 보내 연결을 확인합니다.",
+              "expectedResult": "AI 에이전트로부터 'Hello!'에 대한 응답을 받으면 설정이 성공적으로 완료된 것입니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "nanobot 웹 UI가 기본 웹 브라우저에 열리고, 초기 설정 화면 또는 대화 인터페이스가 나타납니다. 'Settings → Models'에서 모델을 설정한 후, 새 토픽에서 'Hello!'를 보내면 AI 에이전트의 응답을 확인할 수 있습니다.",
+      "stopInstructions": "nanobot 웹 UI 또는 터미널 클라이언트를 포그라운드에서 실행 중인 경우, 터미널 창에서 Ctrl+C를 눌러 프로세스를 종료할 수 있습니다. nanobot gateway를 백그라운드 모드로 실행 중인 경우, 'nanobot gateway stop' 명령어를 사용하여 종료할 수 있습니다.",
+      "uninstallInstructions": "nanobot을 제거하려면 다음 명령어를 사용하세요: python -m pip uninstall nanobot-ai",
+      "commonIssues": [
+        {
+          "problem": "AI 모델이 응답하지 않습니다.",
+          "solution": "웹 UI의 'Settings → Models'에서 올바른 AI 모델 제공업체, 자격 증명 및 모델이 설정되었는지 확인하세요. API 키가 필요한 경우 올바르게 입력되었는지 확인해야 합니다."
+        },
+        {
+          "problem": "웹 UI가 열리지 않습니다.",
+          "solution": "'nanobot webui' 명령어를 실행한 후 터미널에 오류 메시지가 있는지 확인하세요. 방화벽 설정이나 포트 충돌 문제일 수 있습니다. 공식 문서의 'Troubleshooting' 섹션을 참조하세요."
+        }
+      ],
+      "officialDocsUrl": "https://nanobot.wiki/docs/latest/getting-started/nanobot-overview",
+      "verifiedAt": "2026-09-17"
+    }
   }
 ]
