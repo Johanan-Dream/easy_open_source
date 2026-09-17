@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="터미널이 처음이어도 따라 할 수 있는 한국어 오픈소스 가이드" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <meta name="theme-color" content="#216e4e" />
     <title>Easy Open Source — 오픈소스, 누구나 쓸 수 있게</title>
-    <link rel="stylesheet" href="/styles.css?v=2" />
+    <link rel="stylesheet" href="/styles.css?v=4" />
   </head>
   <body>
     <header class="site-header">
@@ -17,6 +18,7 @@
       <nav aria-label="주요 메뉴">
         <a href="#trending">오늘의 발견</a>
         <a href="#explore">둘러보기</a>
+        <a href="#newsletter">뉴스레터</a>
         <a href="#about">서비스 소개</a>
       </nav>
       <a class="header-cta" href="#explore">오픈소스 찾기</a>
@@ -25,10 +27,11 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <span class="eyebrow"><span class="pulse"></span> 직접 써보고 고른 오픈소스 안내서</span>
-          <h1>오픈소스,<br /><em>누구나 쓸 수 있게.</em></h1>
+          <span class="hero-index">OPEN SOURCE GUIDE · FOR EVERYONE</span>
+          <span class="eyebrow"><span class="pulse"></span> 한국어로 만나는 새로운 도구</span>
+          <h1>좋은 도구를<br /><em>내 것으로.</em></h1>
           <p>
-            Windows와 Mac에 맞춰 설치부터 사용까지 차근차근 알려드려요.
+            어려운 오픈소스, 이제 혼자 헤매지 마세요. 나에게 맞는 도구를 발견하고, Windows와 Mac에 맞춰 첫 실행까지 함께해요.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#explore">내게 맞는 도구 찾기 <span>→</span></a>
@@ -64,16 +67,20 @@
         </div>
       </section>
 
+      <div class="discovery-ribbon" aria-hidden="true">
+        <div>AI &amp; AUTOMATION <i>✦</i> DESIGN TOOLS <i>✦</i> PRODUCTIVITY <i>✦</i> WINDOWS &amp; MAC <i>✦</i> KOREAN GUIDE <i>✦</i> AI &amp; AUTOMATION <i>✦</i> DESIGN TOOLS <i>✦</i></div>
+      </div>
+
       <section class="trending section" id="trending">
         <div class="section-heading">
-          <div><span class="eyebrow warm">오늘의 발견</span><h2>지금 주목받는 오픈소스</h2><p>최근 별이 빠르게 늘고 꾸준히 관리되는 프로젝트예요.</p></div>
+          <div><span class="section-number">01</span><span class="eyebrow warm">오늘의 발견</span><h2>지금, 사람들이<br />발견하고 있는 도구</h2><p>최근 별이 빠르게 늘고 꾸준히 관리되는 프로젝트예요.</p></div>
           <button class="text-button" data-action="show-trending">전체 트렌딩 보기 →</button>
         </div>
         <div class="trending-grid" id="trending-grid" aria-live="polite"></div>
       </section>
 
       <section class="how section" id="how">
-        <div class="section-heading centered"><span class="eyebrow">사용 방법</span><h2>처음 실행할 때 필요한 것들</h2></div>
+        <div class="section-heading centered"><span class="section-number">02</span><span class="eyebrow">사용 방법</span><h2>낯선 오픈소스와<br />친해지는 세 단계</h2></div>
         <div class="feature-grid">
           <article><span class="feature-number">01</span><div class="feature-icon">⌕</div><h3>쉽게 발견하고</h3><p>카테고리와 실제 활용 목적을 기준으로 내게 필요한 프로젝트를 찾아요.</p></article>
           <article><span class="feature-number">02</span><div class="feature-icon">가</div><h3>10초 안에 이해하고</h3><p>영문 README 대신 누구를 위한 도구인지 쉬운 한국어로 먼저 확인해요.</p></article>
@@ -83,7 +90,7 @@
 
       <section class="explore section" id="explore">
         <div class="section-heading explore-heading">
-          <div><span class="eyebrow">전체 목록</span><h2>필요한 도구를 골라보세요</h2></div>
+          <div><span class="section-number">03</span><span class="eyebrow">전체 목록</span><h2>당신의 다음 도구를<br />골라보세요</h2></div>
           <label class="search"><span aria-hidden="true">⌕</span><input id="search-input" type="search" aria-label="오픈소스 검색" placeholder="프로젝트나 하고 싶은 일을 검색하세요" /></label>
         </div>
         <div class="filters">
@@ -92,6 +99,66 @@
         </div>
         <div class="repository-grid" id="repository-grid" aria-live="polite"></div>
         <div class="empty-state" id="empty-state" hidden><strong>검색 결과가 없어요</strong><p>다른 검색어나 카테고리를 선택해 보세요.</p></div>
+      </section>
+
+      <section class="newsletter section" id="newsletter">
+        <div class="newsletter-copy">
+          <span class="section-number">04</span>
+          <span class="eyebrow">일주일에 한 번만</span>
+          <h2>쏟아지는 오픈소스,<br /><em>직접 찾지 마세요.</em></h2>
+          <p class="newsletter-lead">한 주 동안 새로 떠오른 도구 중 정말 써볼 만한 세 개를 골라, 쉬운 설명과 첫 실행 방법을 함께 보내드려요.</p>
+
+          <form class="subscribe-form" id="subscribe-form" novalidate>
+            <label for="subscriber-email">메일을 어디로 보내드릴까요?</label>
+            <div class="subscribe-field">
+              <input id="subscriber-email" name="email" type="email" autocomplete="email" placeholder="email@example.com" aria-describedby="subscribe-note subscribe-message" required />
+              <button type="submit">무료로 받아보기 <span>→</span></button>
+            </div>
+            <p class="subscribe-note" id="subscribe-note">매주 목요일 아침 · 광고 없이 · 언제든 구독 해지</p>
+            <p class="subscribe-message" id="subscribe-message" role="status" aria-live="polite"></p>
+          </form>
+
+          <ul class="newsletter-points" aria-label="뉴스레터 구성">
+            <li><span>01</span><p><b>이번 주의 도구 3개</b>빠르게 성장하는 프로젝트만 골라요.</p></li>
+            <li><span>02</span><p><b>쉬운 한국어 설명</b>누가, 언제 쓰면 좋은지 먼저 알려드려요.</p></li>
+            <li><span>03</span><p><b>내 컴퓨터용 사용법</b>Windows와 Mac 가이드로 바로 이어져요.</p></li>
+          </ul>
+        </div>
+
+        <div class="mail-preview-wrap" aria-label="Easy Open Source 주간 편지 예시">
+          <div class="mail-orbit mail-orbit-one">매주 목요일</div>
+          <div class="mail-orbit mail-orbit-two">딱 3개만</div>
+          <div class="mail-window">
+            <div class="mail-toolbar">
+              <div><i></i><i></i><i></i></div>
+              <span>받은 편지함</span>
+              <b>•••</b>
+            </div>
+            <article class="mail-paper">
+              <header class="mail-head">
+                <div class="mail-logo"><span>E</span> Easy Open Source</div>
+                <span class="mail-date">9월 셋째 주</span>
+              </header>
+              <div class="mail-intro">
+                <span>WEEKLY PICKS · 03</span>
+                <h3>이번 주엔 이 세 개만<br />알아두세요.</h3>
+                <p>새로 주목받은 오픈소스를 직접 써볼 수 있게 정리했어요.</p>
+              </div>
+              <div class="mail-pick featured">
+                <span class="pick-number">01</span>
+                <div class="pick-copy"><small>파일 전송 · 설치 5분</small><h4>LocalSend</h4><p>같은 와이파이에서 사진과 파일을 기기끼리 안전하게 보내요.</p><span class="pick-link">내 컴퓨터에서 시작하기 ↗</span></div>
+                <span class="pick-badge">API 키 없음</span>
+              </div>
+              <div class="mail-pick compact">
+                <span class="pick-number">02</span><div class="pick-copy"><small>AI · 로컬 실행</small><h4>Ollama</h4></div><span class="pick-arrow">↗</span>
+              </div>
+              <div class="mail-pick compact">
+                <span class="pick-number">03</span><div class="pick-copy"><small>생산성 · 자동화</small><h4>n8n</h4></div><span class="pick-arrow">↗</span>
+              </div>
+              <footer class="mail-footer"><span>읽는 데 약 3분</span><b>좋은 도구를, 내 것으로.</b></footer>
+            </article>
+          </div>
+        </div>
       </section>
 
       <section class="about section" id="about">
@@ -106,6 +173,6 @@
     </dialog>
 
     <footer><a class="brand" href="#top"><span class="brand-mark">E</span><span>Easy Open Source</span></a><p>오픈소스, 누구나 쓸 수 있게.</p><span>공식 문서를 바탕으로 만들어요.</span></footer>
-    <script type="module" src="/app.js?v=2"></script>
+    <script type="module" src="/app.js?v=3"></script>
   </body>
 </html>
