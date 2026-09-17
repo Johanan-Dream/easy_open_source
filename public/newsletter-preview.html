@@ -3,50 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Easy Open Source — 주간 편지 디자인</title>
-    <link rel="stylesheet" href="/styles.css?v=5" />
+    <meta name="description" content="Easy Open Source 주간 뉴스레터 미리보기" />
+    <title>Easy Open Source — 이번 주의 오픈소스</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="stylesheet" href="/styles.css?v=6" />
   </head>
-  <body>
-    <header class="site-header">
+  <body class="letter-preview-body">
+    <header class="letter-preview-header">
       <a class="brand" href="/"><span class="brand-mark">E</span><span>Easy Open Source</span></a>
-      <span class="preview-label">주간 편지 디자인 미리보기</span>
-      <a class="header-cta" href="/">메인으로 돌아가기</a>
+      <span>실제 수신 화면 미리보기</span>
+      <a href="/">닫기</a>
     </header>
-    <main>
-      <section class="newsletter newsletter-preview-page" id="newsletter">
-        <div class="newsletter-copy">
-          <span class="section-number">04</span><span class="eyebrow">일주일에 한 번만</span>
-          <h2>쏟아지는 오픈소스,<br /><em>직접 찾지 마세요.</em></h2>
-          <p class="newsletter-lead">한 주 동안 새로 떠오른 도구 중 정말 써볼 만한 세 개를 골라, 쉬운 설명과 첫 실행 방법을 함께 보내드려요.</p>
-          <form class="subscribe-form" id="subscribe-form" novalidate>
-            <label for="subscriber-email">메일을 어디로 보내드릴까요?</label>
-            <div class="subscribe-field">
-              <input id="subscriber-email" name="email" type="email" placeholder="email@example.com" required />
-              <button type="submit">무료로 받아보기 <span>→</span></button>
-            </div>
-            <p class="subscribe-note">매주 목요일 아침 · 광고 없이 · 언제든 구독 해지</p>
-          </form>
-          <ul class="newsletter-points">
-            <li><span>01</span><p><b>이번 주의 도구 3개</b>빠르게 성장하는 프로젝트만 골라요.</p></li>
-            <li><span>02</span><p><b>쉬운 한국어 설명</b>누가, 언제 쓰면 좋은지 먼저 알려드려요.</p></li>
-            <li><span>03</span><p><b>내 컴퓨터용 사용법</b>Windows와 Mac 가이드로 바로 이어져요.</p></li>
-          </ul>
-        </div>
-        <div class="mail-preview-wrap" aria-label="실제 수신 메일 예시">
-          <div class="mail-orbit mail-orbit-one">매주 목요일</div><div class="mail-orbit mail-orbit-two">딱 3개만</div>
-          <div class="mail-window">
-            <div class="mail-toolbar"><div><i></i><i></i><i></i></div><span>받은 편지함</span><b>•••</b></div>
-            <article class="mail-paper">
-              <header class="mail-head"><div class="mail-logo"><span>E</span> Easy Open Source</div><span class="mail-date">9월 셋째 주</span></header>
-              <div class="mail-intro"><span>WEEKLY PICKS · 03</span><h3>이번 주엔 이 세 개만<br />알아두세요.</h3><p>새로 주목받은 오픈소스를 직접 써볼 수 있게 정리했어요.</p></div>
-              <div class="mail-pick featured"><span class="pick-number">01</span><div class="pick-copy"><small>파일 전송 · 설치 5분</small><h4>LocalSend</h4><p>같은 와이파이에서 사진과 파일을 기기끼리 안전하게 보내요.</p><span class="pick-link">내 컴퓨터에서 시작하기 ↗</span></div><span class="pick-badge">API 키 없음</span></div>
-              <div class="mail-pick compact"><span class="pick-number">02</span><div class="pick-copy"><small>AI · 로컬 실행</small><h4>Ollama</h4></div><span class="pick-arrow">↗</span></div>
-              <div class="mail-pick compact"><span class="pick-number">03</span><div class="pick-copy"><small>생산성 · 자동화</small><h4>n8n</h4></div><span class="pick-arrow">↗</span></div>
-              <footer class="mail-footer"><span>읽는 데 약 3분</span><b>좋은 도구를, 내 것으로.</b></footer>
-            </article>
+    <main class="letter-stage">
+      <article class="weekly-letter" aria-label="Easy Open Source 9월 셋째 주 뉴스레터">
+        <header class="letter-brand-row">
+          <a class="letter-brand" href="/"><span>E</span><b>Easy Open Source</b></a>
+          <p>2026년 9월 셋째 주<br />매주 목요일 아침</p>
+        </header>
+        <section class="letter-opening">
+          <p class="letter-kicker">이번 주의 오픈소스</p>
+          <h1>파일은 가볍게 보내고,<br />AI는 내 컴퓨터에서.</h1>
+          <p class="letter-hello">안녕하세요. Easy Open Source입니다.</p>
+          <p>이번 주에는 복잡한 가입 없이 바로 시작할 수 있는 도구들이 눈에 띄었어요. 그중에서도 처음 설치하는 사람에게 부담이 적고, 일상에서 바로 써볼 만한 세 가지를 골랐습니다.</p>
+        </section>
+        <section class="letter-feature">
+          <div class="letter-section-label"><span>01</span></div>
+          <div class="feature-title-row">
+            <div><p>파일 전송 · 설치 난이도 쉬움</p><h2>LocalSend</h2></div>
           </div>
-        </div>
-      </section>
+          <p class="feature-summary">사진 한 장 보내려고 메신저에 로그인하거나 클라우드에 올릴 필요가 없어요. 같은 와이파이에 연결된 기기끼리 파일을 바로 주고받는 도구입니다.</p>
+          <dl class="letter-facts">
+            <div><dt>이럴 때 좋아요</dt><dd>휴대폰 사진을 PC로 옮길 때</dd></div>
+            <div><dt>설치 난이도</dt><dd>쉬움</dd></div>
+            <div><dt>사용 환경</dt><dd>Windows · macOS · 모바일</dd></div>
+            <div><dt>예상 설치 시간</dt><dd>약 5분</dd></div>
+            <div><dt>비용</dt><dd>무료</dd></div>
+            <div><dt>계정</dt><dd>필요 없음</dd></div>
+          </dl>
+          <p class="editor-note"><b>골라본 이유</b>터미널 명령어나 별도 설정 없이 설치 프로그램만 실행하면 돼요. 오픈소스를 처음 접하는 사람도 결과를 바로 체감할 수 있습니다.</p>
+          <a class="letter-button" href="/project/localsend/localsend">내 컴퓨터에서 시작하기 <span>→</span></a>
+        </section>
+        <section class="letter-more">
+          <div class="letter-section-label"><span>함께 볼 도구</span><b>02—03</b></div>
+          <article class="letter-tool">
+            <span class="tool-number">02</span>
+            <div><p>로컬 AI · 설치 난이도 보통</p><h3>Ollama</h3><p class="tool-description">내 문서를 외부 서버에 보내지 않고, 내 컴퓨터에서 AI 모델을 실행해 보고 싶을 때.</p><p class="tool-meta">Windows · macOS <i></i> 무료 <i></i> 터미널 사용</p></div>
+            <a href="/project/ollama/ollama" aria-label="Ollama 사용법 보기">사용법 보기 →</a>
+          </article>
+          <article class="letter-tool">
+            <span class="tool-number">03</span>
+            <div><p>업무 자동화 · 설치 난이도 보통</p><h3>n8n</h3><p class="tool-description">반복되는 알림, 자료 정리, 앱 사이의 데이터 전달을 직접 연결해 자동화하고 싶을 때.</p><p class="tool-meta">웹 · 데스크톱 <i></i> 무료로 시작 <i></i> 계정 선택</p></div>
+            <a href="/project/n8n-io/n8n" aria-label="n8n 사용법 보기">사용법 보기 →</a>
+          </article>
+        </section>
+        <section class="letter-closing">
+          <p>마음에 드는 도구가 있다면<br />자세한 사용법을 확인해 보세요.</p>
+          <a href="/">이번 주의 모든 오픈소스 둘러보기 →</a>
+        </section>
+        <footer class="letter-footer">
+          <div><b>Easy Open Source</b><span>좋은 도구를, 내 것으로.</span></div>
+          <p>매주 목요일 오전 8시에 보내드려요.<br />개선할 점이나 소개했으면 하는 도구가 있다면 알려주세요.</p>
+          <nav aria-label="뉴스레터 안내"><a href="/">웹에서 보기</a><a href="mailto:hello@easyopensource.kr">의견 보내기</a><a href="#unsubscribe">구독 해지</a></nav>
+        </footer>
+      </article>
     </main>
   </body>
 </html>
