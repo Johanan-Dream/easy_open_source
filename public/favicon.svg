@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#151814"/>
-  <path fill="#dff36b" d="M17 14h33v9H27v7h20v9H27v8h24v9H17z"/>
+  <title>Easy Open Source</title>
+  <rect width="64" height="64" rx="17" fill="#216e4e"/>
+  <path d="M17 18h29v8H27v7h17v8H27v7h20v8H17z" fill="#f8f6ed"/>
+  <circle cx="48" cy="16" r="8" fill="#dff36b"/>
+  <path d="m44.5 16 2.3 2.4 4.7-5" fill="none" stroke="#151814" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
