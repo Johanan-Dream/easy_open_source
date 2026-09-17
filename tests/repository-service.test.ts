@@ -87,6 +87,25 @@ test("trend growth is calculated from stored star snapshots", () => {
   assert.equal(appendSnapshot(snapshots, { capturedAt: "2026-08-23T00:00:00.000Z", stars: { "owner/repo": 125 } }, 1).length, 1);
 });
 
+test("daily star growth outweighs cumulative stars in trending", () => {
+  const now = new Date("2026-09-17T00:00:00.000Z");
+  const snapshots = [{ capturedAt: "2026-09-16T00:30:00.000Z", stars: { "big/repo": 100_000, "rising/repo": 100 } }];
+  const big = calculateTrend("big/repo", 100_001, "2026-09-16T12:00:00.000Z", snapshots, now);
+  const rising = calculateTrend("rising/repo", 110, "2026-09-10T00:00:00.000Z", snapshots, now);
+  assert.equal(big.dailyStarGrowth, 1);
+  assert.equal(rising.dailyStarGrowth, 10);
+  assert.ok(rising.trendScore > big.trendScore);
+});
+
+test("recent activity only breaks ties between equal star growth", () => {
+  const now = new Date("2026-09-17T00:00:00.000Z");
+  const snapshots = [{ capturedAt: "2026-09-16T00:30:00.000Z", stars: { "active/repo": 100, "quiet/repo": 100 } }];
+  const active = calculateTrend("active/repo", 105, "2026-09-16T12:00:00.000Z", snapshots, now);
+  const quiet = calculateTrend("quiet/repo", 105, "2025-01-01T00:00:00.000Z", snapshots, now);
+  assert.ok(active.trendScore > quiet.trendScore);
+  assert.ok(active.trendScore - quiet.trendScore < 100);
+});
+
 test("README change detection uses stable content hashes", () => {
   assert.equal(hashReadme("same README"), hashReadme("same README"));
   assert.notEqual(hashReadme("old README"), hashReadme("new README"));
