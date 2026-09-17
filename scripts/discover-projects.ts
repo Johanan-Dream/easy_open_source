@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { GeminiClient } from "../src/gemini-client.ts";
 import { GitHubClient } from "../src/github-client.ts";
-import { buildDiscoveryPrompt, discoveryAssessmentSchema, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp, type DiscoveryAssessment, type GuideDraft } from "../src/guide-analysis.ts";
+import { buildDiscoveryPrompt, discoveryAssessmentSchema, hashReadme, isTrustedDraftUrl, normalizeDifficulty, normalizeTerminalHelp, type DiscoveryAssessment, type GuideDraft } from "../src/guide-analysis.ts";
 import type { CategoryId, Repository } from "../src/domain.ts";
 import { validateGeneratedCommands, validateRepository } from "../src/validation.ts";
 
@@ -53,6 +53,7 @@ for (const metadata of candidates) {
       assessment = await gemini.generateStructured<DiscoveryAssessment>(`${basePrompt}${retryInstruction}`, discoveryAssessmentSchema);
       if (!assessment.suitable) break;
       normalizeTerminalHelp(assessment);
+      normalizeDifficulty(assessment);
       candidate = {
         ...assessment, id: metadata.full_name, owner: metadata.owner.login, name: metadata.name,
         githubUrl: metadata.html_url, homepageUrl: metadata.homepage || undefined,
@@ -70,6 +71,7 @@ for (const metadata of candidates) {
       continue;
     }
     normalizeTerminalHelp(assessment);
+    normalizeDifficulty(assessment);
     const trustedUrls = [metadata.html_url, metadata.homepage].filter((url): url is string => Boolean(url));
     if (!isTrustedDraftUrl(assessment.guide.officialDocsUrl, "", trustedUrls)) throw new Error("공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다.");
     if (!candidate) throw new Error("신규 프로젝트 데이터를 구성하지 못했습니다.");

@@ -109,6 +109,32 @@ export function normalizeTerminalHelp(draft: GuideDraft): GuideDraft {
   return draft;
 }
 
+export function classifyDifficulty(draft: GuideDraft): Difficulty {
+  const steps = draft.guide.platforms.flatMap((platform) => platform.steps);
+  const commandCount = steps.filter((step) => step.command?.trim()).length;
+  const setupText = [
+    ...draft.guide.prerequisites,
+    ...steps.flatMap((step) => [step.title, step.description, step.warning ?? ""]),
+  ].join(" ");
+  const requiresConfiguration = /환경\s*변수|environment variable|\.env|설정\s*파일|config(?:uration)?|ya?ml|토큰/i.test(setupText);
+  const requiresInfrastructure = draft.usageType === "docker" || draft.usageType === "source" || draft.guideType === "docker"
+    || /서버|self[- ]?host|데이터베이스|database|소스\s*(?:빌드|컴파일)|build from source/i.test(setupText);
+  const requiresTerminal = commandCount > 0
+    || ["cli", "docker", "source"].includes(draft.usageType)
+    || ["package-manager", "docker", "installer-cli"].includes(draft.guideType);
+  const technicalBurden = [requiresTerminal, draft.apiKeyRequired === true, requiresConfiguration, requiresInfrastructure]
+    .filter(Boolean).length;
+
+  if (requiresInfrastructure || commandCount >= 3 || technicalBurden >= 3) return "advanced";
+  if (technicalBurden > 0) return "intermediate";
+  return "beginner";
+}
+
+export function normalizeDifficulty(draft: GuideDraft): GuideDraft {
+  draft.difficulty = classifyDifficulty(draft);
+  return draft;
+}
+
 export function isTrustedDraftUrl(url: string, readme: string, trustedUrls: string[]) {
   let candidate: URL;
   try { candidate = new URL(url); } catch { return false; }

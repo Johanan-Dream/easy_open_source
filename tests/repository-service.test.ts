@@ -4,7 +4,7 @@ import { loadRepositories } from "../src/data-store.ts";
 import { findRepository, getTrending, queryRepositories } from "../src/repository-service.ts";
 import { validateGeneratedCommands, validateRepositories, validateRepository } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
-import { buildDiscoveryPrompt, buildGuidePrompt, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
+import { buildDiscoveryPrompt, buildGuidePrompt, classifyDifficulty, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
 import { GitHubClient } from "../src/github-client.ts";
 
 const repositories = await loadRepositories();
@@ -20,6 +20,20 @@ test("seed repositories have unique ids and required editorial fields", () => {
     assert.ok(repository.guideType);
     assert.match(repository.guide.verifiedAt, /^\d{4}-\d{2}-\d{2}$/);
   }
+});
+
+test("installation difficulty follows setup complexity instead of AI wording", () => {
+  const easy = structuredClone(repositories.find((repository) => repository.id.toLowerCase() === "localsend/localsend")!);
+  assert.equal(classifyDifficulty(easy), "beginner");
+
+  const intermediate = structuredClone(easy);
+  intermediate.guide.platforms[0].steps[0].command = "winget install LocalSend.LocalSend";
+  assert.equal(classifyDifficulty(intermediate), "intermediate");
+
+  const advanced = structuredClone(easy);
+  advanced.usageType = "docker";
+  advanced.guideType = "docker";
+  assert.equal(classifyDifficulty(advanced), "advanced");
 });
 
 test("category and Korean text search can be combined", () => {

@@ -3,6 +3,7 @@ import { GitHubApiError, GitHubClient } from "../src/github-client.ts";
 import type { BeginnerGuide, CategoryId, Difficulty, GuideType, Platform, Repository, UsageType } from "../src/domain.ts";
 import { validateRepositories } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend, type StarSnapshot } from "../src/trending.ts";
+import { classifyDifficulty } from "../src/guide-analysis.ts";
 
 interface EditorialEntry {
   id: string;
@@ -90,6 +91,7 @@ for (const entry of editorial) {
 
   collected.push({
     ...entry,
+    difficulty: classifyDifficulty(entry),
     id: metadata.full_name,
     owner: metadata.owner.login,
     name: metadata.name,

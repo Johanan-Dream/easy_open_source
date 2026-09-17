@@ -1,7 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { GitHubClient } from "../src/github-client.ts";
 import { GeminiClient } from "../src/gemini-client.ts";
-import { buildGuidePrompt, guideDraftSchema, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp, type GuideDraft, type ReviewProposal } from "../src/guide-analysis.ts";
+import { buildGuidePrompt, guideDraftSchema, hashReadme, isTrustedDraftUrl, normalizeDifficulty, normalizeTerminalHelp, type GuideDraft, type ReviewProposal } from "../src/guide-analysis.ts";
 import type { Repository } from "../src/domain.ts";
 import { validateGeneratedCommands, validateRepository } from "../src/validation.ts";
 
@@ -36,7 +36,7 @@ for (const repository of repositories) {
   if (state[repository.id] === readmeHash) continue;
   attempted += 1;
   try {
-    const draft = normalizeTerminalHelp(await gemini.generateStructured<GuideDraft>(buildGuidePrompt(repository.id, repository.category, readme, today), guideDraftSchema));
+    const draft = normalizeDifficulty(normalizeTerminalHelp(await gemini.generateStructured<GuideDraft>(buildGuidePrompt(repository.id, repository.category, readme, today), guideDraftSchema)));
     const trustedUrls = [...repository.sourceUrls, repository.githubUrl, repository.homepageUrl].filter((url): url is string => Boolean(url));
     if (!isTrustedDraftUrl(draft.guide.officialDocsUrl, readme, trustedUrls)) throw new Error("AI가 제안한 공식 문서 URL을 README 또는 기존 공식 도메인에서 확인할 수 없습니다.");
     const candidate: Repository = { ...repository, ...draft, sourceUrls: repository.sourceUrls };
