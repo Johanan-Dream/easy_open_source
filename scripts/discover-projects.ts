@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { GeminiClient } from "../src/gemini-client.ts";
 import { GitHubClient } from "../src/github-client.ts";
-import { buildDiscoveryPrompt, discoveryAssessmentSchema, hashReadme, isTrustedDraftUrl, normalizeDifficulty, normalizeTerminalHelp, type DiscoveryAssessment, type GuideDraft } from "../src/guide-analysis.ts";
+import { buildDiscoveryPrompt, buildDiscoveryQueries, buildDiscoveryRetryInstruction, discoveryAssessmentSchema, hashReadme, isTrustedDraftUrl, normalizeDifficulty, normalizeTerminalHelp, type DiscoveryAssessment, type GuideDraft } from "../src/guide-analysis.ts";
 import type { CategoryId, Repository } from "../src/domain.ts";
 import { validateGeneratedCommands, validateRepository } from "../src/validation.ts";
 
@@ -17,15 +17,10 @@ if (!process.env.GEMINI_API_KEY) throw new Error("GEMINI_API_KEY is required; ke
 
 const github = new GitHubClient();
 const gemini = new GeminiClient();
-const limit = Math.max(1, Math.min(Number(process.env.GEMINI_DISCOVERY_LIMIT ?? 2), 5));
+const limit = Math.max(1, Math.min(Number(process.env.GEMINI_DISCOVERY_LIMIT ?? 5), 5));
 const today = new Date().toISOString().slice(0, 10);
 const recent = new Date(Date.now() - 30 * 86_400_000).toISOString().slice(0, 10);
-const queries = [
-  `created:>=${recent} stars:>=50 archived:false`,
-  `pushed:>=${recent} stars:>=500 archived:false topic:desktop-app`,
-  `pushed:>=${recent} stars:>=500 archived:false topic:productivity`,
-  `pushed:>=${recent} stars:>=1000 archived:false topic:self-hosted`,
-];
+const queries = buildDiscoveryQueries(recent);
 const results = await Promise.all(queries.map((query, index) => github.searchRepositories(query, 30, index ? "updated" : "stars")));
 const existing = new Set([...repositories.map((item) => item.id.toLowerCase()), ...editorial.map((item) => item.id.toLowerCase())]);
 const candidates = [...new Map(results.flatMap((result) => result.items).map((item) => [item.full_name.toLowerCase(), item])).values()]
@@ -47,9 +42,7 @@ for (const metadata of candidates) {
     let candidate: Repository | undefined;
     let issues: ReturnType<typeof validateRepository> = [];
     for (let generationAttempt = 0; generationAttempt < 2; generationAttempt += 1) {
-      const retryInstruction = generationAttempt
-        ? "\n\n이전 결과에 영어 설명이 남아 검증에 실패했습니다. 고유명사·명령어·URL을 제외한 모든 사용자 노출 문장을 자연스러운 한국어로 다시 작성하세요."
-        : "";
+      const retryInstruction = generationAttempt ? buildDiscoveryRetryInstruction(issues) : "";
       assessment = await gemini.generateStructured<DiscoveryAssessment>(`${basePrompt}${retryInstruction}`, discoveryAssessmentSchema);
       if (!assessment.suitable) break;
       normalizeTerminalHelp(assessment);
@@ -62,7 +55,7 @@ for (const metadata of candidates) {
         sourceUrls: [...new Set([metadata.html_url, assessment.guide.officialDocsUrl])], collectedAt: new Date().toISOString(),
       };
       issues = [...validateRepository(candidate), ...validateGeneratedCommands(candidate)];
-      if (!issues.some((issue) => issue.message.includes("한국어 문장"))) break;
+      if (!issues.length) break;
     }
     if (!assessment) throw new Error("Gemini가 신규 프로젝트 분석 결과를 반환하지 않았습니다.");
     if (!assessment.suitable) {

@@ -4,7 +4,7 @@ import { loadRepositories } from "../src/data-store.ts";
 import { findRepository, getTrending, queryRepositories } from "../src/repository-service.ts";
 import { validateGeneratedCommands, validateRepositories, validateRepository } from "../src/validation.ts";
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
-import { buildDiscoveryPrompt, buildGuidePrompt, classifyDifficulty, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
+import { buildDiscoveryPrompt, buildDiscoveryQueries, buildDiscoveryRetryInstruction, buildGuidePrompt, classifyDifficulty, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
 import { GitHubClient } from "../src/github-client.ts";
 
 const repositories = await loadRepositories();
@@ -136,6 +136,24 @@ test("discovery prompt requires Korean user-facing copy", () => {
   const prompt = buildDiscoveryPrompt("owner/repo", "English description", "# README", "2026-09-17");
   assert.match(prompt, /모든 설명을 쉽고 자연스러운 한국어/);
   assert.match(prompt, /영어 문장을 그대로 복사하지 마세요/);
+});
+
+test("discovery searches target installable end-user tools", () => {
+  const queries = buildDiscoveryQueries("2026-08-18");
+  assert.ok(queries.length >= 8);
+  assert.ok(queries.some((query) => query.includes("topic:desktop-app")));
+  assert.ok(queries.some((query) => query.includes("topic:file-sharing")));
+  assert.ok(queries.some((query) => query.includes("topic:note-taking")));
+  assert.ok(queries.every((query) => query.includes("archived:false")));
+});
+
+test("discovery retry preserves safety rules and explains validation failures", () => {
+  const instruction = buildDiscoveryRetryInstruction([
+    { repositoryId: "owner/repo", path: "guide.platforms.0.steps.0.command", message: "관리자 권한 명령은 포함할 수 없습니다." },
+  ]);
+  assert.match(instruction, /관리자 권한 명령/);
+  assert.match(instruction, /sudo/);
+  assert.match(instruction, /command를 생략/);
 });
 
 test("English-only generated editorial copy is rejected", () => {

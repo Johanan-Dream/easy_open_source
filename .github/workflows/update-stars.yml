@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_DISCOVERY_LIMIT: 2
+          GEMINI_DISCOVERY_LIMIT: 5
         run: npm run discover
 
       - name: Collect metadata for newly added projects
