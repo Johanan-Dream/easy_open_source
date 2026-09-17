@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { categories } from "./domain.ts";
 import { loadRepositories } from "./data-store.ts";
 import { findRepository, getTrending, queryRepositories, type RepositorySort } from "./repository-service.ts";
+import { formatNewsletterInstallation, selectNewsletterIntro } from "./newsletter-copy.ts";
 
 const port = Number(process.env.PORT ?? 4173);
 const publicDir = fileURLToPath(new URL("../public", import.meta.url));
@@ -89,6 +90,18 @@ const server = createServer(async (request, response) => {
         period: "daily",
         calculatedAt: new Date().toISOString(),
         items: getTrending(repositories, limit),
+      });
+    }
+    if (url.pathname === "/api/newsletter/draft") {
+      const picks = getTrending(repositories, 3);
+      const issueKey = url.searchParams.get("issue") ?? new Date().toISOString().slice(0, 10);
+      return json(response, 200, {
+        issueKey,
+        intro: selectNewsletterIntro(picks, { issueKey }),
+        picks: picks.map((repository) => ({
+          ...repository,
+          newsletter: formatNewsletterInstallation(repository),
+        })),
       });
     }
 

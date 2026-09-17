@@ -6,6 +6,7 @@ import { validateGeneratedCommands, validateRepositories, validateRepository } f
 import { appendSnapshot, calculateTrend } from "../src/trending.ts";
 import { buildDiscoveryPrompt, buildDiscoveryQueries, buildDiscoveryRetryInstruction, buildGuidePrompt, classifyDifficulty, hashReadme, isTrustedDraftUrl, normalizeTerminalHelp } from "../src/guide-analysis.ts";
 import { GitHubClient } from "../src/github-client.ts";
+import { classifyNewsletterTheme, formatNewsletterInstallation, selectNewsletterIntro } from "../src/newsletter-copy.ts";
 
 const repositories = await loadRepositories();
 
@@ -62,6 +63,44 @@ test("trending sorting uses trendScore descending", () => {
 
 test("repository lookup is case insensitive", () => {
   assert.equal(findRepository(repositories, "OLLAMA", "OLLAMA")?.id.toLowerCase(), "ollama/ollama");
+});
+
+test("newsletter theme follows the shared traits of weekly picks", () => {
+  const easy = repositories.slice(0, 3).map((repository, index) => ({
+    ...structuredClone(repository),
+    id: `sample/easy-${index}`,
+    name: `easy-${index}`,
+    category: (["data", "security", "education"] as const)[index],
+    difficulty: "beginner" as const,
+    summary: "설치가 간단하고 처음 사용하기 쉬운 도구입니다.",
+    whatItIs: "누구나 바로 사용할 수 있는 도구입니다.",
+    problemSolved: "복잡한 시작 과정을 줄여줍니다.",
+    tags: [],
+  }));
+  assert.equal(classifyNewsletterTheme(easy), "easy-start");
+
+  const picks = repositories.slice(0, 3);
+  assert.equal(classifyNewsletterTheme(picks, [picks[0].id]), "rediscovered");
+});
+
+test("newsletter intro avoids recently used copy when alternatives exist", () => {
+  const picks = repositories.slice(0, 3);
+  const first = selectNewsletterIntro(picks, { issueKey: "2026-W38" });
+  const next = selectNewsletterIntro(picks, { issueKey: "2026-W38", recentIntroIds: [first.id] });
+  assert.equal(next.theme, first.theme);
+  assert.notEqual(next.id, first.id);
+  assert.ok(next.text.length > 40);
+});
+
+test("newsletter installation labels use one consistent difficulty scale", () => {
+  const sample = structuredClone(repositories[0]);
+  sample.difficulty = "beginner";
+  sample.guide.estimatedMinutes = 5;
+  assert.deepEqual(formatNewsletterInstallation(sample), {
+    difficulty: "쉬움",
+    difficultyText: "설치 난이도 쉬움",
+    estimatedMinutes: 5,
+  });
 });
 
 test("all collected repositories pass guide safety validation", () => {
