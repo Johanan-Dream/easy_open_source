@@ -7328,25 +7328,25 @@
   {
     "id": "farion1231/cc-switch",
     "category": "developer-tools",
-    "summary": "CC Switch is an all-in-one cross-platform desktop assistant that unifies the management of various AI coding tools like Claude Code, Codex, Gemini CLI, Grok Build, OpenCode, OpenClaw, and Hermes. It simplifies API provider switching, MCP, prompts, and skills management through a visual interface, eliminating the need for manual configuration file editing.",
-    "whatItIs": "CC Switch is a desktop application built with Tauri that acts as a central manager for multiple AI-powered coding assistants. It provides a unified graphical interface to configure and switch between different AI API providers, manage prompts, skills, and track usage across supported tools, enhancing productivity for AI-assisted coding workflows.",
-    "problemSolved": "Modern AI coding tools often require manual configuration of API providers, prompts, and skills across various formats (JSON, TOML, .env files), leading to complexity and potential errors. CC Switch solves this by offering a single, intuitive desktop application that centralizes these configurations, provides one-click switching, and ensures data integrity, making AI tool management significantly easier and more efficient.",
+    "summary": "Claude Code, Codex, Gemini CLI 등 여러 AI 코딩 도구의 설정을 한곳에서 관리하는 데스크톱 앱이에요.",
+    "whatItIs": "CC Switch는 여러 AI 코딩 도구의 API 제공자 전환, MCP 연결, 프롬프트와 스킬 설정을 화면에서 관리하도록 돕는 크로스 플랫폼 데스크톱 도구입니다.",
+    "problemSolved": "도구마다 JSON, TOML, 환경 파일을 직접 수정해야 하는 번거로움을 줄이고, 여러 AI 코딩 도구의 설정을 한 화면에서 안전하게 전환하도록 도와줍니다.",
     "recommendedFor": [
-      "Developers using multiple AI coding assistants",
-      "AI/ML engineers who need to switch between different API providers",
-      "Vibe coding users seeking simplified AI tool management",
-      "Teams collaborating on AI-powered coding projects"
+      "여러 AI 코딩 도구를 함께 사용하는 개발자",
+      "상황에 따라 여러 API 제공자를 바꿔 쓰는 AI·ML 개발자",
+      "복잡한 설정 없이 바이브 코딩 도구를 관리하고 싶은 사용자",
+      "AI 코딩 환경을 함께 관리하는 팀"
     ],
     "keyFeatures": [
-      "Unified management for 8 AI coding tools (e.g., Claude Code, Codex, Gemini CLI)",
-      "Graphical interface for one-click API provider switching with 50+ presets",
-      "Centralized management of MCP servers, prompts, and skills with cloud sync"
+      "Claude Code, Codex, Gemini CLI 등 여러 AI 코딩 도구 통합 관리",
+      "화면에서 API 제공자를 빠르게 전환하고 다양한 설정 조합 사용",
+      "MCP 서버, 프롬프트와 스킬을 한곳에서 관리하고 동기화"
     ],
     "useCases": [
-      "Streamlining configuration for AI coding environments",
-      "Quickly switching between different AI API providers for testing or cost optimization",
-      "Managing and synchronizing custom prompts and skills across multiple AI coding tools",
-      "Tracking AI API usage and costs across various integrated services"
+      "AI 코딩 환경의 설정을 한곳에서 정리",
+      "테스트나 비용 비교를 위해 API 제공자를 빠르게 전환",
+      "여러 도구에서 사용하는 프롬프트와 스킬을 통합 관리",
+      "연결된 AI API의 사용량과 비용 확인"
     ],
     "tags": [
       "AI",
@@ -7361,7 +7361,7 @@
     "difficulty": "beginner",
     "usageType": "desktop",
     "guideType": "desktop-installer",
-    "costSummary": "The application itself is open-source and free. However, it integrates with various AI models and API relay services, many of which are commercial and require API keys or subscriptions, incurring costs for AI model usage.",
+    "costSummary": "프로그램 자체는 무료 오픈소스입니다. 연결하는 AI 모델이나 API 중에는 별도의 API 키, 구독 또는 사용 요금이 필요한 서비스가 있습니다.",
     "apiKeyRequired": true,
     "platforms": [
       "Windows",
@@ -7370,9 +7370,9 @@
     ],
     "guide": {
       "prerequisites": [
-        "A supported operating system (Windows 10+, macOS 12+, or a modern Linux distribution).",
-        "Internet connection for downloading the installer and accessing AI services.",
-        "API keys for the AI coding tools you wish to manage (e.g., Claude, Codex, Gemini)."
+        "Windows 10 이상, macOS 12 이상 또는 최신 Linux 환경이 필요합니다.",
+        "설치 파일 다운로드와 AI 서비스 연결을 위한 인터넷 환경이 필요합니다.",
+        "연결할 AI 코딩 도구에 따라 Claude, Codex, Gemini 등의 API 키가 필요할 수 있습니다."
       ],
       "estimatedMinutes": 10,
       "platforms": [
@@ -7381,87 +7381,84 @@
           "steps": [
             {
               "order": 1,
-              "title": "Download Installer",
-              "description": "Go to the CC Switch GitHub Releases page and download the latest `CC-Switch-v{version}-Windows.msi` installer file."
+              "title": "설치 파일 내려받기",
+              "description": "CC Switch GitHub Releases 페이지에서 최신 Windows용 `.msi` 설치 파일을 내려받습니다."
             },
             {
               "order": 2,
-              "title": "Run Installer",
-              "description": "Double-click the downloaded `.msi` file and follow the on-screen instructions to complete the installation."
+              "title": "설치 프로그램 실행",
+              "description": "내려받은 `.msi` 파일을 두 번 클릭하고 화면 안내에 따라 설치를 완료합니다."
             },
             {
               "order": 3,
-              "title": "Launch CC Switch",
-              "description": "Once installed, launch CC Switch from your Start Menu or desktop shortcut."
+              "title": "CC Switch 실행",
+              "description": "설치가 끝나면 시작 메뉴 또는 바탕 화면 바로가기에서 CC Switch를 실행합니다."
             }
           ]
         },
         {
           "name": "macOS",
           "terminalHelp": [
-            "`brew install --cask cc-switch`"
+            "터미널을 열고 `brew install --cask cc-switch` 명령을 실행합니다."
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Install via Homebrew (Recommended)",
-              "description": "Open your terminal and run the command to install CC Switch using Homebrew. If you don't have Homebrew, install it first from `brew.sh`."
+              "title": "Homebrew로 설치",
+              "description": "터미널을 열고 Homebrew 명령으로 CC Switch를 설치합니다. Homebrew가 없다면 공식 사이트의 안내에 따라 먼저 준비합니다."
             },
             {
               "order": 2,
-              "title": "Launch CC Switch",
-              "description": "After installation, find 'CC Switch' in your Applications folder and launch it."
+              "title": "CC Switch 실행",
+              "description": "설치가 끝나면 응용 프로그램 폴더에서 CC Switch를 찾아 실행합니다."
             },
             {
               "order": 3,
-              "title": "Manual Download (Alternative)",
-              "description": "Alternatively, download the `CC-Switch-v{version}-macOS.dmg` from the GitHub Releases page, open the DMG, and drag 'CC Switch' to your Applications folder."
+              "title": "설치 파일로 직접 설치",
+              "description": "GitHub Releases 페이지에서 macOS용 `.dmg` 파일을 내려받아 열고 CC Switch를 응용 프로그램 폴더로 옮겨도 됩니다."
             }
           ]
         },
         {
           "name": "Linux",
           "terminalHelp": [
-            "`sudo dpkg -i CC-Switch-v{version}-Linux.deb`",
-            "`sudo rpm -i CC-Switch-v{version}-Linux.rpm`",
-            "`chmod +x CC-Switch-v{version}-Linux.AppImage`",
-            "`./CC-Switch-v{version}-Linux.AppImage`",
-            "`paru -S cc-switch-bin`"
+            "사용 중인 Linux 배포판에 맞는 패키지 관리 방법을 확인합니다.",
+            "AppImage를 사용할 경우 실행 권한을 설정한 뒤 파일을 실행합니다."
           ],
           "steps": [
             {
               "order": 1,
-              "title": "Download Package",
-              "description": "Go to the CC Switch GitHub Releases page and download the appropriate package for your distribution (e.g., `.deb` for Debian/Ubuntu, `.rpm` for Fedora/RHEL, or `.AppImage` for universal use)."
+              "title": "Linux 패키지 내려받기",
+              "description": "GitHub Releases 페이지에서 배포판에 맞는 `.deb`, `.rpm` 또는 `.AppImage` 파일을 내려받습니다."
             },
             {
               "order": 2,
-              "title": "Install Package",
-              "description": "For `.deb` or `.rpm` files, use your system's package manager (e.g., `sudo dpkg -i <file.deb>` or `sudo rpm -i <file.rpm>`). For `.AppImage`, make it executable (`chmod +x <file.AppImage>`) and then run it (`./<file.AppImage>`). Arch Linux users can use `paru -S cc-switch-bin`."
+              "title": "패키지 설치",
+              "description": "`.deb` 또는 `.rpm` 파일은 배포판의 패키지 관리 도구로 설치합니다. AppImage는 실행 권한을 설정한 뒤 실행하고, Arch Linux에서는 AUR 패키지를 이용할 수 있습니다."
             },
             {
               "order": 3,
-              "title": "Launch CC Switch",
-              "description": "Launch CC Switch from your applications menu or by executing the AppImage file."
+              "title": "CC Switch 실행",
+              "description": "앱 메뉴에서 CC Switch를 열거나 내려받은 AppImage 파일을 실행합니다."
             }
           ]
         }
       ],
-      "firstRunResult": "Upon first launch, CC Switch will present a graphical user interface where you can add and manage your AI API providers, MCP servers, prompts, and skills for various integrated AI coding tools.",
-      "stopInstructions": "To stop CC Switch, simply close the application window. It may continue running in the system tray; right-click the tray icon and select 'Quit' or 'Exit' to fully close it.",
-      "uninstallInstructions": "**Windows**: Go to 'Settings' > 'Apps' > 'Apps & features', find 'CC Switch', and click 'Uninstall'. **macOS**: Drag the 'CC Switch' application from your 'Applications' folder to the Trash. If installed via Homebrew, run `brew uninstall --cask cc-switch`. **Linux**: If installed via `.deb` or `.rpm`, use your package manager (e.g., `sudo apt remove cc-switch` or `sudo dnf remove cc-switch`). If using AppImage, simply delete the `.AppImage` file. Configuration data is stored in `~/.cc-switch/` and can be manually deleted if desired.",
+      "firstRunResult": "CC Switch가 열리고 AI API 제공자, MCP 서버, 프롬프트와 스킬을 추가할 수 있는 관리 화면이 나타나면 설치가 완료된 것입니다.",
+      "stopInstructions": "창을 닫은 뒤에도 시스템 트레이에서 실행 중일 수 있습니다. 트레이 아이콘의 종료 메뉴를 선택하면 완전히 종료됩니다.",
+      "uninstallInstructions": "Windows는 설정의 앱 제거 화면에서, macOS는 응용 프로그램 폴더에서 CC Switch를 삭제합니다. Linux는 설치한 패키지 방식에 맞춰 제거하며, 설정 폴더를 지우기 전 필요한 설정을 먼저 백업하세요.",
       "commonIssues": [
         {
-          "problem": "Clicks don't register or window black-screens on resize on Linux (Wayland + NVIDIA).",
-          "solution": "Launch CC Switch with `CC_SWITCH_GDK_BACKEND=wayland ./CC-Switch-*.AppImage` or add `env CC_SWITCH_GDK_BACKEND=wayland` to the `.desktop` `Exec=` line. For tiling Wayland compositors, try `CC_SWITCH_GDK_BACKEND=x11` instead."
+          "problem": "Linux에서 클릭이 안 되거나 창 크기를 바꿀 때 검은 화면이 나타나요.",
+          "solution": "Wayland와 NVIDIA 조합에서 발생할 수 있습니다. 공식 문서의 Linux 그래픽 안내에 따라 백엔드 환경 변수를 설정하고, 해결되지 않으면 X11 방식으로 실행해 보세요."
         },
         {
-          "problem": "Plugin configuration disappeared after switching providers.",
-          "solution": "Use the 'Shared Config Snippet' feature. Go to 'Edit Provider' -> 'Shared Config Panel' -> 'Extract from Current Provider' to save common data. When creating a new provider, ensure 'Write Shared Config' is enabled."
+          "problem": "API 제공자를 바꾼 뒤 플러그인 설정이 사라졌어요.",
+          "solution": "공유 설정 기능에서 현재 제공자의 공통 설정을 먼저 추출해 저장하세요. 새 제공자를 만들 때 공유 설정 쓰기 옵션이 켜져 있는지도 확인합니다."
         },
         {
-          "problem": "Cannot delete the currently active provider.",
-          "solution": "CC Switch requires one active configuration. To delete a provider, first switch to a different one. If you want to revert to official login, add an 'Official Login' preset and switch to it."
+          "problem": "현재 사용 중인 API 제공자를 삭제할 수 없어요.",
+          "solution": "다른 제공자를 먼저 활성화한 다음 기존 제공자를 삭제하세요. 공식 로그인으로 돌아가려면 공식 로그인 프리셋을 추가해 전환합니다."
         }
       ],
       "officialDocsUrl": "https://ccswitch.io",
