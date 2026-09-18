@@ -35,7 +35,7 @@ const projects = [
   ["ventoy/Ventoy", "productivity", "Ventoy", "여러 ISO 파일을 USB 하나에서 선택해 부팅하는 도구예요.", "운영체제 설치 이미지를 바꿀 때마다 USB를 다시 포맷하는 작업을 줄입니다.", ["Windows", "Linux"], "release-download", "advanced", "desktop", ["멀티 ISO 부팅", "USB 재사용", "UEFI 지원"]],
   ["balena-io/etcher", "productivity", "balenaEtcher", "운영체제 이미지 파일을 USB나 SD 카드에 기록하는 앱이에요.", "복잡한 명령 없이 이미지·대상 드라이브·실행의 세 단계로 부팅 매체를 만들 수 있습니다.", ["Windows", "macOS", "Linux"], "desktop-installer", "intermediate", "desktop", ["이미지 기록", "대상 검증", "다중 플랫폼"]],
   ["pbatard/rufus", "productivity", "Rufus", "Windows에서 부팅 가능한 USB를 만드는 작은 도구예요.", "Windows나 Linux 설치용 USB를 빠르게 만들고 파티션 방식을 선택할 수 있습니다.", ["Windows"], "release-download", "intermediate", "desktop", ["부팅 USB 제작", "ISO 선택", "파티션 방식 설정"]],
-  ["ip7z/7zip", "productivity", "7-Zip", "압축 파일을 만들고 다양한 형식의 압축을 푸는 도구예요.", "기본 압축 기능에서 열리지 않는 7z·tar 등의 파일을 확인하고 관리할 수 있습니다.", ["Windows", "Linux"], "desktop-installer", "beginner", "desktop", ["7z 압축", "다양한 포맷 해제", "암호화 압축"]],
+  ["ip7z/7zip", "productivity", "7-Zip", "Windows에서는 화면으로, macOS와 Linux에서는 터미널로 압축 파일을 다루는 도구예요.", "기본 압축 기능에서 열리지 않는 7z·tar 등의 파일을 확인하고 관리할 수 있습니다.", ["Windows", "Linux", "macOS"], "desktop-installer", "beginner", "desktop", ["7z 압축", "다양한 포맷 해제", "암호화 압축"]],
   ["peazip/PeaZip", "productivity", "PeaZip", "여러 압축 형식을 화면에서 열고 변환하는 파일 관리 도구예요.", "운영체제와 관계없이 압축 파일의 내용 확인, 분할, 암호화를 처리할 수 있습니다.", ["Windows", "Linux"], "desktop-installer", "beginner", "desktop", ["압축 해제", "분할 압축", "암호화"]],
   ["ONLYOFFICE/DesktopEditors", "productivity", "ONLYOFFICE Desktop Editors", "문서·스프레드시트·발표 파일을 편집하는 데스크톱 오피스예요.", "Microsoft Office 형식의 파일을 무료 데스크톱 앱에서 열고 편집할 수 있습니다.", ["Windows", "macOS", "Linux"], "desktop-installer", "beginner", "desktop", ["문서 편집", "스프레드시트", "프레젠테이션"]],
   ["jgraph/drawio-desktop", "design", "draw.io Desktop", "순서도와 구조도를 오프라인에서 그리는 데스크톱 앱이에요.", "브라우저 연결 없이 업무 흐름, 시스템 구조, 아이디어를 도형으로 정리할 수 있습니다.", ["Windows", "macOS", "Linux"], "desktop-installer", "beginner", "desktop", ["순서도", "다이어그램 템플릿", "로컬 파일 저장"]],
@@ -53,7 +53,25 @@ const projects = [
 ] as const;
 
 function platformGuide(project: typeof projects[number], platform: string) {
-  const [, , label, , , , guideType] = project;
+  const [id, , label, , , , guideType] = project;
+  if (id === "ip7z/7zip") {
+    if (platform === "Windows") return {
+      name: platform,
+      steps: [
+        { order: 1, title: "Windows 설치 파일 받기", description: "7-Zip 공식 다운로드 페이지에서 내 PC에 맞는 Windows 설치 파일을 받습니다." },
+        { order: 2, title: "설치 진행", description: "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다." },
+        { order: 3, title: "첫 화면 확인", description: "7-Zip File Manager를 열고 압축 파일 하나를 선택합니다.", expectedResult: "압축 파일 안의 목록이 표시됩니다." }
+      ]
+    };
+    return {
+      name: platform,
+      steps: [
+        { order: 1, title: `${platform}용 콘솔 버전 받기`, description: platform === "macOS" ? "7-Zip 공식 다운로드 페이지에서 macOS용 .tar.xz 파일을 받습니다. 그래픽 앱이 아닌 명령줄 버전입니다." : "7-Zip 공식 다운로드 페이지에서 내 환경에 맞는 Linux용 .tar.xz 파일을 받습니다." },
+        { order: 2, title: "압축 풀기", description: "다운로드한 .tar.xz 파일의 압축을 풉니다." },
+        { order: 3, title: "터미널에서 실행", description: "압축을 푼 폴더에서 7zz 실행 파일을 터미널로 실행합니다.", expectedResult: "7-Zip 명령줄 사용법이 표시됩니다." }
+      ]
+    };
+  }
   if (platform === "Web") return {
     name: platform,
     steps: [
@@ -76,7 +94,7 @@ const output = projects.map((project) => {
   const [id, category, label, summary, problemSolved, platforms, guideType, difficulty, usageType, keyFeatures] = project;
   return {
     id, category, summary,
-    whatItIs: `${label} 소개: ${summary}`,
+    whatItIs: id === "ip7z/7zip" ? "7-Zip은 Windows용 파일 관리 앱과 macOS·Linux용 명령줄 버전으로 여러 압축 형식을 다루는 도구입니다." : `${label} 소개: ${summary}`,
     problemSolved,
     recommendedFor: [`${label}의 핵심 기능을 무료로 시작하려는 사람`, "공식 설치 파일과 쉬운 첫 실행 안내가 필요한 사용자"],
     keyFeatures,
@@ -90,11 +108,11 @@ const output = projects.map((project) => {
       prerequisites: ["인터넷 연결", "설치 파일을 저장할 공간"],
       estimatedMinutes: guideType === "web" ? 3 : 10,
       platforms: platforms.map((platform) => platformGuide(project, platform)),
-      firstRunResult: `${label}의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.`,
+      firstRunResult: id === "ip7z/7zip" ? "Windows에서는 7-Zip File Manager가 열리고, macOS와 Linux에서는 터미널에 7-Zip 사용법이 표시됩니다." : `${label}의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.`,
       uninstallInstructions: guideType === "web" ? undefined : "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
       commonIssues: [{ problem: "설치 파일이 실행되지 않음", solution: "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다." }],
-      officialDocsUrl: `https://github.com/${id}#readme`,
-      verifiedAt
+      officialDocsUrl: id === "ip7z/7zip" ? "https://www.7-zip.org/download.html" : `https://github.com/${id}#readme`,
+      verifiedAt: id === "ip7z/7zip" ? "2026-09-18" : verifiedAt
     }
   };
 });

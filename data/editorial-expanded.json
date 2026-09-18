@@ -3665,8 +3665,8 @@
   {
     "id": "ip7z/7zip",
     "category": "productivity",
-    "summary": "압축 파일을 만들고 다양한 형식의 압축을 푸는 도구예요.",
-    "whatItIs": "7-Zip 소개: 압축 파일을 만들고 다양한 형식의 압축을 푸는 도구예요.",
+    "summary": "Windows에서는 화면으로, macOS와 Linux에서는 터미널로 압축 파일을 다루는 도구예요.",
+    "whatItIs": "7-Zip은 Windows용 파일 관리 앱과 macOS·Linux용 명령줄 버전으로 여러 압축 형식을 다루는 도구입니다.",
     "problemSolved": "기본 압축 기능에서 열리지 않는 7z·tar 등의 파일을 확인하고 관리할 수 있습니다.",
     "recommendedFor": [
       "7-Zip의 핵심 기능을 무료로 시작하려는 사람",
@@ -3694,7 +3694,8 @@
     "apiKeyRequired": false,
     "platforms": [
       "Windows",
-      "Linux"
+      "Linux",
+      "macOS"
     ],
     "guide": {
       "prerequisites": [
@@ -3709,7 +3710,7 @@
             {
               "order": 1,
               "title": "Windows 설치 파일 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Windows 설치 파일을 받습니다."
+              "description": "7-Zip 공식 다운로드 페이지에서 내 PC에 맞는 Windows 설치 파일을 받습니다."
             },
             {
               "order": 2,
@@ -3719,8 +3720,8 @@
             {
               "order": 3,
               "title": "첫 화면 확인",
-              "description": "7-Zip을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "7-Zip의 기본 작업 화면이 열립니다."
+              "description": "7-Zip File Manager를 열고 압축 파일 하나를 선택합니다.",
+              "expectedResult": "압축 파일 안의 목록이 표시됩니다."
             }
           ]
         },
@@ -3729,24 +3730,45 @@
           "steps": [
             {
               "order": 1,
-              "title": "Linux용 패키지 받기",
-              "description": "공식 저장소의 Releases 또는 Download 안내에서 내 환경에 맞는 Linux용 패키지을 받습니다."
+              "title": "Linux용 콘솔 버전 받기",
+              "description": "7-Zip 공식 다운로드 페이지에서 내 환경에 맞는 Linux용 .tar.xz 파일을 받습니다."
             },
             {
               "order": 2,
-              "title": "설치 진행",
-              "description": "받은 파일을 열고 화면의 기본 설치 절차를 완료합니다."
+              "title": "압축 풀기",
+              "description": "다운로드한 .tar.xz 파일의 압축을 풉니다."
             },
             {
               "order": 3,
-              "title": "첫 화면 확인",
-              "description": "7-Zip을 실행하고 새 파일·연결·프로젝트 중 화면에 보이는 시작 항목을 선택합니다.",
-              "expectedResult": "7-Zip의 기본 작업 화면이 열립니다."
+              "title": "터미널에서 실행",
+              "description": "압축을 푼 폴더에서 7zz 실행 파일을 터미널로 실행합니다.",
+              "expectedResult": "7-Zip 명령줄 사용법이 표시됩니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "steps": [
+            {
+              "order": 1,
+              "title": "macOS용 콘솔 버전 받기",
+              "description": "7-Zip 공식 다운로드 페이지에서 macOS용 .tar.xz 파일을 받습니다. 그래픽 앱이 아닌 명령줄 버전입니다."
+            },
+            {
+              "order": 2,
+              "title": "압축 풀기",
+              "description": "다운로드한 .tar.xz 파일의 압축을 풉니다."
+            },
+            {
+              "order": 3,
+              "title": "터미널에서 실행",
+              "description": "압축을 푼 폴더에서 7zz 실행 파일을 터미널로 실행합니다.",
+              "expectedResult": "7-Zip 명령줄 사용법이 표시됩니다."
             }
           ]
         }
       ],
-      "firstRunResult": "7-Zip의 기본 작업 화면이 열리고 새 작업을 시작할 수 있습니다.",
+      "firstRunResult": "Windows에서는 7-Zip File Manager가 열리고, macOS와 Linux에서는 터미널에 7-Zip 사용법이 표시됩니다.",
       "uninstallInstructions": "운영체제의 앱 제거 화면에서 프로그램을 제거합니다. 개인 데이터 삭제 여부는 공식 문서를 먼저 확인합니다.",
       "commonIssues": [
         {
@@ -3754,8 +3776,8 @@
           "solution": "파일이 공식 GitHub 저장소에서 받은 것인지 확인하고 운영체제와 CPU 종류에 맞는 파일을 다시 선택합니다."
         }
       ],
-      "officialDocsUrl": "https://github.com/ip7z/7zip#readme",
-      "verifiedAt": "2026-08-25"
+      "officialDocsUrl": "https://www.7-zip.org/download.html",
+      "verifiedAt": "2026-09-18"
     }
   },
   {
