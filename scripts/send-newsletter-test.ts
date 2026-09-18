@@ -23,7 +23,8 @@ async function buttondown(path: string, data: unknown) {
     body: JSON.stringify(data),
   });
   if (!response.ok) throw new Error(`Buttondown 요청 실패 (${path}): HTTP ${response.status}`);
-  return response.json();
+  const responseBody = await response.text();
+  return responseBody.trim() ? JSON.parse(responseBody) : {};
 }
 
 const draft = await buttondown("/emails", { subject, body, status: "draft" });
