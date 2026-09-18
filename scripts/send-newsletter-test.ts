@@ -3,10 +3,12 @@ import { readFile } from "node:fs/promises";
 const apiKey = process.env.BUTTONDOWN_API_KEY?.trim();
 const recipient = process.env.NEWSLETTER_TEST_RECIPIENT?.trim();
 const subject = "[Easy Open Source] 이번 주 바로 써볼 오픈소스 3개";
-const body = await readFile(new URL("../newsletter/first-issue.md", import.meta.url), "utf8");
+const body = await readFile(new URL("../newsletter/first-issue.html", import.meta.url), "utf8");
+if (!body.startsWith("<!-- buttondown-editor-mode: fancy -->") || !body.includes("<table") || !body.includes("style=")) {
+  throw new Error("스타일이 포함된 Buttondown HTML 본문이 필요합니다.");
+}
 
 if (process.argv.includes("--dry-run")) {
-  if (!body.trim()) throw new Error("뉴스레터 본문이 비어 있습니다.");
   console.log(`초안 확인 완료: ${subject} (${body.length}자)`);
   process.exit(0);
 }

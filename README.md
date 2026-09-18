@@ -48,7 +48,7 @@ npm test
 
 GitHub 저장소의 **Settings → Secrets and variables → Actions**에 `BUTTONDOWN_API_KEY`와 `NEWSLETTER_TEST_RECIPIENT`를 Repository secret으로 등록합니다. Buttondown API 키는 Emails의 Read & write와 Sending의 Enabled 권한만 부여합니다. `NEWSLETTER_TEST_RECIPIENT`에는 테스트 메일을 받을 주소를 넣습니다. 키나 주소를 코드에 커밋하지 않습니다.
 
-GitHub Actions에서 **Test newsletter draft → Run workflow**를 실행하면 [`newsletter/first-issue.md`](./newsletter/first-issue.md)로 Buttondown 초안을 만들고 지정한 주소에만 테스트 메일을 보냅니다. 전체 구독자 발송은 이 워크플로에서 수행하지 않습니다. 로컬에서 본문 파일을 확인하려면 `node scripts/send-newsletter-test.ts --dry-run`을 실행합니다.
+GitHub Actions에서 **Test newsletter draft → Run workflow**를 실행하면 [`newsletter/first-issue.html`](./newsletter/first-issue.html)로 Buttondown HTML 초안을 만들고 지정한 주소에만 테스트 메일을 보냅니다. 전체 구독자 발송은 이 워크플로에서 수행하지 않습니다. 로컬에서 본문 파일을 확인하려면 `node scripts/send-newsletter-test.ts --dry-run`을 실행합니다.
 
 공식 근거 링크 응답 여부는 다음 명령으로 확인합니다.
 
