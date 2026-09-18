@@ -119,6 +119,13 @@ test("all collected repositories pass guide safety validation", () => {
   assert.deepEqual(validateRepositories(repositories), []);
 });
 
+test("supported platforms need matching setup guides", () => {
+  const incomplete = structuredClone(repositories[0]);
+  const omitted = incomplete.guide.platforms[0].name;
+  incomplete.guide.platforms = incomplete.guide.platforms.filter((platform) => platform.name !== omitted);
+  assert.ok(validateRepository(incomplete).some((issue) => issue.path === "guide.platforms" && issue.message.includes(omitted)));
+});
+
 test("dangerous commands are rejected", () => {
   const unsafe = structuredClone(repositories[0]);
   unsafe.guide.platforms[0].steps.push({

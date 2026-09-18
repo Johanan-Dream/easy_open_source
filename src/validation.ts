@@ -70,6 +70,10 @@ export function validateRepository(repository: Repository): ValidationIssue[] {
   }
   if (!repository.guide.prerequisites.length) add("guide.prerequisites", "준비물이 필요합니다.");
   if (!repository.guide.platforms.length) add("guide.platforms", "하나 이상의 환경별 가이드가 필요합니다.");
+  const guidedPlatforms = new Set(repository.guide.platforms.map((platform) => platform.name));
+  for (const platform of repository.platforms) {
+    if (!guidedPlatforms.has(platform)) add("guide.platforms", `${platform} 설치 안내가 필요합니다.`);
+  }
   if (!repository.guide.firstRunResult.trim()) add("guide.firstRunResult", "첫 실행 성공 기준이 필요합니다.");
   if (!repository.guide.commonIssues.length) add("guide.commonIssues", "최소 하나의 오류 해결 항목이 필요합니다.");
 
