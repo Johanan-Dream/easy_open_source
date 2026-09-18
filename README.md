@@ -50,6 +50,8 @@ GitHub 저장소의 **Settings → Secrets and variables → Actions**에 `BUTTO
 
 GitHub Actions에서 **Test newsletter draft → Run workflow**를 실행하면 [`newsletter/first-issue.html`](./newsletter/first-issue.html)로 Buttondown HTML 초안을 만들고 지정한 주소에만 테스트 메일을 보냅니다. 전체 구독자 발송은 이 워크플로에서 수행하지 않습니다. 로컬에서 본문 파일을 확인하려면 `node scripts/send-newsletter-test.ts --dry-run`을 실행합니다.
 
+현재 정기 발송 자동화와 첫 정식 발송일은 설정되지 않았습니다. 공개 화면과 테스트 메일에는 목요일 오전 8시 발송을 준비 중이라고 안내합니다.
+
 공식 근거 링크 응답 여부는 다음 명령으로 확인합니다.
 
 ```bash
