@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 
 const apiKey = process.env.BUTTONDOWN_API_KEY?.trim();
 const recipient = process.env.NEWSLETTER_TEST_RECIPIENT?.trim();
-const subject = "[Easy Open Source] 이번 주 바로 써볼 오픈소스 3개";
+const subject = "이번 주 바로 써볼 오픈소스 3개";
 const body = await readFile(new URL("../newsletter/first-issue.html", import.meta.url), "utf8");
 if (!body.startsWith("<!-- buttondown-editor-mode: fancy -->") || !body.includes("<table") || !body.includes("style=")) {
   throw new Error("스타일이 포함된 Buttondown HTML 본문이 필요합니다.");
