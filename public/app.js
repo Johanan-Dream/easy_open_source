@@ -103,22 +103,22 @@ function bindEvents() {
   });
   document.addEventListener('keydown', (event) => { const card=event.target.closest?.('[data-repo]'); if(card && (event.key==='Enter'||event.key===' ')){event.preventDefault();openRepository(card.dataset.repo);} });
   $('#detail-dialog').addEventListener('close', () => { document.body.classList.remove('dialog-open'); state.lastFocused?.focus(); });
-  $('#subscribe-form').addEventListener('submit', previewSubscription);
+  $('#subscribe-form').addEventListener('submit', validateSubscription);
 }
 
-function previewSubscription(event) {
-  event.preventDefault();
+function validateSubscription(event) {
   const form = event.currentTarget;
   const input = $('#subscriber-email');
   const message = $('#subscribe-message');
   const valid = input.validity.valid;
   form.classList.toggle('has-error', !valid);
   if (!valid) {
+    event.preventDefault();
     message.textContent = '메일 주소를 한 번 확인해 주세요.';
     input.focus();
     return;
   }
-  message.textContent = '시안에서는 여기까지! 실제 발송 서비스는 아직 연결하지 않았어요.';
+  message.textContent = 'Buttondown 구독 페이지로 이동합니다.';
 }
 
 function openRepository(id) {

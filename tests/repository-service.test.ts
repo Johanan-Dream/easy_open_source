@@ -38,12 +38,24 @@ test("installation difficulty follows setup complexity instead of AI wording", (
 });
 
 test("category and Korean text search can be combined", () => {
-  const results = queryRepositories(repositories, {
+  const base = repositories.find((repository) => repository.id.toLowerCase() === "ollama/ollama")!;
+  const matching = { ...base, id: "example/matching", category: "ai-automation" as const };
+  const wrongCategory = { ...matching, id: "example/wrong-category", category: "productivity" as const };
+  const wrongText = {
+    ...matching,
+    id: "example/wrong-text",
+    summary: "문서를 정리하는 도구입니다.",
+    whatItIs: "문서를 정리하는 도구입니다.",
+    problemSolved: "문서를 정리합니다.",
+    tags: ["문서"],
+    recommendedFor: ["문서 작업자"],
+  };
+  const results = queryRepositories([matching, wrongCategory, wrongText], {
     category: "ai-automation",
     search: "로컬",
   });
   assert.equal(results.length, 1);
-  assert.equal(results[0].id.toLowerCase(), "ollama/ollama");
+  assert.equal(results[0].id, matching.id);
 });
 
 test("popular sorting uses stars descending", () => {
