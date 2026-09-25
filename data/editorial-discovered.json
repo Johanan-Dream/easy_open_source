@@ -1523,5 +1523,429 @@
       "officialDocsUrl": "https://getcroc.com",
       "verifiedAt": "2026-09-25"
     }
+  },
+  {
+    "id": "TriliumNext/Trilium",
+    "category": "productivity",
+    "summary": "Trilium Notes는 개인 지식 기반을 구축하고 관리하는 데 특화된 무료 오픈소스 계층적 노트 필기 애플리케이션입니다. 다양한 노트 유형과 강력한 검색 기능을 제공하여 정보를 효율적으로 정리하고 활용할 수 있습니다.",
+    "whatItIs": "Trilium Notes는 사용자가 자신만의 지식 기반을 만들고 관리할 수 있도록 돕는 크로스 플랫폼 노트 필기 도구입니다. 노트를 깊이 있는 계층 구조로 정리할 수 있으며, WYSIWYG 편집기, 코드 편집, 마인드맵, 관계 지도 등 다양한 노트 유형을 지원합니다. 개인 서버에 동기화하여 여러 기기에서 접근할 수 있습니다.",
+    "problemSolved": "정보 과부하 시대에 개인의 지식과 아이디어를 체계적으로 정리하고 관리하는 어려움을 해결합니다. 복잡한 정보를 계층적으로 구조화하고, 강력한 검색 및 시각화 도구를 통해 필요한 정보를 빠르게 찾고 연결하여 지식 활용도를 높여줍니다.",
+    "recommendedFor": [
+      "개인 지식 관리자",
+      "연구원 및 학생",
+      "정보를 체계적으로 정리하고 싶은 사용자",
+      "프로젝트 문서화가 필요한 개발자"
+    ],
+    "keyFeatures": [
+      "깊이 있는 계층 구조의 노트 정리",
+      "WYSIWYG, 코드, 마인드맵 등 다양한 노트 유형 지원",
+      "강력한 검색 및 노트 간 쉬운 탐색"
+    ],
+    "useCases": [
+      "개인 학습 노트 및 연구 자료 정리",
+      "프로젝트 아이디어 및 진행 상황 기록",
+      "일상적인 정보 및 할 일 관리",
+      "코드 스니펫 및 개발 문서 저장"
+    ],
+    "tags": [
+      "노트",
+      "지식관리",
+      "생산성",
+      "오픈소스",
+      "개인위키",
+      "정보정리",
+      "계층적",
+      "크로스플랫폼"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "release-download",
+    "costSummary": "무료이며 오픈소스입니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "인터넷 연결",
+        "약 200MB 이상의 디스크 여유 공간"
+      ],
+      "estimatedMinutes": 5,
+      "platforms": [
+        {
+          "name": "Windows",
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "Trilium Notes의 최신 릴리스 페이지(https://github.com/TriliumNext/Trilium/releases/latest)에서 Windows용 `trilium-windows-x64.zip` 파일을 다운로드합니다."
+            },
+            {
+              "order": 2,
+              "title": "압축 해제",
+              "description": "다운로드한 `trilium-windows-x64.zip` 파일의 압축을 원하는 위치에 해제합니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행",
+              "description": "압축 해제된 폴더로 이동하여 `trilium.exe` 실행 파일을 더블 클릭하여 Trilium Notes를 시작합니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "Trilium Notes의 최신 릴리스 페이지(https://github.com/TriliumNext/Trilium/releases/latest)에서 macOS용 `trilium-macos-x64.zip` 파일을 다운로드합니다."
+            },
+            {
+              "order": 2,
+              "title": "압축 해제",
+              "description": "다운로드한 `trilium-macos-x64.zip` 파일의 압축을 해제합니다. Finder에서 파일을 더블 클릭하면 자동으로 해제됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행",
+              "description": "압축 해제된 폴더로 이동하여 `Trilium.app`을 더블 클릭하여 Trilium Notes를 시작합니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "터미널을 열고 다음 단계를 따르세요."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "Trilium Notes의 최신 릴리스 페이지(https://github.com/TriliumNext/Trilium/releases/latest)에서 Linux용 `trilium-linux-x64.zip` 파일을 다운로드합니다. 웹 브라우저를 통해 다운로드하는 것을 권장합니다."
+            },
+            {
+              "order": 2,
+              "title": "압축 해제",
+              "description": "다운로드한 `trilium-linux-x64.zip` 파일의 압축을 원하는 디렉터리에 해제합니다. 파일 관리자를 사용하거나 터미널에서 `unzip` 명령어를 사용할 수 있습니다. (예: `unzip trilium-linux-x64.zip -d ~/TriliumNotes`)"
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행",
+              "description": "압축 해제된 Trilium 폴더로 이동한 후, 실행 권한을 부여하고 애플리케이션을 실행합니다. 실행 권한이 없다면 `chmod +x trilium` 명령어를 먼저 실행해야 합니다.",
+              "command": "./trilium",
+              "expectedResult": "Trilium Notes 애플리케이션이 실행되고 초기 설정 화면이 나타납니다.",
+              "warning": "실행 파일이 있는 디렉터리에서 명령어를 실행해야 합니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Trilium Notes 애플리케이션이 실행되고 초기 설정 화면이 나타납니다. 여기서 새 노트를 생성하거나 기존 노트를 가져올 수 있습니다.",
+      "stopInstructions": "애플리케이션 창을 닫거나, 메뉴에서 '파일' > '종료'를 선택하여 Trilium Notes를 종료할 수 있습니다.",
+      "uninstallInstructions": "설치 시 압축을 해제했던 Trilium Notes 폴더를 삭제하면 됩니다. 사용자 데이터는 별도의 데이터베이스 파일에 저장되므로, 데이터를 완전히 삭제하려면 해당 파일도 찾아 삭제해야 합니다. (일반적으로 사용자 홈 디렉터리 내에 저장됩니다.)",
+      "commonIssues": [
+        {
+          "problem": "애플리케이션이 시작되지 않습니다.",
+          "solution": "다운로드한 파일의 압축이 올바르게 해제되었는지 확인하고, 실행 파일이 손상되지 않았는지 확인하세요. Linux의 경우, 실행 파일에 실행 권한이 부여되었는지 확인해야 합니다."
+        },
+        {
+          "problem": "노트 동기화가 작동하지 않습니다.",
+          "solution": "Trilium Notes는 자체 호스팅 서버와의 동기화를 지원합니다. 동기화 문제가 발생하면 서버 설정과 네트워크 연결을 확인하고, 공식 문서의 동기화 섹션을 참조하세요."
+        }
+      ],
+      "officialDocsUrl": "https://docs.triliumnotes.org/",
+      "verifiedAt": "2026-09-25"
+    }
+  },
+  {
+    "id": "nextcloud/server",
+    "category": "productivity",
+    "summary": "Nextcloud Server는 사용자의 모든 데이터를 안전하게 저장하고, 동기화하며, 공유할 수 있도록 돕는 개인 클라우드 솔루션입니다.",
+    "whatItIs": "Nextcloud Server는 사용자가 직접 제어하는 서버에 파일, 연락처, 캘린더 등을 저장하고 관리할 수 있게 해주는 오픈 소스 소프트웨어입니다. 이를 통해 사용자는 자신의 데이터를 클라우드에 보관하면서도 프라이버시와 보안을 유지할 수 있습니다.",
+    "problemSolved": "이 도구는 사용자가 자신의 데이터를 제3자 클라우드 서비스에 의존하지 않고 직접 소유하고 관리할 수 있도록 하여 데이터 주권과 프라이버시 문제를 해결합니다. 또한, 여러 기기 간의 파일 동기화 및 협업을 용이하게 합니다.",
+    "recommendedFor": [
+      "개인 사용자 (자신의 데이터를 직접 관리하고 싶은 사람)",
+      "소규모 팀 및 기업 (보안 및 협업 기능이 필요한 곳)",
+      "데이터 프라이버시를 중요하게 생각하는 사용자",
+      "개발자와 협업하는 직군 (파일 공유 및 공동 작업)"
+    ],
+    "keyFeatures": [
+      "데이터 접근 및 동기화: 파일, 연락처, 캘린더 등 모든 데이터를 원하는 서버에 저장하고 기기 간에 동기화할 수 있습니다.",
+      "데이터 공유 및 협업: 다른 사람들과 파일을 공유하고 공동으로 작업할 수 있는 기능을 제공합니다.",
+      "확장 가능한 앱 생태계: 수백 가지의 앱을 통해 캘린더, 연락처, 메일, 화상 채팅 등 다양한 기능을 추가할 수 있습니다."
+    ],
+    "useCases": [
+      "개인 파일 서버 구축 및 관리",
+      "가족 또는 친구들과 사진 및 문서 공유",
+      "팀 프로젝트 문서 공동 편집 및 버전 관리",
+      "개인 및 팀 캘린더, 연락처 동기화"
+    ],
+    "tags": [
+      "클라우드",
+      "파일동기화",
+      "데이터관리",
+      "오픈소스",
+      "협업도구",
+      "개인서버",
+      "생산성",
+      "보안"
+    ],
+    "difficulty": "advanced",
+    "usageType": "web",
+    "guideType": "package-manager",
+    "costSummary": "Nextcloud Server 소프트웨어 자체는 무료 오픈 소스입니다. 사용자가 직접 서버를 설치하고 운영하는 경우 서버 호스팅 비용만 발생합니다. Nextcloud 호스팅 제공업체를 이용하거나 엔터프라이즈 버전을 사용하는 경우 유료 서비스가 제공됩니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Linux 운영체제가 설치된 서버 (예: Ubuntu, Debian)",
+        "웹 서버 (Apache 또는 Nginx)",
+        "PHP (최신 버전 권장)",
+        "데이터베이스 (MySQL/MariaDB 또는 PostgreSQL)",
+        "도메인 이름 및 SSL/TLS 인증서 (선택 사항, 보안 강화를 위해 권장)"
+      ],
+      "estimatedMinutes": 60,
+      "platforms": [
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "이 가이드에서는 특정 명령어를 제공하지 않습니다. Nextcloud 서버 설치는 웹 서버, 데이터베이스, PHP 설정 등 여러 단계를 포함하며, 각 단계는 사용자의 Linux 배포판 및 환경에 따라 다를 수 있습니다.",
+            "자세한 설치 지침은 Nextcloud 공식 설치 가이드(https://nextcloud.com/install/#instructions-server)를 참조하는 것이 좋습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "서버 환경 준비",
+              "description": "Nextcloud를 설치할 Linux 서버에 웹 서버(예: Apache 또는 Nginx), PHP 및 필요한 PHP 확장 모듈, 그리고 데이터베이스(예: MySQL/MariaDB 또는 PostgreSQL)를 설치하고 설정합니다. 이 단계는 Nextcloud가 작동하기 위한 필수적인 기반 환경을 구축하는 과정입니다."
+            },
+            {
+              "order": 2,
+              "title": "Nextcloud 파일 다운로드 및 배치",
+              "description": "Nextcloud 공식 웹사이트에서 최신 서버 파일을 다운로드하여 웹 서버의 문서 루트 디렉토리(예: /var/www/html)에 압축을 해제하고 배치합니다. 웹 서버가 Nextcloud 파일에 접근할 수 있도록 적절한 파일 권한을 설정해야 합니다."
+            },
+            {
+              "order": 3,
+              "title": "Nextcloud 초기 설정",
+              "description": "웹 브라우저를 열고 Nextcloud가 설치된 서버의 URL로 접속합니다. 초기 설정 마법사가 나타나면 관리자 계정 정보, 데이터베이스 연결 정보, 데이터 저장 경로 등을 입력하여 Nextcloud 설치를 완료합니다.",
+              "expectedResult": "Nextcloud 로그인 화면이 나타나고, 관리자 계정으로 로그인할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Nextcloud 제공업체 선택 및 가입",
+              "description": "Nextcloud를 직접 설치하지 않고 호스팅 서비스를 이용하려면, Nextcloud 공식 웹사이트(https://nextcloud.com/signup/)에서 제공업체를 선택하고 계정을 생성합니다. 이 과정에서 필요한 정보를 입력하고 서비스 플랜을 선택할 수 있습니다.",
+              "expectedResult": "Nextcloud 서비스 계정이 성공적으로 생성됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Nextcloud 웹 인터페이스 접속 및 사용",
+              "description": "계정 생성 후 제공업체에서 안내하는 URL을 통해 웹 브라우저로 Nextcloud에 접속합니다. 생성한 계정 정보로 로그인하여 파일 업로드, 공유, 캘린더 및 연락처 관리 등 Nextcloud의 모든 기능을 즉시 사용할 수 있습니다.",
+              "expectedResult": "Nextcloud 대시보드 또는 파일 관리 화면이 나타나며, 클라우드 서비스를 이용할 수 있습니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Nextcloud 관리자 계정으로 로그인하면 파일, 활동 피드, 캘린더, 연락처 등의 기본 앱이 표시되는 대시보드 화면을 볼 수 있습니다. 파일을 업로드하고 공유할 준비가 완료됩니다.",
+      "stopInstructions": "Nextcloud 서버를 중지하려면, Nextcloud가 실행되는 웹 서버(예: Apache 또는 Nginx)와 데이터베이스 서비스를 중지해야 합니다. 예를 들어, systemd를 사용하는 Linux 시스템에서는 'sudo systemctl stop apache2' (또는 nginx) 및 'sudo systemctl stop mariadb' (또는 mysql, postgresql) 명령어를 사용할 수 있습니다.",
+      "uninstallInstructions": "Nextcloud를 제거하려면, Nextcloud 파일이 설치된 디렉토리를 삭제하고, 데이터베이스에서 Nextcloud 관련 데이터베이스와 사용자를 제거해야 합니다. 또한, 웹 서버 설정에서 Nextcloud 관련 설정을 제거해야 합니다. 이 과정은 시스템에 따라 다르므로, 공식 문서의 지침을 따르는 것이 중요합니다.",
+      "commonIssues": [
+        {
+          "problem": "PHP 확장 모듈이 누락되어 Nextcloud가 제대로 작동하지 않습니다.",
+          "solution": "Nextcloud 공식 문서에서 요구하는 모든 PHP 확장 모듈이 서버에 설치되어 있고 활성화되어 있는지 확인하세요. 누락된 모듈이 있다면 설치하고 웹 서버를 재시작해야 합니다."
+        },
+        {
+          "problem": "파일 업로드 시 권한 문제로 인해 오류가 발생합니다.",
+          "solution": "Nextcloud 설치 디렉토리와 데이터 디렉토리에 웹 서버 사용자(예: www-data)가 읽기/쓰기 권한을 가지고 있는지 확인하세요. 'chown' 및 'chmod' 명령어를 사용하여 권한을 올바르게 설정해야 합니다."
+        },
+        {
+          "problem": "Nextcloud 웹 인터페이스에 접속할 수 없습니다.",
+          "solution": "웹 서버(Apache/Nginx)가 실행 중인지, 포트 80 또는 443이 방화벽에 의해 차단되지 않았는지 확인하세요. 또한, 웹 서버 설정 파일에 Nextcloud에 대한 올바른 가상 호스트 설정이 되어 있는지 검토해야 합니다."
+        }
+      ],
+      "officialDocsUrl": "https://nextcloud.com/install/#instructions-server",
+      "verifiedAt": "2026-09-25"
+    }
+  },
+  {
+    "id": "lissy93/dashy",
+    "category": "productivity",
+    "summary": "Dashy는 개인용 대시보드 및 홈랩(homelab)을 위한 강력하고 사용자 정의 가능한 웹 애플리케이션입니다. 실시간 상태 모니터링, 다양한 위젯, 테마, 아이콘 팩, 그리고 직관적인 UI 편집기를 제공하여 사용자가 자신만의 맞춤형 시작 페이지를 만들 수 있도록 돕습니다.",
+    "whatItIs": "Dashy는 사용자가 자주 사용하는 애플리케이션, 서비스, 링크를 한곳에 모아 관리할 수 있는 개인용 웹 대시보드입니다. Docker, 베어 메탈 또는 1-클릭 클라우드 배포를 통해 쉽게 설치하고 실행할 수 있으며, 웹 인터페이스를 통해 모든 설정을 변경할 수 있습니다.",
+    "problemSolved": "사용자가 여러 서비스와 애플리케이션에 흩어져 있는 정보를 한눈에 확인하고 접근하기 어렵다는 문제를 해결합니다. Dashy는 중앙 집중식 허브를 제공하여 생산성을 높이고, 각 서비스의 상태를 실시간으로 모니터링하여 문제 발생 시 즉시 인지할 수 있도록 돕습니다.",
+    "recommendedFor": [
+      "홈랩(Homelab) 사용자",
+      "개인 서버 관리자",
+      "생산성 향상을 원하는 사용자",
+      "자신만의 맞춤형 시작 페이지를 만들고 싶은 사용자"
+    ],
+    "keyFeatures": [
+      "실시간 상태 모니터링 및 위젯 지원",
+      "다양한 테마, 아이콘 팩, UI 편집기를 통한 높은 사용자 정의성",
+      "Docker 및 1-클릭 클라우드 배포를 통한 쉬운 설치 및 관리"
+    ],
+    "useCases": [
+      "개인 홈랩 서비스 관리 및 모니터링",
+      "자주 사용하는 웹 애플리케이션 및 링크 모음",
+      "브라우저 시작 페이지로 활용",
+      "팀 또는 가족을 위한 공유 대시보드"
+    ],
+    "tags": [
+      "대시보드",
+      "셀프 호스팅",
+      "생산성",
+      "홈랩",
+      "모니터링",
+      "위젯",
+      "커스터마이징",
+      "Docker"
+    ],
+    "difficulty": "advanced",
+    "usageType": "web",
+    "guideType": "docker",
+    "costSummary": "Dashy는 100% 무료 오픈 소스 프로젝트입니다. 자체 호스팅 시 서버 비용 외에는 추가 비용이 발생하지 않습니다. 클라우드 배포 시에는 해당 클라우드 서비스 제공업체의 요금 정책에 따릅니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Docker Desktop (Windows, macOS) 또는 Docker Engine (Linux) 설치",
+        "안정적인 인터넷 연결"
+      ],
+      "estimatedMinutes": 15,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Windows PowerShell 또는 명령 프롬프트에서 다음 명령을 실행하세요."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker Desktop 설치",
+              "description": "Docker Desktop을 공식 웹사이트에서 다운로드하여 설치합니다.",
+              "expectedResult": "Docker Desktop 설치 관리자를 실행하고 지시에 따라 설치를 완료합니다. 설치 후 Docker Desktop이 자동으로 시작됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Dashy 이미지 다운로드 및 실행",
+              "description": "Docker 컨테이너를 실행하여 Dashy를 시작합니다.",
+              "command": "docker run -p 4000:8080 lissy93/dashy",
+              "expectedResult": "Dashy Docker 이미지를 다운로드하고 포트 4000으로 컨테이너를 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "Dashy 접속",
+              "description": "웹 브라우저를 열고 Dashy 대시보드에 접속합니다.",
+              "expectedResult": "http://localhost:4000 에 접속하면 Dashy 대시보드가 브라우저에 표시됩니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "터미널에서 다음 명령을 실행하세요."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker Desktop 설치",
+              "description": "Docker Desktop을 공식 웹사이트에서 다운로드하여 설치합니다.",
+              "expectedResult": "Docker Desktop 설치 관리자를 실행하고 지시에 따라 설치를 완료합니다. 설치 후 Docker Desktop이 자동으로 시작됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Dashy 이미지 다운로드 및 실행",
+              "description": "Docker 컨테이너를 실행하여 Dashy를 시작합니다.",
+              "command": "docker run -p 4000:8080 lissy93/dashy",
+              "expectedResult": "Dashy Docker 이미지를 다운로드하고 포트 4000으로 컨테이너를 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "Dashy 접속",
+              "description": "웹 브라우저를 열고 Dashy 대시보드에 접속합니다.",
+              "expectedResult": "http://localhost:4000 에 접속하면 Dashy 대시보드가 브라우저에 표시됩니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "터미널에서 다음 명령을 실행하세요."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker Engine 설치",
+              "description": "시스템에 Docker Engine을 설치합니다. 배포판에 맞는 공식 Docker 설치 가이드를 따르세요.",
+              "expectedResult": "Docker Engine이 성공적으로 설치되고 실행 중인지 확인합니다. Docker가 설치되었는지 확인하려면 `docker --version`을 실행합니다."
+            },
+            {
+              "order": 2,
+              "title": "Dashy 이미지 다운로드 및 실행",
+              "description": "Docker 컨테이너를 실행하여 Dashy를 시작합니다.",
+              "command": "docker run -p 4000:8080 lissy93/dashy",
+              "expectedResult": "Dashy Docker 이미지를 다운로드하고 포트 4000으로 컨테이너를 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "Dashy 접속",
+              "description": "웹 브라우저를 열고 Dashy 대시보드에 접속합니다.",
+              "expectedResult": "http://localhost:4000 에 접속하면 Dashy 대시보드가 브라우저에 표시됩니다."
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "라이브 데모 접속",
+              "description": "Dashy의 공식 라이브 데모 웹사이트에 접속합니다.",
+              "expectedResult": "https://demo.dashy.to 에 접속하여 Dashy의 기능과 사용자 인터페이스를 직접 체험할 수 있습니다."
+            },
+            {
+              "order": 2,
+              "title": "클라우드 배포 선택",
+              "description": "Netlify, Vercel 등 지원되는 클라우드 플랫폼 중 하나를 선택하여 Dashy를 배포합니다.",
+              "expectedResult": "README에 제공된 1-클릭 배포 링크를 클릭하여 선택한 플랫폼으로 이동합니다. 선택한 클라우드 플랫폼에서 Dashy 인스턴스가 배포됩니다."
+            },
+            {
+              "order": 3,
+              "title": "배포된 Dashy 접속",
+              "description": "배포가 완료되면 제공된 URL을 통해 자신만의 Dashy 인스턴스에 접속합니다.",
+              "expectedResult": "배포된 Dashy 대시보드가 브라우저에 표시됩니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "웹 브라우저에서 `http://localhost:4000` (또는 클라우드 배포 시 제공된 URL)에 접속하면 기본 설정된 Dashy 대시보드 화면이 나타납니다. 여기에는 몇 가지 예시 링크와 섹션이 포함되어 있습니다.",
+      "stopInstructions": "Docker 컨테이너로 실행 중인 경우, 터미널에서 `docker ps` 명령으로 실행 중인 컨테이너 ID를 확인한 후 `docker stop [컨테이너 ID]` 명령을 사용하여 Dashy 컨테이너를 중지할 수 있습니다.",
+      "uninstallInstructions": "Dashy Docker 컨테이너를 중지한 후, `docker rm [컨테이너 ID]` 명령으로 컨테이너를 삭제하고, `docker rmi lissy93/dashy` 명령으로 다운로드된 Dashy 이미지를 삭제할 수 있습니다.",
+      "commonIssues": [
+        {
+          "problem": "Dashy가 `http://localhost:4000`에서 접속되지 않습니다.",
+          "solution": "Docker 컨테이너가 제대로 실행 중인지 확인하세요. `docker ps` 명령을 사용하여 `lissy93/dashy` 컨테이너가 `Up` 상태인지 확인하고, 포트 매핑이 올바른지 확인하세요. 방화벽 설정이 포트 4000을 차단하고 있을 수도 있습니다."
+        },
+        {
+          "problem": "Dashy 설정 파일(conf.yml)을 변경했는데 적용되지 않습니다.",
+          "solution": "Docker 컨테이너를 다시 시작해야 변경 사항이 적용됩니다. `docker stop [컨테이너 ID]` 후 `docker start [컨테이너 ID]`를 실행하거나, `docker-compose down` 후 `docker-compose up -d`를 사용하세요. 또한, `user-data` 볼륨이 올바르게 마운트되었는지 확인하세요."
+        }
+      ],
+      "officialDocsUrl": "https://dashy.to/docs",
+      "verifiedAt": "2026-09-25"
+    }
   }
 ]
