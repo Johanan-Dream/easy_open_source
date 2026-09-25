@@ -1,5 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import type { Repository } from "../src/domain.ts";
 import { loadRepositories } from "../src/data-store.ts";
 import { findRepository, getTrending, queryRepositories } from "../src/repository-service.ts";
 import { validateGeneratedCommands, validateRepositories, validateRepository } from "../src/validation.ts";
@@ -117,6 +119,23 @@ test("newsletter installation labels use one consistent difficulty scale", () =>
 
 test("all collected repositories pass guide safety validation", () => {
   assert.deepEqual(validateRepositories(repositories), []);
+});
+
+test("collector editorial inputs pass validation before replacing the reviewed catalog", async () => {
+  const files = ["editorial", "editorial-additions", "editorial-expanded", "editorial-discovered"];
+  const entries = (await Promise.all(files.map(async (file) =>
+    JSON.parse(await readFile(new URL(`../data/${file}.json`, import.meta.url), "utf8")) as Repository[]
+  ))).flat();
+  const candidates = entries.map((entry) => {
+    const cached = repositories.find((repository) => repository.id.toLowerCase() === entry.id.toLowerCase());
+    return {
+      ...cached,
+      ...entry,
+      homepageUrl: entry.homepageUrl || cached?.homepageUrl,
+      sourceUrls: [cached?.githubUrl ?? `https://github.com/${entry.id}`, entry.guide.officialDocsUrl],
+    };
+  });
+  assert.deepEqual(validateRepositories(candidates), []);
 });
 
 test("supported platforms need matching setup guides", () => {

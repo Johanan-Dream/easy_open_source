@@ -94,6 +94,7 @@ const output = projects.map((project) => {
   const [id, category, label, summary, problemSolved, platforms, guideType, difficulty, usageType, keyFeatures] = project;
   return {
     id, category, summary,
+    ...(id === "ip7z/7zip" ? { homepageUrl: "https://www.7-zip.org/" } : {}),
     whatItIs: id === "ip7z/7zip" ? "7-Zip은 Windows용 파일 관리 앱과 macOS·Linux용 명령줄 버전으로 여러 압축 형식을 다루는 도구입니다." : `${label} 소개: ${summary}`,
     problemSolved,
     recommendedFor: [`${label}의 핵심 기능을 무료로 시작하려는 사람`, "공식 설치 파일과 쉬운 첫 실행 안내가 필요한 사용자"],

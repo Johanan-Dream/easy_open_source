@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: 24
 
+      - name: Validate catalog and editorial inputs before collection
+        run: npm test
+
       - name: Collect public repository metadata
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

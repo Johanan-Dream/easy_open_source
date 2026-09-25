@@ -177,12 +177,7 @@
     "guideType": "docker",
     "costSummary": "Memos는 오픈소스 프로젝트이므로 소프트웨어 자체는 무료입니다. 자체 호스팅을 위해 필요한 서버, 도메인 등의 인프라 비용은 사용자가 부담해야 합니다.",
     "apiKeyRequired": false,
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux",
-      "Web"
-    ],
+    "platforms": ["Windows", "macOS", "Linux"],
     "guide": {
       "prerequisites": [
         "Docker 설치 (Windows/macOS의 경우 Docker Desktop, Linux의 경우 Docker Engine)",
@@ -336,12 +331,7 @@
     "guideType": "package-manager",
     "costSummary": "nanobot은 무료 오픈 소스이며 자체 호스팅이 가능합니다. 하지만 AI 모델(LLM) 사용에 따라 API 비용이 발생할 수 있습니다.",
     "apiKeyRequired": true,
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux",
-      "Web"
-    ],
+    "platforms": ["Windows", "macOS", "Linux"],
     "guide": {
       "prerequisites": [
         "Python 3.11 이상"
@@ -636,12 +626,7 @@
     "guideType": "desktop-installer",
     "costSummary": "대부분의 기능은 상업적 용도를 포함하여 무료로 제공됩니다. 일부 고급 기능은 유료 멤버십을 통해 이용할 수 있습니다.",
     "apiKeyRequired": true,
-    "platforms": [
-      "Windows",
-      "macOS",
-      "Linux",
-      "Web"
-    ],
+    "platforms": ["Windows", "macOS", "Linux"],
     "guide": {
       "prerequisites": [
         "Windows 운영 체제",
@@ -680,6 +665,48 @@
               "description": "설치가 완료되면 '마침' 버튼을 클릭하거나, Windows 시작 메뉴에서 SiYuan을 찾아 실행합니다.",
               "command": "",
               "expectedResult": "SiYuan 애플리케이션이 시작되고 초기 설정 화면 또는 워크스페이스 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Mac용 설치 파일 받기",
+              "description": "SiYuan 공식 다운로드 페이지 또는 GitHub 릴리스에서 Mac의 CPU에 맞는 .dmg 파일을 받습니다."
+            },
+            {
+              "order": 2,
+              "title": "앱 설치",
+              "description": "다운로드한 .dmg 파일을 열고 SiYuan을 Applications 폴더로 옮깁니다."
+            },
+            {
+              "order": 3,
+              "title": "작업 공간 열기",
+              "description": "SiYuan을 실행해 작업 공간을 선택하거나 새 작업 공간을 만듭니다.",
+              "expectedResult": "노트 편집 화면이 표시됩니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Linux용 설치 파일 받기",
+              "description": "SiYuan 공식 GitHub 릴리스에서 CPU와 배포판에 맞는 AppImage, .deb 또는 .rpm 파일을 받습니다."
+            },
+            {
+              "order": 2,
+              "title": "앱 설치 및 실행",
+              "description": "선택한 형식에 맞게 설치하거나 AppImage를 실행 가능하도록 설정해 엽니다."
+            },
+            {
+              "order": 3,
+              "title": "작업 공간 열기",
+              "description": "SiYuan을 실행해 작업 공간을 선택하거나 새 작업 공간을 만듭니다.",
+              "expectedResult": "노트 편집 화면이 표시됩니다."
             }
           ]
         }

@@ -78,7 +78,28 @@
       "estimatedMinutes": 8,
       "platforms": [
         { "name": "Windows", "steps": [{ "order": 1, "title": "공식 압축 파일 받기", "description": "GitHub README의 Windows 7zip 링크에서 .7z 파일을 받습니다." }, { "order": 2, "title": "압축 풀기", "description": "7-Zip으로 파일을 풀고 폴더 안의 LosslessCut 실행 파일을 엽니다." }, { "order": 3, "title": "영상 열기", "description": "영상 파일을 창으로 끌어 놓습니다.", "expectedResult": "영상 미리보기와 타임라인이 표시됩니다." }] },
-        { "name": "macOS", "steps": [{ "order": 1, "title": "내 Mac에 맞는 DMG 받기", "description": "Intel 또는 Apple Silicon용 공식 DMG를 받습니다." }, { "order": 2, "title": "Applications에 복사", "description": "DMG를 열고 앱을 Applications 폴더로 끌어 놓습니다." }, { "order": 3, "title": "영상 열기", "description": "앱을 열고 영상 파일을 창으로 끌어 놓습니다.", "expectedResult": "영상 미리보기와 타임라인이 표시됩니다." }] }
+        { "name": "macOS", "steps": [{ "order": 1, "title": "내 Mac에 맞는 DMG 받기", "description": "Intel 또는 Apple Silicon용 공식 DMG를 받습니다." }, { "order": 2, "title": "Applications에 복사", "description": "DMG를 열고 앱을 Applications 폴더로 끌어 놓습니다." }, { "order": 3, "title": "영상 열기", "description": "앱을 열고 영상 파일을 창으로 끌어 놓습니다.", "expectedResult": "영상 미리보기와 타임라인이 표시됩니다." }] },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Linux용 파일 받기",
+              "description": "LosslessCut 공식 README에서 CPU에 맞는 Linux AppImage 또는 tar.bz2 파일을 받습니다."
+            },
+            {
+              "order": 2,
+              "title": "앱 실행",
+              "description": "AppImage를 실행 가능하도록 설정해 열거나 압축 파일을 풀고 LosslessCut 실행 파일을 엽니다."
+            },
+            {
+              "order": 3,
+              "title": "영상 열기",
+              "description": "영상 파일을 LosslessCut 창으로 끌어 놓습니다.",
+              "expectedResult": "영상 미리보기와 타임라인이 표시됩니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "타임라인에서 시작점과 끝점을 지정해 구간을 내보낼 수 있습니다.",
       "uninstallInstructions": "설치할 때 만든 앱 또는 압축 해제 폴더를 삭제합니다. 설정까지 지우려면 공식 설치 문서의 appData 위치를 확인합니다.",
@@ -110,7 +131,34 @@
       "estimatedMinutes": 15,
       "platforms": [
         { "name": "Windows", "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."], "steps": [{ "order": 1, "title": "Docker 실행 확인", "description": "Docker Desktop을 실행한 뒤 버전을 확인합니다.", "command": "docker --version", "expectedResult": "Docker 버전이 표시됩니다." }, { "order": 2, "title": "Stirling PDF 실행", "description": "공식 README의 빠른 시작 명령을 실행합니다.", "command": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf", "expectedResult": "컨테이너가 실행되고 로그가 표시됩니다." }, { "order": 3, "title": "웹 화면 열기", "description": "브라우저에서 http://localhost:8080을 엽니다." }] },
-        { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Docker 실행 확인", "description": "Docker Desktop을 실행한 뒤 버전을 확인합니다.", "command": "docker --version", "expectedResult": "Docker 버전이 표시됩니다." }, { "order": 2, "title": "Stirling PDF 실행", "description": "공식 README의 빠른 시작 명령을 실행합니다.", "command": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf", "expectedResult": "컨테이너가 실행되고 로그가 표시됩니다." }, { "order": 3, "title": "웹 화면 열기", "description": "브라우저에서 http://localhost:8080을 엽니다." }] }
+        { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Docker 실행 확인", "description": "Docker Desktop을 실행한 뒤 버전을 확인합니다.", "command": "docker --version", "expectedResult": "Docker 버전이 표시됩니다." }, { "order": 2, "title": "Stirling PDF 실행", "description": "공식 README의 빠른 시작 명령을 실행합니다.", "command": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf", "expectedResult": "컨테이너가 실행되고 로그가 표시됩니다." }, { "order": 3, "title": "웹 화면 열기", "description": "브라우저에서 http://localhost:8080을 엽니다." }] },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "앱 메뉴에서 터미널을 검색해 실행합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 실행 확인",
+              "description": "Linux에서 Docker Engine을 실행한 뒤 Docker 명령이 동작하는지 확인합니다.",
+              "command": "docker --version",
+              "expectedResult": "Docker 버전이 표시됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Stirling PDF 실행",
+              "description": "공식 README의 빠른 시작 명령을 실행합니다.",
+              "command": "docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf",
+              "expectedResult": "컨테이너가 실행되고 로그가 표시됩니다."
+            },
+            {
+              "order": 3,
+              "title": "웹 화면 열기",
+              "description": "브라우저에서 http://localhost:8080을 엽니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "브라우저에 PDF 도구 목록과 파일 선택 화면이 표시됩니다.",
       "stopInstructions": "터미널에서 Ctrl + C를 눌러 현재 컨테이너를 중지합니다.",
@@ -142,7 +190,33 @@
       "estimatedMinutes": 12,
       "platforms": [
         { "name": "Windows", "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."], "steps": [{ "order": 1, "title": "Docker 확인", "description": "Docker Desktop을 실행하고 아래 명령을 입력합니다.", "command": "docker --version" }, { "order": 2, "title": "Uptime Kuma 실행", "description": "공식 README의 Docker 명령을 실행합니다.", "command": "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2", "expectedResult": "긴 컨테이너 ID가 표시됩니다." }, { "order": 3, "title": "설정 화면 열기", "description": "브라우저에서 http://localhost:3001을 엽니다." }] },
-        { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Docker 확인", "description": "Docker Desktop을 실행하고 아래 명령을 입력합니다.", "command": "docker --version" }, { "order": 2, "title": "Uptime Kuma 실행", "description": "공식 README의 Docker 명령을 실행합니다.", "command": "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2", "expectedResult": "긴 컨테이너 ID가 표시됩니다." }, { "order": 3, "title": "설정 화면 열기", "description": "브라우저에서 http://localhost:3001을 엽니다." }] }
+        { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Docker 확인", "description": "Docker Desktop을 실행하고 아래 명령을 입력합니다.", "command": "docker --version" }, { "order": 2, "title": "Uptime Kuma 실행", "description": "공식 README의 Docker 명령을 실행합니다.", "command": "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2", "expectedResult": "긴 컨테이너 ID가 표시됩니다." }, { "order": 3, "title": "설정 화면 열기", "description": "브라우저에서 http://localhost:3001을 엽니다." }] },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "앱 메뉴에서 터미널을 검색해 실행합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Docker 확인",
+              "description": "Linux에서 Docker Engine을 실행한 뒤 Docker 명령이 동작하는지 확인합니다.",
+              "command": "docker --version"
+            },
+            {
+              "order": 2,
+              "title": "Uptime Kuma 실행",
+              "description": "공식 README의 Docker 명령을 실행합니다.",
+              "command": "docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2",
+              "expectedResult": "긴 컨테이너 ID가 표시됩니다."
+            },
+            {
+              "order": 3,
+              "title": "설정 화면 열기",
+              "description": "브라우저에서 http://localhost:3001을 엽니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "관리자 계정을 만드는 초기 설정 화면이 표시됩니다.",
       "stopInstructions": "터미널에서 docker stop uptime-kuma를 실행합니다.",

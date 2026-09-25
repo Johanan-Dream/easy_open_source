@@ -36,6 +36,27 @@
             { "order": 1, "title": "공식 설치 파일 실행", "description": "공식 다운로드 페이지에서 Windows용 설치 파일을 받아 실행합니다." },
             { "order": 2, "title": "모델 실행", "description": "PowerShell에 아래 명령을 붙여넣고 Enter 키를 누릅니다.", "command": "ollama run gemma4", "expectedResult": "모델 다운로드가 끝난 뒤 메시지를 입력할 수 있는 창이 나타납니다." }
           ]
+        },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Linux용 Ollama 설치",
+              "description": "Ollama 공식 Linux 문서에서 배포판과 CPU에 맞는 설치 방법을 확인하고 설치합니다."
+            },
+            {
+              "order": 2,
+              "title": "서비스 실행 확인",
+              "description": "설치가 끝나면 Ollama 서비스가 실행 중인지 확인합니다."
+            },
+            {
+              "order": 3,
+              "title": "모델로 첫 대화",
+              "description": "터미널에서 ollama run gemma4를 실행해 모델을 내려받고 메시지를 입력합니다.",
+              "expectedResult": "모델의 답변이 터미널에 표시됩니다."
+            }
+          ]
         }
       ],
       "firstRunResult": "터미널에서 질문을 입력하면 로컬 AI 모델이 답변합니다.",
@@ -69,7 +90,28 @@
       "estimatedMinutes": 5,
       "platforms": [
         { "name": "Windows", "steps": [{ "order": 1, "title": "앱 설치", "description": "공식 다운로드 링크에서 Windows 설치 파일을 받아 실행합니다." }, { "order": 2, "title": "파일 보내기", "description": "두 기기에서 LocalSend를 열고 보내기에서 파일과 받을 기기를 선택합니다.", "expectedResult": "받는 기기에 수락 알림이 나타납니다." }] },
-        { "name": "macOS", "steps": [{ "order": 1, "title": "앱 설치", "description": "공식 다운로드 링크 또는 App Store에서 LocalSend를 설치합니다." }, { "order": 2, "title": "파일 보내기", "description": "두 기기에서 LocalSend를 열고 보내기에서 파일과 받을 기기를 선택합니다.", "expectedResult": "받는 기기에 수락 알림이 나타납니다." }] }
+        { "name": "macOS", "steps": [{ "order": 1, "title": "앱 설치", "description": "공식 다운로드 링크 또는 App Store에서 LocalSend를 설치합니다." }, { "order": 2, "title": "파일 보내기", "description": "두 기기에서 LocalSend를 열고 보내기에서 파일과 받을 기기를 선택합니다.", "expectedResult": "받는 기기에 수락 알림이 나타납니다." }] },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Linux용 파일 받기",
+              "description": "LocalSend 공식 릴리스에서 배포판과 CPU에 맞는 .deb, AppImage 또는 압축 파일을 받습니다."
+            },
+            {
+              "order": 2,
+              "title": "앱 실행",
+              "description": "받은 형식에 맞게 설치하거나 압축을 푼 뒤 LocalSend를 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "파일 보내기",
+              "description": "두 기기를 같은 네트워크에 연결하고 LocalSend의 보내기에서 파일과 받을 기기를 선택합니다.",
+              "expectedResult": "받는 기기에 수락 알림이 나타납니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "같은 네트워크의 다른 기기가 화면에 표시되고 파일을 보낼 수 있습니다.",
       "commonIssues": [{ "problem": "다른 기기가 보이지 않음", "solution": "두 기기가 같은 네트워크인지 확인하고 방화벽의 LocalSend 접근을 허용합니다." }],
@@ -128,7 +170,28 @@
       "estimatedMinutes": 10,
       "platforms": [
         { "name": "Windows", "steps": [{ "order": 1, "title": "공식 설치 파일 받기", "description": "OBS 공식 다운로드 페이지에서 Windows를 선택하고 설치합니다." }, { "order": 2, "title": "화면 소스 추가", "description": "소스 영역의 +를 눌러 디스플레이 캡처를 추가합니다." }, { "order": 3, "title": "녹화 시작", "description": "오른쪽의 녹화 시작 버튼을 누릅니다.", "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다." }] },
-        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "OBS 공식 다운로드 페이지에서 macOS 버전을 설치합니다." }, { "order": 2, "title": "화면 녹화 권한 허용", "description": "시스템 설정의 개인정보 보호 및 보안에서 OBS의 화면 기록 권한을 허용합니다." }, { "order": 3, "title": "macOS 화면 캡처 추가", "description": "소스 영역의 +를 누르고 macOS 화면 캡처를 선택한 다음 녹화 시작을 누릅니다.", "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다." }] }
+        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "OBS 공식 다운로드 페이지에서 macOS 버전을 설치합니다." }, { "order": 2, "title": "화면 녹화 권한 허용", "description": "시스템 설정의 개인정보 보호 및 보안에서 OBS의 화면 기록 권한을 허용합니다." }, { "order": 3, "title": "macOS 화면 캡처 추가", "description": "소스 영역의 +를 누르고 macOS 화면 캡처를 선택한 다음 녹화 시작을 누릅니다.", "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다." }] },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "공식 Linux 설치 방법 확인",
+              "description": "OBS 공식 다운로드 페이지에서 배포판에 맞는 Flathub 또는 Ubuntu 설치 방법을 선택합니다."
+            },
+            {
+              "order": 2,
+              "title": "OBS 설치 및 실행",
+              "description": "선택한 공식 배포 경로의 안내에 따라 OBS Studio를 설치하고 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "녹화 시작",
+              "description": "소스 영역에서 화면 캡처 소스를 추가하고 녹화 시작을 누릅니다.",
+              "expectedResult": "상태 표시줄에서 녹화 시간이 증가합니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "지정한 폴더에 화면 녹화 영상 파일이 저장됩니다.",
       "stopInstructions": "OBS의 녹화 중지 버튼을 누른 뒤 프로그램을 종료합니다.",
@@ -160,7 +223,28 @@
       "estimatedMinutes": 5,
       "platforms": [
         { "name": "macOS", "terminalHelp": ["Command + Space를 누릅니다.", "터미널을 입력하고 실행합니다."], "steps": [{ "order": 1, "title": "Homebrew 확인", "description": "Homebrew가 설치되어 있는지 확인합니다.", "command": "brew --version", "expectedResult": "Homebrew 버전이 표시됩니다." }, { "order": 2, "title": "bat 설치", "description": "아래 명령을 실행합니다.", "command": "brew install bat", "expectedResult": "설치 완료 메시지가 표시됩니다." }, { "order": 3, "title": "파일 보기", "description": "README 파일을 열어봅니다.", "command": "bat README.md" }] },
-        { "name": "Windows", "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."], "steps": [{ "order": 1, "title": "winget 확인", "description": "Windows 패키지 도구를 확인합니다.", "command": "winget --version", "expectedResult": "winget 버전이 표시됩니다." }, { "order": 2, "title": "bat 설치", "description": "공식 README에 안내된 winget 명령을 실행합니다.", "command": "winget install sharkdp.bat", "expectedResult": "설치 완료 메시지가 표시됩니다." }, { "order": 3, "title": "파일 보기", "description": "현재 폴더의 README 파일을 열어봅니다.", "command": "bat README.md" }] }
+        { "name": "Windows", "terminalHelp": ["시작 버튼을 누릅니다.", "PowerShell을 검색해 실행합니다."], "steps": [{ "order": 1, "title": "winget 확인", "description": "Windows 패키지 도구를 확인합니다.", "command": "winget --version", "expectedResult": "winget 버전이 표시됩니다." }, { "order": 2, "title": "bat 설치", "description": "공식 README에 안내된 winget 명령을 실행합니다.", "command": "winget install sharkdp.bat", "expectedResult": "설치 완료 메시지가 표시됩니다." }, { "order": 3, "title": "파일 보기", "description": "현재 폴더의 README 파일을 열어봅니다.", "command": "bat README.md" }] },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "배포판별 설치 방법 확인",
+              "description": "bat 공식 README에서 Ubuntu·Debian, Fedora, Arch 등 사용 중인 Linux 배포판의 설치 방법을 선택합니다."
+            },
+            {
+              "order": 2,
+              "title": "패키지 설치",
+              "description": "선택한 배포판의 패키지 관리자로 bat을 설치합니다. 일부 Ubuntu·Debian 버전에서는 실행 파일 이름이 batcat입니다."
+            },
+            {
+              "order": 3,
+              "title": "파일 내용 확인",
+              "description": "터미널에서 bat 또는 batcat으로 텍스트 파일을 열어 봅니다.",
+              "expectedResult": "색상과 줄 번호가 적용된 파일 내용이 표시됩니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "파일 내용이 색상과 줄 번호가 적용된 형태로 표시됩니다.",
       "commonIssues": [{ "problem": "bat 명령을 찾을 수 없음", "solution": "터미널을 완전히 닫았다가 다시 열고 명령을 실행합니다." }],
@@ -192,7 +276,28 @@
       "platforms": [
         { "name": "Web", "steps": [{ "order": 1, "title": "공식 웹사이트에서 계정 만들기", "description": "Bitwarden 공식 사이트에서 개인 계정을 생성합니다.", "warning": "마스터 비밀번호를 잊으면 복구가 어려울 수 있으므로 안전한 장소에 보관합니다." }, { "order": 2, "title": "첫 로그인 정보 저장", "description": "새 항목을 만들고 사이트 주소, 사용자 이름, 비밀번호를 입력합니다.", "expectedResult": "보관함에 새 로그인 항목이 표시됩니다." }] },
         { "name": "Windows", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 Windows 데스크톱 앱 또는 브라우저 확장을 설치합니다." }, { "order": 2, "title": "로그인", "description": "계정 이메일과 마스터 비밀번호로 로그인합니다." }] },
-        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 macOS 데스크톱 앱 또는 브라우저 확장을 설치합니다." }, { "order": 2, "title": "로그인", "description": "계정 이메일과 마스터 비밀번호로 로그인합니다." }] }
+        { "name": "macOS", "steps": [{ "order": 1, "title": "공식 앱 설치", "description": "공식 다운로드 페이지에서 macOS 데스크톱 앱 또는 브라우저 확장을 설치합니다." }, { "order": 2, "title": "로그인", "description": "계정 이메일과 마스터 비밀번호로 로그인합니다." }] },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Linux 앱 받기",
+              "description": "Bitwarden 공식 다운로드 페이지에서 배포판에 맞는 AppImage, Flatpak, Snap 또는 패키지를 선택합니다."
+            },
+            {
+              "order": 2,
+              "title": "앱 설치 및 실행",
+              "description": "선택한 형식의 공식 안내에 따라 데스크톱 앱을 설치하고 실행합니다."
+            },
+            {
+              "order": 3,
+              "title": "보관함 로그인",
+              "description": "계정 이메일과 마스터 비밀번호로 로그인합니다.",
+              "expectedResult": "비밀번호 보관함이 표시됩니다."
+            }
+          ]
+        }
       ],
       "firstRunResult": "암호화된 보관함에서 로그인 정보를 추가하고 확인할 수 있습니다.",
       "commonIssues": [{ "problem": "브라우저에서 자동 입력이 되지 않음", "solution": "공식 브라우저 확장이 설치되고 로그인되어 있는지 확인합니다." }],
