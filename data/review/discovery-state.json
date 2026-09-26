@@ -160,5 +160,35 @@
     "status": "rejected",
     "checkedAt": "2026-09-25",
     "reason": "Error: 공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다."
+  },
+  "ArchiveBox/ArchiveBox": {
+    "readmeHash": "a5c2a0e5c45cd23f7136810af2f48deb2409333813eac27466e94e2d20a5b0ab",
+    "status": "added",
+    "checkedAt": "2026-09-26",
+    "reason": "ArchiveBox는 웹 콘텐츠를 보존하기 위한 강력한 자체 호스팅 도구로, CLI, 웹 인터페이스, 데스크톱 앱 및 브라우저 확장 프로그램을 제공하여 비개발자부터 개발자까지 다양한 사용자가 쉽게 접근하고 활용할 수 있습니다. 완성된 형태로 제공되며, 데이터 소유권을 유지하면서 중요한 웹 정보를 장기적으로 보관하는 데 유용합니다."
+  },
+  "ayangweb/BongoCat": {
+    "readmeHash": "4b5d6a72f7090afc2f115fdfd179d52e96f0e1aa867e91eced2ad128bb80badd",
+    "status": "added",
+    "checkedAt": "2026-09-26",
+    "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
+  },
+  "super-productivity/super-productivity": {
+    "readmeHash": "8a1622180a9ae9204982bc5ac8613946e1465a45259a6d67c6dc9f8b18c2203d",
+    "status": "rejected",
+    "checkedAt": "2026-09-26",
+    "reason": "Error: guide.platforms.3.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.3.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: super-productivity-x.x.x.appimage"
+  },
+  "browser-use/jev-ultrafast": {
+    "readmeHash": "29f5276b3e6295cabe322cda598e354a9e053dbfd9d831d20f09d0cca279a379",
+    "status": "rejected",
+    "checkedAt": "2026-09-26",
+    "reason": "이 프로젝트는 브라우저 자동화 에이전트를 구축하기 위한 개발자 도구 및 라이브러리입니다. 설치 및 사용에 개발 지식이 필요하며, 비개발자나 협업 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+  },
+  "ActivityWatch/activitywatch": {
+    "readmeHash": "14dc586c56ee224f03c16c9e2d569bafd6a331cd818281ab1f80993a632847ec",
+    "status": "added",
+    "checkedAt": "2026-09-26",
+    "reason": "ActivityWatch는 사용자가 직접 설치하여 컴퓨터 활동을 자동으로 추적하고 분석할 수 있는 완성된 데스크톱 애플리케이션입니다. 비개발자도 쉽게 사용할 수 있는 GUI를 제공하며, 개인 생산성 관리 및 시간 추적에 유용합니다."
   }
 }
