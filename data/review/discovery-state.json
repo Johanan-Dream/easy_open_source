@@ -150,10 +150,10 @@
     "reason": "Dashy는 개인용 대시보드를 위한 완성된 도구로, Docker를 이용한 쉬운 설치와 1-클릭 클라우드 배포를 지원하며, 웹 기반 UI 편집기를 통해 비개발자도 쉽게 설정하고 사용할 수 있습니다."
   },
   "NandhaKishorM/laya": {
-    "readmeHash": "051dd4af3383b41e1a687b90faeee4203fd2182db247c87dd82dafc02a0622fd",
+    "readmeHash": "2fc5805fef24e8b29ca1ddcba66769f0ccf1e011c3709175e7e2de5936338ad2",
     "status": "rejected",
-    "checkedAt": "2026-09-25",
-    "reason": "Laya는 주로 개발자가 애플리케이션에 통합하거나 자체 호스팅 서버를 구축하는 데 사용하는 파이썬 라이브러리 및 의사 결정 엔진입니다. 비개발자나 일반 사용자가 직접 설치하여 바로 사용할 수 있는 완성된 독립형 도구로 보기 어렵습니다."
+    "checkedAt": "2026-09-27",
+    "reason": "Laya는 비개발자나 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닌, 주로 개발자가 다른 애플리케이션에 통합하여 사용하는 AI 결정 엔진 라이브러리입니다. Python SDK를 통해 기능에 접근하며, CLI 및 로컬 웹 GUI는 개발 및 테스트 목적으로 제공됩니다."
   },
   "wavetermdev/waveterm": {
     "readmeHash": "9863c37ff407df7a85fef92c43dca31d9a552efd83cf42479847e11adb6d61bd",
@@ -190,5 +190,29 @@
     "status": "added",
     "checkedAt": "2026-09-26",
     "reason": "ActivityWatch는 사용자가 직접 설치하여 컴퓨터 활동을 자동으로 추적하고 분석할 수 있는 완성된 데스크톱 애플리케이션입니다. 비개발자도 쉽게 사용할 수 있는 GUI를 제공하며, 개인 생산성 관리 및 시간 추적에 유용합니다."
+  },
+  "jarun/nnn": {
+    "readmeHash": "9d86aa7c29080964983f3bff7f338667e75bf94ffe2cc45d60c920cebabf0551",
+    "status": "rejected",
+    "checkedAt": "2026-09-27",
+    "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
+  },
+  "eternity4719/HowToLiveBetter": {
+    "readmeHash": "029bac39a76119c04c95cfb0a09e5e755b6e24c321befde3ff4212c46250d77c",
+    "status": "rejected",
+    "checkedAt": "2026-09-27",
+    "reason": "이 프로젝트는 특정 기능을 수행하는 완성된 도구가 아니라, 삶의 다양한 측면에 대한 정보와 조언을 모아놓은 증거 기반 생활 가이드입니다. 웹 페이지, PDF, EPUB, 오프라인 HTML 파일 형태로 제공되어 소비하기는 쉽지만, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 사용하는 '도구'의 범주에는 해당하지 않습니다."
+  },
+  "Flow-Launcher/Flow.Launcher": {
+    "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
+    "status": "added",
+    "checkedAt": "2026-09-27",
+    "reason": "Flow Launcher는 Windows 사용자를 위한 완성된 데스크톱 애플리케이션으로, 파일 검색 및 앱 실행 기능을 제공하여 비개발자도 쉽게 설치하고 사용할 수 있습니다. 다양한 플러그인으로 기능을 확장할 수 있어 생산성 향상에 기여합니다."
+  },
+  "YishenTu/claudian": {
+    "readmeHash": "cef6de27365605e4d3a4eaf5b0bd83169756daa50ef42d9e9894208117bf451b",
+    "status": "rejected",
+    "checkedAt": "2026-09-27",
+    "reason": "이 프로젝트는 Obsidian 플러그인이지만, AI 에이전트 CLI 도구(예: Claude Code CLI, Codex CLI)를 별도로 설치하고 API 키를 설정해야 하는 등 상당한 기술적 사전 준비가 필요합니다. 이는 비개발자나 '바이브 코딩' 사용자에게는 설치 및 사용이 복잡하여 직접 설치 가능한 완성된 도구라는 기준에 부합하지 않습니다."
   }
 }

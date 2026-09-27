@@ -2395,5 +2395,110 @@
       "officialDocsUrl": "https://docs.activitywatch.net",
       "verifiedAt": "2026-09-26"
     }
+  },
+  {
+    "id": "Flow-Launcher/Flow.Launcher",
+    "category": "productivity",
+    "summary": "Windows용 빠르고 확장 가능한 파일 검색 및 앱 실행 도구로, 다양한 플러그인을 통해 생산성을 향상시킵니다.",
+    "whatItIs": "Flow Launcher는 Windows 사용자를 위한 오픈 소스 생산성 도구입니다. 키보드 단축키를 통해 빠르게 실행되는 검색창을 제공하여 애플리케이션, 파일, 웹 검색, 시스템 명령 등을 효율적으로 찾고 실행할 수 있습니다.",
+    "problemSolved": "Windows 기본 검색 기능의 한계를 넘어, 사용자가 필요한 정보나 애플리케이션에 더 빠르고 직관적으로 접근할 수 있도록 돕습니다. 복잡한 탐색 없이 키보드만으로 다양한 작업을 수행하여 작업 흐름을 간소화합니다.",
+    "recommendedFor": [
+      "Windows 사용자",
+      "빠른 파일 및 앱 검색이 필요한 사용자",
+      "생산성 도구에 관심 있는 사용자",
+      "키보드 기반 워크플로우를 선호하는 사용자"
+    ],
+    "keyFeatures": [
+      "빠른 파일 및 애플리케이션 검색",
+      "다양한 기능 확장을 위한 플러그인 지원",
+      "웹 검색, 시스템 명령, 계산기 등 내장 기능"
+    ],
+    "useCases": [
+      "설치된 애플리케이션 빠르게 실행",
+      "특정 파일이나 폴더 즉시 검색 및 열기",
+      "웹 검색 엔진에 바로 쿼리 입력",
+      "시스템 종료, 잠금 등 시스템 명령 실행"
+    ],
+    "tags": [
+      "생산성",
+      "런처",
+      "Windows",
+      "검색",
+      "플러그인",
+      "자동화",
+      "데스크톱",
+      "유틸리티"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "오픈 소스 프로젝트이며 무료로 사용할 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Windows 10 이상 운영체제"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Windows 검색창에 '터미널' 또는 'PowerShell'을 입력하여 실행합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Flow Launcher 설치 파일 다운로드",
+              "description": "Flow Launcher 공식 GitHub 릴리스 페이지(https://github.com/Flow-Launcher/Flow.Launcher/releases/latest)에서 최신 설치 파일인 'Flow-Launcher-Setup.exe'를 다운로드합니다.",
+              "expectedResult": "'Flow-Launcher-Setup.exe' 파일이 다운로드됩니다.",
+              "warning": "공식 채널에서 제공하는 파일만 다운로드하여 사용하세요."
+            },
+            {
+              "order": 2,
+              "title": "설치 프로그램 실행",
+              "description": "다운로드한 'Flow-Launcher-Setup.exe' 파일을 실행하여 설치를 시작합니다. Windows 보안 경고가 나타날 수 있지만, 공식 저장소에서 다운로드한 경우 안전하게 진행할 수 있습니다.",
+              "expectedResult": "Flow Launcher 설치 마법사가 시작됩니다."
+            },
+            {
+              "order": 3,
+              "title": "설치 완료",
+              "description": "설치 마법사의 지시에 따라 Flow Launcher 설치를 완료합니다. 설치가 완료되면 Flow Launcher가 자동으로 실행됩니다.",
+              "expectedResult": "Flow Launcher가 시스템에 설치되고 자동으로 실행됩니다."
+            },
+            {
+              "order": 4,
+              "title": "Winget을 이용한 설치 (선택 사항)",
+              "description": "Windows 터미널(PowerShell 또는 명령 프롬프트)을 열고 다음 명령어를 입력하여 Winget으로 Flow Launcher를 설치할 수 있습니다.",
+              "command": "winget install \"Flow Launcher\"",
+              "expectedResult": "Winget을 통해 Flow Launcher가 설치됩니다."
+            },
+            {
+              "order": 5,
+              "title": "포터블 버전 사용 (선택 사항)",
+              "description": "설치 없이 압축 해제 후 바로 실행할 수 있는 포터블 버전을 사용할 수 있습니다. 공식 GitHub 릴리스 페이지(https://github.com/Flow-Launcher/Flow.Launcher/releases/latest)에서 'Flow-Launcher-Portable.zip' 파일을 다운로드하여 원하는 위치에 압축을 해제합니다. 압축 해제된 폴더 내의 'Flow.Launcher.exe'를 실행합니다.",
+              "expectedResult": "압축 해제 후 'Flow.Launcher.exe'를 실행하면 Flow Launcher가 시작됩니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Flow Launcher 검색창이 화면에 나타나며, 'Alt+Space' 단축키를 통해 언제든지 호출할 수 있습니다. 검색창에 검색어를 입력하여 파일, 앱 등을 찾을 수 있습니다.",
+      "stopInstructions": "Flow Launcher 검색창에서 'Exit' 명령을 입력하거나, 시스템 트레이(작업 표시줄 우측 하단)에 있는 Flow Launcher 아이콘을 우클릭하여 'Exit'를 선택하면 종료할 수 있습니다.",
+      "uninstallInstructions": "Windows 설정의 '앱 및 기능'에서 'Flow Launcher'를 찾아 제거할 수 있습니다. Winget으로 설치한 경우, 터미널에서 'winget uninstall \"Flow Launcher\"' 명령을 사용하여 제거할 수 있습니다. 포터블 버전은 압축 해제된 폴더를 삭제하면 됩니다.",
+      "commonIssues": [
+        {
+          "problem": "Flow Launcher 설치 시 Windows 보안 경고가 나타납니다.",
+          "solution": "첫 설치 시 Windows SmartScreen과 같은 보안 기능이 알 수 없는 앱으로 인식하여 경고를 표시할 수 있습니다. Flow Launcher는 오픈 소스 프로젝트이며, 공식 GitHub 저장소에서 다운로드한 경우 '추가 정보'를 클릭한 후 '실행'을 선택하여 안전하게 설치를 진행할 수 있습니다."
+        },
+        {
+          "problem": "Flow Launcher가 실행되지 않거나 검색 결과가 나타나지 않습니다.",
+          "solution": "Flow Launcher가 제대로 실행되지 않거나 검색 결과에 문제가 있다면, 시스템 트레이의 Flow Launcher 아이콘을 우클릭하여 'Settings'를 열고 'Reload Plugin Data'를 시도하거나, 'Restart Flow Launcher'를 통해 재시작해 보세요. 또한, 공식 문서(https://flowlauncher.com/docs)에서 추가적인 문제 해결 정보를 확인할 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://flowlauncher.com/docs",
+      "verifiedAt": "2026-09-27"
+    }
   }
 ]
