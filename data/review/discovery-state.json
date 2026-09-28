@@ -198,10 +198,10 @@
     "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
   },
   "eternity4719/HowToLiveBetter": {
-    "readmeHash": "029bac39a76119c04c95cfb0a09e5e755b6e24c321befde3ff4212c46250d77c",
+    "readmeHash": "bb63b9f1457d227ffd7aa366f8c16a67f739381ef5876ec8707ef91fc7c04ccb",
     "status": "rejected",
-    "checkedAt": "2026-09-27",
-    "reason": "이 프로젝트는 특정 기능을 수행하는 완성된 도구가 아니라, 삶의 다양한 측면에 대한 정보와 조언을 모아놓은 증거 기반 생활 가이드입니다. 웹 페이지, PDF, EPUB, 오프라인 HTML 파일 형태로 제공되어 소비하기는 쉽지만, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 사용하는 '도구'의 범주에는 해당하지 않습니다."
+    "checkedAt": "2026-09-28",
+    "reason": "이 프로젝트는 증거 기반 생활 가이드로, 다양한 주제에 대한 정보와 조언을 담은 디지털 서적 또는 자료 모음입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구라기보다는, 정보를 열람하고 학습하는 리소스에 해당하므로 Easy Open Source의 선별 기준에 부합하지 않습니다."
   },
   "Flow-Launcher/Flow.Launcher": {
     "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
@@ -214,5 +214,29 @@
     "status": "rejected",
     "checkedAt": "2026-09-27",
     "reason": "이 프로젝트는 Obsidian 플러그인이지만, AI 에이전트 CLI 도구(예: Claude Code CLI, Codex CLI)를 별도로 설치하고 API 키를 설정해야 하는 등 상당한 기술적 사전 준비가 필요합니다. 이는 비개발자나 '바이브 코딩' 사용자에게는 설치 및 사용이 복잡하여 직접 설치 가능한 완성된 도구라는 기준에 부합하지 않습니다."
+  },
+  "sxyazi/yazi": {
+    "readmeHash": "4f7cadb97640ff3e461fda640405a29364c7480185e3c90681493c6a77955723",
+    "status": "rejected",
+    "checkedAt": "2026-09-28",
+    "reason": "Yazi는 터미널 기반의 파일 관리자로, 명령줄 인터페이스에 익숙한 개발자나 고급 사용자에게 적합합니다. 비개발자, 바이브 코딩 사용자, 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 그래픽 사용자 인터페이스(GUI) 도구가 아니므로, Easy Open Source의 선별 기준에 부합하지 않습니다."
+  },
+  "henrygd/beszel": {
+    "readmeHash": "6ea91526c45ed9e64cb01b9365a60bf1d75f7354b78938f408cfadc6c6d166ae",
+    "status": "rejected",
+    "checkedAt": "2026-09-28",
+    "reason": "Error: guide.platforms.0.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.3: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.5: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
+  },
+  "plotly/dash": {
+    "readmeHash": "345705c050a8faf3d183b169efb391d23fcdcad8a562b730249bd158883d0497",
+    "status": "rejected",
+    "checkedAt": "2026-09-28",
+    "reason": "Dash는 데이터 과학 및 머신러닝 웹 애플리케이션을 구축하기 위한 Python 프레임워크입니다. 이는 개발자가 코드를 작성하여 애플리케이션을 만드는 도구이며, 비개발자나 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+  },
+  "omnivore-app/omnivore": {
+    "readmeHash": "ea29008fde062793d2e04ca0d8ec11de90ffed9354ab674315abe97faeb8431e",
+    "status": "rejected",
+    "checkedAt": "2026-09-28",
+    "reason": "Omnivore는 클라우드 서비스가 종료되고 완전히 자체 호스팅 방식으로만 운영됩니다. Docker Compose를 사용하여 서버를 직접 배포해야 하므로, 비개발자나 일반 사용자가 직접 설치하고 사용하기에는 기술적인 난이도가 높습니다. 간단한 설치형 데스크톱 애플리케이션이나 즉시 사용 가능한 웹 서비스가 아닙니다."
   }
 }
