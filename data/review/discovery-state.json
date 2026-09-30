@@ -24,16 +24,16 @@
     "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   },
   "affaan-m/ECC": {
-    "readmeHash": "6f6bc61fa36232cfd35af70a525b002d1b3c8ee5ccf8814e8657927b01b3d17d",
+    "readmeHash": "e4ce58161b3c1d67c0bf6b7b607328d3c92fdf5d74b86481b0df0bc4afd8e675",
     "status": "rejected",
-    "checkedAt": "2026-09-29",
-    "reason": "ECC는 Claude Code, Codex, Cursor 등 다양한 AI 코딩 에이전트의 성능을 최적화하는 시스템으로, 에이전트의 개발 워크플로우를 강화하는 도구입니다. 이는 비개발자나 바이브 코딩 사용자, 또는 개발자와 협업하는 직군이 직접 설치하여 사용할 수 있는 완성된 형태의 도구가 아니며, 코드 라이브러리나 프레임워크에 더 가깝습니다. 따라서 Easy Open Source의 신규 프로젝트 선별 기준에 부합하지 않습니다."
+    "checkedAt": "2026-09-30",
+    "reason": "ECC는 Claude Code, Codex, Cursor와 같은 AI 코딩 에이전트의 성능을 최적화하고 기능을 확장하는 시스템입니다. 주요 설치 방법은 명령줄 도구(npm, Git, 셸 스크립트)를 사용하며, 개발자 중심의 환경(Claude Code CLI, Codex CLI, VS Code)에 통합됩니다. 비록 구성 요소를 시각적으로 탐색할 수 있는 데스크톱 GUI 대시보드가 있지만, 핵심 기능은 주로 AI 코딩 에이전트 내에서 슬래시 명령을 통해 호출됩니다. 이는 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 쉽게 사용할 수 있는 완성된 도구라는 기준에 부합하지 않습니다. 따라서 이 프로젝트는 기술적 숙련도를 요구하는 개발자 도구로 판단됩니다."
   },
   "nexu-io/open-design": {
-    "readmeHash": "0ba5c5493720b6904ebed05a4aa818897560f2201a976282125202af12d11612",
-    "status": "rejected",
-    "checkedAt": "2026-09-11",
-    "reason": "Error: guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.1.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.3.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
+    "readmeHash": "dbecfa17fb3999cea2de9f669fb03113c8d6415086a06a4246c745bba6c2a918",
+    "status": "added",
+    "checkedAt": "2026-09-30",
+    "reason": "OpenDesign은 macOS 및 Windows용 로컬 우선 데스크톱 앱으로, 비개발자도 쉽게 설치하여 사용할 수 있습니다. 또한, Claude Code, Cursor, Mistral Vibe CLI 등 다양한 코딩 에이전트와 연동하여 디자인 작업을 자동화할 수 있어 개발자와 협업하는 직군 및 바이브 코딩 사용자에게도 적합한 완성된 도구입니다."
   },
   "immich-app/immich": {
     "readmeHash": "27b511ae6ee3be2295c4c1e0674dd0ac5b0c6023d9fdd9187869b1605ff56fad",
@@ -66,10 +66,10 @@
     "reason": "Coolify는 Vercel, Heroku, Netlify와 같은 서비스의 오픈소스 대안으로, 사용자가 직접 서버에 설치하여 웹 애플리케이션, 데이터베이스 및 다양한 서비스를 배포하고 관리할 수 있는 완성된 플랫폼입니다. 웹 기반 대시보드를 통해 비개발자도 배포된 서비스를 관리할 수 있으며, 개발자 및 협업 직군에게 유용한 도구입니다."
   },
   "ClickHouse/ClickHouse": {
-    "readmeHash": "8f97181fa955f71e1a580f694a2e78f6c066a700b7c232cab7e6a6090ec07637",
+    "readmeHash": "bf5b5cd889984e743f55b36beb047a40941b61124a1e0e57b00b975bc2478053",
     "status": "rejected",
-    "checkedAt": "2026-09-17",
-    "reason": "ClickHouse는 실시간 분석을 위한 데이터베이스 관리 시스템으로, 주로 개발자나 데이터 엔지니어가 백엔드 시스템 구축에 사용하는 도구입니다. 비개발자나 개발자와 협업하는 직군이 직접 설치하여 바로 사용할 수 있는 완성된 형태의 도구가 아니므로 suitable=false로 판단합니다."
+    "checkedAt": "2026-09-30",
+    "reason": "ClickHouse는 실시간 분석을 위한 데이터베이스 관리 시스템으로, 비개발자나 바이브 코딩 사용자에게는 직접 설치 및 사용하기 어려운 인프라 도구입니다. 설치 과정에 명령줄 인터페이스 사용이 필요하며, 완성된 최종 사용자 애플리케이션이 아닙니다."
   },
   "ayghri/i-have-adhd": {
     "readmeHash": "75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db",
@@ -150,10 +150,10 @@
     "reason": "Dashy는 개인용 대시보드를 위한 완성된 도구로, Docker를 이용한 쉬운 설치와 1-클릭 클라우드 배포를 지원하며, 웹 기반 UI 편집기를 통해 비개발자도 쉽게 설정하고 사용할 수 있습니다."
   },
   "NandhaKishorM/laya": {
-    "readmeHash": "2fc5805fef24e8b29ca1ddcba66769f0ccf1e011c3709175e7e2de5936338ad2",
+    "readmeHash": "b7613f94b485a25f3fbd191bcdbca304049a8ff0dfb24dc0be81251b4b0d5a1d",
     "status": "rejected",
-    "checkedAt": "2026-09-27",
-    "reason": "Laya는 비개발자나 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닌, 주로 개발자가 다른 애플리케이션에 통합하여 사용하는 AI 결정 엔진 라이브러리입니다. Python SDK를 통해 기능에 접근하며, CLI 및 로컬 웹 GUI는 개발 및 테스트 목적으로 제공됩니다."
+    "checkedAt": "2026-09-30",
+    "reason": "프로젝트의 핵심은 개발자가 애플리케이션에 통합하여 사용할 수 있는 파이썬 라이브러리 형태의 의사결정 엔진입니다. 비개발자나 일반 사용자가 직접 설치하여 바로 사용할 수 있는 완성된 도구가 아닙니다."
   },
   "wavetermdev/waveterm": {
     "readmeHash": "9863c37ff407df7a85fef92c43dca31d9a552efd83cf42479847e11adb6d61bd",
@@ -198,10 +198,10 @@
     "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
   },
   "eternity4719/HowToLiveBetter": {
-    "readmeHash": "bb63b9f1457d227ffd7aa366f8c16a67f739381ef5876ec8707ef91fc7c04ccb",
+    "readmeHash": "b79b7779febfcdac9052fe1f6550508db876940c1933536fbae0937b63b1702b",
     "status": "rejected",
-    "checkedAt": "2026-09-28",
-    "reason": "이 프로젝트는 증거 기반 생활 가이드로, 다양한 주제에 대한 정보와 조언을 담은 디지털 서적 또는 자료 모음입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구라기보다는, 정보를 열람하고 학습하는 리소스에 해당하므로 Easy Open Source의 선별 기준에 부합하지 않습니다."
+    "checkedAt": "2026-09-30",
+    "reason": "이 프로젝트는 비용 효율성을 기준으로 정렬된 증거 기반 생활 가이드의 자료 모음입니다. 웹 기반 검색 페이지를 제공하지만, 이는 정보를 필터링하고 표시하는 뷰어에 가깝습니다. 비개발자가 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구의 기준에 부합하지 않습니다."
   },
   "Flow-Launcher/Flow.Launcher": {
     "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
