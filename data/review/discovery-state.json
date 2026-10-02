@@ -66,10 +66,10 @@
     "reason": "Coolify는 Vercel, Heroku, Netlify와 같은 서비스의 오픈소스 대안으로, 사용자가 직접 서버에 설치하여 웹 애플리케이션, 데이터베이스 및 다양한 서비스를 배포하고 관리할 수 있는 완성된 플랫폼입니다. 웹 기반 대시보드를 통해 비개발자도 배포된 서비스를 관리할 수 있으며, 개발자 및 협업 직군에게 유용한 도구입니다."
   },
   "ClickHouse/ClickHouse": {
-    "readmeHash": "af732761ee325917cb105fb142d03acb98930af8d51ed61d2361c29ff32e4897",
+    "readmeHash": "0b87cd0c5b91d4b8812fed3f1234804afe4e5fe463e67ab9decd8fcfa839a203",
     "status": "rejected",
-    "checkedAt": "2026-10-01",
-    "reason": "ClickHouse는 실시간 분석을 위한 데이터베이스 관리 시스템으로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 사용하기에는 기술적인 지식과 추가 설정이 필요합니다. 완성된 사용자 인터페이스를 제공하는 도구라기보다는 개발자 및 데이터 엔지니어를 위한 백엔드 시스템에 가깝습니다. README에 제시된 설치 방법은 터미널 명령어를 사용하며, 설치 후 바로 사용할 수 있는 명확한 실행 지침이 부족합니다."
+    "checkedAt": "2026-10-02",
+    "reason": "ClickHouse는 실시간 분석 데이터베이스 관리 시스템으로, 비개발자나 바이브 코딩 사용자에게는 직접 설치 및 활용이 어렵습니다. 제공된 설치 방법은 안전 지침을 위반하여 가이드에 포함할 수 없으며, 클라우드 버전 또한 데이터베이스 지식이 필요합니다."
   },
   "ayghri/i-have-adhd": {
     "readmeHash": "75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db",
@@ -150,10 +150,10 @@
     "reason": "Dashy는 개인용 대시보드를 위한 완성된 도구로, Docker를 이용한 쉬운 설치와 1-클릭 클라우드 배포를 지원하며, 웹 기반 UI 편집기를 통해 비개발자도 쉽게 설정하고 사용할 수 있습니다."
   },
   "NandhaKishorM/laya": {
-    "readmeHash": "b6fcb985e050cd9b04f66648680b8b3b1137bf492ecb6ec266004e73cfccc02e",
-    "status": "rejected",
-    "checkedAt": "2026-10-01",
-    "reason": "Laya는 개발자가 애플리케이션에 통합하거나 서비스를 구축하는 데 사용하는 파이썬 라이브러리 및 의사결정 엔진입니다. 비개발자나 개발자와 협업하는 직군이 직접 설치하여 사용할 수 있는 완성된 최종 사용자 도구가 아니므로 Easy Open Source의 프로젝트 선별 기준에 부합하지 않습니다."
+    "readmeHash": "f819355eae040a60271292801b296678a105beac34e545d951c86ab486148a60",
+    "status": "added",
+    "checkedAt": "2026-10-02",
+    "reason": "Laya는 텍스트 기반 의사결정을 위한 강력한 AI 엔진이지만, 개발자를 위한 라이브러리 형태입니다. 그러나 Hugging Face Spaces에서 제공되는 대화형 웹 데모는 비개발자도 웹 브라우저를 통해 직접 접근하고 사용할 수 있는 완성된 도구이므로, Easy Open Source의 선별 기준에 부합합니다."
   },
   "wavetermdev/waveterm": {
     "readmeHash": "9863c37ff407df7a85fef92c43dca31d9a552efd83cf42479847e11adb6d61bd",
@@ -198,10 +198,10 @@
     "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
   },
   "eternity4719/HowToLiveBetter": {
-    "readmeHash": "21b37d3fd14f9c6a4dde8443a10a3fc076776c88d4c5128be1b6015e51e21375",
+    "readmeHash": "6d6842fc56f2fd3749edb9943b4e15872d5f9a1df83d9e3d5a36e5c14230659f",
     "status": "rejected",
-    "checkedAt": "2026-10-01",
-    "reason": "이 프로젝트는 \"고성능 인생 가이드\"라는 제목의 자료 모음집이자 조언 목록입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아니므로 Easy Open Source의 선별 기준에 부합하지 않습니다."
+    "checkedAt": "2026-10-02",
+    "reason": "이 프로젝트는 완성된 도구라기보다는 삶의 다양한 측면에 대한 정보와 조언을 모아놓은 가이드 또는 자료 모음입니다. 비개발자나 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 '완성된 도구'라는 Easy Open Source의 선별 기준에 부합하지 않습니다."
   },
   "Flow-Launcher/Flow.Launcher": {
     "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
@@ -274,5 +274,17 @@
     "status": "added",
     "checkedAt": "2026-10-01",
     "reason": "changedetection.io는 웹사이트 변경 사항을 모니터링하고 알림을 제공하는 완성된 도구입니다. SaaS 형태로 웹에서 바로 사용하거나, Docker 또는 Python을 통해 자체 호스팅할 수 있어 비개발자부터 개발자까지 다양한 사용자가 활용하기에 적합합니다."
+  },
+  "feder-cr/invisible_playwright_mcp": {
+    "readmeHash": "1a3f6e924d9aaeecc2ca04dd789e93b729237ba9e735580344ae0bcfdc86d9ed",
+    "status": "rejected",
+    "checkedAt": "2026-10-02",
+    "reason": "이 프로젝트는 AI 기반 웹 자동화 도구로 유용해 보이지만, README에 명시된 설치 방법(예: \"curl | sh\" 또는 \"irm | iex\" 사용)이 Easy Open Source의 안전 지침을 준수하지 않습니다. 따라서 비개발자도 안전하게 설치하고 사용할 수 있는 완성된 도구로 판단하기 어려워 suitable=false로 결정했습니다."
+  },
+  "nukeop/nuclear": {
+    "readmeHash": "71feb693d46cd9dcea7fac0dfa66e4b277befb4ab2dfe8461f3389f529247bb8",
+    "status": "added",
+    "checkedAt": "2026-10-02",
+    "reason": "Nuclear는 Windows, macOS, Linux에서 실행되는 무료 오픈소스 음악 플레이어로, 광고나 추적 없이 음악을 검색하고 스트리밍할 수 있는 완성된 데스크톱 애플리케이션입니다. 비개발자도 쉽게 설치하고 사용할 수 있습니다."
   }
 }

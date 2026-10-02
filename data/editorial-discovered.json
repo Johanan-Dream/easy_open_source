@@ -2946,5 +2946,209 @@
       "officialDocsUrl": "https://changedetection.io",
       "verifiedAt": "2026-10-01"
     }
+  },
+  {
+    "id": "NandhaKishorM/laya",
+    "category": "ai-automation",
+    "summary": "Laya는 100개 이상의 언어를 지원하며, 단일 패스로 텍스트 기반 의사결정(선택, 점수, 예/아니오)을 수행하는 비자동회귀 시스템 1 의사결정 엔진입니다. Hugging Face Spaces에서 제공되는 웹 데모를 통해 쉽게 체험할 수 있습니다.",
+    "whatItIs": "Laya는 텍스트 입력에 대해 빠르고 정확한 의사결정을 내릴 수 있도록 설계된 다국어 AI 엔진입니다. 긴 문서를 처리하고, 질문 유형(선택, 점수, 예/아니오)에 따라 응답하며, 요청에 따라 최적의 모델을 자동으로 선택하는 라우터 기능을 포함합니다.",
+    "problemSolved": "Laya는 복잡한 텍스트에서 의사결정을 내리는 데 필요한 시간과 자원을 크게 줄여줍니다. 특히, 텍스트 생성 없이 직접적인 판단을 제공하여 환각 현상 없이 신뢰할 수 있는 결과를 빠르게 얻을 수 있도록 돕습니다. 다양한 언어와 긴 문서에 대한 처리가 가능하여 글로벌 서비스나 대량의 문서 처리 환경에서 유용합니다.",
+    "recommendedFor": [
+      "텍스트 기반 의사결정 자동화가 필요한 비즈니스 분석가",
+      "고객 서비스 응대 및 티켓 분류 시스템 구축 담당자",
+      "콘텐츠 검토 및 중재 시스템 개발자",
+      "다국어 텍스트 처리 및 분류가 필요한 연구자"
+    ],
+    "keyFeatures": [
+      "100개 이상의 언어 지원 및 자동 언어 감지 기능",
+      "단일 패스(33ms)로 빠른 의사결정 수행 (텍스트 생성 없음)",
+      "선택, 점수, 예/아니오 등 다양한 유형의 의사결정 지원"
+    ],
+    "useCases": [
+      "고객 문의 티켓의 의도 및 긴급도 분류",
+      "콘텐츠 유해성 및 스팸 탐지",
+      "사용자 피드백 감성 분석 및 중요도 평가",
+      "다국어 문서에서 특정 정보 추출 및 분류"
+    ],
+    "tags": [
+      "AI",
+      "자연어처리",
+      "의사결정",
+      "다국어",
+      "자동화",
+      "텍스트분석",
+      "HuggingFace",
+      "웹데모"
+    ],
+    "difficulty": "beginner",
+    "usageType": "web",
+    "guideType": "web",
+    "costSummary": "Laya 자체는 Apache 2.0 라이선스로 무료로 사용할 수 있는 오픈 소스 프로젝트입니다. Hugging Face Spaces에서 제공되는 웹 데모는 무료로 접근하여 체험할 수 있습니다. 자체 호스팅 시에는 서버 운영 비용이 발생할 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "인터넷 연결",
+        "웹 브라우저"
+      ],
+      "estimatedMinutes": 5,
+      "platforms": [
+        {
+          "name": "Web",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Laya 웹 데모 접속",
+              "description": "웹 브라우저를 열고 Laya 대화형 웹 데모 페이지로 이동합니다.",
+              "expectedResult": "Laya 웹 데모 페이지가 로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "텍스트 입력 및 질문 설정",
+              "description": "데모 페이지의 'State' 입력란에 분석하고자 하는 텍스트를 입력합니다. 'Questions' 섹션에서 의사결정 유형(예: department, urgency, churn_risk)을 선택하거나 직접 JSON 형식으로 질문을 정의할 수 있습니다.",
+              "expectedResult": "입력한 텍스트와 질문이 화면에 표시됩니다."
+            },
+            {
+              "order": 3,
+              "title": "의사결정 실행",
+              "description": "텍스트와 질문을 입력한 후, 'Submit' 또는 유사한 실행 버튼을 클릭하여 Laya 엔진의 의사결정 결과를 확인합니다.",
+              "expectedResult": "입력된 텍스트에 대한 Laya의 의사결정 결과(예: 부서 분류, 긴급도 점수, 취소 위험 여부)가 화면에 표시됩니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "웹 데모 페이지에서 입력한 텍스트에 대한 Laya의 의사결정 결과가 JSON 형식 또는 시각화된 형태로 화면에 즉시 표시됩니다. 예를 들어, 'Department: billing', 'Urgency: critical'과 같은 결과를 확인할 수 있습니다.",
+      "commonIssues": [
+        {
+          "problem": "웹 데모 페이지가 로드되지 않거나 오류가 발생합니다.",
+          "solution": "인터넷 연결 상태를 확인하고, 브라우저 캐시를 지운 후 페이지를 새로고침해 보세요. Hugging Face Spaces 서버에 일시적인 문제가 있을 수도 있습니다."
+        },
+        {
+          "problem": "입력한 텍스트에 대한 결과가 예상과 다르게 나옵니다.",
+          "solution": "Laya는 학습된 모델을 기반으로 의사결정을 내립니다. 질문의 'instructions'와 'criteria'가 텍스트 내용과 명확하게 일치하는지 확인해 보세요. 복잡하거나 모호한 텍스트는 모델의 해석에 따라 결과가 달라질 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://huggingface.co/spaces/convaiinnovations/laya-demo",
+      "verifiedAt": "2026-10-02"
+    }
+  },
+  {
+    "id": "nukeop/nuclear",
+    "category": "content-media",
+    "summary": "Nuclear는 광고나 추적 기능이 없는 무료 오픈소스 데스크톱 음악 플레이어입니다. 다양한 소스에서 음악을 검색하고 스트리밍하며, 재생 목록을 만들고 관리할 수 있습니다.",
+    "whatItIs": "Nuclear는 사용자가 원하는 음악을 찾아 스트리밍하고 재생 목록을 관리할 수 있도록 설계된 데스크톱 기반의 오픈소스 음악 플레이어입니다. Windows, macOS, Linux 등 주요 운영체제에서 실행되며, 사용자 친화적인 인터페이스와 다양한 테마를 제공합니다. 광고나 사용자 추적 없이 깨끗한 음악 감상 환경을 제공하는 것이 특징입니다.",
+    "problemSolved": "기존의 유료 스트리밍 서비스나 광고가 많은 무료 서비스에서 벗어나, 광고나 추적 없이 자유롭게 음악을 탐색하고 감상하며 개인화된 재생 목록을 만들고 싶은 사용자들의 요구를 충족시킵니다. 또한, 다양한 플랫폼에서 일관된 경험을 제공하여 운영체제에 구애받지 않고 음악을 즐길 수 있게 합니다.",
+    "recommendedFor": [
+      "광고 없는 무료 음악 플레이어를 찾는 사용자",
+      "오픈소스 소프트웨어 선호자",
+      "다양한 운영체제에서 음악을 즐기고 싶은 사용자",
+      "개인화된 음악 감상 환경을 원하는 사용자"
+    ],
+    "keyFeatures": [
+      "광고 및 추적 없는 무료 음악 스트리밍",
+      "다양한 테마와 강력한 플러그인 시스템 지원",
+      "아티스트, 앨범, 트랙 검색 및 재생 목록 관리"
+    ],
+    "useCases": [
+      "개인 컴퓨터에서 좋아하는 음악을 스트리밍하고 관리",
+      "새로운 음악을 검색하고 발견",
+      "나만의 재생 목록을 만들고 친구들과 공유",
+      "다양한 테마와 플러그인으로 플레이어 사용자화"
+    ],
+    "tags": [
+      "음악 플레이어",
+      "스트리밍",
+      "오픈소스",
+      "무료",
+      "데스크톱 앱",
+      "크로스 플랫폼",
+      "음악 관리",
+      "광고 없음"
+    ],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "release-download",
+    "costSummary": "Nuclear는 완전히 무료이며 오픈소스입니다. 어떠한 비용도 발생하지 않습니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Windows 10 이상, macOS 10.15 이상 또는 최신 Linux 배포판이 설치된 컴퓨터"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "Nuclear GitHub 릴리스 페이지(https://github.com/nukeop/nuclear/releases)에서 최신 버전의 Windows용 .exe 또는 .msi 설치 파일을 다운로드합니다.",
+              "expectedResult": "Nuclear 설치 파일이 컴퓨터에 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 프로그램 실행",
+              "description": "다운로드한 설치 파일을 더블 클릭하여 실행하고, 화면의 지시에 따라 Nuclear를 설치합니다.",
+              "expectedResult": "Nuclear가 컴퓨터에 설치됩니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "DMG 파일 다운로드",
+              "description": "Nuclear GitHub 릴리스 페이지(https://github.com/nukeop/nuclear/releases)에서 최신 버전의 macOS용 .dmg 파일을 다운로드합니다.",
+              "expectedResult": "Nuclear .dmg 파일이 컴퓨터에 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 .dmg 파일을 열고, Nuclear 애플리케이션 아이콘을 'Applications' 폴더로 드래그하여 설치를 완료합니다.",
+              "expectedResult": "Nuclear가 macOS 애플리케이션 폴더에 설치됩니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "Nuclear GitHub 릴리스 페이지(https://github.com/nukeop/nuclear/releases)에서 사용 중인 Linux 배포판에 맞는 .AppImage, .deb, .rpm 또는 .flatpak 파일을 다운로드합니다.",
+              "expectedResult": "Nuclear 설치 파일이 컴퓨터에 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Nuclear 설치",
+              "description": "다운로드한 파일 유형에 따라 다음 방법 중 하나를 선택하여 Nuclear를 설치합니다. AppImage 파일의 경우, 파일 속성에서 실행 권한을 부여한 후 더블 클릭하여 실행합니다. .deb 또는 .rpm 파일의 경우, 파일을 더블 클릭하여 시스템의 소프트웨어 설치 관리자를 통해 설치합니다. Flatpak 파일의 경우, Flatpak이 설치되어 있다면 파일을 더블 클릭하여 설치를 진행합니다.",
+              "expectedResult": "Nuclear가 Linux 시스템에 설치됩니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "설치 완료 후 Nuclear 애플리케이션을 실행하면, 깔끔한 인터페이스의 음악 플레이어 대시보드가 나타납니다. 음악 검색, 재생 목록 생성 등의 기능을 바로 사용할 수 있습니다.",
+      "stopInstructions": "애플리케이션 창을 닫거나, 운영체제의 작업 관리자(Windows) 또는 활동 모니터(macOS)에서 Nuclear 프로세스를 종료하여 앱을 중지할 수 있습니다. Linux에서는 시스템 모니터 또는 터미널에서 해당 프로세스를 종료합니다.",
+      "uninstallInstructions": "Windows의 경우 '설정' > '앱'에서 Nuclear를 찾아 제거합니다. macOS의 경우 'Applications' 폴더에서 Nuclear 애플리케이션을 휴지통으로 드래그하여 제거합니다. Linux의 경우, 설치 방식에 따라 소프트웨어 센터나 패키지 관리자를 통해 Nuclear를 제거합니다.",
+      "commonIssues": [
+        {
+          "problem": "앱이 실행되지 않습니다.",
+          "solution": "설치 파일이 올바르게 다운로드되었는지 확인하고, 운영체제의 최소 요구 사항을 충족하는지 확인하십시오. 또한, 방화벽이나 보안 소프트웨어가 앱 실행을 차단하고 있지 않은지 확인해 보세요."
+        }
+      ],
+      "officialDocsUrl": "https://github.com/nukeop/nuclear",
+      "verifiedAt": "2026-10-02"
+    }
   }
 ]
