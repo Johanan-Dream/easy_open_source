@@ -42,10 +42,10 @@
     "reason": "Error: guide.platforms.0: Linux이 저장소 지원 환경에 없습니다."
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "aec2a3bf9e513502f7f38a58c7f8e224dba0b863576086b358d5e137e7b4cbb2",
+    "readmeHash": "447f51bc64a9dc99383ee9bdb3f82e2f5baef27d5461d414c88670c2abec298a",
     "status": "rejected",
-    "checkedAt": "2026-09-13",
-    "reason": "This project is an 'Awesome List' which is a collection of high-quality macOS software, not a standalone, finished tool for direct installation or use by non-developers, Vibe Coding users, or developer-collaborators."
+    "checkedAt": "2026-10-03",
+    "reason": "이 프로젝트는 macOS 소프트웨어 목록을 큐레이션한 자료 모음이며, 비개발자나 협업 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
   },
   "rtk-ai/rtk": {
     "readmeHash": "c3dc6cdedb18f7d4cf49e8805a3837dcfb6d4b7658a76032ab96e8301f06c06b",
@@ -54,10 +54,10 @@
     "reason": "RTK는 AI 코딩 도구와 연동하여 개발 명령의 출력을 최적화하는 CLI 프록시입니다. 이는 개발자와 협업하는 직군 및 AI 코딩 도구를 사용하는 사용자에게 직접적인 가치를 제공하는 완성된 도구입니다."
   },
   "unslothai/unsloth": {
-    "readmeHash": "e763fe1699169d57ba2f1516399824e807a52d51f6872d52157de6b3318f01f6",
+    "readmeHash": "5b04d14572ad59b617f71264fdda91f7b0720f9882c1efe77c97bdcfd78c7d69",
     "status": "rejected",
-    "checkedAt": "2026-09-25",
-    "reason": "Error: guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: unsloth-desktop-linux.appimage"
+    "checkedAt": "2026-10-03",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: unsloth-desktop-linux.appimage"
   },
   "coollabsio/coolify": {
     "readmeHash": "44500943587476cd6321c94a9782a47dad2e518d358ba07ae551873bd1a8afe4",
@@ -114,10 +114,10 @@
     "reason": "Logseq는 개인 정보 보호를 최우선으로 하는 오픈 소스 지식 관리 및 협업 플랫폼입니다. 비개발자도 쉽게 다운로드하여 설치하거나 웹에서 바로 사용할 수 있는 완성된 도구입니다."
   },
   "lfnovo/open-notebook": {
-    "readmeHash": "571e3a2fae66b4c4e881fb653f265c0f90c5c006b1750fcab42328718e596a38",
+    "readmeHash": "44f215ac9b8d076a1adc3c43122fd048a21d34d6daf1d6c64a3d71277a8a0072",
     "status": "rejected",
-    "checkedAt": "2026-09-18",
-    "reason": "Error: guide.platforms.0.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: 메모장이나; guide.platforms.0.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: 텍스트; guide.platforms.0.steps.5.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.6.command: 허용되지 않은 AI 생성 실행 파일입니다: 웹; guide.platforms.1.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: 텍스트; guide.platforms.1.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: 텍스트; guide.platforms.1.steps.5.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.6.command: 허용되지 않은 AI 생성 실행 파일입니다: 웹; guide.platforms.2.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: 텍스트; guide.platforms.2.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: 텍스트; guide.platforms.2.steps.5.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.6.command: 허용되지 않은 AI 생성 실행 파일입니다: 웹"
+    "checkedAt": "2026-10-03",
+    "reason": "Error: guide.platforms.0.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd"
   },
   "go-gitea/gitea": {
     "readmeHash": "5d16370b0e38e4e8a28d74c440c835f835093cbf10494f48e648a031f6ccae06",
@@ -198,10 +198,10 @@
     "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
   },
   "eternity4719/HowToLiveBetter": {
-    "readmeHash": "6d6842fc56f2fd3749edb9943b4e15872d5f9a1df83d9e3d5a36e5c14230659f",
+    "readmeHash": "2bfb698373ebd909a6544d16d3933c55336ab3d32f220392e0c10c85f0eddc11",
     "status": "rejected",
-    "checkedAt": "2026-10-02",
-    "reason": "이 프로젝트는 완성된 도구라기보다는 삶의 다양한 측면에 대한 정보와 조언을 모아놓은 가이드 또는 자료 모음입니다. 비개발자나 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 '완성된 도구'라는 Easy Open Source의 선별 기준에 부합하지 않습니다."
+    "checkedAt": "2026-10-03",
+    "reason": "이 프로젝트는 삶의 다양한 측면에 대한 조언과 정보를 제공하는 종합 가이드 또는 자료 모음입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구의 기준에 부합하지 않습니다. 웹 페이지, PDF, EPUB, HTML 파일 형태로 정보를 제공하지만, 특정 작업을 수행하는 동적인 소프트웨어 도구는 아닙니다."
   },
   "Flow-Launcher/Flow.Launcher": {
     "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
@@ -216,10 +216,10 @@
     "reason": "이 프로젝트는 Obsidian 플러그인이지만, AI 에이전트 CLI 도구(예: Claude Code CLI, Codex CLI)를 별도로 설치하고 API 키를 설정해야 하는 등 상당한 기술적 사전 준비가 필요합니다. 이는 비개발자나 '바이브 코딩' 사용자에게는 설치 및 사용이 복잡하여 직접 설치 가능한 완성된 도구라는 기준에 부합하지 않습니다."
   },
   "sxyazi/yazi": {
-    "readmeHash": "4f7cadb97640ff3e461fda640405a29364c7480185e3c90681493c6a77955723",
+    "readmeHash": "d6fd6b9074f1779f13973b3c5aa74f2d47a1d57878abf8d9716481791d2a56ab",
     "status": "rejected",
-    "checkedAt": "2026-09-28",
-    "reason": "Yazi는 터미널 기반의 파일 관리자로, 명령줄 인터페이스에 익숙한 개발자나 고급 사용자에게 적합합니다. 비개발자, 바이브 코딩 사용자, 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 그래픽 사용자 인터페이스(GUI) 도구가 아니므로, Easy Open Source의 선별 기준에 부합하지 않습니다."
+    "checkedAt": "2026-10-03",
+    "reason": "Yazi는 터미널 기반 파일 관리자로, 명령줄 인터페이스에 익숙하지 않은 비개발자나 바이브 코딩 사용자에게는 직접 설치 및 사용이 어렵습니다. 주로 개발자나 고급 사용자에게 적합한 도구입니다."
   },
   "henrygd/beszel": {
     "readmeHash": "6ea91526c45ed9e64cb01b9365a60bf1d75f7354b78938f408cfadc6c6d166ae",
