@@ -114,10 +114,10 @@
     "reason": "Logseq는 개인 정보 보호를 최우선으로 하는 오픈 소스 지식 관리 및 협업 플랫폼입니다. 비개발자도 쉽게 다운로드하여 설치하거나 웹에서 바로 사용할 수 있는 완성된 도구입니다."
   },
   "lfnovo/open-notebook": {
-    "readmeHash": "44f215ac9b8d076a1adc3c43122fd048a21d34d6daf1d6c64a3d71277a8a0072",
+    "readmeHash": "4eed7a53b7f5a9ac57b05d87fadeb05373405030d2ecb8c2cad36104ecbcb62b",
     "status": "rejected",
-    "checkedAt": "2026-10-03",
-    "reason": "Error: guide.platforms.0.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd"
+    "checkedAt": "2026-10-04",
+    "reason": "Error: guide.platforms.0.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.0.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.2.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "go-gitea/gitea": {
     "readmeHash": "5d16370b0e38e4e8a28d74c440c835f835093cbf10494f48e648a031f6ccae06",
@@ -198,10 +198,10 @@
     "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
   },
   "eternity4719/HowToLiveBetter": {
-    "readmeHash": "2bfb698373ebd909a6544d16d3933c55336ab3d32f220392e0c10c85f0eddc11",
+    "readmeHash": "79199ee851689390fbbcc76b1a189d0bd65a861aa37f985609a7a8cf2afcef15",
     "status": "rejected",
-    "checkedAt": "2026-10-03",
-    "reason": "이 프로젝트는 삶의 다양한 측면에 대한 조언과 정보를 제공하는 종합 가이드 또는 자료 모음입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구의 기준에 부합하지 않습니다. 웹 페이지, PDF, EPUB, HTML 파일 형태로 정보를 제공하지만, 특정 작업을 수행하는 동적인 소프트웨어 도구는 아닙니다."
+    "checkedAt": "2026-10-04",
+    "reason": "이 프로젝트는 완성된 소프트웨어 도구라기보다는 삶의 지혜와 조언을 담은 자료 모음집에 가깝습니다. 웹 인터페이스와 다운로드 가능한 전자책 형태를 제공하지만, 비개발자가 직접 설치하거나 활용할 수 있는 독립적인 도구의 범주에는 해당하지 않습니다."
   },
   "Flow-Launcher/Flow.Launcher": {
     "readmeHash": "fdfbae010fbbb93e7b333ef227ddb2050c8c96e3a4dd62619cb0f4c4997cbaa1",
@@ -258,10 +258,10 @@
     "reason": "Error: guide.platforms.1.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: /usr/bin/xattr; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: pear-desktop-*.appimage"
   },
   "karakeep-app/karakeep": {
-    "readmeHash": "ecc3cd2eb9a38a919bea7ccb71cd9e83c2dfc01d03601a70879433e0d3f326d9",
+    "readmeHash": "5e99e0752f2f37e3f0733ffcb5f4278825f94c15ad0a292281dee070cc5b58de",
     "status": "rejected",
-    "checkedAt": "2026-09-29",
-    "reason": "Error: guide.platforms: Web 설치 안내가 필요합니다."
+    "checkedAt": "2026-10-04",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "reactive-resume/reactive-resume": {
     "readmeHash": "6b4482fd2bf334a3e5b8de4faf243ec88c343f3c4c608bc219e92f4d33a23403",
@@ -286,5 +286,17 @@
     "status": "added",
     "checkedAt": "2026-10-02",
     "reason": "Nuclear는 Windows, macOS, Linux에서 실행되는 무료 오픈소스 음악 플레이어로, 광고나 추적 없이 음악을 검색하고 스트리밍할 수 있는 완성된 데스크톱 애플리케이션입니다. 비개발자도 쉽게 설치하고 사용할 수 있습니다."
+  },
+  "appsmithorg/appsmith": {
+    "readmeHash": "72cc207105ff9cd86cbaba208369c5a325612b667bb0a73fd50a537a3d16635e",
+    "status": "rejected",
+    "checkedAt": "2026-10-04",
+    "reason": "Error: 공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다."
+  },
+  "Wox-launcher/Wox": {
+    "readmeHash": "81ebba1078ec8eff97b2bd23c599b723e01c792a003cc413ccbc875f4f498d78",
+    "status": "added",
+    "checkedAt": "2026-10-04",
+    "reason": "Wox는 Windows, macOS, Linux를 지원하는 크로스 플랫폼 런처로, 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군 등 다양한 사용자가 설치하여 활용할 수 있는 완성된 데스크톱 애플리케이션입니다. 가볍고 키보드 중심의 인터페이스를 제공하여 생산성 향상에 기여합니다."
   }
 }

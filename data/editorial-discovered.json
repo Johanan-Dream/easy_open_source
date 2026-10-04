@@ -3150,5 +3150,145 @@
       "officialDocsUrl": "https://github.com/nukeop/nuclear",
       "verifiedAt": "2026-10-02"
     }
+  },
+  {
+    "id": "Wox-launcher/Wox",
+    "category": "productivity",
+    "summary": "Wox는 Windows, macOS, Linux를 위한 가볍고 키보드 중심의 오픈소스 런처입니다. Raycast나 Alfred와 유사한 기능을 제공하며, 낮은 메모리 사용량과 확장 가능한 플러그인 시스템이 특징입니다.",
+    "whatItIs": "Wox는 Windows, macOS, Linux 운영체제에서 작동하는 오픈소스 데스크톱 런처 애플리케이션입니다. Electron 기반이 아닌 네이티브 GPU 렌더링을 사용하여 가볍고 빠른 성능을 제공하며, 애플리케이션 실행, 파일 검색, 시스템 명령 수행 등을 키보드 입력만으로 처리할 수 있게 돕습니다.",
+    "problemSolved": "사용자들이 애플리케이션을 실행하거나 파일을 찾는 데 드는 시간을 줄이고, 마우스 사용 없이 키보드만으로 다양한 작업을 효율적으로 수행할 수 있도록 돕습니다. 또한, 시스템 리소스를 적게 사용하여 백그라운드에서 항상 실행되어도 부담이 없습니다.",
+    "recommendedFor": [
+      "생산성 향상을 원하는 사용자",
+      "키보드 중심의 워크플로우를 선호하는 사용자",
+      "빠른 애플리케이션 및 파일 검색이 필요한 사용자",
+      "Raycast 또는 Alfred의 오픈소스 대안을 찾는 사용자"
+    ],
+    "keyFeatures": [
+      "완전한 네이티브 GPU 렌더링 지원 (Windows, macOS, Linux)",
+      "낮은 메모리 사용량 (유휴 시 약 150MB)",
+      "키보드 중심의 빠른 앱 실행, 파일 검색 및 작업 수행"
+    ],
+    "useCases": [
+      "설치된 애플리케이션 빠르게 실행하기",
+      "로컬 파일 및 폴더 검색 및 열기",
+      "간단한 시스템 명령 또는 스크립트 실행",
+      "플러그인을 통해 기능 확장 (예: 웹 검색, 계산기)"
+    ],
+    "tags": [
+      "런처",
+      "생산성",
+      "데스크톱",
+      "오픈소스",
+      "키보드",
+      "빠른실행",
+      "유틸리티",
+      "크로스플랫폼"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "package-manager",
+    "costSummary": "Wox는 오픈소스 프로젝트이므로 무료로 사용할 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Windows: Winget 또는 Scoop, Chocolatey 중 하나 설치",
+        "macOS: Homebrew 설치",
+        "Linux: 웹 브라우저 및 터미널"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Winget은 Windows 10 버전 1709 이상에서 기본 제공되는 패키지 관리자입니다.",
+            "Scoop은 Windows용 명령줄 설치 관리자입니다. 설치되어 있지 않다면 PowerShell에서 'Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; irm get.scoop.sh | iex' 명령으로 설치할 수 있습니다.",
+            "Chocolatey는 Windows용 패키지 관리자입니다. 설치되어 있지 않다면 공식 웹사이트에서 설치 방법을 확인하세요."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Winget으로 Wox 설치",
+              "description": "명령 프롬프트 또는 PowerShell을 열고 다음 명령어를 입력하여 Wox를 설치합니다.",
+              "command": "winget install -e --id Wox.Wox",
+              "expectedResult": "Wox가 성공적으로 다운로드되고 설치됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Wox 실행",
+              "description": "설치가 완료되면 시작 메뉴에서 'Wox'를 검색하여 실행하거나, 'Alt + Space' 단축키를 눌러 런처를 활성화합니다.",
+              "expectedResult": "Wox 검색창이 화면에 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "Homebrew는 macOS용 패키지 관리자입니다. 설치되어 있지 않다면 터미널에서 '/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"' 명령으로 설치할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Homebrew로 Wox 설치",
+              "description": "터미널을 열고 다음 명령어를 입력하여 Wox를 설치합니다.",
+              "command": "brew install --cask wox",
+              "expectedResult": "Wox가 Homebrew를 통해 다운로드되고 설치됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Wox 실행",
+              "description": "설치가 완료되면 '응용 프로그램' 폴더에서 Wox를 찾아 실행하거나, 'Alt + Space' 단축키를 눌러 런처를 활성화합니다.",
+              "expectedResult": "Wox 검색창이 화면에 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "웹 브라우저를 사용하여 Wox 릴리스 페이지에 접속하고, 해당 시스템 아키텍처에 맞는 최신 안정화 버전을 다운로드합니다.",
+            "다운로드한 파일은 일반적으로 '.deb' (데비안/우분투 기반) 또는 '.rpm' (페도라/RHEL 기반) 패키지일 수 있으며, 해당 패키지 관리자를 통해 설치할 수 있습니다. 또는 압축 해제 후 실행 가능한 파일일 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Wox 릴리스 다운로드",
+              "description": "웹 브라우저를 열고 Wox의 GitHub 릴리스 페이지(https://github.com/Wox-launcher/Wox/releases)로 이동합니다. 최신 안정화 버전의 패키지를 다운로드합니다. 일반적으로 '.deb' 또는 '.rpm' 파일이 제공됩니다.",
+              "expectedResult": "Wox 설치 파일이 다운로드 폴더에 저장됩니다."
+            },
+            {
+              "order": 2,
+              "title": "Wox 설치",
+              "description": "다운로드한 패키지 파일을 더블 클릭하여 설치를 시작하거나, 터미널에서 해당 패키지 관리자 명령어를 사용하여 설치합니다. 예를 들어, '.deb' 파일의 경우 'sudo dpkg -i 다운로드한_파일.deb' 명령을 사용할 수 있습니다.",
+              "expectedResult": "Wox가 시스템에 설치됩니다."
+            },
+            {
+              "order": 3,
+              "title": "Wox 실행",
+              "description": "설치가 완료되면 애플리케이션 메뉴에서 'Wox'를 검색하여 실행하거나, 'Alt + Space' 단축키를 눌러 런처를 활성화합니다.",
+              "expectedResult": "Wox 검색창이 화면에 나타납니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Wox 런처의 검색창이 화면 중앙에 나타나며, 여기에 검색어를 입력하여 애플리케이션, 파일 등을 찾을 수 있습니다.",
+      "stopInstructions": "Wox는 일반적으로 백그라운드에서 실행됩니다. 시스템 트레이(Windows) 또는 메뉴 바(macOS/Linux)에서 Wox 아이콘을 우클릭하여 '종료' 또는 'Exit' 옵션을 선택하여 완전히 종료할 수 있습니다.",
+      "uninstallInstructions": "Windows: '설정' > '앱' > '앱 및 기능'에서 Wox를 찾아 제거하거나, Winget/Scoop/Chocolatey를 사용했다면 해당 패키지 관리자의 제거 명령(예: 'winget uninstall -e --id Wox.Wox')을 사용합니다. macOS: '응용 프로그램' 폴더에서 Wox를 휴지통으로 드래그하여 제거합니다. Homebrew를 사용했다면 'brew uninstall --cask wox' 명령을 사용합니다. Linux: 설치에 사용한 패키지 관리자 명령(예: 'sudo apt remove wox' 또는 'sudo dnf remove wox')을 사용하거나, 수동으로 설치했다면 설치된 디렉토리를 삭제합니다.",
+      "commonIssues": [
+        {
+          "problem": "Wox가 실행되지 않거나 검색창이 나타나지 않습니다.",
+          "solution": "Wox가 백그라운드에서 이미 실행 중인지 확인하세요. 시스템 트레이나 메뉴 바에 아이콘이 있는지 확인하고, 없다면 다시 실행해 보세요. 필요한 경우 시스템을 재부팅한 후 다시 시도할 수 있습니다."
+        },
+        {
+          "problem": "Wox가 특정 애플리케이션이나 파일을 찾지 못합니다.",
+          "solution": "Wox 설정에서 검색 경로가 올바르게 구성되어 있는지 확인하세요. 필요한 경우 검색 인덱스를 재구축하거나, 플러그인 설정을 확인하여 검색 범위를 확장할 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://www.woxlauncher.com/",
+      "verifiedAt": "2026-10-04"
+    }
   }
 ]
