@@ -3477,5 +3477,170 @@
       "officialDocsUrl": "https://next-ai-drawio.jiang.jp/",
       "verifiedAt": "2026-10-06"
     }
+  },
+  {
+    "id": "9001/copyparty",
+    "category": "productivity",
+    "summary": "copyparty는 Python으로 구동되는 휴대용 파일 서버로, 웹 브라우저를 통해 파일 업로드, 다운로드, 공유 및 관리를 쉽게 할 수 있도록 돕습니다. WebDAV, SFTP, FTP 등 다양한 프로토콜을 지원하며, 미디어 인덱싱, 썸네일 생성, 파일 검색 등 고급 기능을 제공합니다.",
+    "whatItIs": "copyparty는 Python으로 작성된 단일 파일 실행 가능한 파일 서버로, 거의 모든 장치를 파일 공유 및 관리 허브로 전환할 수 있습니다. HTTP(S), WebDAV, SFTP, FTP, TFTP 등 여러 프로토콜을 지원하며, 웹 기반 UI를 통해 파일 탐색, 업로드, 다운로드, 미디어 재생 등 다양한 작업을 수행할 수 있습니다.",
+    "problemSolved": "대용량 파일의 안전하고 효율적인 공유, 다양한 프로토콜을 통한 접근, 미디어 파일의 편리한 관리 및 스트리밍, 그리고 파일 중복 제거를 통한 저장 공간 절약 등 여러 파일 관리 문제를 해결합니다. 특히 네트워크 환경이 불안정할 때도 중단된 업로드를 재개할 수 있어 대용량 파일 전송에 유용합니다.",
+    "recommendedFor": [
+      "개인 파일 공유 및 백업",
+      "소규모 팀의 협업 파일 서버",
+      "미디어 콘텐츠 스트리밍 및 관리",
+      "개발 환경에서 빠른 파일 전송"
+    ],
+    "keyFeatures": [
+      "웹 브라우저 기반의 파일 관리: 드래그 앤 드롭 업로드, 파일 검색, 미디어 플레이어, 썸네일 미리보기 등 직관적인 웹 UI를 제공합니다.",
+      "다양한 프로토콜 지원: HTTP(S), WebDAV, SFTP, FTP, TFTP를 통해 여러 클라이언트 및 장치에서 파일에 접근할 수 있습니다.",
+      "가속화된 재개 가능한 업로드 및 중복 제거: 네트워크 문제 발생 시 업로드를 자동으로 재개하며, 서버에 이미 존재하는 파일은 중복을 제거하여 저장 공간을 효율적으로 사용합니다."
+    ],
+    "useCases": [
+      "집에서 개인 클라우드 서버 구축",
+      "친구 및 가족과 사진, 비디오 공유",
+      "개발 프로젝트에서 대용량 빌드 아티팩트 공유",
+      "오래된 장치 간 파일 전송"
+    ],
+    "tags": [
+      "파일 서버",
+      "웹DAV",
+      "SFTP",
+      "FTP",
+      "파일 공유",
+      "미디어 스트리밍",
+      "Python",
+      "휴대용"
+    ],
+    "difficulty": "advanced",
+    "usageType": "cli",
+    "guideType": "release-download",
+    "costSummary": "무료 오픈소스이며, 모든 기능을 추가 비용 없이 사용할 수 있습니다. 서버 운영에 필요한 인프라 비용만 발생합니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Python 3 (권장)",
+        "웹 브라우저 (Chrome, Firefox 등)",
+        "FFmpeg (선택 사항, 미디어 썸네일 및 트랜스코딩용)",
+        "Pillow (선택 사항, 이미지 썸네일용)"
+      ],
+      "estimatedMinutes": 20,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "Windows PowerShell 또는 명령 프롬프트에서 다음 명령어를 사용하여 copyparty를 실행할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Python 설치 확인",
+              "description": "Python 3이 설치되어 있는지 확인합니다. 설치되어 있지 않다면 Python 공식 웹사이트에서 설치 파일을 다운로드하여 설치하세요."
+            },
+            {
+              "order": 2,
+              "title": "copyparty-sfx.py 다운로드",
+              "description": "웹 브라우저를 열고 copyparty GitHub 릴리스 페이지에서 copyparty-sfx.py 파일을 다운로드합니다. 예를 들어, C:\\copyparty 폴더에 저장합니다."
+            },
+            {
+              "order": 3,
+              "title": "copyparty 실행",
+              "description": "다운로드한 copyparty-sfx.py 파일이 있는 디렉토리로 이동하여 다음 명령어를 실행합니다. 이 명령어는 현재 디렉토리를 공유하고 모든 사용자에게 읽기/쓰기 권한을 부여합니다.",
+              "command": "python copyparty-sfx.py",
+              "expectedResult": "터미널에 copyparty 서버가 시작되었다는 메시지와 함께 웹 UI에 접근할 수 있는 URL이 표시됩니다.",
+              "warning": "기본 설정은 현재 폴더에 모든 사용자에게 읽기/쓰기 권한을 부여하므로, 중요한 파일이 없는 안전한 폴더에서 실행하거나 `--help-accounts`를 참조하여 계정 및 볼륨 설정을 구성하는 것이 좋습니다."
+            },
+            {
+              "order": 4,
+              "title": "웹 UI 접속",
+              "description": "웹 브라우저를 열고 터미널에 표시된 URL(예: http://127.0.0.1:3923/)로 접속하여 copyparty 웹 UI를 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "macOS 터미널에서 다음 명령어를 사용하여 copyparty를 실행할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Python 설치 확인",
+              "description": "Python 3이 설치되어 있는지 확인합니다. 설치되어 있지 않다면 Homebrew를 사용하여 설치하거나 Python 공식 웹사이트에서 설치 파일을 다운로드하여 설치하세요."
+            },
+            {
+              "order": 2,
+              "title": "copyparty-sfx.py 다운로드",
+              "description": "웹 브라우저를 열고 copyparty GitHub 릴리스 페이지에서 copyparty-sfx.py 파일을 다운로드합니다. 예를 들어, ~/Downloads 폴더에 저장합니다."
+            },
+            {
+              "order": 3,
+              "title": "copyparty 실행",
+              "description": "다운로드한 copyparty-sfx.py 파일이 있는 디렉토리로 이동하여 다음 명령어를 실행합니다. 이 명령어는 현재 디렉토리를 공유하고 모든 사용자에게 읽기/쓰기 권한을 부여합니다.",
+              "command": "python copyparty-sfx.py",
+              "expectedResult": "터미널에 copyparty 서버가 시작되었다는 메시지와 함께 웹 UI에 접근할 수 있는 URL이 표시됩니다.",
+              "warning": "기본 설정은 현재 폴더에 모든 사용자에게 읽기/쓰기 권한을 부여하므로, 중요한 파일이 없는 안전한 폴더에서 실행하거나 `--help-accounts`를 참조하여 계정 및 볼륨 설정을 구성하는 것이 좋습니다."
+            },
+            {
+              "order": 4,
+              "title": "웹 UI 접속",
+              "description": "웹 브라우저를 열고 터미널에 표시된 URL(예: http://127.0.0.1:3923/)로 접속하여 copyparty 웹 UI를 사용합니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "Linux 터미널에서 다음 명령어를 사용하여 copyparty를 실행할 수 있습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "Python 설치 확인",
+              "description": "Python 3이 설치되어 있는지 확인합니다. 대부분의 Linux 배포판에는 기본적으로 설치되어 있습니다. 설치되어 있지 않다면 패키지 관리자를 사용하여 설치하세요."
+            },
+            {
+              "order": 2,
+              "title": "copyparty-sfx.py 다운로드",
+              "description": "웹 브라우저를 열고 copyparty GitHub 릴리스 페이지에서 copyparty-sfx.py 파일을 다운로드합니다. 예를 들어, ~/Downloads 폴더에 저장합니다."
+            },
+            {
+              "order": 3,
+              "title": "copyparty 실행",
+              "description": "다운로드한 copyparty-sfx.py 파일이 있는 디렉토리로 이동하여 다음 명령어를 실행합니다. 이 명령어는 현재 디렉토리를 공유하고 모든 사용자에게 읽기/쓰기 권한을 부여합니다.",
+              "command": "python3 copyparty-sfx.py",
+              "expectedResult": "터미널에 copyparty 서버가 시작되었다는 메시지와 함께 웹 UI에 접근할 수 있는 URL이 표시됩니다.",
+              "warning": "기본 설정은 현재 폴더에 모든 사용자에게 읽기/쓰기 권한을 부여하므로, 중요한 파일이 없는 안전한 폴더에서 실행하거나 `--help-accounts`를 참조하여 계정 및 볼륨 설정을 구성하는 것이 좋습니다."
+            },
+            {
+              "order": 4,
+              "title": "웹 UI 접속",
+              "description": "웹 브라우저를 열고 터미널에 표시된 URL(예: http://127.0.0.1:3923/)로 접속하여 copyparty 웹 UI를 사용합니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "copyparty 서버가 성공적으로 시작되고, 웹 브라우저를 통해 파일 목록을 확인하고 업로드/다운로드할 수 있는 웹 UI가 표시됩니다.",
+      "commonIssues": [
+        {
+          "problem": "서버가 시작되지 않고 'Address already in use' 오류가 발생합니다.",
+          "solution": "copyparty가 사용하려는 포트(기본값 3923)가 이미 다른 프로그램에 의해 사용 중입니다. `--port` 옵션을 사용하여 다른 포트를 지정하거나, 해당 포트를 사용 중인 프로그램을 종료하세요."
+        },
+        {
+          "problem": "웹 브라우저에서 copyparty UI에 접속할 수 없습니다.",
+          "solution": "서버가 올바르게 실행 중인지 터미널을 확인하고, 방화벽이 copyparty가 사용하는 포트(기본값 3923)를 차단하고 있지 않은지 확인하세요. 또한, `--bind` 옵션으로 특정 IP에만 바인딩되어 있지 않은지 확인하세요."
+        },
+        {
+          "problem": "업로드 또는 다운로드 속도가 예상보다 느립니다.",
+          "solution": "네트워크 환경을 확인하고, 서버와 클라이언트 간의 거리가 멀거나 네트워크 대역폭이 제한적인지 고려하세요. FFmpeg 또는 Pillow와 같은 선택적 종속성을 설치하여 미디어 처리 성능을 향상시킬 수 있습니다."
+        }
+      ],
+      "officialDocsUrl": "https://github.com/9001/copyparty",
+      "verifiedAt": "2026-10-06"
+    }
   }
 ]
