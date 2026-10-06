@@ -3290,5 +3290,192 @@
       "officialDocsUrl": "https://www.woxlauncher.com/",
       "verifiedAt": "2026-10-04"
     }
+  },
+  {
+    "id": "DayuanJiang/next-ai-draw-io",
+    "category": "ai-automation",
+    "summary": "AI를 활용하여 자연어 명령으로 draw.io 다이어그램을 생성, 수정, 개선할 수 있는 웹 애플리케이션 및 데스크톱 도구입니다.",
+    "whatItIs": "Next.js 기반의 웹 애플리케이션으로, AI 기능을 draw.io 다이어그램과 통합하여 사용자가 자연어 명령과 AI 지원 시각화를 통해 다이어그램을 만들고, 수정하며, 향상시킬 수 있도록 돕는 도구입니다. 기존 다이어그램이나 이미지를 업로드하여 AI가 복제하고 개선하거나, PDF 및 텍스트 파일에서 내용을 추출하여 다이어그램을 생성할 수도 있습니다.",
+    "problemSolved": "복잡한 다이어그램을 수동으로 그리거나 수정하는 데 드는 시간과 노력을 줄여줍니다. 특히 비전문가도 자연어 명령만으로 전문적인 다이어그램을 쉽게 만들고, AI의 추론 과정을 통해 다이어그램 생성의 투명성을 확보하며, 다양한 클라우드 아키텍처 다이어그램을 효율적으로 시각화할 수 있도록 돕습니다.",
+    "recommendedFor": [
+      "비즈니스 분석가",
+      "프로젝트 관리자",
+      "시스템 설계자",
+      "교육자"
+    ],
+    "keyFeatures": [
+      "LLM 기반 다이어그램 생성: 자연어 명령으로 draw.io 다이어그램을 생성하고 조작합니다.",
+      "이미지 및 문서 기반 다이어그램 복제/생성: 기존 다이어그램 이미지, PDF, 텍스트 파일을 업로드하여 AI가 다이어그램을 복제하거나 생성합니다.",
+      "AI 추론 과정 시각화 및 다이어그램 히스토리: AI의 생각 과정을 확인하고, 다이어그램의 모든 변경 사항을 추적하여 이전 버전으로 복원할 수 있습니다."
+    ],
+    "useCases": [
+      "소프트웨어 아키텍처 다이어그램 설계",
+      "비즈니스 프로세스 흐름도 작성",
+      "클라우드 인프라 구성도 시각화",
+      "교육 자료 및 개념 지도 생성"
+    ],
+    "tags": [
+      "AI",
+      "다이어그램",
+      "draw.io",
+      "시각화",
+      "생산성",
+      "Next.js",
+      "웹 애플리케이션",
+      "데스크톱 앱"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "web",
+    "guideType": "web",
+    "costSummary": "무료 (오픈 소스). 데모 사이트는 API 키 없이 사용 가능하나, 사용량 제한이 있을 수 있습니다. 개인 API 키를 사용하면 제한 없이 이용할 수 있으며, 일부 AI 모델은 유료입니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Web",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "인터넷 연결",
+        "웹 브라우저 (Chrome, Firefox, Edge 등)",
+        "API 키 (선택 사항, 데모 사이트 사용량 제한 우회 및 특정 AI 모델 사용 시 필요)"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Web",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Next AI Draw.io 웹사이트 접속",
+              "description": "웹 브라우저를 열고 Next AI Draw.io 데모 사이트(https://next-ai-drawio.jiang.jp/)에 접속합니다.",
+              "expectedResult": "Next AI Draw.io 웹 인터페이스가 화면에 나타납니다."
+            },
+            {
+              "order": 2,
+              "title": "AI 다이어그램 생성 시작",
+              "description": "채팅 패널에 자연어 명령을 입력하여 다이어그램 생성을 시작합니다. 예를 들어, '사용자 인증 흐름도를 만들어줘'와 같이 입력할 수 있습니다.",
+              "expectedResult": "입력한 명령에 따라 AI가 다이어그램을 생성하거나 수정합니다."
+            },
+            {
+              "order": 3,
+              "title": "API 키 설정 (선택 사항)",
+              "description": "데모 사이트의 사용량 제한을 우회하거나 특정 AI 모델을 사용하려면, 채팅 패널의 설정 아이콘을 클릭하여 개인 API 키를 구성할 수 있습니다.",
+              "expectedResult": "API 키가 성공적으로 설정되고, 더 많은 AI 기능을 활용할 수 있게 됩니다."
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "데스크톱 애플리케이션은 설치 파일을 다운로드하여 실행하는 방식이므로 터미널 명령이 필요하지 않습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "릴리스 페이지 접속",
+              "description": "웹 브라우저를 열고 Next AI Draw.io GitHub 릴리스 페이지(https://github.com/DayuanJiang/next-ai-draw-io/releases)에 접속합니다.",
+              "expectedResult": "Next AI Draw.io의 최신 릴리스 목록이 표시됩니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "Windows용 설치 파일(예: `next-ai-draw-io-*.exe` 또는 `next-ai-draw-io-*.msi`)을 찾아 다운로드합니다.",
+              "expectedResult": "설치 파일이 컴퓨터에 저장됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 설치 파일을 실행하고 화면의 지시에 따라 애플리케이션을 설치합니다.",
+              "expectedResult": "Next AI Draw.io 애플리케이션이 Windows에 설치됩니다."
+            },
+            {
+              "order": 4,
+              "title": "애플리케이션 실행",
+              "description": "설치 완료 후, 시작 메뉴 또는 바탕화면 바로가기를 통해 Next AI Draw.io를 실행합니다.",
+              "expectedResult": "Next AI Draw.io 데스크톱 애플리케이션이 실행되고 메인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "데스크톱 애플리케이션은 설치 파일을 다운로드하여 실행하는 방식이므로 터미널 명령이 필요하지 않습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "릴리스 페이지 접속",
+              "description": "웹 브라우저를 열고 Next AI Draw.io GitHub 릴리스 페이지(https://github.com/DayuanJiang/next-ai-draw-io/releases)에 접속합니다.",
+              "expectedResult": "Next AI Draw.io의 최신 릴리스 목록이 표시됩니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "macOS용 설치 파일(예: `next-ai-draw-io-*.dmg` 또는 `next-ai-draw-io-*.zip`)을 찾아 다운로드합니다.",
+              "expectedResult": "설치 파일이 컴퓨터에 저장됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 DMG 파일을 열고 Next AI Draw.io 아이콘을 'Applications' 폴더로 드래그하여 설치합니다.",
+              "expectedResult": "Next AI Draw.io 애플리케이션이 macOS에 설치됩니다."
+            },
+            {
+              "order": 4,
+              "title": "애플리케이션 실행",
+              "description": "Applications 폴더에서 Next AI Draw.io를 찾아 실행합니다. 보안 경고가 나타나면 '열기'를 클릭합니다.",
+              "expectedResult": "Next AI Draw.io 데스크톱 애플리케이션이 실행되고 메인 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "데스크톱 애플리케이션은 설치 파일을 다운로드하여 실행하는 방식이므로 터미널 명령이 필요하지 않습니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "릴리스 페이지 접속",
+              "description": "웹 브라우저를 열고 Next AI Draw.io GitHub 릴리스 페이지(https://github.com/DayuanJiang/next-ai-draw-io/releases)에 접속합니다.",
+              "expectedResult": "Next AI Draw.io의 최신 릴리스 목록이 표시됩니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "Linux용 설치 파일(예: `next-ai-draw-io-*.AppImage`)을 찾아 다운로드합니다.",
+              "expectedResult": "설치 파일이 컴퓨터에 저장됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행",
+              "description": "다운로드한 AppImage 파일에 실행 권한을 부여한 후 실행합니다. (예: 파일 관리자에서 파일 우클릭 후 '속성' 또는 '권한' 탭에서 실행 권한을 부여하거나, 터미널에서 `chmod +x [다운로드한 파일명]` 명령을 사용한 후 `./[다운로드한 파일명]`으로 실행). 또는 .deb/.rpm 파일의 경우 해당 패키지 관리자를 통해 설치합니다.",
+              "expectedResult": "Next AI Draw.io 데스크톱 애플리케이션이 실행되고 메인 화면이 나타납니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Next AI Draw.io 애플리케이션이 실행되고, AI와 대화하며 다이어그램을 생성할 수 있는 채팅 인터페이스가 나타납니다.",
+      "stopInstructions": "웹 애플리케이션의 경우 브라우저 탭을 닫으면 됩니다. 데스크톱 애플리케이션의 경우, 일반적인 애플리케이션 종료 방식(창 닫기 버튼 클릭, 작업 관리자/활동 모니터에서 프로세스 종료 등)을 사용합니다.",
+      "uninstallInstructions": "웹 애플리케이션은 별도의 제거 과정이 필요 없습니다. 데스크톱 애플리케이션의 경우, 운영체제별 표준 애플리케이션 제거 절차를 따릅니다. (예: Windows 제어판의 '프로그램 추가/제거', macOS 'Applications' 폴더에서 앱을 휴지통으로 드래그, Linux 패키지 관리자를 통한 제거 또는 AppImage 파일 삭제)",
+      "commonIssues": [
+        {
+          "problem": "API 키 오류 또는 사용량 제한",
+          "solution": "API 키를 다시 확인하거나, 개인 API 키를 설정하여 사용량 제한을 우회합니다. 또는 다른 AI 모델 제공업체를 선택해봅니다."
+        },
+        {
+          "problem": "AI가 다이어그램을 생성하지 못함",
+          "solution": "더 명확하고 구체적인 명령을 사용하거나, 예시 프롬프트를 참고하여 다시 시도합니다."
+        },
+        {
+          "problem": "데스크톱 앱 실행 불가",
+          "solution": "파일을 다시 다운로드하거나, 운영체제의 보안 설정을 확인하여 애플리케이션 실행을 허용합니다. Linux AppImage의 경우 실행 권한이 부여되었는지 확인합니다."
+        }
+      ],
+      "officialDocsUrl": "https://next-ai-drawio.jiang.jp/",
+      "verifiedAt": "2026-10-06"
+    }
   }
 ]
