@@ -24,10 +24,10 @@
     "reason": "Tauri is a framework for building desktop and mobile applications, requiring development skills to create an application. It is not a ready-to-use tool for non-developers."
   },
   "affaan-m/ECC": {
-    "readmeHash": "e4ce58161b3c1d67c0bf6b7b607328d3c92fdf5d74b86481b0df0bc4afd8e675",
+    "readmeHash": "d21d9a528ba5bf054ff4bd76940608da7ad1c53f6da167c19677af50364e4b5c",
     "status": "rejected",
-    "checkedAt": "2026-09-30",
-    "reason": "ECC는 Claude Code, Codex, Cursor와 같은 AI 코딩 에이전트의 성능을 최적화하고 기능을 확장하는 시스템입니다. 주요 설치 방법은 명령줄 도구(npm, Git, 셸 스크립트)를 사용하며, 개발자 중심의 환경(Claude Code CLI, Codex CLI, VS Code)에 통합됩니다. 비록 구성 요소를 시각적으로 탐색할 수 있는 데스크톱 GUI 대시보드가 있지만, 핵심 기능은 주로 AI 코딩 에이전트 내에서 슬래시 명령을 통해 호출됩니다. 이는 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하거나 웹에서 쉽게 사용할 수 있는 완성된 도구라는 기준에 부합하지 않습니다. 따라서 이 프로젝트는 기술적 숙련도를 요구하는 개발자 도구로 판단됩니다."
+    "checkedAt": "2026-10-09",
+    "reason": "ECC는 AI 코딩 에이전트의 성능을 최적화하고 기능을 확장하는 시스템입니다. 설치 및 사용 과정에서 Node.js, Git, 다양한 AI 코딩 도구(Claude Code, Codex 등)에 대한 이해와 명령줄 인터페이스 사용이 필수적입니다. 이는 비개발자나 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하여 사용하기에는 기술적 장벽이 높습니다. 또한, 웹 기반의 GitHub App이나 대시보드 GUI가 존재하지만, 이는 핵심 에이전트 시스템의 보조 기능이거나 개발자 워크플로우에 통합되는 방식입니다."
   },
   "nexu-io/open-design": {
     "readmeHash": "dbecfa17fb3999cea2de9f669fb03113c8d6415086a06a4246c745bba6c2a918",
@@ -66,10 +66,10 @@
     "reason": "Coolify는 Vercel, Heroku, Netlify와 같은 서비스의 오픈소스 대안으로, 사용자가 직접 서버에 설치하여 웹 애플리케이션, 데이터베이스 및 다양한 서비스를 배포하고 관리할 수 있는 완성된 플랫폼입니다. 웹 기반 대시보드를 통해 비개발자도 배포된 서비스를 관리할 수 있으며, 개발자 및 협업 직군에게 유용한 도구입니다."
   },
   "ClickHouse/ClickHouse": {
-    "readmeHash": "0b87cd0c5b91d4b8812fed3f1234804afe4e5fe463e67ab9decd8fcfa839a203",
+    "readmeHash": "b4375e81937ae0daf57e32a166d319357d4fd5dcf713a1f7806bedaeff00a34d",
     "status": "rejected",
-    "checkedAt": "2026-10-02",
-    "reason": "ClickHouse는 실시간 분석 데이터베이스 관리 시스템으로, 비개발자나 바이브 코딩 사용자에게는 직접 설치 및 활용이 어렵습니다. 제공된 설치 방법은 안전 지침을 위반하여 가이드에 포함할 수 없으며, 클라우드 버전 또한 데이터베이스 지식이 필요합니다."
+    "checkedAt": "2026-10-09",
+    "reason": "ClickHouse는 실시간 분석 데이터베이스 관리 시스템으로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 바로 사용할 수 있는 완성된 도구가 아닙니다. 데이터베이스 설치 및 운영에는 전문적인 기술 지식이 필요합니다. 또한, README에 제시된 로컬 설치 명령어가 보안상의 이유로 직접 제공하기 어려워, Easy Open Source의 가이드 제공 기준에 부합하지 않습니다."
   },
   "ayghri/i-have-adhd": {
     "readmeHash": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914",
@@ -264,10 +264,10 @@
     "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "reactive-resume/reactive-resume": {
-    "readmeHash": "6b4482fd2bf334a3e5b8de4faf243ec88c343f3c4c608bc219e92f4d33a23403",
+    "readmeHash": "b0464bb437c6033366eb803dc0d634e5935b232fddc8d213399ad6c88920e7cc",
     "status": "rejected",
-    "checkedAt": "2026-10-01",
-    "reason": "Error: guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
+    "checkedAt": "2026-10-09",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.3.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd"
   },
   "dgtlmoon/changedetection.io": {
     "readmeHash": "d29cb6f8183b4c2628caabc3927999745f6dce321eff5615028a935f1c5d19a4",
@@ -312,10 +312,10 @@
     "reason": "Error: guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: unzip; guide.platforms.1.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod"
   },
   "storytold/photocraft": {
-    "readmeHash": "4bbeee9ffdf1ce4df4f4502e8957dab46f754917c8ec869b1e21d6be7ddccbb1",
+    "readmeHash": "5beec5f39bac744198cd013a9760a1e52362a4e0cb5f4e2c4e16e1552fbf0ca0",
     "status": "rejected",
-    "checkedAt": "2026-10-08",
-    "reason": "PhotoCraft는 현재 'early alpha' 단계의 미완성 프로젝트로, 일상적인 전문 작업에 Adobe Photoshop을 대체할 만큼 완성되지 않았다고 명시되어 있습니다. 비개발자나 협업 직군이 안정적으로 사용하기에는 적합하지 않습니다."
+    "checkedAt": "2026-10-09",
+    "reason": "PhotoCraft는 현재 \"early alpha\" 단계이며, 개발팀 스스로 \"일상적인 전문 작업용으로 Photoshop을 대체할 수 있는 수준은 아직 아니다\"라고 명시하고 있습니다. 주요 기능들이 아직 부족하고 거친 부분이 많아 미완성 프로젝트로 판단됩니다."
   },
   "streetwriters/notesnook": {
     "readmeHash": "16c8ed53b093b4ca1637ef2e633e57558ba76fdd22e8fb7e218f6d5bc46f334b",
@@ -334,5 +334,11 @@
     "status": "rejected",
     "checkedAt": "2026-10-08",
     "reason": "Error: guide.platforms.0.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
+  },
+  "files-community/Files": {
+    "readmeHash": "78ceace4d45b9a38b56f0ef1949bc92b129029ef19edf7181ce20508754da04d",
+    "status": "added",
+    "checkedAt": "2026-10-09",
+    "reason": "Files는 사용자가 파일과 폴더를 정리하는 데 도움을 주는 현대적인 파일 관리자입니다. Microsoft Store 또는 클래식 설치 관리자를 통해 설치할 수 있는 완성된 도구이므로 비개발자도 쉽게 사용할 수 있습니다."
   }
 }
