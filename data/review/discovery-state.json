@@ -174,10 +174,10 @@
     "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
   },
   "super-productivity/super-productivity": {
-    "readmeHash": "8a1622180a9ae9204982bc5ac8613946e1465a45259a6d67c6dc9f8b18c2203d",
+    "readmeHash": "f15b319ab8de76ca8e9ce5d1b72cc2334e0cab1cb3515da7048f0ba6e8f9ad1e",
     "status": "rejected",
-    "checkedAt": "2026-09-26",
-    "reason": "Error: guide.platforms.3.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.3.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: super-productivity-x.x.x.appimage"
+    "checkedAt": "2026-10-10",
+    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
   },
   "browser-use/jev-ultrafast": {
     "readmeHash": "29f5276b3e6295cabe322cda598e354a9e053dbfd9d831d20f09d0cca279a379",
@@ -300,10 +300,10 @@
     "reason": "Wox는 Windows, macOS, Linux를 지원하는 크로스 플랫폼 런처로, 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군 등 다양한 사용자가 설치하여 활용할 수 있는 완성된 데스크톱 애플리케이션입니다. 가볍고 키보드 중심의 인터페이스를 제공하여 생산성 향상에 기여합니다."
   },
   "NanmiCoder/cc-haha": {
-    "readmeHash": "d0415c10d7b5335d7f472cf156945e296271c908e423afe5965a36b50fae0510",
-    "status": "rejected",
-    "checkedAt": "2026-10-06",
-    "reason": "Error: 공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다."
+    "readmeHash": "806ad5bd41e35ea52267ff2fae7a34559536cb639fdae02998bd35a9eba57496",
+    "status": "added",
+    "checkedAt": "2026-10-10",
+    "reason": "cc-haha는 macOS, Windows, Linux용 데스크톱 애플리케이션으로, AI 에이전트 기반의 코드 작업 및 자동화를 위한 완성된 도구입니다. 다중 에이전트 협업, Git 통합, 코드 Diff 검토, 다양한 AI 모델 지원, 컴퓨터 사용 자동화 등 개발자와 비개발자 모두에게 유용한 기능을 제공하여 직접 설치하고 활용하기에 적합합니다."
   },
   "Niko1221/Strata": {
     "readmeHash": "b4cb8b284a7f90ab0e5bba7419b91750ffbcf7ee60dda6fdf37bbff1784146bf",
@@ -312,10 +312,10 @@
     "reason": "Error: guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: unzip; guide.platforms.1.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod"
   },
   "storytold/photocraft": {
-    "readmeHash": "5beec5f39bac744198cd013a9760a1e52362a4e0cb5f4e2c4e16e1552fbf0ca0",
+    "readmeHash": "4be6b7a4f2864b77ffa3aae321a9892e918df1f9b5df113f0e7fa3d7f59dde31",
     "status": "rejected",
-    "checkedAt": "2026-10-09",
-    "reason": "PhotoCraft는 현재 \"early alpha\" 단계이며, 개발팀 스스로 \"일상적인 전문 작업용으로 Photoshop을 대체할 수 있는 수준은 아직 아니다\"라고 명시하고 있습니다. 주요 기능들이 아직 부족하고 거친 부분이 많아 미완성 프로젝트로 판단됩니다."
+    "checkedAt": "2026-10-10",
+    "reason": "PhotoCraft는 현재 'early alpha' 단계에 있으며, README에 '아직 전문적인 일상 업무를 위한 Photoshop 대체품이 아니다'라고 명시되어 있어 미완성 프로젝트로 판단됩니다."
   },
   "streetwriters/notesnook": {
     "readmeHash": "16c8ed53b093b4ca1637ef2e633e57558ba76fdd22e8fb7e218f6d5bc46f334b",
@@ -330,15 +330,21 @@
     "reason": "RomM은 자체 호스팅 애플리케이션으로, Docker Compose를 이용한 서버 환경 설정이 필요합니다. 이는 비개발자나 기술적 지식이 부족한 사용자가 직접 설치하기에는 복잡하며, 웹에서 바로 사용할 수 있는 서비스 형태가 아닙니다."
   },
   "robbietilton/Compositor": {
-    "readmeHash": "a51e19f2a7f4d3a7b82e58cfb1ea91cac72e22c69c57bfcfb007d8ad2a377db0",
+    "readmeHash": "502da04573dd6c3d7ccf1af5c27120451ddf40d1fc952478b6f7174a5d146c05",
     "status": "rejected",
-    "checkedAt": "2026-10-08",
-    "reason": "Error: guide.platforms.0.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
+    "checkedAt": "2026-10-10",
+    "reason": "Error: 공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다."
   },
   "files-community/Files": {
     "readmeHash": "78ceace4d45b9a38b56f0ef1949bc92b129029ef19edf7181ce20508754da04d",
     "status": "added",
     "checkedAt": "2026-10-09",
     "reason": "Files는 사용자가 파일과 폴더를 정리하는 데 도움을 주는 현대적인 파일 관리자입니다. Microsoft Store 또는 클래식 설치 관리자를 통해 설치할 수 있는 완성된 도구이므로 비개발자도 쉽게 사용할 수 있습니다."
+  },
+  "Termix-SSH/Termix": {
+    "readmeHash": "9f4fac89ba6565f86f273a51fa326362ade68f044f4401698365c535f3a3b0fc",
+    "status": "rejected",
+    "checkedAt": "2026-10-10",
+    "reason": "Error: guide.platforms: Web 설치 안내가 필요합니다.; guide.platforms: Windows 설치 안내가 필요합니다.; guide.platforms: macOS 설치 안내가 필요합니다."
   }
 }

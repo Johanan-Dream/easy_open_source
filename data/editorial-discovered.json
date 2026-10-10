@@ -3843,5 +3843,151 @@
       "officialDocsUrl": "https://files.community/",
       "verifiedAt": "2026-10-09"
     }
+  },
+  {
+    "id": "NanmiCoder/cc-haha",
+    "category": "ai-automation",
+    "summary": "cc-haha는 로컬 우선의 크로스 플랫폼 AI 에이전트 데스크톱 작업 공간으로, 다중 에이전트 협업, Git 워크트리, 코드 Diff, 스킬 마켓, 다중 모델 지원, 컴퓨터 사용 자동화 및 데스크톱 펫 기능을 제공합니다. 또한 WeChat, Feishu, DingTalk 및 H5를 통한 원격 접근을 지원합니다.",
+    "whatItIs": "cc-haha는 Claude Code 및 AI 에이전트를 위한 데스크톱 애플리케이션입니다. 여러 AI 에이전트가 협력하여 코드를 생성하고 검토하며, Git 워크트리 관리, 코드 변경 사항 Diff 확인, 내장 브라우저 미리보기 등의 기능을 제공합니다. Claude, ChatGPT, Grok 등 다양한 AI 모델을 연결할 수 있으며, macOS에서는 실제 마우스와 키보드를 점유하지 않고 다른 애플리케이션을 제어하는 Computer Use 기능을 지원합니다.",
+    "problemSolved": "이 도구는 AI 에이전트를 활용한 코드 개발 및 자동화 작업을 효율적으로 관리하고 실행하는 데 필요한 복잡성을 해결합니다. 다중 AI 모델과 에이전트를 한곳에서 통합 관리하고, 코드 변경 사항을 시각적으로 검토하며, AI가 데스크톱 애플리케이션을 직접 제어하여 반복적인 작업을 자동화할 수 있도록 돕습니다. 또한 원격 접근 기능을 통해 언제 어디서든 작업에 참여할 수 있게 합니다.",
+    "recommendedFor": [
+      "소프트웨어 개발자",
+      "AI 에이전트 연구자 및 사용자",
+      "개발자와 협업하는 프로젝트 관리자",
+      "반복적인 데스크톱 작업을 자동화하려는 사용자"
+    ],
+    "keyFeatures": [
+      "다중 에이전트 협업 및 동적 워크플로우: 여러 AI 에이전트가 협력하여 작업을 수행하고, 시각적인 관리 도구와 동적 워크플로우를 통해 복잡한 작업을 효율적으로 처리합니다.",
+      "다중 AI 모델 지원 및 유연한 설정: Claude, ChatGPT, Grok 등 주요 AI 모델과 로컬 모델을 연결할 수 있으며, API 키 및 모델 제공자를 데스크톱 앱 내에서 쉽게 설정할 수 있습니다.",
+      "Computer Use 및 데스크톱 자동화: macOS에서 실제 마우스와 키보드를 점유하지 않고 AI가 다른 데스크톱 애플리케이션을 제어할 수 있어, 다양한 작업을 자동화하고 생산성을 높입니다."
+    ],
+    "useCases": [
+      "AI 기반 코드 생성 및 리팩토링",
+      "Git 워크트리를 활용한 코드 변경 사항 관리 및 Diff 검토",
+      "AI 에이전트를 이용한 데스크톱 애플리케이션 작업 자동화",
+      "원격 환경에서 AI 에이전트 작업 모니터링 및 제어"
+    ],
+    "tags": [
+      "AI 에이전트",
+      "코드 자동화",
+      "데스크톱 앱",
+      "크로스 플랫폼",
+      "Git",
+      "Claude",
+      "ChatGPT",
+      "생산성"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "release-download",
+    "costSummary": "cc-haha는 무료 오픈소스 프로젝트입니다. 하지만 AI 모델 사용을 위한 API 키는 별도 비용이 발생할 수 있습니다. 프로젝트 개발을 위한 자발적인 후원을 받습니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "안정적인 인터넷 연결",
+        "사용하려는 AI 모델(예: Claude, ChatGPT, Grok)의 유효한 API 키 또는 계정"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "macOS",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "cc-haha GitHub Releases 페이지(https://github.com/NanmiCoder/cc-haha/releases)로 이동하여 macOS용 설치 패키지(.dmg 또는 .zip)를 다운로드합니다.",
+              "expectedResult": "macOS 설치 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 .dmg 파일을 열고 cc-haha 애플리케이션 아이콘을 '응용 프로그램' 폴더로 드래그하여 설치합니다. .zip 파일의 경우 압축을 풀고 애플리케이션을 '응용 프로그램' 폴더로 이동합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 설치됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행 및 초기 설정",
+              "description": "'응용 프로그램' 폴더에서 cc-haha를 실행합니다. 처음 실행할 때 보안 경고가 나타날 수 있습니다. 시스템 설정에서 '보안 및 개인 정보 보호' 또는 '개인 정보 보호 및 보안'으로 이동하여 앱 실행을 허용해야 할 수 있습니다. 앱이 실행되면 설정 화면에서 AI 모델 제공자, API 키 및 기본 모델을 구성합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 성공적으로 실행되고, AI 모델 설정을 위한 화면이 나타납니다.",
+              "warning": "서명되지 않은 임시 패키지를 설치하는 경우, macOS 보안 설정에서 수동으로 앱 실행을 허용해야 할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "name": "Windows",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "cc-haha GitHub Releases 페이지(https://github.com/NanmiCoder/cc-haha/releases)로 이동하여 Windows용 설치 패키지(.exe)를 다운로드합니다.",
+              "expectedResult": "Windows 설치 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 .exe 설치 파일을 실행합니다. 설치 마법사의 지시에 따라 cc-haha를 설치합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 설치됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행 및 초기 설정",
+              "description": "설치 완료 후 cc-haha를 실행합니다. 처음 실행할 때 Windows SmartScreen 경고가 나타날 수 있습니다. '추가 정보'를 클릭한 다음 '실행'을 클릭하여 진행합니다. 앱이 실행되면 설정 화면에서 AI 모델 제공자, API 키 및 기본 모델을 구성합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 성공적으로 실행되고, AI 모델 설정을 위한 화면이 나타납s니다.",
+              "warning": "Windows SmartScreen 경고가 나타날 경우, '추가 정보'를 클릭한 후 '실행'을 선택하여 설치를 진행해야 합니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [],
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "cc-haha GitHub Releases 페이지(https://github.com/NanmiCoder/cc-haha/releases)로 이동하여 Linux용 설치 패키지(예: .AppImage, .deb, .rpm)를 다운로드합니다.",
+              "expectedResult": "Linux 설치 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 설치 파일의 종류에 따라 적절한 방법으로 설치를 진행합니다. 예를 들어, .AppImage 파일은 실행 권한을 부여한 후 실행하고, .deb 또는 .rpm 파일은 해당 패키지 관리자를 통해 설치합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 설치됩니다."
+            },
+            {
+              "order": 3,
+              "title": "애플리케이션 실행 및 초기 설정",
+              "description": "설치 완료 후 cc-haha를 실행합니다. 앱이 실행되면 설정 화면에서 AI 모델 제공자, API 키 및 기본 모델을 구성합니다.",
+              "expectedResult": "cc-haha 애플리케이션이 성공적으로 실행되고, AI 모델 설정을 위한 화면이 나타납니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "cc-haha 데스크톱 애플리케이션이 실행되고, AI 모델 제공자, API 키 및 기본 모델을 설정할 수 있는 초기 설정 화면이 나타납니다.",
+      "stopInstructions": "cc-haha 애플리케이션을 종료하려면, 운영체제의 표준 절차에 따라 애플리케이션 창을 닫거나, 작업 표시줄/독에서 애플리케이션 아이콘을 우클릭하여 종료 옵션을 선택합니다.",
+      "uninstallInstructions": "cc-haha를 제거하려면, 운영체제의 표준 애플리케이션 제거 절차를 따릅니다. Windows에서는 '설정' > '앱'에서 제거하고, macOS에서는 '응용 프로그램' 폴더에서 cc-haha를 휴지통으로 드래그하여 제거합니다. Linux에서는 설치 방식에 따라 패키지 관리자를 사용하거나 수동으로 파일을 삭제합니다.",
+      "commonIssues": [
+        {
+          "problem": "Windows에서 SmartScreen 경고가 나타나 설치가 진행되지 않습니다.",
+          "solution": "설치 파일 실행 시 SmartScreen 경고창에서 '추가 정보'를 클릭한 다음 '실행' 버튼을 클릭하여 설치를 진행할 수 있습니다."
+        },
+        {
+          "problem": "macOS에서 '개발자를 확인할 수 없기 때문에 열 수 없습니다'라는 경고가 나타납니다.",
+          "solution": "시스템 설정(또는 시스템 환경설정)의 '개인 정보 보호 및 보안' 섹션으로 이동하여 '확인되지 않은 개발자의 앱 허용' 또는 유사한 옵션을 찾아 cc-haha의 실행을 허용해야 합니다."
+        },
+        {
+          "problem": "애플리케이션이 실행되지만 AI 모델이 작동하지 않습니다.",
+          "solution": "cc-haha 설정에서 AI 모델 제공자, API 키 및 기본 모델이 올바르게 구성되었는지 확인하십시오. API 키가 유효하고 충분한 잔액이 있는지, 그리고 인터넷 연결이 안정적인지 확인해야 합니다."
+        }
+      ],
+      "officialDocsUrl": "https://cchaha.ai",
+      "verifiedAt": "2026-10-10"
+    }
   }
 ]
