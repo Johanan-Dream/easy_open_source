@@ -1,8 +1,8 @@
 [
   {
     "repositoryId": "ollama/ollama",
-    "readmeHash": "bda5d9ac28354e3effc6cb7059672425b87fdbc760051918d17022a0b7aeeeec",
-    "generatedAt": "2026-10-13T00:42:30.504Z",
+    "readmeHash": "9e5a7d406950fdd2742084065ab38a3ea09b5aab5e2f13ef7d64147229ae0d8b",
+    "generatedAt": "2026-10-14T21:44:53.033Z",
     "model": "gemini-2.5-flash",
     "status": "pending",
     "sourceUrls": [
@@ -11,40 +11,40 @@
       "https://docs.ollama.com"
     ],
     "draft": {
-      "summary": "Ollama는 오픈 모델을 사용하여 애플리케이션을 구축할 수 있게 해주는 도구입니다.",
-      "whatItIs": "Ollama는 로컬 환경에서 대규모 언어 모델(LLM)을 쉽게 실행하고 관리할 수 있도록 설계된 오픈소스 플랫폼입니다. 다양한 오픈 모델을 다운로드하고 실행하며, REST API를 통해 상호작용할 수 있습니다.",
-      "problemSolved": "개발자들이 로컬 환경에서 대규모 언어 모델을 쉽게 설정하고 실행할 수 있도록 하여, 오픈 모델을 활용한 AI 애플리케이션 개발의 복잡성을 줄여줍니다. 이를 통해 모델 관리 및 배포 과정을 간소화합니다.",
+      "summary": "Ollama는 사용자가 로컬 또는 클라우드 환경에서 오픈 소스 대규모 언어 모델(LLM)을 쉽게 다운로드, 실행 및 관리할 수 있도록 돕는 도구입니다. 개인 정보 보호를 유지하면서 최신 AI 모델에 접근하고 활용할 수 있습니다.",
+      "whatItIs": "Ollama는 로컬 머신에서 다양한 오픈 소스 AI 모델을 실행하기 위한 프레임워크입니다. 사용자는 Ollama를 통해 모델을 다운로드하고, REST API를 통해 접근하거나 CLI를 통해 직접 상호작용할 수 있습니다. 이는 개인 컴퓨터에서 AI 기능을 활용하려는 사용자에게 적합합니다.",
+      "problemSolved": "Ollama는 복잡한 설정 과정 없이도 사용자가 개인 장치에서 대규모 언어 모델을 쉽게 실행할 수 있도록 하여, 클라우드 기반 AI 서비스의 잠재적인 개인 정보 보호 문제와 높은 비용 부담 없이 AI 기능을 활용할 수 있게 합니다. 또한, 다양한 모델과의 통합을 간소화합니다.",
       "recommendedFor": [
-        "오픈 모델을 사용하여 AI 애플리케이션을 개발하려는 개발자",
-        "로컬에서 대규모 언어 모델을 실행하고 테스트하려는 사용자",
-        "AI 어시스턴트 또는 챗봇을 구축하려는 개발자",
-        "기존 애플리케이션에 AI 기능을 통합하려는 개발자"
+        "AI 모델을 로컬 환경에서 실행하려는 개발자",
+        "개인 정보 보호를 중요하게 생각하는 AI 연구자",
+        "AI 기반 애플리케이션을 구축하려는 사용자",
+        "오픈 소스 LLM을 탐색하려는 일반 사용자"
       ],
       "keyFeatures": [
-        "다양한 오픈 모델 실행 및 관리",
-        "REST API를 통한 모델 상호작용",
-        "Python 및 JavaScript 라이브러리 지원"
+        "로컬 환경에서 다양한 오픈 모델 실행 및 관리",
+        "개인 정보 보호를 위한 오프라인 모델 실행 지원",
+        "간편한 모델 다운로드 및 REST API 제공"
       ],
       "useCases": [
-        "AI 코딩 어시스턴트 구축",
-        "개인 AI 비서 개발",
-        "로컬에서 대규모 언어 모델과 채팅",
-        "LLM 기반 애플리케이션 개발"
+        "코딩 지원 및 코드 생성",
+        "개인 AI 비서 구축",
+        "다양한 LLM과의 대화 및 테스트",
+        "RAG(검색 증강 생성) 시스템 구축"
       ],
       "tags": [
         "AI",
         "LLM",
-        "오픈소스",
-        "모델",
-        "개발",
         "로컬",
-        "CLI",
-        "API"
+        "오픈소스",
+        "머신러닝",
+        "모델",
+        "개발도구",
+        "CLI"
       ],
       "difficulty": "advanced",
       "usageType": "cli",
       "guideType": "desktop-installer",
-      "costSummary": "무료 (오픈소스)",
+      "costSummary": "Ollama 소프트웨어 자체는 무료로 사용할 수 있습니다. 모델을 실행하기 위한 하드웨어(CPU, RAM, GPU) 비용은 사용자가 부담해야 합니다.",
       "apiKeyRequired": false,
       "platforms": [
         "Windows",
@@ -53,122 +53,95 @@
       ],
       "guide": {
         "prerequisites": [
-          "인터넷 연결",
-          "Docker 설치 (Docker를 통해 설치할 경우)"
+          "지원되는 운영 체제(Windows, macOS, Linux)",
+          "모델 실행을 위한 충분한 시스템 리소스(RAM, GPU 권장)"
         ],
-        "estimatedMinutes": 10,
+        "estimatedMinutes": 15,
         "platforms": [
-          {
-            "name": "Windows",
-            "terminalHelp": [
-              "Windows 검색창에 'cmd' 또는 'powershell'을 입력하여 명령 프롬프트 또는 PowerShell을 실행합니다."
-            ],
-            "steps": [
-              {
-                "order": 1,
-                "title": "Ollama 설치 파일 다운로드",
-                "description": "공식 웹사이트에서 Windows용 설치 파일(OllamaSetup.exe)을 다운로드합니다. 다운로드 링크: https://ollama.com/download/OllamaSetup.exe"
-              },
-              {
-                "order": 2,
-                "title": "설치 파일 실행",
-                "description": "다운로드한 'OllamaSetup.exe' 파일을 두 번 클릭하여 설치를 시작합니다. 화면의 지시에 따라 설치를 완료합니다."
-              },
-              {
-                "order": 3,
-                "title": "Ollama 실행 확인",
-                "description": "명령 프롬프트 또는 PowerShell을 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
-                "command": "ollama",
-                "expectedResult": "Ollama 프롬프트가 나타나거나 사용 가능한 명령 목록이 표시됩니다."
-              }
-            ]
-          },
           {
             "name": "macOS",
             "terminalHelp": [
-              "Finder에서 '응용 프로그램' -> '유틸리티' -> '터미널'을 실행하거나, Spotlight 검색(Command + Space)에서 '터미널'을 검색하여 실행합니다."
+              "Spotlight 검색(Command + Space)을 열고 '터미널'을 입력한 후 Enter 키를 누르세요.",
+              "또는 '응용 프로그램' 폴더 안의 '유틸리티' 폴더에서 '터미널' 앱을 찾아서 실행하세요."
             ],
             "steps": [
               {
                 "order": 1,
-                "title": "Ollama 설치 파일 다운로드",
-                "description": "공식 웹사이트에서 macOS용 설치 파일(Ollama.dmg)을 다운로드합니다. 다운로드 링크: https://ollama.com/download/Ollama.dmg"
+                "title": "Ollama 다운로드",
+                "description": "Ollama 공식 웹사이트(https://ollama.com/download/Ollama.dmg)에서 macOS용 설치 파일을 수동으로 다운로드하세요."
               },
               {
                 "order": 2,
-                "title": "설치 파일 실행",
-                "description": "다운로드한 'Ollama.dmg' 파일을 열고 화면의 지시에 따라 Ollama를 응용 프로그램 폴더로 드래그하여 설치를 완료합니다."
+                "title": "Ollama 설치",
+                "description": "다운로드한 'Ollama.dmg' 파일을 열고, Ollama 아이콘을 'Applications' 폴더로 드래그하여 설치를 완료하세요."
               },
               {
                 "order": 3,
-                "title": "Ollama 실행 확인",
-                "description": "터미널을 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
-                "command": "ollama",
-                "expectedResult": "Ollama 프롬프트가 나타나거나 사용 가능한 명령 목록이 표시됩니다."
+                "title": "Ollama 실행 및 모델 다운로드",
+                "description": "설치된 Ollama 앱을 실행한 후, 터미널을 열고 'ollama run gemma4' 명령어를 입력하여 Gemma 4 모델을 다운로드하고 실행하세요. 다른 모델은 ollama.com/library에서 찾아볼 수 있습니다.",
+                "command": "ollama run gemma4",
+                "expectedResult": "Gemma 4 모델 다운로드가 시작되고, 완료되면 모델과 대화할 수 있는 프롬프트가 나타납니다."
+              }
+            ]
+          },
+          {
+            "name": "Windows",
+            "terminalHelp": [
+              "시작 메뉴를 클릭하고 'cmd' 또는 'powershell'을 입력한 후 '명령 프롬프트' 또는 'Windows PowerShell'을 실행하세요."
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "title": "Ollama 다운로드",
+                "description": "Ollama 공식 웹사이트(https://ollama.com/download/OllamaSetup.exe)에서 Windows용 설치 파일을 수동으로 다운로드하세요."
+              },
+              {
+                "order": 2,
+                "title": "Ollama 설치",
+                "description": "다운로드한 'OllamaSetup.exe' 파일을 실행하고, 설치 마법사의 지시에 따라 Ollama를 설치하세요."
+              },
+              {
+                "order": 3,
+                "title": "Ollama 실행 및 모델 다운로드",
+                "description": "설치 완료 후, 명령 프롬프트 또는 PowerShell을 열고 'ollama run gemma4' 명령어를 입력하여 Gemma 4 모델을 다운로드하고 실행하세요. 다른 모델은 ollama.com/library에서 찾아볼 수 있습니다.",
+                "command": "ollama run gemma4",
+                "expectedResult": "Gemma 4 모델 다운로드가 시작되고, 완료되면 모델과 대화할 수 있는 프롬프트가 나타납니다."
               }
             ]
           },
           {
             "name": "Linux",
             "terminalHelp": [
-              "Ctrl + Alt + T를 누르거나, 애플리케이션 메뉴에서 '터미널'을 검색하여 실행합니다."
+              "Ctrl + Alt + T 키를 동시에 눌러 터미널을 열 수 있습니다.",
+              "또는 애플리케이션 메뉴에서 '터미널'을 검색하여 실행하세요."
             ],
             "steps": [
               {
                 "order": 1,
-                "title": "공식 문서 확인 (수동 설치)",
-                "description": "Ollama 공식 문서의 Linux 수동 설치 지침을 확인합니다. README에 제공된 `curl | sh` 명령은 보안상의 이유로 권장되지 않으므로, 공식 문서의 수동 설치 방법을 따르세요. 공식 문서 링크: https://docs.ollama.com/linux#manual-install"
+                "title": "Ollama 설치 지침 확인",
+                "description": "Ollama 공식 문서(https://docs.ollama.com/linux#manual-install)에서 리눅스용 수동 설치 지침을 확인하세요. README에 제공된 'curl | sh' 방식은 보안상 권장되지 않습니다."
               },
               {
                 "order": 2,
-                "title": "Ollama 실행 확인",
-                "description": "공식 문서의 지침에 따라 설치를 완료한 후, 터미널을 열고 'ollama'를 입력하여 Ollama가 올바르게 설치되었는지 확인합니다.",
-                "command": "ollama",
-                "expectedResult": "Ollama 프롬프트가 나타나거나 사용 가능한 명령 목록이 표시됩니다."
-              }
-            ]
-          },
-          {
-            "name": "Linux",
-            "terminalHelp": [
-              "Ctrl + Alt + T를 누르거나, 애플리케이션 메뉴에서 '터미널'을 검색하여 실행합니다. Windows의 경우 Docker Desktop이 설치되어 있다면 PowerShell 또는 명령 프롬프트에서 Docker 명령을 실행할 수 있습니다. macOS의 경우 터미널을 실행합니다."
-            ],
-            "steps": [
-              {
-                "order": 1,
-                "title": "Docker 이미지 다운로드",
-                "description": "Ollama 공식 Docker 이미지를 다운로드합니다. 이 단계는 Docker가 시스템에 설치되어 있고 실행 중임을 전제로 합니다.",
-                "command": "docker pull ollama/ollama",
-                "expectedResult": "Ollama Docker 이미지가 로컬에 저장됩니다."
-              },
-              {
-                "order": 2,
-                "title": "Ollama 컨테이너 실행",
-                "description": "Ollama 컨테이너를 백그라운드에서 실행하고, 모델 데이터 저장을 위한 볼륨을 마운트하며, Ollama 서비스 포트(11434)를 호스트에 매핑합니다.",
-                "command": "docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama",
-                "expectedResult": "Ollama 컨테이너 ID가 출력되고 컨테이너가 백그라운드에서 실행됩니다."
-              },
-              {
-                "order": 3,
-                "title": "Ollama 컨테이너 접속 및 모델 실행",
-                "description": "실행 중인 Ollama 컨테이너에 접속하여 'gemma4' 모델을 실행합니다. 이 명령은 모델을 다운로드하고 채팅 프롬프트를 시작합니다. 모델 다운로드에는 시간이 걸릴 수 있습니다.",
-                "command": "docker exec -it ollama ollama run gemma4",
-                "expectedResult": "Gemma 4 모델이 다운로드되고 채팅 프롬프트가 나타납니다."
+                "title": "Ollama 실행 및 모델 다운로드",
+                "description": "설치 완료 후, 터미널을 열고 'ollama run gemma4' 명령어를 입력하여 Gemma 4 모델을 다운로드하고 실행하세요. 다른 모델은 ollama.com/library에서 찾아볼 수 있습니다.",
+                "command": "ollama run gemma4",
+                "expectedResult": "Gemma 4 모델 다운로드가 시작되고, 완료되면 모델과 대화할 수 있는 프롬프트가 나타납니다."
               }
             ]
           }
         ],
-        "firstRunResult": "Ollama 프롬프트가 나타나거나, 'ollama run [모델명]' 명령을 통해 모델을 다운로드하고 채팅을 시작할 수 있습니다.",
-        "stopInstructions": "README에 명시된 종료 지침이 없습니다. 일반적으로 터미널에서 실행 중인 경우 Ctrl+C로 종료할 수 있습니다. 백그라운드 서비스로 실행되는 경우 운영 체제별 서비스 관리 도구를 사용해야 할 수 있습니다.",
-        "uninstallInstructions": "README에 명시된 제거 지침이 없습니다. 운영 체제별 애플리케이션 제거 절차를 따르세요.",
+        "firstRunResult": "Ollama를 처음 실행하면, 'ollama run [모델명]' 명령어를 통해 모델을 다운로드하고 실행할 수 있습니다. 예를 들어, 'ollama run gemma4'를 실행하면 Gemma 4 모델이 다운로드되고, 다운로드 완료 후 모델과 대화할 수 있는 프롬프트가 나타납니다.",
+        "stopInstructions": "Ollama 데스크톱 애플리케이션의 경우, 앱을 종료하면 실행이 중지됩니다. 터미널에서 실행 중인 Ollama 프로세스는 Ctrl + C를 눌러 중지할 수 있습니다. 백그라운드 서비스로 실행 중인 경우, 운영 체제별 서비스 관리 도구를 사용해야 할 수 있습니다 (자세한 내용은 공식 문서를 참조하세요).",
+        "uninstallInstructions": "macOS 및 Windows의 경우, 일반적인 애플리케이션 제거 절차를 따릅니다 (예: macOS에서는 Applications 폴더에서 Ollama 앱을 휴지통으로 드래그, Windows에서는 '앱 및 기능'에서 Ollama를 제거). Linux의 경우, 수동 설치 방법에 따라 설치된 파일을 직접 제거해야 합니다. 자세한 내용은 공식 문서를 참조하세요.",
         "commonIssues": [
           {
-            "problem": "README에 명시된 일반적인 문제 및 해결책이 없습니다.",
-            "solution": "Ollama 공식 문서(https://docs.ollama.com)를 참조하여 문제 해결 방법을 찾으세요."
+            "problem": "README에 명시된 일반적인 문제가 없습니다.",
+            "solution": "Ollama 공식 문서(https://docs.ollama.com)에서 문제 해결 섹션을 확인하거나 커뮤니티 지원을 이용하세요."
           }
         ],
         "officialDocsUrl": "https://docs.ollama.com",
-        "verifiedAt": "2026-10-13"
+        "verifiedAt": "2026-10-14"
       }
     }
   },
