@@ -4546,5 +4546,164 @@
       "officialDocsUrl": "https://github.com/robbietilton/Compositor/releases/latest",
       "verifiedAt": "2026-10-13"
     }
+  },
+  {
+    "id": "storytold/lightcraft",
+    "category": "design",
+    "summary": "LightCraft는 macOS, Windows, Linux 및 웹에서 사용할 수 있는 오픈 소스 비파괴 사진 편집기입니다. Adobe Lightroom의 기능을 Rust로 재구현하여 사진 라이브러리 관리 및 RAW 파일 현상 기능을 제공합니다.",
+    "whatItIs": "LightCraft는 순수 Rust로 작성된 오픈 소스 비파괴 사진 편집기입니다. Adobe Lightroom의 기능을 클린룸 방식으로 재구현하여 사진 라이브러리 관리, RAW 파일 현상, 고급 색상 보정, 마스킹, 프리셋 적용 등 포괄적인 사진 편집 기능을 제공합니다. 데스크톱 애플리케이션과 웹 브라우저 버전으로 제공됩니다.",
+    "problemSolved": "LightCraft는 사용자들이 사진을 비파괴 방식으로 편집하고 RAW 파일을 현상할 수 있도록 하여 원본 손상 없이 고품질의 결과물을 얻을 수 있게 합니다. 또한, 복잡한 편집 과정을 간소화하고, AI 에이전트를 통한 자동화 기능도 지원하여 효율적인 사진 작업을 돕습니다.",
+    "recommendedFor": [
+      "사진작가",
+      "콘텐츠 크리에이터",
+      "사진 편집을 위한 무료 오픈 소스 대안을 찾는 사용자",
+      "AI 기반 사진 편집 자동화에 관심 있는 개발자"
+    ],
+    "keyFeatures": [
+      "비파괴 편집 및 32비트 플로트 파이프라인으로 고품질 이미지 처리",
+      "고급 색상 보정 (색상 등급, 색상 믹서) 및 정교한 마스킹 도구",
+      "사진 라이브러리 관리, 프리셋, 크롭 및 기하학적 보정 기능"
+    ],
+    "useCases": [
+      "RAW 파일 현상 및 보정",
+      "사진 라이브러리 정리 및 관리",
+      "전문적인 색상 보정 및 스타일 적용",
+      "AI 에이전트를 활용한 사진 편집 워크플로우 자동화"
+    ],
+    "tags": [
+      "사진 편집",
+      "RAW 현상",
+      "오픈 소스",
+      "비파괴 편집",
+      "사진 라이브러리",
+      "Rust",
+      "WebAssembly",
+      "AI 자동화"
+    ],
+    "difficulty": "beginner",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "LightCraft는 무료 오픈 소스 소프트웨어입니다. 모든 기능을 추가 비용 없이 사용할 수 있습니다.",
+    "apiKeyRequired": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "Web"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Windows, macOS, Linux 운영체제 또는 최신 웹 브라우저",
+        "안정적인 인터넷 연결 (설치 파일 다운로드 및 웹 버전 접속용)"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "LightCraft 공식 웹사이트(https://getartcraft.com/apps/lightcraft)에서 Windows용 MSI 설치 파일을 다운로드하세요. x64 (64비트 Intel/AMD) 버전을 권장합니다.",
+              "expectedResult": "lightcraft-<버전>-windows-x64.msi 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 마법사 실행",
+              "description": "다운로드한 MSI 파일을 두 번 클릭하여 설치 마법사를 시작합니다. 화면의 지시에 따라 LightCraft를 설치하세요.",
+              "expectedResult": "LightCraft 애플리케이션이 컴퓨터에 설치됩니다."
+            },
+            {
+              "order": 3,
+              "title": "LightCraft 실행",
+              "description": "설치가 완료되면 시작 메뉴 또는 바탕 화면의 LightCraft 아이콘을 클릭하여 애플리케이션을 실행합니다.",
+              "expectedResult": "LightCraft 애플리케이션이 시작되고 사진 라이브러리 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "steps": [
+            {
+              "order": 1,
+              "title": "설치 파일 다운로드",
+              "description": "LightCraft 공식 웹사이트(https://getartcraft.com/apps/lightcraft)에서 macOS용 DMG 설치 파일을 다운로드하세요. 유니버설(Apple Silicon + Intel) 버전을 권장합니다.",
+              "expectedResult": "lightcraft-<버전>-macos-universal.dmg 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "애플리케이션 설치",
+              "description": "다운로드한 DMG 파일을 열고, LightCraft 애플리케이션 아이콘을 'Applications' 폴더로 드래그하여 설치합니다.",
+              "expectedResult": "LightCraft 애플리케이션이 'Applications' 폴더에 복사됩니다."
+            },
+            {
+              "order": 3,
+              "title": "LightCraft 실행",
+              "description": "'Applications' 폴더에서 LightCraft 아이콘을 찾아 클릭하여 애플리케이션을 실행합니다.",
+              "expectedResult": "LightCraft 애플리케이션이 시작되고 사진 라이브러리 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "파일 관리자를 열려면 일반적으로 바탕 화면이나 애플리케이션 메뉴에서 '파일' 또는 '홈' 아이콘을 클릭합니다.",
+            "다운로드한 파일이 있는 디렉토리로 이동하세요 (예: '다운로드' 폴더)."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "AppImage 파일 다운로드",
+              "description": "LightCraft 공식 웹사이트(https://getartcraft.com/apps/lightcraft)에서 Linux용 AppImage 파일을 다운로드하세요. x86_64 버전을 권장합니다.",
+              "expectedResult": "lightcraft-<버전>-linux-x86_64.AppImage 파일이 다운로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "실행 권한 부여",
+              "description": "다운로드한 AppImage 파일을 마우스 오른쪽 버튼으로 클릭하고 '속성' 또는 '권한' 메뉴를 선택합니다. '실행 파일로 허용' 또는 '프로그램으로 실행' 옵션을 체크하여 실행 권한을 부여합니다. 일부 시스템에서는 이 단계가 필요 없을 수도 있습니다.",
+              "expectedResult": "AppImage 파일에 실행 권한이 부여됩니다."
+            },
+            {
+              "order": 3,
+              "title": "LightCraft 실행",
+              "description": "파일 관리자에서 실행 권한이 부여된 AppImage 파일을 두 번 클릭하여 LightCraft를 실행합니다.",
+              "expectedResult": "LightCraft 애플리케이션이 시작되고 사진 라이브러리 화면이 나타납니다."
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "steps": [
+            {
+              "order": 1,
+              "title": "LightCraft 웹 버전 접속",
+              "description": "최신 웹 브라우저(Chrome, Firefox, Safari 등)를 열고 LightCraft 웹 버전 URL(https://getartcraft.com/apps/lightcraft)에 접속합니다. 웹 버전은 별도의 설치 없이 바로 사용할 수 있습니다.",
+              "expectedResult": "LightCraft 웹 인터페이스가 브라우저에 로드됩니다."
+            },
+            {
+              "order": 2,
+              "title": "사진 가져오기 및 편집",
+              "description": "웹 인터페이스에서 '사진 가져오기' 또는 유사한 옵션을 사용하여 사진을 업로드하고 편집을 시작합니다.",
+              "expectedResult": "사진이 LightCraft 웹 버전에 로드되고 편집할 수 있는 상태가 됩니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "LightCraft 애플리케이션이 처음 실행되면 기본 사진 라이브러리 또는 데모 사진이 표시됩니다. 새로운 사진을 가져오거나 기존 사진을 편집할 수 있는 인터페이스가 나타납니다.",
+      "stopInstructions": "애플리케이션 창을 닫거나, 메뉴 바에서 '파일(File)' > '종료(Quit)'를 선택하여 LightCraft를 종료할 수 있습니다. 웹 버전은 브라우저 탭을 닫으면 됩니다.",
+      "uninstallInstructions": "Windows: '설정' > '앱' > '앱 및 기능'에서 LightCraft를 찾아 제거합니다. macOS: 'Applications' 폴더에서 LightCraft 애플리케이션을 휴지통으로 드래그합니다. Linux (AppImage): 다운로드한 AppImage 파일을 삭제합니다. 웹 버전은 별도의 제거 과정이 필요 없습니다.",
+      "commonIssues": [
+        {
+          "problem": "메모리 제약이 있는 시스템에서 릴리스 빌드 실패",
+          "solution": "메모리가 부족한 시스템에서 LightCraft를 소스 코드로부터 빌드할 때 OOM(Out Of Memory) 오류가 발생할 수 있습니다. 이 경우, `CARGO_BUILD_JOBS=1 cargo build --release -p lightcraft -p lightcraft-cli`와 같이 빌드 작업 수를 제한하여 시도하거나, `CARGO_PROFILE_RELEASE_DEBUG=0 CARGO_PROFILE_RELEASE_LTO=false CARGO_PROFILE_RELEASE_CODEGEN_UNITS=16`와 같은 환경 변수를 사용하여 디버그 정보 및 LTO 설정을 비활성화하여 메모리 사용량을 줄일 수 있습니다."
+        },
+        {
+          "problem": "중국어 및 일본어 텍스트가 제대로 표시되지 않음",
+          "solution": "LightCraft는 기본적으로 영어 텍스트를 지원하며, 중국어 및 일본어 텍스트를 올바르게 표시하려면 추가 글꼴 리포지토리(craft-fonts)가 필요합니다. 공식 릴리스 버전에는 포함되어 있지만, 소스 코드에서 빌드하는 경우 `git clone https://github.com/storytold/craft-fonts ../craft-fonts` 명령으로 글꼴 리포지토리를 클론한 후 `CRAFT_FONTS_DIR=../craft-fonts cargo run --release -p lightcraft` 명령으로 빌드해야 합니다."
+        }
+      ],
+      "officialDocsUrl": "https://getartcraft.com/apps/lightcraft",
+      "verifiedAt": "2026-10-16"
+    }
   }
 ]
