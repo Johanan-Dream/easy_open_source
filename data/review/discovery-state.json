@@ -312,10 +312,10 @@
     "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: start-here.bat; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: setup.sh; guide.platforms.2.steps.1.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: setup.sh"
   },
   "storytold/photocraft": {
-    "readmeHash": "c384c213152c43316458c123a98ad1e9e4d072867bdd84d5869441af95e10df2",
+    "readmeHash": "ed30c0afc2dd258f535fc48a99c0e1d8499e03fb7617b78872455ce95687bf9e",
     "status": "rejected",
-    "checkedAt": "2026-10-14",
-    "reason": "이 프로젝트는 'early alpha' 단계에 있으며, 일상적인 전문 작업에 Adobe Photoshop을 대체할 수 있는 수준이 아니라고 명시되어 있습니다. 따라서 비개발자나 협업 직군이 바로 사용할 수 있는 완성된 도구로 보기 어렵습니다."
+    "checkedAt": "2026-10-17",
+    "reason": "프로젝트가 아직 '초기 알파' 단계이며, 일상적인 전문 작업에 사용하기에는 기능적 격차가 크다고 명시되어 있어 미완성 프로젝트로 판단됩니다."
   },
   "streetwriters/notesnook": {
     "readmeHash": "16c8ed53b093b4ca1637ef2e633e57558ba76fdd22e8fb7e218f6d5bc46f334b",
@@ -384,10 +384,10 @@
     "reason": "Error: guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.2.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: 다운로드한_파일_이름"
   },
   "Ebony-Vinyl/dsh-our-free-model": {
-    "readmeHash": "ec5e1cdd46f1d462dbd21d8397d242d6177765454d421c5f879ff7e03b4d86dc",
+    "readmeHash": "7b53d96abbd45b7bc54f9244896a65299da27644c9a03fddd035864b250af01c",
     "status": "rejected",
-    "checkedAt": "2026-10-16",
-    "reason": "이 프로젝트는 DeepSeek Harness(dsh)의 플러그인으로, 독립적으로 실행되는 완성된 도구가 아닙니다. 설치 과정은 `dsh` 환경에 대한 이해와 명령줄 사용을 요구하므로 비개발자나 개발자와 협업하는 직군이 직접 설치하여 사용하기에는 적합하지 않습니다. 또한, 독립형 로컬 서비스는 아직 개발 중이며 릴리스되지 않았습니다."
+    "checkedAt": "2026-10-17",
+    "reason": "이 프로젝트는 DeepSeek Harness(dsh)의 플러그인이며, 독립형 로컬 서비스는 아직 개발 중이고 릴리스되지 않았습니다. 플러그인 설치는 dsh CLI 명령어를 사용하거나 수동으로 파일을 복사하고 package.json을 수정하는 등 비개발자에게는 복잡할 수 있습니다. 특히 macOS 커뮤니티 빌드는 Gatekeeper를 우회하기 위한 추가적인 수동 조작이 필요하여 일반 사용자가 직접 설치하기에는 완성된 도구로 보기 어렵습니다."
   },
   "storytold/pdfcraft": {
     "readmeHash": "4e9ab1bb98b41ae5c40105ac76515c9d96c397d6e4470f519f2fdc3d9da39fdd",
@@ -408,10 +408,10 @@
     "reason": "Error: 공식 문서 URL이 GitHub 또는 공식 홈페이지 도메인과 일치하지 않습니다."
   },
   "yetone/magpie": {
-    "readmeHash": "65efcd20d830756031f134ba4a0558813aed378238775f37e23b6f988f2497f8",
+    "readmeHash": "7679c170c88766c70b948679682541e92488673246297086100c480c1b9ff991",
     "status": "rejected",
-    "checkedAt": "2026-10-16",
-    "reason": "Error: guide.platforms.2.terminalHelp.0: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.3: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
+    "checkedAt": "2026-10-17",
+    "reason": "Error: guide.platforms.0.terminalHelp.0: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.1.terminalHelp.0: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.1.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.1.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.0: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.1: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.2.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
   },
   "wheresryan22/anatomy": {
     "readmeHash": "f1f945a19f969707bfae320c77244707d555f5062ac94cd098e7d4942e685d61",
@@ -430,5 +430,17 @@
     "status": "added",
     "checkedAt": "2026-10-16",
     "reason": "LightCraft는 macOS, Windows, Linux용 네이티브 애플리케이션과 웹 브라우저에서 WebAssembly를 통해 사용할 수 있는 완성된 비파괴 사진 편집 도구입니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군 모두 쉽게 설치하고 사용할 수 있습니다."
+  },
+  "documenso/documenso": {
+    "readmeHash": "e4c101ce290f8819a4414964da83caad5be887e70be9d45a4b288b848adb41f2",
+    "status": "rejected",
+    "checkedAt": "2026-10-17",
+    "reason": "Error: guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
+  },
+  "mealie-recipes/mealie": {
+    "readmeHash": "7a87d6463aba4d2050b89eb4e069b18e5b25ba268372234edbd8d6e8b34650fc",
+    "status": "rejected",
+    "checkedAt": "2026-10-17",
+    "reason": "제공된 README에는 Mealie를 설치하고 실행하기 위한 구체적인 단계별 지침이 포함되어 있지 않아, 비개발자도 쉽게 따라 할 수 있는 설치 가이드를 작성하기 어렵습니다."
   }
 }
