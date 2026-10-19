@@ -4705,5 +4705,311 @@
       "officialDocsUrl": "https://getartcraft.com/apps/lightcraft",
       "verifiedAt": "2026-10-16"
     }
+  },
+  {
+    "id": "yetone/magpie",
+    "category": "ai-automation",
+    "summary": "magpie는 여러 AI 에이전트와 모델을 한곳에서 관리하고, 다양한 AI 제공업체의 API 키와 구독을 통합하여 효율적으로 사용할 수 있게 돕는 도구입니다.",
+    "whatItIs": "magpie는 macOS, Windows, Linux에서 실행되는 데스크톱 애플리케이션으로, 사용자가 여러 AI 에이전트(예: Claude Code, Codex, Gemini CLI)에서 다양한 AI 모델(예: DeepSeek, Kimi, Claude Opus)을 쉽게 선택하고 전환할 수 있도록 지원합니다. 하나의 로컬 게이트웨이를 통해 모든 요청을 처리하며, API 할당량이 소진되면 자동으로 다른 계정이나 모델로 전환하는 기능을 제공합니다. 메뉴 바 앱, 창 기반 UI, 터미널 UI(TUI), 웹 UI 및 CLI를 포함한 다양한 인터페이스를 제공합니다.",
+    "problemSolved": "여러 AI 에이전트와 모델을 사용할 때 각기 다른 설정 파일, API 키, 구독을 개별적으로 관리해야 하는 번거로움을 해결합니다. 또한, 특정 모델의 할당량이 소진되었을 때 수동으로 다른 모델로 전환해야 하는 불편함을 없애고, 여러 AI 서비스의 비용과 사용량을 한눈에 파악하기 어렵다는 문제를 해결합니다.",
+    "recommendedFor": [
+      "다수의 AI 에이전트와 모델을 사용하는 개발자",
+      "여러 AI 서비스 구독을 효율적으로 관리하고 싶은 사용자",
+      "AI 모델 사용량과 비용을 추적하고 싶은 팀",
+      "AI 기반 코딩 도구를 활용하는 비개발자 및 협업 직군"
+    ],
+    "keyFeatures": [
+      "단일 앱에서 모든 AI 에이전트의 모델 관리 및 전환",
+      "여러 AI 제공업체(API 키, 구독, 로컬 모델) 통합 및 자동 할당량 전환",
+      "실시간 사용량, 비용 추적 및 라우팅 그룹을 통한 요청 분산"
+    ],
+    "useCases": [
+      "다양한 AI 코딩 도구(Claude Code, Codex 등)에서 여러 모델을 유연하게 사용",
+      "API 할당량 걱정 없이 여러 AI 계정을 오가며 작업 지속",
+      "팀 내에서 AI 모델 사용량과 비용을 효율적으로 관리",
+      "특정 작업에 최적화된 모델을 자동으로 선택하여 생산성 향상"
+    ],
+    "tags": [
+      "AI",
+      "모델 관리",
+      "API 게이트웨이",
+      "생산성",
+      "개발자 도구",
+      "AI 에이전트",
+      "자동화",
+      "비용 관리"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "desktop-installer",
+    "costSummary": "magpie 자체는 오픈 소스이며 무료로 사용할 수 있습니다. 그러나 magpie를 통해 연결하는 다양한 AI 모델 및 제공업체(예: OpenAI, Anthropic, Google Gemini)는 각 서비스의 요금 정책에 따라 비용이 발생할 수 있습니다. magpie는 이러한 비용과 사용량을 추적하는 기능을 제공합니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Windows 10 이상 운영체제",
+        "macOS 11 (Big Sur) 이상 운영체제",
+        "Linux 운영체제 (데스크톱 환경)"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "terminalHelp": [
+            "명령 프롬프트 또는 PowerShell을 엽니다.",
+            "설치된 magpie 애플리케이션의 CLI 기능을 사용하려면 magpie 명령어를 입력합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "공식 웹사이트 방문",
+              "description": "웹 브라우저를 열고 magpie 공식 다운로드 페이지인 https://usemagpie.ai 에 접속합니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "웹사이트에서 Windows용 설치 파일을 찾아 다운로드합니다. 일반적으로 .exe 확장자를 가집니다."
+            },
+            {
+              "order": 3,
+              "title": "설치 프로그램 실행",
+              "description": "다운로드한 .exe 파일을 두 번 클릭하여 설치 프로그램을 실행합니다. 화면의 지시에 따라 설치를 완료합니다."
+            },
+            {
+              "order": 4,
+              "title": "magpie 실행",
+              "description": "설치가 완료되면 시작 메뉴 또는 바탕화면의 바로 가기를 통해 magpie 애플리케이션을 실행합니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "terminalHelp": [
+            "터미널 앱을 엽니다.",
+            "설치된 magpie 애플리케이션의 CLI 기능을 사용하려면 magpie 명령어를 입력합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "공식 웹사이트 방문",
+              "description": "웹 브라우저를 열고 magpie 공식 다운로드 페이지인 https://usemagpie.ai 에 접속합니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "웹사이트에서 macOS용 설치 파일을 찾아 다운로드합니다. 일반적으로 .dmg 또는 .zip 확장자를 가집니다."
+            },
+            {
+              "order": 3,
+              "title": "설치 프로그램 실행",
+              "description": "다운로드한 파일을 열고, magpie 애플리케이션 아이콘을 응용 프로그램 폴더로 드래그하여 설치합니다."
+            },
+            {
+              "order": 4,
+              "title": "magpie 실행",
+              "description": "응용 프로그램 폴더에서 magpie를 찾아 실행합니다. 처음 실행 시 보안 경고가 나타날 수 있으며, 시스템 설정에서 허용해야 할 수 있습니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "terminalHelp": [
+            "터미널을 엽니다.",
+            "설치된 magpie 애플리케이션의 CLI 기능을 사용하려면 magpie 명령어를 입력합니다."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "title": "공식 웹사이트 방문",
+              "description": "웹 브라우저를 열고 magpie 공식 다운로드 페이지인 https://usemagpie.ai 에 접속합니다."
+            },
+            {
+              "order": 2,
+              "title": "설치 파일 다운로드",
+              "description": "웹사이트에서 Linux용 설치 파일(예: .deb, .rpm 또는 AppImage)을 찾아 다운로드합니다."
+            },
+            {
+              "order": 3,
+              "title": "설치 또는 실행",
+              "description": "다운로드한 파일의 종류에 따라 설치 방법이 다릅니다. .deb 또는 .rpm 파일은 패키지 관리자를 통해 설치하고, AppImage는 실행 권한을 부여한 후 직접 실행할 수 있습니다."
+            },
+            {
+              "order": 4,
+              "title": "magpie 실행",
+              "description": "설치 또는 실행 후, 애플리케이션 메뉴에서 magpie를 찾아 실행합니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "magpie 애플리케이션이 실행되고 메뉴 바(macOS) 또는 시스템 트레이(Windows, Linux)에 아이콘이 나타납니다. 초기 설정 화면 또는 에이전트 및 제공업체 추가 화면이 표시될 수 있습니다.",
+      "commonIssues": [
+        {
+          "problem": "magpie가 실행되지 않거나 메뉴 바/시스템 트레이에 아이콘이 나타나지 않습니다.",
+          "solution": "설치 파일이 손상되었을 수 있으므로, 공식 웹사이트에서 다시 다운로드하여 설치를 시도해 보세요. 또한, 운영체제의 보안 설정이나 방화벽이 magpie의 실행을 차단하고 있는지 확인하고 필요한 경우 예외를 추가해야 합니다."
+        },
+        {
+          "problem": "AI 모델을 추가하려고 할 때 API 키 오류가 발생합니다.",
+          "solution": "입력한 API 키가 올바른지 다시 확인하세요. API 키는 대소문자를 구분하며, 유효 기간이 만료되었거나 해당 서비스에서 접근 권한이 없는 키일 수 있습니다. 각 AI 제공업체의 공식 문서를 참조하여 API 키 발급 및 사용 정책을 확인하는 것이 좋습니다."
+        }
+      ],
+      "officialDocsUrl": "https://usemagpie.ai/docs/start",
+      "verifiedAt": "2026-10-19"
+    }
+  },
+  {
+    "id": "YishenTu/claudian",
+    "category": "developer-tools",
+    "summary": "Obsidian 볼트 내에서 다양한 AI 코딩 에이전트를 활용하여 코드 작업 및 문서 편집을 지원하는 플러그인입니다.",
+    "whatItIs": "Claudian은 Obsidian 사용자가 자신의 노트 볼트 내에서 Claude Code, Codex, Grok Build, OpenCode, Pi, DeepSeek Harness 등 다양한 AI 코딩 에이전트를 직접 사용할 수 있게 해주는 플러그인입니다. 사용자의 볼트가 에이전트의 작업 디렉토리가 되어 파일 읽기/쓰기, 검색, Bash 명령 실행 및 다단계 워크플로우를 지원합니다.",
+    "problemSolved": "개발자와 협업하는 직군이나 코딩 작업을 하는 사용자가 Obsidian 내에서 직접 AI의 도움을 받아 코드를 작성하고 편집하며, 파일 시스템에 접근하여 작업을 자동화하는 데 필요한 통합된 환경을 제공합니다. 여러 도구를 오갈 필요 없이 Obsidian 내에서 AI 코딩 에이전트의 기능을 활용할 수 있습니다.",
+    "recommendedFor": [
+      "Obsidian 사용자",
+      "개발자",
+      "기술 문서 작성자",
+      "AI 기반 코딩 지원을 원하는 사용자"
+    ],
+    "keyFeatures": [
+      "노트 내 직접 편집 (Inline Edit): 선택된 텍스트 또는 커서 위치에서 핫키를 사용하여 노트 내에서 직접 편집하고 단어 단위의 차이 미리보기를 제공합니다.",
+      "젠 모드 (Zen Mode): Claudian 사이드바를 접고 채팅을 노트 하단의 간결한 컴포저로 이동시켜 집중도를 높입니다.",
+      "슬래시 명령 및 스킬 (Slash Commands & Skills): '/' 또는 '$'를 입력하여 재사용 가능한 프롬프트 템플릿이나 사용자 및 볼트 수준 스킬을 활용합니다."
+    ],
+    "useCases": [
+      "Obsidian 노트 내에서 코드 스니펫 생성 및 수정",
+      "AI 에이전트를 활용한 파일 시스템 탐색 및 명령 실행",
+      "다양한 AI 코딩 에이전트와의 대화를 통한 문제 해결 및 아이디어 구상",
+      "문서 내에서 코드 변경 사항을 실시간으로 미리보기"
+    ],
+    "tags": [
+      "Obsidian",
+      "AI",
+      "코딩 에이전트",
+      "생산성",
+      "개발자 도구",
+      "플러그인",
+      "코드 생성",
+      "텍스트 편집"
+    ],
+    "difficulty": "intermediate",
+    "usageType": "desktop",
+    "guideType": "package-manager",
+    "costSummary": "Claudian 플러그인 자체는 무료 오픈 소스입니다. 하지만 Claude Code, Codex, Grok Build, OpenCode, Pi, DeepSeek Harness 등 지원되는 AI 코딩 에이전트를 사용하려면 해당 서비스의 유료 구독 또는 API 사용 요금이 발생할 수 있습니다.",
+    "apiKeyRequired": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "guide": {
+      "prerequisites": [
+        "Obsidian v1.13.0 이상 설치",
+        "Claude Code, Codex, DeepSeek Harness, Grok Build, OpenCode, 또는 Pi 중 하나 이상의 AI 코딩 에이전트 설치 및 설정",
+        "호환되는 구독 또는 API 제공자 계정"
+      ],
+      "estimatedMinutes": 10,
+      "platforms": [
+        {
+          "name": "Windows",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Obsidian 설정 열기",
+              "description": "Obsidian을 실행하고 왼쪽 하단의 톱니바퀴 아이콘을 클릭하여 '설정'을 엽니다."
+            },
+            {
+              "order": 2,
+              "title": "커뮤니티 플러그인으로 이동",
+              "description": "설정 메뉴에서 '커뮤니티 플러그인'을 선택합니다."
+            },
+            {
+              "order": 3,
+              "title": "플러그인 검색 및 설치",
+              "description": "'커뮤니티 플러그인' 섹션에서 '찾아보기' 버튼을 클릭합니다. 검색창에 \"Claudian\"을 입력하고 검색 결과에서 \"Claudian\" 플러그인을 찾아 '설치' 버튼을 클릭합니다."
+            },
+            {
+              "order": 4,
+              "title": "플러그인 활성화",
+              "description": "설치가 완료되면 '커뮤니티 플러그인' 설정으로 돌아와 \"Claudian\" 플러그인 옆의 토글 스위치를 켜서 활성화합니다."
+            }
+          ]
+        },
+        {
+          "name": "macOS",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Obsidian 설정 열기",
+              "description": "Obsidian을 실행하고 왼쪽 하단의 톱니바퀴 아이콘을 클릭하여 '설정'을 엽니다."
+            },
+            {
+              "order": 2,
+              "title": "커뮤니티 플러그인으로 이동",
+              "description": "설정 메뉴에서 '커뮤니티 플러그인'을 선택합니다."
+            },
+            {
+              "order": 3,
+              "title": "플러그인 검색 및 설치",
+              "description": "'커뮤니티 플러그인' 섹션에서 '찾아보기' 버튼을 클릭합니다. 검색창에 \"Claudian\"을 입력하고 검색 결과에서 \"Claudian\" 플러그인을 찾아 '설치' 버튼을 클릭합니다."
+            },
+            {
+              "order": 4,
+              "title": "플러그인 활성화",
+              "description": "설치가 완료되면 '커뮤니티 플러그인' 설정으로 돌아와 \"Claudian\" 플러그인 옆의 토글 스위치를 켜서 활성화합니다."
+            }
+          ]
+        },
+        {
+          "name": "Linux",
+          "steps": [
+            {
+              "order": 1,
+              "title": "Obsidian 설정 열기",
+              "description": "Obsidian을 실행하고 왼쪽 하단의 톱니바퀴 아이콘을 클릭하여 '설정'을 엽니다."
+            },
+            {
+              "order": 2,
+              "title": "커뮤니티 플러그인으로 이동",
+              "description": "설정 메뉴에서 '커뮤니티 플러그인'을 선택합니다."
+            },
+            {
+              "order": 3,
+              "title": "플러그인 검색 및 설치",
+              "description": "'커뮤니티 플러그인' 섹션에서 '찾아보기' 버튼을 클릭합니다. 검색창에 \"Claudian\"을 입력하고 검색 결과에서 \"Claudian\" 플러그인을 찾아 '설치' 버튼을 클릭합니다."
+            },
+            {
+              "order": 4,
+              "title": "플러그인 활성화",
+              "description": "설치가 완료되면 '커뮤니티 플러그인' 설정으로 돌아와 \"Claudian\" 플러그인 옆의 토글 스위치를 켜서 활성화합니다."
+            }
+          ]
+        }
+      ],
+      "firstRunResult": "Obsidian 사이드바에 Claudian 아이콘이 나타나고, 클릭하면 Claudian 인터페이스가 열리며 AI 에이전트와 대화를 시작할 수 있습니다.",
+      "stopInstructions": "Obsidian에서 Claudian 플러그인을 비활성화하려면, Obsidian 설정 → 커뮤니티 플러그인으로 이동하여 \"Claudian\" 플러그인 옆의 토글 스위치를 끄면 됩니다.",
+      "uninstallInstructions": "Obsidian에서 Claudian 플러그인을 제거하려면, Obsidian 설정 → 커뮤니티 플러그인으로 이동하여 \"Claudian\" 플러그인 옆의 토글 스위치를 끈 다음, 플러그인 목록에서 \"Claudian\"을 찾아 휴지통 아이콘을 클릭하여 제거합니다.",
+      "commonIssues": [
+        {
+          "problem": "\"Provider CLI not found\" 또는 'spawn claude ENOENT'와 같은 오류가 발생합니다.",
+          "solution": "Claudian이 AI 에이전트 CLI를 자동으로 감지하지 못하는 경우, 해당 CLI가 설치되어 있고 시스템 PATH에 올바르게 추가되었는지 확인해야 합니다. Obsidian 설정 → Claudian → Providers에서 해당 AI 에이전트의 설치 경로를 수동으로 지정할 수 있습니다. macOS/Linux에서는 Obsidian을 다시 로드하거나 로그인 셸의 PATH 설정을 확인해야 할 수 있습니다. Windows에서는 환경 변수 변경 후 Obsidian을 재시작해야 합니다."
+        },
+        {
+          "problem": "새로 출시된 AI 모델이 Claudian 인터페이스에 나타나지 않습니다.",
+          "solution": "먼저 해당 AI 에이전트의 CLI 또는 애플리케이션을 최신 버전으로 업데이트하고, 해당 모델이 에이전트 자체에서 사용 가능한지 확인합니다. 그 다음 Obsidian 설정 → Claudian → Providers에서 해당 에이전트를 선택하고 'Models' 섹션에서 'Discover' 버튼을 클릭하여 모델 목록을 새로 고칩니다."
+        },
+        {
+          "problem": "npm으로 설치된 CLI를 사용할 때 Node.js를 찾을 수 없다는 오류가 발생합니다.",
+          "solution": "npm으로 설치된 CLI는 Node.js가 필요합니다. Claudian은 CLI 옆 또는 PATH에서 Node.js를 찾습니다. `dirname $(which node)` 명령어를 사용하여 Node.js의 경로를 확인하고, 해당 경로를 Obsidian 설정 → Claudian → General → Environment → Shared environment의 PATH에 추가하거나, Node.js를 네이티브 바이너리로 설치하는 것을 권장합니다."
+        },
+        {
+          "problem": "CLI 구독은 작동하지만 Obsidian 내에서 인증 실패('authentication_failed') 오류가 발생합니다.",
+          "solution": "시스템 환경 변수에 `ANTHROPIC_API_KEY` 또는 `ANTHROPIC_AUTH_TOKEN`과 같은 충돌하는 자격 증명이 설정되어 있을 수 있습니다. Obsidian 설정 → Claudian → Providers → Claude Code → Environment → Custom variables에서 해당 변수를 비워(`ANTHROPIC_API_KEY=`) 설정하여 Claudian이 구독 기반 인증으로 폴백하도록 합니다."
+        }
+      ],
+      "officialDocsUrl": "https://github.com/YishenTu/claudian",
+      "verifiedAt": "2026-10-19"
+    }
   }
 ]
