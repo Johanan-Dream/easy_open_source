@@ -324,10 +324,10 @@
     "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.3.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: notesnook-*.appimage"
   },
   "rommapp/romm": {
-    "readmeHash": "5b08e8e9f1debf879078f5ee94affe45a00d951031f27a89c6847aa68beba699",
+    "readmeHash": "373cf224cbf0ed6b8de5a463d6fd7c215363f5716c6c3a430d53704be28f98bb",
     "status": "rejected",
-    "checkedAt": "2026-10-08",
-    "reason": "RomM은 자체 호스팅 애플리케이션으로, Docker Compose를 이용한 서버 환경 설정이 필요합니다. 이는 비개발자나 기술적 지식이 부족한 사용자가 직접 설치하기에는 복잡하며, 웹에서 바로 사용할 수 있는 서비스 형태가 아닙니다."
+    "checkedAt": "2026-10-25",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "robbietilton/Compositor": {
     "readmeHash": "a545c600553026c7d8cd21e92b38e0b18cae23c9eafbc538890ca7e61a28dcc5",
@@ -390,9 +390,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/pdfcraft": {
-    "readmeHash": "741ec311bf5b709d3fc418f5106302397debebdfee88cff696c0d5414ab4a3da",
+    "readmeHash": "84c573f810ad0446bb728a65b9cd715a652d0dcc6514cd4ccc36c82a3070224b",
     "status": "rejected",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-25",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/filmcraft": {
@@ -492,9 +492,21 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "6cc83d37352634333c62e90952ec36720e7589e97fa9bb9aa50e37619477afb7",
+    "readmeHash": "d2f98e9c75da1105cedb80e1059bd13ff1c718041b8ef8609133191b3578e55c",
     "status": "rejected",
-    "checkedAt": "2026-10-24",
+    "checkedAt": "2026-10-25",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "codexu/note-gen": {
+    "readmeHash": "d17c77e6e9c7ced44a3cff2cc4edcc0676e9cbd791b6eb4be048460d4cdc8231",
+    "status": "rejected",
+    "checkedAt": "2026-10-25",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "KnifeLemon/Filee": {
+    "readmeHash": "e6826c744316abae66e0bb19bd6be875b4d500a718c50c0dcde5994b0fb72152",
+    "status": "rejected",
+    "checkedAt": "2026-10-25",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
