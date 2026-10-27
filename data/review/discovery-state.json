@@ -174,9 +174,9 @@
     "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
   },
   "super-productivity/super-productivity": {
-    "readmeHash": "0e1e8e86418adea0749d3e50f3c22a887b009b2e10d4fba554c7327932ca83f8",
+    "readmeHash": "59c6f682a90cf4f531f7699a924beeb496e78aff96478ece6b5c14b9b2efccb2",
     "status": "rejected",
-    "checkedAt": "2026-10-23",
+    "checkedAt": "2026-10-27",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "browser-use/jev-ultrafast": {
@@ -390,9 +390,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/pdfcraft": {
-    "readmeHash": "84c573f810ad0446bb728a65b9cd715a652d0dcc6514cd4ccc36c82a3070224b",
+    "readmeHash": "af704d34c5fcb2e12fc5fd35a59fd57b8537fc2b408d69c6af49b121f156b952",
     "status": "rejected",
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-10-27",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/filmcraft": {
@@ -420,9 +420,9 @@
     "reason": "Anatomy는 AI 에이전트(예: Claude Code, Antigravity 등)를 위한 스킬(skill)로, 사용자가 직접 웹 브라우저에서 설치 없이 바로 사용하거나 독립적으로 실행할 수 있는 완성된 도구가 아닙니다. 이 프로젝트는 AI 에이전트의 기능을 확장하는 라이브러리 또는 플러그인에 해당하므로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 활용하기에는 적합하지 않습니다."
   },
   "storytold/wordcraft": {
-    "readmeHash": "62d6016490e44a6036b29b199f6c104778b93bed51ef0cce0f5baa064c128573",
+    "readmeHash": "1c952f2dfed1a2cb598ecc7940bbfa8e4d281948068e01d66baaaf903f5d33c2",
     "status": "rejected",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-27",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/lightcraft": {
@@ -507,6 +507,18 @@
     "readmeHash": "ff184e33a378fa8a9e63ddda83d516169ad473b60fe1ac8c7fd21442a9939cf4",
     "status": "rejected",
     "checkedAt": "2026-10-26",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "danielmiessler/LifeOS": {
+    "readmeHash": "496e103aa8181cdc83c8ec06ce3ecde4f6c0285a4e3ef099d00fe092e829a23f",
+    "status": "rejected",
+    "checkedAt": "2026-10-27",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "DuarteSantos8/openGym": {
+    "readmeHash": "09d16a102d3061442647fac74707bc7a32ce980304adf69e95ea6cc0920874b1",
+    "status": "rejected",
+    "checkedAt": "2026-10-27",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
