@@ -390,9 +390,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/pdfcraft": {
-    "readmeHash": "af704d34c5fcb2e12fc5fd35a59fd57b8537fc2b408d69c6af49b121f156b952",
+    "readmeHash": "950ba46b62901fba4b8cc92131130796ee77b3d21658905968ed02bc160ad702",
     "status": "rejected",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-10-29",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/filmcraft": {
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "8bf0a68fb7c1a78ad595201930a286762b03f05b2a587ec19c8004c2081b264b",
+    "readmeHash": "175fc59ebed80ba7801106ee3dea447de8bdf65e96d3406d5b432eefc64a44c5",
     "status": "rejected",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "codexu/note-gen": {
@@ -504,9 +504,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "KnifeLemon/Filee": {
-    "readmeHash": "d326362e95565f2b6291ce02a8630da79ebdb1a1a1c08a8a2502cdc4081de856",
+    "readmeHash": "808793e032b39157f26028d2f964aa96742f5880d5f053ae47b697d3a6d5bd3c",
     "status": "rejected",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "danielmiessler/LifeOS": {
@@ -534,9 +534,15 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "tangency-labs/solidcraft": {
-    "readmeHash": "ea4f18491b72578772d48085f94544b1586e9de860d5e5466410e9e11f6cab99",
+    "readmeHash": "3d8eab4ed1561313a304d41e5692661a740cfd04799ae8af72319f5b17e81ad2",
     "status": "rejected",
-    "checkedAt": "2026-10-28",
+    "checkedAt": "2026-10-29",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "plausible/analytics": {
+    "readmeHash": "48cb983fc85b3fbd91d9cdeaba6864b13d35de5a1e7cd160ab6764b9318ae69f",
+    "status": "rejected",
+    "checkedAt": "2026-10-29",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
