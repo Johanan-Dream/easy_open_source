@@ -192,10 +192,10 @@
     "reason": "ActivityWatch는 사용자가 직접 설치하여 컴퓨터 활동을 자동으로 추적하고 분석할 수 있는 완성된 데스크톱 애플리케이션입니다. 비개발자도 쉽게 사용할 수 있는 GUI를 제공하며, 개인 생산성 관리 및 시간 추적에 유용합니다."
   },
   "jarun/nnn": {
-    "readmeHash": "9d86aa7c29080964983f3bff7f338667e75bf94ffe2cc45d60c920cebabf0551",
+    "readmeHash": "0853df7d24660a432941a0b240576d0901305b33ea4fc6fac3cce4adeeba2c08",
     "status": "rejected",
-    "checkedAt": "2026-09-27",
-    "reason": "nnn은 터미널 기반의 파일 관리자로, 주로 개발자나 CLI 환경에 익숙한 고급 사용자에게 적합합니다. 비개발자나 웹 기반 도구를 선호하는 사용자에게는 적합하지 않으며, 웹에서 직접 사용할 수 있는 완성된 형태의 도구가 아닙니다."
+    "checkedAt": "2026-10-30",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "eternity4719/HowToLiveBetter": {
     "readmeHash": "fff9ee3800a3c7e70466e193b8da0a54a493723deb86346df9814752a74fc9c5",
@@ -312,9 +312,9 @@
     "reason": "Strata는 Qwen3.8-Flash-Next와 같은 최신 대규모 언어 모델을 일반 소비자 하드웨어에서 실행할 수 있도록 설계된 완성된 애플리케이션입니다. 원클릭 설치를 지원하며, GUI 기반의 채팅 인터페이스를 제공하고 OpenAI/Anthropic API와 호환되어 다른 AI 에이전트와 연동할 수 있습니다. 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군 모두 쉽게 설치하고 활용할 수 있는 도구입니다."
   },
   "storytold/photocraft": {
-    "readmeHash": "620731e78f824f535e75fa39bfb2fef1bb290ac74579f02b58e4c425d1d65377",
+    "readmeHash": "f0beaa1d3f2d24482b17a2c4eb04fb09c83fdcbdad25988ad830ecc45a47d38d",
     "status": "rejected",
-    "checkedAt": "2026-10-26",
+    "checkedAt": "2026-10-30",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "streetwriters/notesnook": {
@@ -543,6 +543,24 @@
     "readmeHash": "48cb983fc85b3fbd91d9cdeaba6864b13d35de5a1e7cd160ab6764b9318ae69f",
     "status": "rejected",
     "checkedAt": "2026-10-29",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "tw93/Pake": {
+    "readmeHash": "7bc95f3b160d9e156403d9682a435f3bc2dfed4a47c738e50f2a0dd22bc880f7",
+    "status": "rejected",
+    "checkedAt": "2026-10-30",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "dokku/dokku": {
+    "readmeHash": "cf171ee3417fc0ebc04c678810cdab42d0fb768fdca12946e4267e9f18922413",
+    "status": "rejected",
+    "checkedAt": "2026-10-30",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "liketrek/TREK": {
+    "readmeHash": "b42d796767bb7b81750e9975bd0e1c07bbb567b41c2896e4476b008cea4d5f85",
+    "status": "rejected",
+    "checkedAt": "2026-10-30",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
