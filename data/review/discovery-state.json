@@ -42,10 +42,10 @@
     "reason": "Error: guide.platforms.0: Linux이 저장소 지원 환경에 없습니다."
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "ed4333a7cb809dae74b5276e45f6e437ac3f3741b721891170b395358e9deaa6",
+    "readmeHash": "0cba28d5ff7e3ae8987bc1d3a2710e4cb6e0821ea0ad9a45405d3e9b333c4894",
     "status": "rejected",
-    "checkedAt": "2026-10-06",
-    "reason": "이 프로젝트는 macOS 소프트웨어 목록을 정리한 자료 모음이므로, 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구에 해당하지 않습니다."
+    "checkedAt": "2026-10-31",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "rtk-ai/rtk": {
     "readmeHash": "c3dc6cdedb18f7d4cf49e8805a3837dcfb6d4b7658a76032ab96e8301f06c06b",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "175fc59ebed80ba7801106ee3dea447de8bdf65e96d3406d5b432eefc64a44c5",
+    "readmeHash": "f04fade2f2d32f4290506fc0495bb19fee8f09f5b3477444f58420fe2065bfb9",
     "status": "rejected",
-    "checkedAt": "2026-10-29",
+    "checkedAt": "2026-10-31",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "codexu/note-gen": {
@@ -561,6 +561,24 @@
     "readmeHash": "b42d796767bb7b81750e9975bd0e1c07bbb567b41c2896e4476b008cea4d5f85",
     "status": "rejected",
     "checkedAt": "2026-10-30",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "community-scripts/ProxmoxVE": {
+    "readmeHash": "e1af2fab80502212ba90c4a57325899b304bd37d9a2b5a39274212cb2c551720",
+    "status": "rejected",
+    "checkedAt": "2026-10-31",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "sigoden/dufs": {
+    "readmeHash": "1eac0ebf9c9a02bc82cc833b14284a34e5ead6fff0285050560dea45e14fb941",
+    "status": "rejected",
+    "checkedAt": "2026-10-31",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "seedds/nxnative": {
+    "readmeHash": "359f614696f2fc018666f1e4ab4f5385a425be542c376010bf08b6676de7a2e3",
+    "status": "rejected",
+    "checkedAt": "2026-10-31",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
