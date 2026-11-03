@@ -420,7 +420,7 @@
     "reason": "Anatomy는 AI 에이전트(예: Claude Code, Antigravity 등)를 위한 스킬(skill)로, 사용자가 직접 웹 브라우저에서 설치 없이 바로 사용하거나 독립적으로 실행할 수 있는 완성된 도구가 아닙니다. 이 프로젝트는 AI 에이전트의 기능을 확장하는 라이브러리 또는 플러그인에 해당하므로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 활용하기에는 적합하지 않습니다."
   },
   "storytold/wordcraft": {
-    "readmeHash": "d3f5c08d694e3530cf2a2445f7e614ab1e5642840a359aa368605a9818800cdd",
+    "readmeHash": "b589fb987ae0e91a547e16b6f2306ddc1c7656594c733e460d0a888b09c849a8",
     "status": "rejected",
     "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
@@ -492,15 +492,15 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "48e3c68fe3cea1657eaf486cefbb636a85d52e74932e1a07a512a69703efce1f",
+    "readmeHash": "ab1392acff2f71b54d84f821a0e696ab2ee35dfbba0f9869b83e14adf5780e3e",
     "status": "rejected",
     "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "codexu/note-gen": {
-    "readmeHash": "d17c77e6e9c7ced44a3cff2cc4edcc0676e9cbd791b6eb4be048460d4cdc8231",
+    "readmeHash": "e17f5743bf370e0c8564ce450d88095303a44ee91f950f74bc919f3f0c3aa754",
     "status": "rejected",
-    "checkedAt": "2026-10-25",
+    "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "KnifeLemon/Filee": {
@@ -516,9 +516,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "DuarteSantos8/openGym": {
-    "readmeHash": "09d16a102d3061442647fac74707bc7a32ce980304adf69e95ea6cc0920874b1",
+    "readmeHash": "eee7a1953e264cadd71bafb5ff21067daf4e364b1afd2473f406291b0e2b8a2c",
     "status": "rejected",
-    "checkedAt": "2026-10-27",
+    "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "amir1376/ab-download-manager": {
@@ -601,6 +601,12 @@
   },
   "deepseek-ai/dsh-superagent-prototype": {
     "readmeHash": "737997cf5b7d4129f12ed5485ebbdd5e9d2ce3859a82ded6ac535d222327b713",
+    "status": "rejected",
+    "checkedAt": "2026-11-03",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "theonedev/onedev": {
+    "readmeHash": "26d38058cabee874836d87234b973d1d393d45a9213fbffbcc4b54f9dc2864bc",
     "status": "rejected",
     "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
