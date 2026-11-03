@@ -420,9 +420,9 @@
     "reason": "Anatomy는 AI 에이전트(예: Claude Code, Antigravity 등)를 위한 스킬(skill)로, 사용자가 직접 웹 브라우저에서 설치 없이 바로 사용하거나 독립적으로 실행할 수 있는 완성된 도구가 아닙니다. 이 프로젝트는 AI 에이전트의 기능을 확장하는 라이브러리 또는 플러그인에 해당하므로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 활용하기에는 적합하지 않습니다."
   },
   "storytold/wordcraft": {
-    "readmeHash": "20fec88ad1d7ae71c73382228b30caba3504a10cd9ebd895a29a2ccd37bf2cfd",
+    "readmeHash": "d3f5c08d694e3530cf2a2445f7e614ab1e5642840a359aa368605a9818800cdd",
     "status": "rejected",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "storytold/lightcraft": {
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "a75992f8ee0414fc81254458cb1e6cc1d813e9292755e1a72c4d3ed626f62ccd",
+    "readmeHash": "48e3c68fe3cea1657eaf486cefbb636a85d52e74932e1a07a512a69703efce1f",
     "status": "rejected",
-    "checkedAt": "2026-11-01",
+    "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "codexu/note-gen": {
@@ -585,6 +585,24 @@
     "readmeHash": "d1a0bab72f81b2cffe9a33215680a915974a43a785caec9c31e709bb1b304d98",
     "status": "rejected",
     "checkedAt": "2026-11-01",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "gethomepage/homepage": {
+    "readmeHash": "324b4d0b303d6b37c201424690340c698f92393acee484fed1a9c2c680115f3f",
+    "status": "rejected",
+    "checkedAt": "2026-11-03",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "navidrome/navidrome": {
+    "readmeHash": "37ac0e6cca7ace6fc158c6aebed13c927ae966a2bbccf5cf3749e94d6e5d541a",
+    "status": "rejected",
+    "checkedAt": "2026-11-03",
+    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+    "readmeHash": "737997cf5b7d4129f12ed5485ebbdd5e9d2ce3859a82ded6ac535d222327b713",
+    "status": "rejected",
+    "checkedAt": "2026-11-03",
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   }
 }
