@@ -66,10 +66,10 @@
     "reason": "Coolify는 Vercel, Heroku, Netlify와 같은 서비스의 오픈소스 대안으로, 사용자가 직접 서버에 설치하여 웹 애플리케이션, 데이터베이스 및 다양한 서비스를 배포하고 관리할 수 있는 완성된 플랫폼입니다. 웹 기반 대시보드를 통해 비개발자도 배포된 서비스를 관리할 수 있으며, 개발자 및 협업 직군에게 유용한 도구입니다."
   },
   "ClickHouse/ClickHouse": {
-    "readmeHash": "b4375e81937ae0daf57e32a166d319357d4fd5dcf713a1f7806bedaeff00a34d",
+    "readmeHash": "d8880800f0c5024bb529e09df0eba7d8d32d8deae0c38618772cf7a04ae7e84d",
     "status": "rejected",
-    "checkedAt": "2026-10-09",
-    "reason": "ClickHouse는 실시간 분석 데이터베이스 관리 시스템으로, 비개발자나 개발자와 협업하는 직군이 직접 설치하여 바로 사용할 수 있는 완성된 도구가 아닙니다. 데이터베이스 설치 및 운영에는 전문적인 기술 지식이 필요합니다. 또한, README에 제시된 로컬 설치 명령어가 보안상의 이유로 직접 제공하기 어려워, Easy Open Source의 가이드 제공 기준에 부합하지 않습니다."
+    "checkedAt": "2026-11-08",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "ayghri/i-have-adhd": {
     "readmeHash": "e9a043ffdcf59bc85a618d4be8ca20b2e89eca71b91408e8a51d14efe4d0225c",
@@ -114,10 +114,10 @@
     "reason": "Logseq는 개인 정보 보호를 최우선으로 하는 오픈 소스 지식 관리 및 협업 플랫폼입니다. 비개발자도 쉽게 다운로드하여 설치하거나 웹에서 바로 사용할 수 있는 완성된 도구입니다."
   },
   "lfnovo/open-notebook": {
-    "readmeHash": "fcc617f7254885020d9d04a8c4b5702eed907903cf5a860cda16f37ec0e4ad74",
+    "readmeHash": "5c0d7e1aaf9b27bb90543f98ee8d67d9a1bfe5a106465a73ab55fa9e99d2a483",
     "status": "rejected",
-    "checkedAt": "2026-10-11",
-    "reason": "Error: guide.platforms.0.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.0.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.1.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.1.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd; guide.platforms.2.steps.0.command: 허용되지 않은 AI 생성 실행 파일입니다: mkdir; guide.platforms.2.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: cd"
+    "checkedAt": "2026-11-08",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "go-gitea/gitea": {
     "readmeHash": "5d16370b0e38e4e8a28d74c440c835f835093cbf10494f48e648a031f6ccae06",
@@ -258,10 +258,10 @@
     "reason": "Error: guide.platforms.2.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.2.steps.3.command: 허용되지 않은 AI 생성 실행 파일입니다: pear-desktop-*.appimage"
   },
   "karakeep-app/karakeep": {
-    "readmeHash": "5e99e0752f2f37e3f0733ffcb5f4278825f94c15ad0a292281dee070cc5b58de",
+    "readmeHash": "68e769d2d94115a9db7280cf99e61c753e7dd8f856a373d8e64c154da4d7778f",
     "status": "rejected",
-    "checkedAt": "2026-10-04",
-    "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.1.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.2.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다."
+    "checkedAt": "2026-11-08",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "reactive-resume/reactive-resume": {
     "readmeHash": "f66239996415fe4770d32e0dccb3779558378361b275c9ca828bce4dba7bb0e7",
@@ -444,10 +444,10 @@
     "reason": "제공된 README에는 Mealie를 설치하고 실행하기 위한 구체적인 단계별 지침이 포함되어 있지 않아, 비개발자도 쉽게 따라 할 수 있는 설치 가이드를 작성하기 어렵습니다."
   },
   "FreshRSS/FreshRSS": {
-    "readmeHash": "91df464fa602ed6f5f5b0d84b7de0130e71396aeefab2824aaef0762d2d5626a",
+    "readmeHash": "5deb21fd409bb4cc1cbd6d44c735a880ea9245064df4a8e144ae9e210b8b9a5c",
     "status": "rejected",
-    "checkedAt": "2026-11-06",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-08",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "alam00000/bentopdf": {
     "readmeHash": "3305f79d30823512c466769cafbfa78b993ccc5a6c4546d5ad9114a1d6693f16",
@@ -624,10 +624,10 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "milind-soni/OpenMausBot": {
-    "readmeHash": "5b7274e878174549c04ca2faab34ccfc348ce13ed69b599f7bd9eb454ba587f6",
+    "readmeHash": "1fee2b8b22b24f4607385b305be714fcaf423aac2144adffaa6665bec4c920d5",
     "status": "rejected",
-    "checkedAt": "2026-11-05",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-08",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "ccch1mneyyy/dsh-Go": {
     "readmeHash": "8e48a77a971b60561fb97ab57d17507efda3a8e155ac25ea55e66aa3a047ef64",
