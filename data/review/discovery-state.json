@@ -36,10 +36,10 @@
     "reason": "OpenDesign은 macOS 및 Windows용 로컬 우선 데스크톱 앱으로, 비개발자도 쉽게 설치하여 사용할 수 있습니다. 또한, Claude Code, Cursor, Mistral Vibe CLI 등 다양한 코딩 에이전트와 연동하여 디자인 작업을 자동화할 수 있어 개발자와 협업하는 직군 및 바이브 코딩 사용자에게도 적합한 완성된 도구입니다."
   },
   "immich-app/immich": {
-    "readmeHash": "b37199a0b7b52d1a6a62c97d6ad1a4eea18f367b8f8dad378ac9a0926f351a34",
+    "readmeHash": "84bbc7ef610df7295eb3866785a2c8d5c8a90fd687c05aecea82344d4b970d40",
     "status": "rejected",
-    "checkedAt": "2026-11-04",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-10",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "jaywcjlove/awesome-mac": {
     "readmeHash": "2d6e13d30b2276ae1404e1be8c0ccc08a38600f872a13ea8e15ed499ee6b6d89",
@@ -498,10 +498,10 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
-    "readmeHash": "e17f5743bf370e0c8564ce450d88095303a44ee91f950f74bc919f3f0c3aa754",
+    "readmeHash": "86b809f7f1f48f83431a08e4ddfc4cee9a9adf056ecb3d3a65ed276b79a1effe",
     "status": "rejected",
-    "checkedAt": "2026-11-03",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-10",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "KnifeLemon/Filee": {
     "readmeHash": "808793e032b39157f26028d2f964aa96742f5880d5f053ae47b697d3a6d5bd3c",
@@ -576,9 +576,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "seedds/nxnative": {
-    "readmeHash": "eb10f5fd4e42389e2a378d869c9edc0237465f8eff26a337d360057858576748",
+    "readmeHash": "044275a894acbf44593acaeb8b1e173b1ccd45268bda0dd4f2493b63114bc3b9",
     "status": "rejected",
-    "checkedAt": "2026-11-07",
+    "checkedAt": "2026-11-10",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rmyndharis/OpenWA": {
@@ -624,9 +624,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "milind-soni/OpenMausBot": {
-    "readmeHash": "1fee2b8b22b24f4607385b305be714fcaf423aac2144adffaa6665bec4c920d5",
+    "readmeHash": "fccc9c09a9d172462891984889d76a15f78d914867621b4bf2d680f80250907d",
     "status": "rejected",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-10",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "ccch1mneyyy/dsh-Go": {
@@ -642,9 +642,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "heydamir/unslop": {
-    "readmeHash": "7d2b1f2e441448338c39bc08648aca991e80cf78ebcd0e150a9ab2dd805c0920",
+    "readmeHash": "bfd3abede142e2bc31f06914f9c2e3b570fe686b1d5aaef74c01d6d52b7fb047",
     "status": "rejected",
-    "checkedAt": "2026-11-07",
+    "checkedAt": "2026-11-10",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "aden-hive/hive": {
