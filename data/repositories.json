@@ -124,15 +124,15 @@
     "githubUrl": "https://github.com/ollama/ollama",
     "homepageUrl": "https://ollama.com",
     "license": "MIT",
-    "stars": 186373,
-    "forks": 18970,
-    "lastPushedAt": "2026-11-08T00:36:55Z",
+    "stars": 186451,
+    "forks": 18980,
+    "lastPushedAt": "2026-11-09T22:52:24Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/ollama/ollama",
       "https://github.com/ollama/ollama#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "localsend/localsend",
@@ -247,15 +247,15 @@
     "githubUrl": "https://github.com/localsend/localsend",
     "homepageUrl": "https://localsend.org",
     "license": "Apache-2.0",
-    "stars": 97929,
-    "forks": 5581,
+    "stars": 98101,
+    "forks": 5595,
     "lastPushedAt": "2026-11-08T02:32:51Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/localsend/localsend",
       "https://github.com/localsend/localsend#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "excalidraw/excalidraw",
@@ -330,15 +330,15 @@
     "githubUrl": "https://github.com/excalidraw/excalidraw",
     "homepageUrl": "https://excalidraw.com",
     "license": "MIT",
-    "stars": 135338,
-    "forks": 16063,
-    "lastPushedAt": "2026-11-08T08:18:35Z",
+    "stars": 135403,
+    "forks": 16080,
+    "lastPushedAt": "2026-11-09T17:32:03Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/excalidraw/excalidraw",
       "https://github.com/excalidraw/excalidraw#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "obsproject/obs-studio",
@@ -463,15 +463,15 @@
     "githubUrl": "https://github.com/obsproject/obs-studio",
     "homepageUrl": "https://obsproject.com",
     "license": "GPL-2.0",
-    "stars": 79185,
-    "forks": 11123,
-    "lastPushedAt": "2026-11-06T00:42:53Z",
+    "stars": 79229,
+    "forks": 11144,
+    "lastPushedAt": "2026-11-10T00:42:08Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/obsproject/obs-studio",
       "https://obsproject.com/kb/quick-start-guide"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "sharkdp/bat",
@@ -611,15 +611,15 @@
     "name": "bat",
     "githubUrl": "https://github.com/sharkdp/bat",
     "license": "Apache-2.0",
-    "stars": 61242,
-    "forks": 3070,
+    "stars": 61267,
+    "forks": 2325,
     "lastPushedAt": "2026-11-08T08:24:11Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/sharkdp/bat",
       "https://github.com/sharkdp/bat/blob/master/README.md#installation"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "bitwarden/clients",
@@ -750,15 +750,15 @@
     "githubUrl": "https://github.com/bitwarden/clients",
     "homepageUrl": "https://bitwarden.com",
     "license": "NOASSERTION",
-    "stars": 14182,
-    "forks": 2202,
-    "lastPushedAt": "2026-11-08T04:06:05Z",
+    "stars": 14187,
+    "forks": 2203,
+    "lastPushedAt": "2026-11-10T00:19:46Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/bitwarden/clients",
       "https://bitwarden.com/help/getting-started-webvault/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "hoppscotch/hoppscotch",
@@ -847,7 +847,7 @@
       "https://github.com/hoppscotch/hoppscotch",
       "https://github.com/hoppscotch/hoppscotch#usage"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "drawdb-io/drawdb",
@@ -927,15 +927,15 @@
     "githubUrl": "https://github.com/drawdb-io/drawdb",
     "homepageUrl": "https://drawdb.app",
     "license": "AGPL-3.0",
-    "stars": 40280,
-    "forks": 3361,
-    "lastPushedAt": "2026-11-08T10:43:07Z",
+    "stars": 40290,
+    "forks": 3362,
+    "lastPushedAt": "2026-11-09T21:48:13Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/drawdb-io/drawdb",
       "https://github.com/drawdb-io/drawdb#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "mifi/lossless-cut",
@@ -1061,15 +1061,15 @@
     "githubUrl": "https://github.com/mifi/lossless-cut",
     "homepageUrl": "https://losslesscut.app/",
     "license": "GPL-2.0",
-    "stars": 45827,
-    "forks": 2315,
-    "lastPushedAt": "2026-11-03T14:13:46Z",
+    "stars": 45867,
+    "forks": 2316,
+    "lastPushedAt": "2026-11-09T12:48:50Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/mifi/lossless-cut",
       "https://github.com/mifi/lossless-cut/blob/master/docs/installation.md"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "Stirling-Tools/Stirling-PDF",
@@ -1215,15 +1215,15 @@
     "githubUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
     "homepageUrl": "https://stirling.com",
     "license": "NOASSERTION",
-    "stars": 96046,
-    "forks": 10016,
-    "lastPushedAt": "2026-11-08T21:43:03Z",
+    "stars": 96155,
+    "forks": 9318,
+    "lastPushedAt": "2026-11-10T01:25:25Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/Stirling-Tools/Stirling-PDF",
       "https://github.com/Stirling-Tools/Stirling-PDF#quick-start"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "louislam/uptime-kuma",
@@ -1366,15 +1366,15 @@
     "githubUrl": "https://github.com/louislam/uptime-kuma",
     "homepageUrl": "https://uptime.kuma.pet",
     "license": "MIT",
-    "stars": 93383,
-    "forks": 8680,
-    "lastPushedAt": "2026-11-08T16:50:36Z",
+    "stars": 93425,
+    "forks": 8686,
+    "lastPushedAt": "2026-11-10T00:04:44Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/louislam/uptime-kuma",
       "https://github.com/louislam/uptime-kuma#how-to-install"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "freeCodeCamp/freeCodeCamp",
@@ -1455,15 +1455,15 @@
     "name": "freeCodeCamp",
     "githubUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
     "license": "BSD-3-Clause",
-    "stars": 458767,
-    "forks": 48145,
-    "lastPushedAt": "2026-11-08T17:31:39Z",
+    "stars": 458827,
+    "forks": 47437,
+    "lastPushedAt": "2026-11-09T23:39:43Z",
     "maintenanceStatus": "active",
     "sourceUrls": [
       "https://github.com/freeCodeCamp/freeCodeCamp",
       "https://www.freecodecamp.org/learn"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "AppFlowy-IO/AppFlowy",
@@ -1565,17 +1565,17 @@
     "githubUrl": "https://github.com/AppFlowy-IO/AppFlowy",
     "homepageUrl": "https://appflowy.com",
     "license": "AGPL-3.0",
-    "stars": 78478,
-    "forks": 6211,
+    "stars": 78593,
+    "forks": 6230,
     "lastPushedAt": "2026-11-02T23:40:52Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
-    "trendScore": 20,
+    "trendScore": 8,
     "sourceUrls": [
       "https://github.com/AppFlowy-IO/AppFlowy",
       "https://github.com/AppFlowy-IO/AppFlowy#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "penpot/penpot",
@@ -1649,9 +1649,9 @@
     "githubUrl": "https://github.com/penpot/penpot",
     "homepageUrl": "https://penpot.app",
     "license": "MPL-2.0",
-    "stars": 62190,
-    "forks": 4386,
-    "lastPushedAt": "2026-11-08T17:34:46Z",
+    "stars": 62223,
+    "forks": 4390,
+    "lastPushedAt": "2026-11-09T19:47:43Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -1659,7 +1659,7 @@
       "https://github.com/penpot/penpot",
       "https://github.com/penpot/penpot#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "laurent22/joplin",
@@ -1783,9 +1783,9 @@
     "githubUrl": "https://github.com/laurent22/joplin",
     "homepageUrl": "https://joplinapp.org",
     "license": "NOASSERTION",
-    "stars": 57096,
-    "forks": 6409,
-    "lastPushedAt": "2026-11-08T18:14:31Z",
+    "stars": 57116,
+    "forks": 6415,
+    "lastPushedAt": "2026-11-09T19:09:09Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -1793,7 +1793,7 @@
       "https://github.com/laurent22/joplin",
       "https://github.com/laurent22/joplin#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "dbeaver/dbeaver",
@@ -1917,9 +1917,9 @@
     "githubUrl": "https://github.com/dbeaver/dbeaver",
     "homepageUrl": "https://dbeaver.io",
     "license": "Apache-2.0",
-    "stars": 52354,
-    "forks": 4451,
-    "lastPushedAt": "2026-11-08T20:20:27Z",
+    "stars": 52374,
+    "forks": 4450,
+    "lastPushedAt": "2026-11-09T20:50:08Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -1927,7 +1927,7 @@
       "https://github.com/dbeaver/dbeaver",
       "https://github.com/dbeaver/dbeaver#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "beekeeper-studio/beekeeper-studio",
@@ -2051,9 +2051,9 @@
     "githubUrl": "https://github.com/beekeeper-studio/beekeeper-studio",
     "homepageUrl": "https://www.beekeeperstudio.io",
     "license": "NOASSERTION",
-    "stars": 23861,
-    "forks": 1668,
-    "lastPushedAt": "2026-11-06T21:39:07Z",
+    "stars": 23865,
+    "forks": 1672,
+    "lastPushedAt": "2026-11-09T21:46:49Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2061,7 +2061,7 @@
       "https://github.com/beekeeper-studio/beekeeper-studio",
       "https://github.com/beekeeper-studio/beekeeper-studio#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "usebruno/bruno",
@@ -2185,9 +2185,9 @@
     "githubUrl": "https://github.com/usebruno/bruno",
     "homepageUrl": "https://www.usebruno.com/",
     "license": "MIT",
-    "stars": 48281,
-    "forks": 3087,
-    "lastPushedAt": "2026-11-06T12:05:17Z",
+    "stars": 48308,
+    "forks": 3090,
+    "lastPushedAt": "2026-11-09T17:13:02Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2195,7 +2195,7 @@
       "https://github.com/usebruno/bruno",
       "https://github.com/usebruno/bruno#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "microsoft/vscode",
@@ -2319,9 +2319,9 @@
     "name": "vscode",
     "githubUrl": "https://github.com/microsoft/vscode",
     "license": "MIT",
-    "stars": 195199,
-    "forks": 44447,
-    "lastPushedAt": "2026-11-08T21:19:29Z",
+    "stars": 195247,
+    "forks": 43752,
+    "lastPushedAt": "2026-11-10T01:28:59Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2329,7 +2329,7 @@
       "https://github.com/microsoft/vscode",
       "https://code.visualstudio.com/docs/setup/setup-overview"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "notepad-plus-plus/notepad-plus-plus",
@@ -2409,9 +2409,9 @@
     "githubUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus",
     "homepageUrl": "https://notepad-plus-plus.org/",
     "license": "NOASSERTION",
-    "stars": 29813,
-    "forks": 5424,
-    "lastPushedAt": "2026-11-07T16:27:06Z",
+    "stars": 29828,
+    "forks": 5427,
+    "lastPushedAt": "2026-11-09T23:21:52Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2419,7 +2419,7 @@
       "https://github.com/notepad-plus-plus/notepad-plus-plus",
       "https://github.com/notepad-plus-plus/notepad-plus-plus#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "keepassxreboot/keepassxc",
@@ -2543,8 +2543,8 @@
     "githubUrl": "https://github.com/keepassxreboot/keepassxc",
     "homepageUrl": "https://keepassxc.org/",
     "license": "NOASSERTION",
-    "stars": 29863,
-    "forks": 2017,
+    "stars": 29887,
+    "forks": 2020,
     "lastPushedAt": "2026-11-08T08:46:27Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -2553,7 +2553,7 @@
       "https://github.com/keepassxreboot/keepassxc",
       "https://github.com/keepassxreboot/keepassxc#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "syncthing/syncthing",
@@ -2677,9 +2677,9 @@
     "githubUrl": "https://github.com/syncthing/syncthing",
     "homepageUrl": "https://syncthing.net/",
     "license": "MPL-2.0",
-    "stars": 90240,
-    "forks": 5582,
-    "lastPushedAt": "2026-11-05T18:55:51Z",
+    "stars": 90288,
+    "forks": 5588,
+    "lastPushedAt": "2026-11-10T01:03:04Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2687,7 +2687,7 @@
       "https://github.com/syncthing/syncthing",
       "https://github.com/syncthing/syncthing#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "nextcloud/desktop",
@@ -2811,9 +2811,9 @@
     "githubUrl": "https://github.com/nextcloud/desktop",
     "homepageUrl": "https://nextcloud.com/install/#install-clients",
     "license": "GPL-2.0",
-    "stars": 3947,
-    "forks": 1051,
-    "lastPushedAt": "2026-11-07T06:55:54Z",
+    "stars": 3948,
+    "forks": 1055,
+    "lastPushedAt": "2026-11-09T16:13:37Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2821,7 +2821,7 @@
       "https://github.com/nextcloud/desktop",
       "https://github.com/nextcloud/desktop#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "KDE/krita",
@@ -2945,9 +2945,9 @@
     "githubUrl": "https://github.com/KDE/krita",
     "homepageUrl": "https://invent.kde.org/graphics/krita",
     "license": "GPL-3.0",
-    "stars": 10717,
-    "forks": 905,
-    "lastPushedAt": "2026-11-08T12:50:06Z",
+    "stars": 10722,
+    "forks": 908,
+    "lastPushedAt": "2026-11-09T20:09:51Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -2955,7 +2955,7 @@
       "https://github.com/KDE/krita",
       "https://github.com/KDE/krita#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "audacity/audacity",
@@ -3079,9 +3079,9 @@
     "owner": "audacity",
     "name": "audacity",
     "githubUrl": "https://github.com/audacity/audacity",
-    "stars": 18995,
-    "forks": 2722,
-    "lastPushedAt": "2026-11-06T15:45:12Z",
+    "stars": 19004,
+    "forks": 2724,
+    "lastPushedAt": "2026-11-09T10:33:10Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -3089,7 +3089,7 @@
       "https://github.com/audacity/audacity",
       "https://support.audacityteam.org/basics/downloading-and-installing-audacity"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "HandBrake/HandBrake",
@@ -3213,9 +3213,9 @@
     "githubUrl": "https://github.com/HandBrake/HandBrake",
     "homepageUrl": "https://handbrake.fr",
     "license": "NOASSERTION",
-    "stars": 24928,
-    "forks": 1742,
-    "lastPushedAt": "2026-11-07T10:38:07Z",
+    "stars": 24944,
+    "forks": 1743,
+    "lastPushedAt": "2026-11-09T20:22:36Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -3223,7 +3223,7 @@
       "https://github.com/HandBrake/HandBrake",
       "https://github.com/HandBrake/HandBrake#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ShareX/ShareX",
@@ -3303,9 +3303,9 @@
     "githubUrl": "https://github.com/ShareX/ShareX",
     "homepageUrl": "https://getsharex.com",
     "license": "GPL-3.0",
-    "stars": 40838,
-    "forks": 4048,
-    "lastPushedAt": "2026-11-08T21:58:40Z",
+    "stars": 40892,
+    "forks": 4055,
+    "lastPushedAt": "2026-11-10T01:13:01Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -3313,7 +3313,7 @@
       "https://github.com/ShareX/ShareX",
       "https://github.com/ShareX/ShareX#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "flameshot-org/flameshot",
@@ -3437,8 +3437,8 @@
     "githubUrl": "https://github.com/flameshot-org/flameshot",
     "homepageUrl": "https://flameshot.org",
     "license": "GPL-3.0",
-    "stars": 31463,
-    "forks": 2094,
+    "stars": 31479,
+    "forks": 2096,
     "lastPushedAt": "2026-11-06T22:10:24Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -3447,7 +3447,7 @@
       "https://github.com/flameshot-org/flameshot",
       "https://github.com/flameshot-org/flameshot#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "inkscape/inkscape",
@@ -3570,8 +3570,8 @@
     "name": "inkscape",
     "githubUrl": "https://github.com/inkscape/inkscape",
     "homepageUrl": "http://www.inkscape.org/",
-    "stars": 4102,
-    "forks": 314,
+    "stars": 4107,
+    "forks": 315,
     "lastPushedAt": "2022-03-03T20:52:00Z",
     "maintenanceStatus": "caution",
     "dailyStarGrowth": 0,
@@ -3580,7 +3580,7 @@
       "https://github.com/inkscape/inkscape",
       "https://github.com/inkscape/inkscape#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "KDE/kdenlive",
@@ -3704,9 +3704,9 @@
     "githubUrl": "https://github.com/KDE/kdenlive",
     "homepageUrl": "https://invent.kde.org/multimedia/kdenlive",
     "license": "GPL-3.0",
-    "stars": 6073,
-    "forks": 568,
-    "lastPushedAt": "2026-11-08T06:10:31Z",
+    "stars": 6079,
+    "forks": 569,
+    "lastPushedAt": "2026-11-09T18:37:17Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -3714,7 +3714,7 @@
       "https://github.com/KDE/kdenlive",
       "https://github.com/KDE/kdenlive#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "standardnotes/app",
@@ -3839,7 +3839,7 @@
     "homepageUrl": "https://standardnotes.com",
     "license": "AGPL-3.0",
     "stars": 6709,
-    "forks": 564,
+    "forks": 565,
     "lastPushedAt": "2026-11-04T03:25:02Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -3848,7 +3848,7 @@
       "https://github.com/standardnotes/app",
       "https://github.com/standardnotes/app#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "cryptomator/cryptomator",
@@ -3972,7 +3972,7 @@
     "githubUrl": "https://github.com/cryptomator/cryptomator",
     "homepageUrl": "https://cryptomator.org",
     "license": "GPL-3.0",
-    "stars": 16466,
+    "stars": 16475,
     "forks": 1503,
     "lastPushedAt": "2026-11-06T12:30:52Z",
     "maintenanceStatus": "active",
@@ -3982,7 +3982,7 @@
       "https://github.com/cryptomator/cryptomator",
       "https://github.com/cryptomator/cryptomator#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "rustdesk/rustdesk",
@@ -4106,9 +4106,9 @@
     "name": "rustdesk",
     "githubUrl": "https://github.com/rustdesk/rustdesk",
     "license": "AGPL-3.0",
-    "stars": 128671,
-    "forks": 20452,
-    "lastPushedAt": "2026-11-08T16:52:59Z",
+    "stars": 128798,
+    "forks": 20488,
+    "lastPushedAt": "2026-11-09T09:43:51Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -4116,7 +4116,7 @@
       "https://github.com/rustdesk/rustdesk",
       "https://rustdesk.com/docs/en/client/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "mullvad/mullvadvpn-app",
@@ -4240,9 +4240,9 @@
     "githubUrl": "https://github.com/mullvad/mullvadvpn-app",
     "homepageUrl": "https://mullvad.net/",
     "license": "GPL-3.0",
-    "stars": 7760,
+    "stars": 7764,
     "forks": 567,
-    "lastPushedAt": "2026-11-08T21:54:32Z",
+    "lastPushedAt": "2026-11-10T00:59:37Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -4250,7 +4250,7 @@
       "https://github.com/mullvad/mullvadvpn-app",
       "https://github.com/mullvad/mullvadvpn-app#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "qbittorrent/qBittorrent",
@@ -4374,9 +4374,9 @@
     "githubUrl": "https://github.com/qbittorrent/qBittorrent",
     "homepageUrl": "https://www.qbittorrent.org",
     "license": "NOASSERTION",
-    "stars": 41454,
+    "stars": 41477,
     "forks": 4984,
-    "lastPushedAt": "2026-11-07T13:28:10Z",
+    "lastPushedAt": "2026-11-09T15:35:53Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -4384,7 +4384,7 @@
       "https://github.com/qbittorrent/qBittorrent",
       "https://github.com/qbittorrent/qBittorrent#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "transmission/transmission",
@@ -4508,9 +4508,9 @@
     "githubUrl": "https://github.com/transmission/transmission",
     "homepageUrl": "https://transmissionbt.com",
     "license": "NOASSERTION",
-    "stars": 15396,
-    "forks": 1483,
-    "lastPushedAt": "2026-11-07T18:57:16Z",
+    "stars": 15402,
+    "forks": 1484,
+    "lastPushedAt": "2026-11-09T22:56:32Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -4518,7 +4518,7 @@
       "https://github.com/transmission/transmission",
       "https://github.com/transmission/transmission#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "agalwood/Motrix",
@@ -4642,9 +4642,9 @@
     "githubUrl": "https://github.com/agalwood/Motrix",
     "homepageUrl": "https://motrix.app",
     "license": "NOASSERTION",
-    "stars": 57998,
-    "forks": 5139,
-    "lastPushedAt": "2026-11-08T12:53:21Z",
+    "stars": 58052,
+    "forks": 5143,
+    "lastPushedAt": "2026-11-09T16:32:27Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -4652,7 +4652,7 @@
       "https://github.com/agalwood/Motrix",
       "https://github.com/agalwood/Motrix#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "Eugeny/tabby",
@@ -4776,8 +4776,8 @@
     "githubUrl": "https://github.com/Eugeny/tabby",
     "homepageUrl": "https://tabby.sh",
     "license": "MIT",
-    "stars": 75334,
-    "forks": 4335,
+    "stars": 75348,
+    "forks": 4337,
     "lastPushedAt": "2026-11-06T04:03:17Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -4786,7 +4786,7 @@
       "https://github.com/Eugeny/tabby",
       "https://github.com/Eugeny/tabby#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "wezterm/wezterm",
@@ -4910,7 +4910,7 @@
     "githubUrl": "https://github.com/wezterm/wezterm",
     "homepageUrl": "https://wezterm.org/",
     "license": "NOASSERTION",
-    "stars": 29491,
+    "stars": 29502,
     "forks": 1859,
     "lastPushedAt": "2026-11-08T02:56:04Z",
     "maintenanceStatus": "active",
@@ -4920,7 +4920,7 @@
       "https://github.com/wezterm/wezterm",
       "https://github.com/wez/wezterm#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "alacritty/alacritty",
@@ -5044,8 +5044,8 @@
     "githubUrl": "https://github.com/alacritty/alacritty",
     "homepageUrl": "https://alacritty.org",
     "license": "Apache-2.0",
-    "stars": 66137,
-    "forks": 3710,
+    "stars": 66144,
+    "forks": 3711,
     "lastPushedAt": "2026-11-06T21:34:26Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -5054,7 +5054,7 @@
       "https://github.com/alacritty/alacritty",
       "https://github.com/alacritty/alacritty#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "desktop/desktop",
@@ -5156,9 +5156,9 @@
     "githubUrl": "https://github.com/desktop/desktop",
     "homepageUrl": "https://github.com/apps/desktop",
     "license": "MIT",
-    "stars": 22067,
-    "forks": 10707,
-    "lastPushedAt": "2026-11-06T15:26:57Z",
+    "stars": 22074,
+    "forks": 10710,
+    "lastPushedAt": "2026-11-10T00:41:49Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -5166,7 +5166,7 @@
       "https://github.com/desktop/desktop",
       "https://github.com/desktop/desktop#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "jesseduffield/lazygit",
@@ -5302,9 +5302,9 @@
     "name": "lazygit",
     "githubUrl": "https://github.com/jesseduffield/lazygit",
     "license": "MIT",
-    "stars": 83737,
-    "forks": 3250,
-    "lastPushedAt": "2026-11-08T19:13:23Z",
+    "stars": 83773,
+    "forks": 3252,
+    "lastPushedAt": "2026-11-09T16:59:10Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -5312,7 +5312,7 @@
       "https://github.com/jesseduffield/lazygit",
       "https://github.com/jesseduffield/lazygit#installation"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ventoy/Ventoy",
@@ -5414,8 +5414,8 @@
     "githubUrl": "https://github.com/ventoy/Ventoy",
     "homepageUrl": "https://www.ventoy.net",
     "license": "GPL-3.0",
-    "stars": 80657,
-    "forks": 5041,
+    "stars": 80691,
+    "forks": 5040,
     "lastPushedAt": "2026-10-22T08:11:00Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -5424,7 +5424,7 @@
       "https://github.com/ventoy/Ventoy",
       "https://github.com/ventoy/Ventoy#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "balena-io/etcher",
@@ -5548,8 +5548,8 @@
     "githubUrl": "https://github.com/balena-io/etcher",
     "homepageUrl": "https://etcher.io/",
     "license": "Apache-2.0",
-    "stars": 34674,
-    "forks": 2437,
+    "stars": 34676,
+    "forks": 2438,
     "lastPushedAt": "2026-10-23T13:34:00Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -5558,7 +5558,7 @@
       "https://github.com/balena-io/etcher",
       "https://github.com/balena-io/etcher#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "pbatard/rufus",
@@ -5638,9 +5638,9 @@
     "githubUrl": "https://github.com/pbatard/rufus",
     "homepageUrl": "https://rufus.ie",
     "license": "GPL-3.0",
-    "stars": 38284,
-    "forks": 3206,
-    "lastPushedAt": "2026-11-05T12:03:32Z",
+    "stars": 38299,
+    "forks": 3208,
+    "lastPushedAt": "2026-11-09T23:51:40Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -5648,7 +5648,7 @@
       "https://github.com/pbatard/rufus",
       "https://github.com/pbatard/rufus#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ip7z/7zip",
@@ -5771,8 +5771,8 @@
     "owner": "ip7z",
     "name": "7zip",
     "githubUrl": "https://github.com/ip7z/7zip",
-    "stars": 4444,
-    "forks": 493,
+    "stars": 4467,
+    "forks": 495,
     "lastPushedAt": "2026-11-07T11:22:53Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -5781,7 +5781,7 @@
       "https://github.com/ip7z/7zip",
       "https://www.7-zip.org/download.html"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "peazip/PeaZip",
@@ -5883,8 +5883,8 @@
     "githubUrl": "https://github.com/peazip/PeaZip",
     "homepageUrl": "https://peazip.github.io",
     "license": "LGPL-3.0",
-    "stars": 8102,
-    "forks": 425,
+    "stars": 8108,
+    "forks": 426,
     "lastPushedAt": "2026-11-04T12:18:27Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -5893,7 +5893,7 @@
       "https://github.com/peazip/PeaZip",
       "https://github.com/peazip/PeaZip#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ONLYOFFICE/DesktopEditors",
@@ -6017,8 +6017,8 @@
     "githubUrl": "https://github.com/ONLYOFFICE/DesktopEditors",
     "homepageUrl": "https://www.onlyoffice.com",
     "license": "AGPL-3.0",
-    "stars": 5708,
-    "forks": 575,
+    "stars": 5713,
+    "forks": 576,
     "lastPushedAt": "2026-10-22T17:54:40Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -6027,7 +6027,7 @@
       "https://github.com/ONLYOFFICE/DesktopEditors",
       "https://github.com/ONLYOFFICE/DesktopEditors#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "jgraph/drawio-desktop",
@@ -6151,8 +6151,8 @@
     "githubUrl": "https://github.com/jgraph/drawio-desktop",
     "homepageUrl": "https://www.diagrams.net",
     "license": "GPL-3.0",
-    "stars": 63893,
-    "forks": 5811,
+    "stars": 63911,
+    "forks": 5814,
     "lastPushedAt": "2026-11-05T07:55:32Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -6161,7 +6161,7 @@
       "https://github.com/jgraph/drawio-desktop",
       "https://github.com/jgraph/drawio-desktop#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "godotengine/godot",
@@ -6285,9 +6285,9 @@
     "githubUrl": "https://github.com/godotengine/godot",
     "homepageUrl": "https://godotengine.org",
     "license": "MIT",
-    "stars": 119802,
-    "forks": 27410,
-    "lastPushedAt": "2026-11-07T11:39:36Z",
+    "stars": 119893,
+    "forks": 27412,
+    "lastPushedAt": "2026-11-09T17:17:30Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -6295,7 +6295,7 @@
       "https://github.com/godotengine/godot",
       "https://github.com/godotengine/godot#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "LMMS/lmms",
@@ -6419,8 +6419,8 @@
     "githubUrl": "https://github.com/LMMS/lmms",
     "homepageUrl": "https://lmms.io",
     "license": "GPL-2.0",
-    "stars": 10627,
-    "forks": 1314,
+    "stars": 10631,
+    "forks": 1315,
     "lastPushedAt": "2026-11-08T06:35:04Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -6429,7 +6429,7 @@
       "https://github.com/LMMS/lmms",
       "https://github.com/LMMS/lmms#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "musescore/MuseScore",
@@ -6553,9 +6553,9 @@
     "githubUrl": "https://github.com/musescore/MuseScore",
     "homepageUrl": "https://musescore.org",
     "license": "NOASSERTION",
-    "stars": 15382,
-    "forks": 3395,
-    "lastPushedAt": "2026-11-08T12:16:10Z",
+    "stars": 15392,
+    "forks": 3399,
+    "lastPushedAt": "2026-11-09T19:48:34Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -6563,7 +6563,7 @@
       "https://github.com/musescore/MuseScore",
       "https://github.com/musescore/MuseScore#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "xbmc/xbmc",
@@ -6687,9 +6687,9 @@
     "githubUrl": "https://github.com/xbmc/xbmc",
     "homepageUrl": "https://kodi.tv/",
     "license": "NOASSERTION",
-    "stars": 21451,
-    "forks": 6662,
-    "lastPushedAt": "2026-11-08T19:43:46Z",
+    "stars": 21453,
+    "forks": 6659,
+    "lastPushedAt": "2026-11-09T22:45:50Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -6697,7 +6697,7 @@
       "https://github.com/xbmc/xbmc",
       "https://github.com/xbmc/xbmc#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "videolan/vlc",
@@ -6821,9 +6821,9 @@
     "githubUrl": "https://github.com/videolan/vlc",
     "homepageUrl": "http://www.videolan.org/vlc",
     "license": "GPL-2.0",
-    "stars": 20369,
+    "stars": 20386,
     "forks": 6423,
-    "lastPushedAt": "2026-11-08T13:25:31Z",
+    "lastPushedAt": "2026-11-09T22:39:31Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -6831,7 +6831,7 @@
       "https://github.com/videolan/vlc",
       "https://github.com/videolan/vlc#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "OpenShot/openshot-qt",
@@ -6955,8 +6955,8 @@
     "githubUrl": "https://github.com/OpenShot/openshot-qt",
     "homepageUrl": "http://www.openshot.org",
     "license": "NOASSERTION",
-    "stars": 6757,
-    "forks": 836,
+    "stars": 6761,
+    "forks": 838,
     "lastPushedAt": "2026-11-08T21:52:26Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -6965,7 +6965,7 @@
       "https://github.com/OpenShot/openshot-qt",
       "https://github.com/OpenShot/openshot-qt#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "darktable-org/darktable",
@@ -7089,9 +7089,9 @@
     "githubUrl": "https://github.com/darktable-org/darktable",
     "homepageUrl": "https://www.darktable.org",
     "license": "GPL-3.0",
-    "stars": 13416,
-    "forks": 1513,
-    "lastPushedAt": "2026-11-08T19:28:08Z",
+    "stars": 13430,
+    "forks": 1517,
+    "lastPushedAt": "2026-11-10T00:47:40Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7099,7 +7099,7 @@
       "https://github.com/darktable-org/darktable",
       "https://github.com/darktable-org/darktable#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "iterate-ch/cyberduck",
@@ -7202,8 +7202,8 @@
     "homepageUrl": "https://cyberduck.io",
     "license": "GPL-3.0",
     "stars": 4904,
-    "forks": 389,
-    "lastPushedAt": "2026-11-08T16:51:14Z",
+    "forks": 390,
+    "lastPushedAt": "2026-11-09T17:13:33Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7211,7 +7211,7 @@
       "https://github.com/iterate-ch/cyberduck",
       "https://github.com/iterate-ch/cyberduck#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "neovim/neovim",
@@ -7335,9 +7335,9 @@
     "githubUrl": "https://github.com/neovim/neovim",
     "homepageUrl": "https://neovim.io",
     "license": "NOASSERTION",
-    "stars": 103510,
-    "forks": 7384,
-    "lastPushedAt": "2026-11-08T05:16:13Z",
+    "stars": 103534,
+    "forks": 7390,
+    "lastPushedAt": "2026-11-10T00:50:28Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7345,7 +7345,7 @@
       "https://github.com/neovim/neovim",
       "https://github.com/neovim/neovim#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "gitextensions/gitextensions",
@@ -7425,7 +7425,7 @@
     "githubUrl": "https://github.com/gitextensions/gitextensions",
     "homepageUrl": "https://gitextensions.github.io/",
     "license": "NOASSERTION",
-    "stars": 8608,
+    "stars": 8609,
     "forks": 2226,
     "lastPushedAt": "2026-11-06T21:45:25Z",
     "maintenanceStatus": "active",
@@ -7435,7 +7435,7 @@
       "https://github.com/gitextensions/gitextensions",
       "https://github.com/gitextensions/gitextensions#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "WinMerge/winmerge",
@@ -7515,9 +7515,9 @@
     "githubUrl": "https://github.com/WinMerge/winmerge",
     "homepageUrl": "https://winmerge.org/",
     "license": "GPL-2.0",
-    "stars": 9348,
-    "forks": 1027,
-    "lastPushedAt": "2026-11-08T11:43:36Z",
+    "stars": 9351,
+    "forks": 1029,
+    "lastPushedAt": "2026-11-10T00:23:34Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7525,7 +7525,7 @@
       "https://github.com/WinMerge/winmerge",
       "https://github.com/WinMerge/winmerge#readme"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "farion1231/cc-switch",
@@ -7671,9 +7671,9 @@
     "githubUrl": "https://github.com/farion1231/cc-switch",
     "homepageUrl": "https://ccswitch.io",
     "license": "MIT",
-    "stars": 152743,
-    "forks": 10036,
-    "lastPushedAt": "2026-11-08T15:39:29Z",
+    "stars": 153073,
+    "forks": 10056,
+    "lastPushedAt": "2026-11-09T15:46:54Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7681,7 +7681,7 @@
       "https://github.com/farion1231/cc-switch",
       "https://ccswitch.io"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "usememos/memos",
@@ -7845,9 +7845,9 @@
     "githubUrl": "https://github.com/usememos/memos",
     "homepageUrl": "https://usememos.com",
     "license": "MIT",
-    "stars": 64351,
-    "forks": 4942,
-    "lastPushedAt": "2026-11-08T12:36:42Z",
+    "stars": 64367,
+    "forks": 4944,
+    "lastPushedAt": "2026-11-09T00:37:42Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -7855,7 +7855,7 @@
       "https://github.com/usememos/memos",
       "https://usememos.com/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "HKUDS/nanobot",
@@ -8015,9 +8015,9 @@
     "githubUrl": "https://github.com/HKUDS/nanobot",
     "homepageUrl": "https://nanobot.wiki",
     "license": "MIT",
-    "stars": 49935,
-    "forks": 8720,
-    "lastPushedAt": "2026-11-08T16:46:11Z",
+    "stars": 49977,
+    "forks": 8725,
+    "lastPushedAt": "2026-11-09T15:52:44Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8025,7 +8025,7 @@
       "https://github.com/HKUDS/nanobot",
       "https://nanobot.wiki/docs/latest/getting-started/nanobot-overview"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "rtk-ai/rtk",
@@ -8176,9 +8176,9 @@
     "githubUrl": "https://github.com/rtk-ai/rtk",
     "homepageUrl": "https://www.rtk-ai.app",
     "license": "Apache-2.0",
-    "stars": 85923,
-    "forks": 5506,
-    "lastPushedAt": "2026-11-08T20:28:06Z",
+    "stars": 86019,
+    "forks": 5512,
+    "lastPushedAt": "2026-11-09T19:59:33Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8186,7 +8186,7 @@
       "https://github.com/rtk-ai/rtk",
       "https://www.rtk-ai.app/guide"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "siyuan-note/siyuan",
@@ -8336,9 +8336,9 @@
     "githubUrl": "https://github.com/siyuan-note/siyuan",
     "homepageUrl": "https://b3log.org/siyuan",
     "license": "AGPL-3.0",
-    "stars": 47127,
-    "forks": 3104,
-    "lastPushedAt": "2026-11-08T19:13:16Z",
+    "stars": 47147,
+    "forks": 3103,
+    "lastPushedAt": "2026-11-09T17:57:27Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8346,7 +8346,7 @@
       "https://github.com/siyuan-note/siyuan",
       "https://siyuan-en.b3log.org/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "logseq/logseq",
@@ -8504,9 +8504,9 @@
     "githubUrl": "https://github.com/logseq/logseq",
     "homepageUrl": "https://logseq.com",
     "license": "AGPL-3.0",
-    "stars": 45520,
-    "forks": 2864,
-    "lastPushedAt": "2026-11-08T16:46:03Z",
+    "stars": 45537,
+    "forks": 2867,
+    "lastPushedAt": "2026-11-09T23:22:06Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8514,7 +8514,7 @@
       "https://github.com/logseq/logseq",
       "https://docs.logseq.com/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "coollabsio/coolify",
@@ -8627,9 +8627,9 @@
     "githubUrl": "https://github.com/coollabsio/coolify",
     "homepageUrl": "https://coolify.io",
     "license": "Apache-2.0",
-    "stars": 65799,
-    "forks": 5947,
-    "lastPushedAt": "2026-11-08T20:11:27Z",
+    "stars": 65855,
+    "forks": 5953,
+    "lastPushedAt": "2026-11-09T20:41:25Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8637,7 +8637,7 @@
       "https://github.com/coollabsio/coolify",
       "https://coolify.io/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "go-gitea/gitea",
@@ -8838,9 +8838,9 @@
     "githubUrl": "https://github.com/go-gitea/gitea",
     "homepageUrl": "https://gitea.com",
     "license": "MIT",
-    "stars": 58969,
-    "forks": 7378,
-    "lastPushedAt": "2026-11-08T21:10:03Z",
+    "stars": 58988,
+    "forks": 7381,
+    "lastPushedAt": "2026-11-10T01:11:48Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -8848,7 +8848,7 @@
       "https://github.com/go-gitea/gitea",
       "https://docs.gitea.com/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "appwrite/appwrite",
@@ -9016,9 +9016,9 @@
     "githubUrl": "https://github.com/appwrite/appwrite",
     "homepageUrl": "https://appwrite.io",
     "license": "BSD-3-Clause",
-    "stars": 57896,
-    "forks": 5840,
-    "lastPushedAt": "2026-11-08T16:42:57Z",
+    "stars": 57917,
+    "forks": 5838,
+    "lastPushedAt": "2026-11-09T20:00:05Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -9026,7 +9026,7 @@
       "https://github.com/appwrite/appwrite",
       "https://appwrite.io"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "schollz/croc",
@@ -9200,9 +9200,9 @@
     "githubUrl": "https://github.com/schollz/croc",
     "homepageUrl": "https://getcroc.com",
     "license": "MIT",
-    "stars": 40885,
-    "forks": 1652,
-    "lastPushedAt": "2026-11-08T21:11:36Z",
+    "stars": 40896,
+    "forks": 1653,
+    "lastPushedAt": "2026-11-09T21:13:36Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -9210,7 +9210,7 @@
       "https://github.com/schollz/croc",
       "https://getcroc.com"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "TriliumNext/Trilium",
@@ -9350,9 +9350,9 @@
     "githubUrl": "https://github.com/TriliumNext/Trilium",
     "homepageUrl": "https://triliumnotes.org",
     "license": "AGPL-3.0",
-    "stars": 38741,
-    "forks": 2624,
-    "lastPushedAt": "2026-11-08T21:47:35Z",
+    "stars": 38779,
+    "forks": 2623,
+    "lastPushedAt": "2026-11-09T21:19:40Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -9360,7 +9360,7 @@
       "https://github.com/TriliumNext/Trilium",
       "https://docs.triliumnotes.org/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "nextcloud/server",
@@ -9482,9 +9482,9 @@
     "githubUrl": "https://github.com/nextcloud/server",
     "homepageUrl": "https://nextcloud.com",
     "license": "AGPL-3.0",
-    "stars": 37448,
-    "forks": 5341,
-    "lastPushedAt": "2026-11-08T21:00:21Z",
+    "stars": 37456,
+    "forks": 5343,
+    "lastPushedAt": "2026-11-10T00:32:56Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -9492,7 +9492,7 @@
       "https://github.com/nextcloud/server",
       "https://nextcloud.com/install/#instructions-server"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "lissy93/dashy",
@@ -9672,8 +9672,8 @@
     "githubUrl": "https://github.com/lissy93/dashy",
     "homepageUrl": "https://dashy.to",
     "license": "MIT",
-    "stars": 26946,
-    "forks": 1968,
+    "stars": 26957,
+    "forks": 1967,
     "lastPushedAt": "2026-11-07T23:15:15Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -9682,7 +9682,7 @@
       "https://github.com/lissy93/dashy",
       "https://dashy.to/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ArchiveBox/ArchiveBox",
@@ -9858,9 +9858,9 @@
     "githubUrl": "https://github.com/ArchiveBox/ArchiveBox",
     "homepageUrl": "https://archivebox.io",
     "license": "MIT",
-    "stars": 28976,
+    "stars": 28991,
     "forks": 1631,
-    "lastPushedAt": "2026-11-08T19:55:48Z",
+    "lastPushedAt": "2026-11-09T15:22:56Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -9868,7 +9868,7 @@
       "https://github.com/ArchiveBox/ArchiveBox",
       "https://github.com/ArchiveBox/ArchiveBox/wiki"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ayangweb/BongoCat",
@@ -10002,8 +10002,8 @@
     "githubUrl": "https://github.com/ayangweb/BongoCat",
     "homepageUrl": "https://github.com/ayangweb/Awesome-BongoCat",
     "license": "Apache-2.0",
-    "stars": 24549,
-    "forks": 1231,
+    "stars": 24564,
+    "forks": 1232,
     "lastPushedAt": "2026-10-28T00:13:07Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -10012,7 +10012,7 @@
       "https://github.com/ayangweb/BongoCat",
       "https://github.com/ayangweb/BongoCat"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ActivityWatch/activitywatch",
@@ -10168,9 +10168,9 @@
     "githubUrl": "https://github.com/ActivityWatch/activitywatch",
     "homepageUrl": "https://activitywatch.net/",
     "license": "MPL-2.0",
-    "stars": 19563,
-    "forks": 1076,
-    "lastPushedAt": "2026-11-06T14:22:20Z",
+    "stars": 19573,
+    "forks": 1075,
+    "lastPushedAt": "2026-11-09T16:13:02Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -10178,7 +10178,7 @@
       "https://github.com/ActivityWatch/activitywatch",
       "https://docs.activitywatch.net"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "Flow-Launcher/Flow.Launcher",
@@ -10289,8 +10289,8 @@
     "githubUrl": "https://github.com/Flow-Launcher/Flow.Launcher",
     "homepageUrl": "https://flowlauncher.com",
     "license": "MIT",
-    "stars": 15983,
-    "forks": 679,
+    "stars": 15993,
+    "forks": 678,
     "lastPushedAt": "2026-11-08T11:28:27Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -10299,7 +10299,7 @@
       "https://github.com/Flow-Launcher/Flow.Launcher",
       "https://flowlauncher.com/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "ToolJet/ToolJet",
@@ -10470,8 +10470,8 @@
     "homepageUrl": "https://tooljet.com",
     "license": "AGPL-3.0",
     "stars": 41212,
-    "forks": 5508,
-    "lastPushedAt": "2026-11-08T20:39:08Z",
+    "forks": 5507,
+    "lastPushedAt": "2026-11-09T19:04:47Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -10479,7 +10479,7 @@
       "https://github.com/ToolJet/ToolJet",
       "https://docs.tooljet.com"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "nexu-io/open-design",
@@ -10593,9 +10593,9 @@
     "githubUrl": "https://github.com/nexu-io/open-design",
     "homepageUrl": "https://open-design.ai",
     "license": "Apache-2.0",
-    "stars": 106644,
-    "forks": 12143,
-    "lastPushedAt": "2026-11-08T18:16:56Z",
+    "stars": 106847,
+    "forks": 12166,
+    "lastPushedAt": "2026-11-10T01:08:48Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -10603,7 +10603,7 @@
       "https://github.com/nexu-io/open-design",
       "https://open-design.ai/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "dgtlmoon/changedetection.io",
@@ -10783,9 +10783,9 @@
     "githubUrl": "https://github.com/dgtlmoon/changedetection.io",
     "homepageUrl": "https://changedetection.io",
     "license": "Apache-2.0",
-    "stars": 35652,
-    "forks": 2221,
-    "lastPushedAt": "2026-11-08T20:03:21Z",
+    "stars": 35686,
+    "forks": 2228,
+    "lastPushedAt": "2026-11-09T19:32:28Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -10793,7 +10793,7 @@
       "https://github.com/dgtlmoon/changedetection.io",
       "https://changedetection.io"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "NandhaKishorM/laya",
@@ -10886,9 +10886,9 @@
     "githubUrl": "https://github.com/NandhaKishorM/laya",
     "homepageUrl": "https://huggingface.co/convaiinnovations/laya",
     "license": "Apache-2.0",
-    "stars": 35226,
-    "forks": 3154,
-    "lastPushedAt": "2026-11-08T18:09:28Z",
+    "stars": 35301,
+    "forks": 3166,
+    "lastPushedAt": "2026-11-09T06:53:58Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -10896,7 +10896,7 @@
       "https://github.com/NandhaKishorM/laya",
       "https://huggingface.co/spaces/convaiinnovations/laya-demo"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "nukeop/nuclear",
@@ -11019,9 +11019,9 @@
     "githubUrl": "https://github.com/nukeop/nuclear",
     "homepageUrl": "https://nuclearplayer.com",
     "license": "AGPL-3.0",
-    "stars": 18899,
+    "stars": 18908,
     "forks": 1357,
-    "lastPushedAt": "2026-11-08T12:52:02Z",
+    "lastPushedAt": "2026-11-10T00:28:55Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -11029,7 +11029,7 @@
       "https://github.com/nukeop/nuclear",
       "https://github.com/nukeop/nuclear"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "Wox-launcher/Wox",
@@ -11176,8 +11176,8 @@
     "homepageUrl": "https://woxlauncher.com",
     "license": "GPL-3.0",
     "stars": 27616,
-    "forks": 2447,
-    "lastPushedAt": "2026-11-08T14:23:44Z",
+    "forks": 2448,
+    "lastPushedAt": "2026-11-09T23:54:51Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -11185,7 +11185,7 @@
       "https://github.com/Wox-launcher/Wox",
       "https://www.woxlauncher.com/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "DayuanJiang/next-ai-draw-io",
@@ -11378,17 +11378,17 @@
     "githubUrl": "https://github.com/DayuanJiang/next-ai-draw-io",
     "homepageUrl": "https://next-ai-drawio.jiang.jp/",
     "license": "Apache-2.0",
-    "stars": 36794,
-    "forks": 3836,
-    "lastPushedAt": "2026-11-07T21:07:54Z",
+    "stars": 36831,
+    "forks": 3841,
+    "lastPushedAt": "2026-11-09T18:08:51Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 0,
-    "trendScore": 20,
+    "dailyStarGrowth": 1,
+    "trendScore": 120,
     "sourceUrls": [
       "https://github.com/DayuanJiang/next-ai-draw-io",
       "https://next-ai-drawio.jiang.jp/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "9001/copyparty",
@@ -11558,8 +11558,8 @@
     "name": "copyparty",
     "githubUrl": "https://github.com/9001/copyparty",
     "license": "MIT",
-    "stars": 47287,
-    "forks": 1922,
+    "stars": 47312,
+    "forks": 1921,
     "lastPushedAt": "2026-10-21T05:09:01Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -11568,7 +11568,7 @@
       "https://github.com/9001/copyparty",
       "https://github.com/9001/copyparty"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "unslothai/unsloth",
@@ -11698,9 +11698,9 @@
     "githubUrl": "https://github.com/unslothai/unsloth",
     "homepageUrl": "https://unsloth.ai/docs",
     "license": "Apache-2.0",
-    "stars": 79201,
-    "forks": 7374,
-    "lastPushedAt": "2026-11-08T21:27:27Z",
+    "stars": 79257,
+    "forks": 7384,
+    "lastPushedAt": "2026-11-10T01:26:13Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -11708,7 +11708,7 @@
       "https://github.com/unslothai/unsloth",
       "https://unsloth.ai/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "files-community/Files",
@@ -11791,9 +11791,9 @@
     "githubUrl": "https://github.com/files-community/Files",
     "homepageUrl": "https://files.community",
     "license": "MIT",
-    "stars": 46545,
+    "stars": 46567,
     "forks": 3019,
-    "lastPushedAt": "2026-11-08T21:37:08Z",
+    "lastPushedAt": "2026-11-10T00:37:51Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -11801,7 +11801,7 @@
       "https://github.com/files-community/Files",
       "https://files.community/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "NanmiCoder/cc-haha",
@@ -11953,9 +11953,9 @@
     "githubUrl": "https://github.com/NanmiCoder/cc-haha",
     "homepageUrl": "https://cchaha.ai",
     "license": "NOASSERTION",
-    "stars": 15354,
-    "forks": 8615,
-    "lastPushedAt": "2026-11-08T15:31:35Z",
+    "stars": 15370,
+    "forks": 8618,
+    "lastPushedAt": "2026-11-09T16:18:23Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -11963,7 +11963,7 @@
       "https://github.com/NanmiCoder/cc-haha",
       "https://cchaha.ai"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "oblien/openship",
@@ -12128,9 +12128,9 @@
     "githubUrl": "https://github.com/oblien/openship",
     "homepageUrl": "https://openship.io",
     "license": "Apache-2.0",
-    "stars": 15237,
+    "stars": 15246,
     "forks": 1400,
-    "lastPushedAt": "2026-11-08T21:57:54Z",
+    "lastPushedAt": "2026-11-09T12:03:36Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -12138,7 +12138,7 @@
       "https://github.com/oblien/openship",
       "https://openship.io/docs"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "vnotex/vnote",
@@ -12291,9 +12291,9 @@
     "githubUrl": "https://github.com/vnotex/vnote",
     "homepageUrl": "https://docs.vnote.fun",
     "license": "LGPL-3.0",
-    "stars": 13036,
-    "forks": 1296,
-    "lastPushedAt": "2026-11-08T15:41:57Z",
+    "stars": 13037,
+    "forks": 1297,
+    "lastPushedAt": "2026-11-09T15:13:05Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -12301,7 +12301,7 @@
       "https://github.com/vnotex/vnote",
       "https://docs.vnote.fun"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "reactive-resume/reactive-resume",
@@ -12462,8 +12462,8 @@
     "githubUrl": "https://github.com/reactive-resume/reactive-resume",
     "homepageUrl": "https://rxresu.me",
     "license": "MIT",
-    "stars": 45491,
-    "forks": 4937,
+    "stars": 45557,
+    "forks": 4941,
     "lastPushedAt": "2026-11-08T20:43:39Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -12472,7 +12472,7 @@
       "https://github.com/reactive-resume/reactive-resume",
       "https://docs.rxresu.me"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "robbietilton/Compositor",
@@ -12573,8 +12573,8 @@
     "name": "Compositor",
     "githubUrl": "https://github.com/robbietilton/Compositor",
     "license": "MIT",
-    "stars": 18538,
-    "forks": 1843,
+    "stars": 18558,
+    "forks": 1853,
     "lastPushedAt": "2026-11-08T01:27:12Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -12583,7 +12583,7 @@
       "https://github.com/robbietilton/Compositor",
       "https://github.com/robbietilton/Compositor/releases/latest"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "storytold/lightcraft",
@@ -12748,9 +12748,9 @@
     "githubUrl": "https://github.com/storytold/lightcraft",
     "homepageUrl": "https://getartcraft.com/apps/lightcraft",
     "license": "Apache-2.0",
-    "stars": 15715,
-    "forks": 6019,
-    "lastPushedAt": "2026-11-08T16:06:28Z",
+    "stars": 15769,
+    "forks": 6032,
+    "lastPushedAt": "2026-11-09T22:34:21Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -12758,7 +12758,7 @@
       "https://github.com/storytold/lightcraft",
       "https://getartcraft.com/apps/lightcraft"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "yetone/magpie",
@@ -12918,17 +12918,17 @@
     "githubUrl": "https://github.com/yetone/magpie",
     "homepageUrl": "https://usemagpie.ai",
     "license": "MIT",
-    "stars": 32274,
-    "forks": 2847,
-    "lastPushedAt": "2026-11-08T21:50:52Z",
+    "stars": 33124,
+    "forks": 2930,
+    "lastPushedAt": "2026-11-10T01:23:58Z",
     "maintenanceStatus": "active",
-    "dailyStarGrowth": 0,
-    "trendScore": 20,
+    "dailyStarGrowth": 1,
+    "trendScore": 120,
     "sourceUrls": [
       "https://github.com/yetone/magpie",
       "https://usemagpie.ai/docs/start"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "YishenTu/claudian",
@@ -13085,9 +13085,9 @@
     "name": "claudian",
     "githubUrl": "https://github.com/YishenTu/claudian",
     "license": "MIT",
-    "stars": 15947,
+    "stars": 15954,
     "forks": 1091,
-    "lastPushedAt": "2026-11-08T18:41:43Z",
+    "lastPushedAt": "2026-11-10T01:22:15Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -13095,7 +13095,7 @@
       "https://github.com/YishenTu/claudian",
       "https://github.com/YishenTu/claudian"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "Niko1221/Strata",
@@ -13257,9 +13257,9 @@
     "name": "Strata",
     "githubUrl": "https://github.com/Niko1221/Strata",
     "license": "MIT",
-    "stars": 41972,
-    "forks": 4599,
-    "lastPushedAt": "2026-11-07T08:25:01Z",
+    "stars": 42519,
+    "forks": 4645,
+    "lastPushedAt": "2026-11-09T21:06:36Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -13267,7 +13267,7 @@
       "https://github.com/Niko1221/Strata",
       "https://github.com/Niko1221/Strata"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "cloudreve/cloudreve",
@@ -13400,8 +13400,8 @@
     "githubUrl": "https://github.com/cloudreve/cloudreve",
     "homepageUrl": "https://cloudreve.org",
     "license": "GPL-3.0",
-    "stars": 28943,
-    "forks": 3929,
+    "stars": 28949,
+    "forks": 3928,
     "lastPushedAt": "2026-10-20T19:34:33Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
@@ -13410,7 +13410,7 @@
       "https://github.com/cloudreve/cloudreve",
       "https://docs.cloudreve.org"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "C4illin/ConvertX",
@@ -13603,9 +13603,9 @@
     "name": "ConvertX",
     "githubUrl": "https://github.com/C4illin/ConvertX",
     "license": "AGPL-3.0",
-    "stars": 19645,
-    "forks": 1131,
-    "lastPushedAt": "2026-11-08T13:56:38Z",
+    "stars": 19659,
+    "forks": 1133,
+    "lastPushedAt": "2026-11-09T16:08:50Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -13613,7 +13613,7 @@
       "https://github.com/C4illin/ConvertX",
       "https://github.com/C4illin/ConvertX"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   },
   {
     "id": "rowboatlabs/rowboat",
@@ -13759,9 +13759,9 @@
     "githubUrl": "https://github.com/rowboatlabs/rowboat",
     "homepageUrl": "https://www.rowboatlabs.com",
     "license": "Apache-2.0",
-    "stars": 18147,
-    "forks": 1818,
-    "lastPushedAt": "2026-11-07T11:33:41Z",
+    "stars": 18151,
+    "forks": 1819,
+    "lastPushedAt": "2026-11-09T18:07:09Z",
     "maintenanceStatus": "active",
     "dailyStarGrowth": 0,
     "trendScore": 20,
@@ -13769,6 +13769,6 @@
       "https://github.com/rowboatlabs/rowboat",
       "https://www.rowboatlabs.com/"
     ],
-    "collectedAt": "2026-11-08T22:01:09.662Z"
+    "collectedAt": "2026-11-10T01:30:03.847Z"
   }
 ]
