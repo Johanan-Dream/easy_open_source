@@ -42,9 +42,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "2d6e13d30b2276ae1404e1be8c0ccc08a38600f872a13ea8e15ed499ee6b6d89",
+    "readmeHash": "c83fec676c0ca9c935ae6655f9c500e1dfb1bdedff50752a334c6ebce082640d",
     "status": "rejected",
-    "checkedAt": "2026-11-10",
+    "checkedAt": "2026-11-13",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rtk-ai/rtk": {
@@ -114,9 +114,9 @@
     "reason": "Logseq는 개인 정보 보호를 최우선으로 하는 오픈 소스 지식 관리 및 협업 플랫폼입니다. 비개발자도 쉽게 다운로드하여 설치하거나 웹에서 바로 사용할 수 있는 완성된 도구입니다."
   },
   "lfnovo/open-notebook": {
-    "readmeHash": "f20467472d307bb03c3efba41affd9448e27120d4862134f905ecb6a22d4af9c",
+    "readmeHash": "57eac295b3a4831b2d14050530936a1cbb183f035916e8f591a736c1b1ae1b5d",
     "status": "rejected",
-    "checkedAt": "2026-11-12",
+    "checkedAt": "2026-11-13",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "go-gitea/gitea": {
@@ -342,10 +342,10 @@
     "reason": "Files는 사용자가 파일과 폴더를 정리하는 데 도움을 주는 현대적인 파일 관리자입니다. Microsoft Store 또는 클래식 설치 관리자를 통해 설치할 수 있는 완성된 도구이므로 비개발자도 쉽게 사용할 수 있습니다."
   },
   "Termix-SSH/Termix": {
-    "readmeHash": "9f4fac89ba6565f86f273a51fa326362ade68f044f4401698365c535f3a3b0fc",
+    "readmeHash": "ab92c2af81d93bb56195427d31ef510e0710d6ae9c9b6e4f24223f26a24277f5",
     "status": "rejected",
-    "checkedAt": "2026-10-10",
-    "reason": "Error: guide.platforms: Web 설치 안내가 필요합니다.; guide.platforms: Windows 설치 안내가 필요합니다.; guide.platforms: macOS 설치 안내가 필요합니다."
+    "checkedAt": "2026-11-13",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "feder-cr/invisible_dots": {
     "readmeHash": "19737ad214a108c788051ceb201ecb80246096c29315e926299e844fefae9180",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "64115e6f11688b8f59d370f52eb870a954857e7b189a77b86d59f026e7ead269",
+    "readmeHash": "3ab07cfc6bd116d925843e71e78db5dacd00803b2e7bbf5f502f11dffc46968c",
     "status": "rejected",
-    "checkedAt": "2026-11-12",
+    "checkedAt": "2026-11-13",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -657,6 +657,12 @@
     "readmeHash": "69aedca681accc1259ebfd3aa27991d06fbc62ee627940ebbc323bda39439332",
     "status": "rejected",
     "checkedAt": "2026-11-12",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "pengchujin/aerial-tv": {
+    "readmeHash": "0f2b3c68c774011751b70690fc5d87c53ac37c8e564d98d80560e45ba45e14b3",
+    "status": "rejected",
+    "checkedAt": "2026-11-13",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   }
 }
