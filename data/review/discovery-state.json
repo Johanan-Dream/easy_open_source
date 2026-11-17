@@ -24,10 +24,10 @@
     "reason": "Tauri는 웹 프론트엔드를 사용하여 데스크톱 및 모바일 애플리케이션을 구축하기 위한 프레임워크입니다. 이는 개발자가 애플리케이션을 만들 때 사용하는 도구이며, 비개발자, 바이브 코딩 사용자 또는 개발자와 협업하는 직군이 직접 설치하여 바로 사용할 수 있는 완성된 도구가 아닙니다."
   },
   "affaan-m/ECC": {
-    "readmeHash": "bce393127a2e15211583d0f4998599b9771cc30b1189e7c42a26d86b86386d13",
+    "readmeHash": "b44c6149be3b1fa4509654ebd79d418694cfa7cdd70e7598bcc6353cb01177f6",
     "status": "rejected",
-    "checkedAt": "2026-11-06",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-17",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "nexu-io/open-design": {
     "readmeHash": "dbecfa17fb3999cea2de9f669fb03113c8d6415086a06a4246c745bba6c2a918",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "a9bb2903bfc97de74ece61b1c4ef897475790907ca60c1fc42c320f518cdab31",
+    "readmeHash": "8b37b3740af253030bbf36b452a55072c352e2c835f4d0ae843cc43529f665f5",
     "status": "rejected",
-    "checkedAt": "2026-11-14",
+    "checkedAt": "2026-11-17",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -582,9 +582,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rmyndharis/OpenWA": {
-    "readmeHash": "eff94f6b85671f5b1c0ac5171de3675b69628c303ae39ac37d068f7a737e6ada",
+    "readmeHash": "3819737ae06383fd4c535ee58fbbb462cb5928245995efb6c3fe75f2bcf8dedf",
     "status": "rejected",
-    "checkedAt": "2026-11-10",
+    "checkedAt": "2026-11-17",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "gethomepage/homepage": {
@@ -618,9 +618,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "storytold/craft-anything": {
-    "readmeHash": "cb3fb39cd3821769e30524a073420b7d08eab5a2f2db24a231326320676fdc68",
+    "readmeHash": "9ea16e568980c2430ad610228c6095f5dcee010ff4f60d06348a7be5b45ac57b",
     "status": "rejected",
-    "checkedAt": "2026-11-15",
+    "checkedAt": "2026-11-17",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "milind-soni/OpenMausBot": {
@@ -636,9 +636,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "peach-mitao/peach": {
-    "readmeHash": "c13fc9eb513544c32c8590954cbc56e13d10a6ab8bc2713707c715ffcfbe615e",
+    "readmeHash": "1eb4571d23216b9b4fa20826b0a9c1fb1fcb3b8fc061a7ae5c25c8b63f1f7532",
     "status": "rejected",
-    "checkedAt": "2026-11-12",
+    "checkedAt": "2026-11-17",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "heydamir/unslop": {
