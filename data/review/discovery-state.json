@@ -42,9 +42,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "c83fec676c0ca9c935ae6655f9c500e1dfb1bdedff50752a334c6ebce082640d",
+    "readmeHash": "b7aba09d40c492633c7d6fc823644d668c31b6b0e801bea80debda2fb3f0e3c3",
     "status": "rejected",
-    "checkedAt": "2026-11-13",
+    "checkedAt": "2026-11-18",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rtk-ai/rtk": {
@@ -660,15 +660,33 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "pengchujin/aerial-tv": {
-    "readmeHash": "a435f7aae302d7900c8d12ddddc44ffa6b7d2a8530d5d65cc8a8869b162a5ece",
+    "readmeHash": "86af41a17c408e943bf9215da3a24434d69d58e7471df122d34f1b36427c7123",
     "status": "rejected",
-    "checkedAt": "2026-11-14",
+    "checkedAt": "2026-11-18",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "suitenumerique/docs": {
     "readmeHash": "27fa1bf1a2c3ee21a0db93ebdb5a849784027e45ea319cb0a875452ca8789dd4",
     "status": "rejected",
     "checkedAt": "2026-11-15",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "anefzaoui/misterdownloadmanager": {
+    "readmeHash": "75850d92e8b82f486c86b8eaee45f7a57bdd1df483645e886f6ec1b9ae60c61f",
+    "status": "rejected",
+    "checkedAt": "2026-11-18",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "zhouxiaoka/autoclip": {
+    "readmeHash": "3c19d34dae9d9618172cff895b6c3577f6bbc4ab256f414c6c9e3172c83c5f4e",
+    "status": "rejected",
+    "checkedAt": "2026-11-18",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "vicinaehq/vicinae": {
+    "readmeHash": "29be7d17b9443ebc3166e1d555cdbe6c647274be6ddb03a1918ea0ffcd7e2ffb",
+    "status": "rejected",
+    "checkedAt": "2026-11-18",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   }
 }
