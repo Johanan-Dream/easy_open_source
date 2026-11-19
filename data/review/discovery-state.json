@@ -228,10 +228,10 @@
     "reason": "Error: guide.platforms.0.terminalHelp.2: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.3: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다.; guide.platforms.0.terminalHelp.5: 사용자에게 보이는 설명은 한국어 문장을 포함해야 합니다."
   },
   "plotly/dash": {
-    "readmeHash": "345705c050a8faf3d183b169efb391d23fcdcad8a562b730249bd158883d0497",
+    "readmeHash": "806a4b3ed68667ff40a07699c8ddae733cab5945202b68453a349d3979ec4c83",
     "status": "rejected",
-    "checkedAt": "2026-09-28",
-    "reason": "Dash는 데이터 과학 및 머신러닝 웹 애플리케이션을 구축하기 위한 Python 프레임워크입니다. 이는 개발자가 코드를 작성하여 애플리케이션을 만드는 도구이며, 비개발자나 바이브 코딩 사용자, 개발자와 협업하는 직군이 직접 설치하거나 웹에서 사용할 수 있는 완성된 도구가 아닙니다."
+    "checkedAt": "2026-11-19",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "omnivore-app/omnivore": {
     "readmeHash": "56becabeacbd3ed26cc04b6565374d6be54268c02f7b31f037da2fe38c4c9dcc",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "8b37b3740af253030bbf36b452a55072c352e2c835f4d0ae843cc43529f665f5",
+    "readmeHash": "f47222186aa42896382bb590a191618041568c5522ade125fe0e0fa4baa2725b",
     "status": "rejected",
-    "checkedAt": "2026-11-17",
+    "checkedAt": "2026-11-19",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -660,9 +660,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "pengchujin/aerial-tv": {
-    "readmeHash": "86af41a17c408e943bf9215da3a24434d69d58e7471df122d34f1b36427c7123",
+    "readmeHash": "5d934630fd5d3b4ffd5c22cd703447666cd0ff40e25af3216e482b0d9eb2b71d",
     "status": "rejected",
-    "checkedAt": "2026-11-18",
+    "checkedAt": "2026-11-19",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "suitenumerique/docs": {
@@ -672,9 +672,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "anefzaoui/misterdownloadmanager": {
-    "readmeHash": "75850d92e8b82f486c86b8eaee45f7a57bdd1df483645e886f6ec1b9ae60c61f",
+    "readmeHash": "413afff0a14c371ce6594f5d5b5bb255b106bb6d242118bc55dfd5e2c846979a",
     "status": "rejected",
-    "checkedAt": "2026-11-18",
+    "checkedAt": "2026-11-19",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "zhouxiaoka/autoclip": {
@@ -687,6 +687,12 @@
     "readmeHash": "29be7d17b9443ebc3166e1d555cdbe6c647274be6ddb03a1918ea0ffcd7e2ffb",
     "status": "rejected",
     "checkedAt": "2026-11-18",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "libracoder/kiri": {
+    "readmeHash": "d5b4d711b5bc0c58fa4fb8d84d910bcf0ee00363eefd50df877a1ea152940811",
+    "status": "rejected",
+    "checkedAt": "2026-11-19",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   }
 }
