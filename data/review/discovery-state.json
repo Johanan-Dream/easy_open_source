@@ -174,10 +174,10 @@
     "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
   },
   "super-productivity/super-productivity": {
-    "readmeHash": "59c6f682a90cf4f531f7699a924beeb496e78aff96478ece6b5c14b9b2efccb2",
+    "readmeHash": "347df0e5e41fa677d74637c176f1edb1ce0954c8367c9632b7c298041d362216",
     "status": "rejected",
-    "checkedAt": "2026-10-27",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-20",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "browser-use/jev-ultrafast": {
     "readmeHash": "29f5276b3e6295cabe322cda598e354a9e053dbfd9d831d20f09d0cca279a379",
@@ -492,7 +492,7 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "88caf69f6fffa1bf879c1ea8b124bda6c4ccf076257942260d8c6feaa35d439a",
+    "readmeHash": "7c542d8aec06412e614fca4d740e37ac024897bceac619047e9fe4ad259f322c",
     "status": "rejected",
     "checkedAt": "2026-11-20",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
@@ -690,7 +690,19 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "libracoder/kiri": {
-    "readmeHash": "9d50e10816b5f9ecafcce4653888986c47ae80a0790efa200cbc60214c5183b1",
+    "readmeHash": "2be8123c0c81d0004ea461bee7da2ca9e958e2959b8a2d043d5039f1d4b83785",
+    "status": "rejected",
+    "checkedAt": "2026-11-20",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "rocketride-org/rocketride-server": {
+    "readmeHash": "70a36f3791ff9e4f8be00cf36ab66c339c75d682277e45af78688e7ebdf41920",
+    "status": "rejected",
+    "checkedAt": "2026-11-20",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "JuneYaooo/rea-video": {
+    "readmeHash": "7e86696ddff957eda439f1b128d9a40d443d386b2c8baca8cce550e1e988ae2d",
     "status": "rejected",
     "checkedAt": "2026-11-20",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
