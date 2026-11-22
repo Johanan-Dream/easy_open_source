@@ -216,10 +216,10 @@
     "reason": "Claudian은 Obsidian 사용자가 자신의 노트 볼트 내에서 AI 코딩 에이전트와 상호작용하여 코드 작성, 편집, 검색 및 명령 실행을 할 수 있도록 돕는 완성된 도구입니다. Obsidian의 플러그인 시스템을 통해 쉽게 설치할 수 있어 비개발자, 바이브 코딩 사용자, 개발자와 협업하는 직군 모두에게 유용합니다."
   },
   "sxyazi/yazi": {
-    "readmeHash": "cbde22b28281fc9316aa190cb38f0a5e1d589ee76010ab4a7ba8892763445431",
+    "readmeHash": "4d8ba137cccd6292889efb83ae2733f13d7b1fd5370c76eb3794e60fa53a244b",
     "status": "rejected",
-    "checkedAt": "2026-10-15",
-    "reason": "Yazi는 터미널 기반의 파일 관리자로, 명령줄 인터페이스에 익숙하지 않은 비개발자나 일반 사용자에게는 사용하기 어려울 수 있습니다. 개발자나 고급 사용자에게는 유용하지만, 모든 대상에게 적합하다고 보기는 어렵습니다."
+    "checkedAt": "2026-11-22",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "henrygd/beszel": {
     "readmeHash": "6ea91526c45ed9e64cb01b9365a60bf1d75f7354b78938f408cfadc6c6d166ae",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "7c542d8aec06412e614fca4d740e37ac024897bceac619047e9fe4ad259f322c",
+    "readmeHash": "ae2da3a1e11da6892f5ad68f71afaaf54ff4f122ce9faf5144d30dfcc115ac2a",
     "status": "rejected",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-22",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -654,9 +654,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "gogs/gogs": {
-    "readmeHash": "c5b641ca25b9129bbc81ca9e45a1594d1858addcc810b345b6a7ee42f71bea55",
+    "readmeHash": "cf1669764d4b508cdef75318746ca46349692e9e434d159684090b50a921da02",
     "status": "rejected",
-    "checkedAt": "2026-11-15",
+    "checkedAt": "2026-11-22",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "pengchujin/aerial-tv": {
@@ -690,9 +690,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "libracoder/kiri": {
-    "readmeHash": "2be8123c0c81d0004ea461bee7da2ca9e958e2959b8a2d043d5039f1d4b83785",
+    "readmeHash": "190fd54f04a63c9a5f8e46e9500bfec383dde01cf19530f207b02716039d3a69",
     "status": "rejected",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-22",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rocketride-org/rocketride-server": {
@@ -711,6 +711,12 @@
     "readmeHash": "ccf421f8fd8d9a475a36f96b8bfb44d496c760488bcf2304031fbd07a977654c",
     "status": "rejected",
     "checkedAt": "2026-11-21",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
+  },
+  "ItsNotRexed/Leonida": {
+    "readmeHash": "472166b59f336e1af03feb0213738765e3ebb8dc47d8eaae6a55ce503220dca4",
+    "status": "rejected",
+    "checkedAt": "2026-11-22",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   }
 }
