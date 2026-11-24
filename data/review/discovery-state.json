@@ -36,15 +36,15 @@
     "reason": "OpenDesign은 macOS 및 Windows용 로컬 우선 데스크톱 앱으로, 비개발자도 쉽게 설치하여 사용할 수 있습니다. 또한, Claude Code, Cursor, Mistral Vibe CLI 등 다양한 코딩 에이전트와 연동하여 디자인 작업을 자동화할 수 있어 개발자와 협업하는 직군 및 바이브 코딩 사용자에게도 적합한 완성된 도구입니다."
   },
   "immich-app/immich": {
-    "readmeHash": "84bbc7ef610df7295eb3866785a2c8d5c8a90fd687c05aecea82344d4b970d40",
+    "readmeHash": "22d5f1f3a5009596e914487499e27b9d8f572771f82537c1181fe935730dd8b3",
     "status": "rejected",
-    "checkedAt": "2026-11-10",
+    "checkedAt": "2026-11-24",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "jaywcjlove/awesome-mac": {
-    "readmeHash": "a357f9cf8283d727e1fa5bab148408695f3ce6b4d0ec296d96acbfcdc5412deb",
+    "readmeHash": "daee848ba9fc18f74f01ea62411cbe9368bc5dd912269dc0c2caf6deeba53706",
     "status": "rejected",
-    "checkedAt": "2026-11-21",
+    "checkedAt": "2026-11-24",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rtk-ai/rtk": {
@@ -546,10 +546,10 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "tw93/Pake": {
-    "readmeHash": "7bc95f3b160d9e156403d9682a435f3bc2dfed4a47c738e50f2a0dd22bc880f7",
+    "readmeHash": "9bd48b0501ed82e998555d57ac1cb29e231204aa3e4726df63aa6307c7e5c5ea",
     "status": "rejected",
-    "checkedAt": "2026-10-30",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-24",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "dokku/dokku": {
     "readmeHash": "cf171ee3417fc0ebc04c678810cdab42d0fb768fdca12946e4267e9f18922413",
@@ -624,9 +624,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "milind-soni/OpenMausBot": {
-    "readmeHash": "8fc34c7d2f94d4d25c84c4cf2f3e8a52690894bc9795edcd87b580c225734aa8",
+    "readmeHash": "0efc32cdd82a67f7ea548d21bf5894f2959cfd64f998e57c1b09c9e668885a1e",
     "status": "rejected",
-    "checkedAt": "2026-11-21",
+    "checkedAt": "2026-11-24",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "ccch1mneyyy/dsh-Go": {
@@ -696,9 +696,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rocketride-org/rocketride-server": {
-    "readmeHash": "70a36f3791ff9e4f8be00cf36ab66c339c75d682277e45af78688e7ebdf41920",
+    "readmeHash": "4f7d5256a9e00b06912e2c5174192097595474b9ff8613f0497064be8ee8a63e",
     "status": "rejected",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-24",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "JuneYaooo/rea-video": {
