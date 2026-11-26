@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "ae2da3a1e11da6892f5ad68f71afaaf54ff4f122ce9faf5144d30dfcc115ac2a",
+    "readmeHash": "33ccc8f1d555dc4bc4472274e1c79b5dc044bf4b4d3c0ba3697b59c2bf1193ab",
     "status": "rejected",
-    "checkedAt": "2026-11-22",
+    "checkedAt": "2026-11-26",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -672,15 +672,15 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "anefzaoui/misterdownloadmanager": {
-    "readmeHash": "413afff0a14c371ce6594f5d5b5bb255b106bb6d242118bc55dfd5e2c846979a",
+    "readmeHash": "4c65e91cf309779a8863dbdad0e2b6d6fb76cca79a095f5e94d7e763788d7985",
     "status": "rejected",
-    "checkedAt": "2026-11-19",
+    "checkedAt": "2026-11-26",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "zhouxiaoka/autoclip": {
-    "readmeHash": "3c19d34dae9d9618172cff895b6c3577f6bbc4ab256f414c6c9e3172c83c5f4e",
+    "readmeHash": "a26ba7c18c5e243e6fc6fa78cd87b7ab06de8311f2ed4c2ca2a093af4ea930c0",
     "status": "rejected",
-    "checkedAt": "2026-11-18",
+    "checkedAt": "2026-11-26",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "vicinaehq/vicinae": {
@@ -690,9 +690,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "libracoder/kiri": {
-    "readmeHash": "190fd54f04a63c9a5f8e46e9500bfec383dde01cf19530f207b02716039d3a69",
+    "readmeHash": "6d89b3f5d2082b150ca2f741a74d08b9660a3facccc7d5d802305e5fbda1976a",
     "status": "rejected",
-    "checkedAt": "2026-11-22",
+    "checkedAt": "2026-11-26",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rocketride-org/rocketride-server": {
@@ -702,9 +702,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "JuneYaooo/rea-video": {
-    "readmeHash": "7e86696ddff957eda439f1b128d9a40d443d386b2c8baca8cce550e1e988ae2d",
+    "readmeHash": "1e5ef1079e79281d332fd120c99679421579fd47ac65e67d4948cb6115ead17a",
     "status": "rejected",
-    "checkedAt": "2026-11-20",
+    "checkedAt": "2026-11-26",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "MODSetter/SurfSense": {
