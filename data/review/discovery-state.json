@@ -174,9 +174,9 @@
     "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
   },
   "super-productivity/super-productivity": {
-    "readmeHash": "0ac0b926c16f4ee6e35f42bfba341fd404b98187749a8e17f87c1409b321f229",
+    "readmeHash": "1a4275a81e126e265c6471a1aa66bde41238e55ea76207b6a225bba2e6b62db2",
     "status": "rejected",
-    "checkedAt": "2026-11-21",
+    "checkedAt": "2026-11-27",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "browser-use/jev-ultrafast": {
@@ -324,10 +324,10 @@
     "reason": "Error: guide.platforms.0.steps.0.command: AI 생성 명령에는 셸 연산자, 줄바꿈 또는 URL을 사용할 수 없습니다.; guide.platforms.3.steps.1.command: 허용되지 않은 AI 생성 실행 파일입니다: chmod; guide.platforms.3.steps.2.command: 허용되지 않은 AI 생성 실행 파일입니다: notesnook-*.appimage"
   },
   "rommapp/romm": {
-    "readmeHash": "0e8640da20042e0c812bdcbe911e58914cba98ca1677fa367af7f2a18d44f76f",
+    "readmeHash": "f553cf280fa47179f198d05bab67d9b0a26956c788320391e4fa6c905ea1a59e",
     "status": "rejected",
-    "checkedAt": "2026-11-01",
-    "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
+    "checkedAt": "2026-11-27",
+    "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "robbietilton/Compositor": {
     "readmeHash": "a545c600553026c7d8cd21e92b38e0b18cae23c9eafbc538890ca7e61a28dcc5",
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "33ccc8f1d555dc4bc4472274e1c79b5dc044bf4b4d3c0ba3697b59c2bf1193ab",
+    "readmeHash": "02cdd8720212be6cf1ffc2957c202dbf12937353a17f4d8d62309f465455d772",
     "status": "rejected",
-    "checkedAt": "2026-11-26",
+    "checkedAt": "2026-11-27",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -672,15 +672,15 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "anefzaoui/misterdownloadmanager": {
-    "readmeHash": "4c65e91cf309779a8863dbdad0e2b6d6fb76cca79a095f5e94d7e763788d7985",
+    "readmeHash": "174d21d105724e3cf2a13af0c7af1ce84d401e65fa85893b92b841700501d374",
     "status": "rejected",
-    "checkedAt": "2026-11-26",
+    "checkedAt": "2026-11-27",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "zhouxiaoka/autoclip": {
-    "readmeHash": "a26ba7c18c5e243e6fc6fa78cd87b7ab06de8311f2ed4c2ca2a093af4ea930c0",
+    "readmeHash": "517be84eb02ffbaf78a9679c678fbdb1edd3c57c53978da8330e06f3ba15a519",
     "status": "rejected",
-    "checkedAt": "2026-11-26",
+    "checkedAt": "2026-11-27",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "vicinaehq/vicinae": {
