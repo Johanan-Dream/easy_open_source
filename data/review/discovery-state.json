@@ -174,9 +174,9 @@
     "reason": "BongoCat은 다양한 운영체제에서 설치하여 사용할 수 있는 완성된 형태의 데스크톱 애플리케이션입니다. 비개발자도 쉽게 다운로드하고 실행하여 데스크톱에 인터랙티브한 요소를 추가할 수 있습니다."
   },
   "super-productivity/super-productivity": {
-    "readmeHash": "1a4275a81e126e265c6471a1aa66bde41238e55ea76207b6a225bba2e6b62db2",
+    "readmeHash": "4a4a0a8b7c025cb0dfd8db0aa4510bd3452de09e770f68cc8323fc2451106baf",
     "status": "rejected",
-    "checkedAt": "2026-11-27",
+    "checkedAt": "2026-11-28",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "browser-use/jev-ultrafast": {
@@ -444,9 +444,9 @@
     "reason": "제공된 README에는 Mealie를 설치하고 실행하기 위한 구체적인 단계별 지침이 포함되어 있지 않아, 비개발자도 쉽게 따라 할 수 있는 설치 가이드를 작성하기 어렵습니다."
   },
   "FreshRSS/FreshRSS": {
-    "readmeHash": "5deb21fd409bb4cc1cbd6d44c735a880ea9245064df4a8e144ae9e210b8b9a5c",
+    "readmeHash": "b090f33e974c750be69106e3f17340ba05e8f41f4877493e7b76b3c26a2179dd",
     "status": "rejected",
-    "checkedAt": "2026-11-08",
+    "checkedAt": "2026-11-28",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "alam00000/bentopdf": {
@@ -492,9 +492,9 @@
     "reason": "Error: Gemini API 402: {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n"
   },
   "laoma528/awesome-zhuiju-free": {
-    "readmeHash": "02cdd8720212be6cf1ffc2957c202dbf12937353a17f4d8d62309f465455d772",
+    "readmeHash": "1ae97b1170898ed65446b68821426f267a73858d1f841c29d3dd391ea7e80ec1",
     "status": "rejected",
-    "checkedAt": "2026-11-27",
+    "checkedAt": "2026-11-28",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "codexu/note-gen": {
@@ -672,9 +672,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "anefzaoui/misterdownloadmanager": {
-    "readmeHash": "174d21d105724e3cf2a13af0c7af1ce84d401e65fa85893b92b841700501d374",
+    "readmeHash": "e901a7bbdc4b3be08bdf963c333103a33bc60a04bc820cacf0c9edc368f15a98",
     "status": "rejected",
-    "checkedAt": "2026-11-27",
+    "checkedAt": "2026-11-28",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "zhouxiaoka/autoclip": {
@@ -690,9 +690,9 @@
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "libracoder/kiri": {
-    "readmeHash": "6d89b3f5d2082b150ca2f741a74d08b9660a3facccc7d5d802305e5fbda1976a",
+    "readmeHash": "5cd3e8324f9200393fd6e61f080c16543ac9c0f1fbde44e8cf95fa0860196be4",
     "status": "rejected",
-    "checkedAt": "2026-11-26",
+    "checkedAt": "2026-11-28",
     "reason": "Error: Gemini API 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \""
   },
   "rocketride-org/rocketride-server": {
